@@ -1,0 +1,58 @@
+[
+    {
+        "rank": 1,
+        "label": {
+            "br": "GLIFOSATO",
+            "en": "GLYPHOSATE"
+        }
+    },
+    {
+        "rank": 2,
+        "label": {
+            "br": "2,4-D",
+            "en": "2,4-D"
+        }
+    },
+    {
+        "rank": 3,
+        "label": {
+            "br": "ACEFATO",
+            "en": "ACEPHATE"
+        }
+    },
+    {
+        "rank": 5,
+        "label": {
+            "br": "CLORPIRIFÓS",
+            "en": "CHLORPYRIFOS"
+        }
+    },
+    {
+        "rank": 6,
+        "label": {
+            "br": "ATRAZINA",
+            "en": "ATRAZINE"
+        }
+    },
+    {
+        "rank": 7,
+        "label": {
+            "br": "DITIOCARBAMATOS",
+            "en": "DITHIOCARBAMATES"
+        }
+    },
+    {
+        "rank": 9,
+        "label": {
+            "br": "METOMIL",
+            "en": "METOMIL"
+        }
+    },
+    {
+        "rank": 10,
+        "label": {
+            "br": "DIUROM",
+            "en": "DIUROM"
+        }
+    }
+]
