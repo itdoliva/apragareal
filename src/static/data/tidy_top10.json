@@ -1,0 +1,1108 @@
+[
+  {
+    "rank": 2,
+    "ia": "2,4-d",
+    "no_cultura": "Arroz",
+    "legislacao": "br",
+    "lmr": 0.2
+  },
+  {
+    "rank": 2,
+    "ia": "2,4-d",
+    "no_cultura": "Arroz",
+    "legislacao": "eu",
+    "lmr": 0.1
+  },
+  {
+    "rank": 2,
+    "ia": "2,4-d",
+    "no_cultura": "Aveia",
+    "legislacao": "br",
+    "lmr": 0.2
+  },
+  {
+    "rank": 2,
+    "ia": "2,4-d",
+    "no_cultura": "Aveia",
+    "legislacao": "eu",
+    "lmr": 0.05
+  },
+  {
+    "rank": 2,
+    "ia": "2,4-d",
+    "no_cultura": "Cana-de-açúcar",
+    "legislacao": "br",
+    "lmr": 0.1
+  },
+  {
+    "rank": 2,
+    "ia": "2,4-d",
+    "no_cultura": "Cana-de-açúcar",
+    "legislacao": "eu",
+    "lmr": 0.05
+  },
+  {
+    "rank": 2,
+    "ia": "2,4-d",
+    "no_cultura": "Cevada",
+    "legislacao": "br",
+    "lmr": 0.2
+  },
+  {
+    "rank": 2,
+    "ia": "2,4-d",
+    "no_cultura": "Cevada",
+    "legislacao": "eu",
+    "lmr": 0.05
+  },
+  {
+    "rank": 2,
+    "ia": "2,4-d",
+    "no_cultura": "Milho",
+    "legislacao": "br",
+    "lmr": 0.2
+  },
+  {
+    "rank": 2,
+    "ia": "2,4-d",
+    "no_cultura": "Milho",
+    "legislacao": "eu",
+    "lmr": 0.05
+  },
+  {
+    "rank": 2,
+    "ia": "2,4-d",
+    "no_cultura": "Sorgo",
+    "legislacao": "br",
+    "lmr": 0.2
+  },
+  {
+    "rank": 2,
+    "ia": "2,4-d",
+    "no_cultura": "Sorgo",
+    "legislacao": "eu",
+    "lmr": 0.05
+  },
+  {
+    "rank": 3,
+    "ia": "acefato",
+    "no_cultura": "Batata",
+    "legislacao": "br",
+    "lmr": 0.1
+  },
+  {
+    "rank": 3,
+    "ia": "acefato",
+    "no_cultura": "Batata",
+    "legislacao": "eu",
+    "lmr": 0.01
+  },
+  {
+    "rank": 3,
+    "ia": "acefato",
+    "no_cultura": "Citros",
+    "legislacao": "br",
+    "lmr": 0.2
+  },
+  {
+    "rank": 3,
+    "ia": "acefato",
+    "no_cultura": "Citros",
+    "legislacao": "eu",
+    "lmr": 0.01
+  },
+  {
+    "rank": 3,
+    "ia": "acefato",
+    "no_cultura": "Feijão",
+    "legislacao": "br",
+    "lmr": 0.02
+  },
+  {
+    "rank": 3,
+    "ia": "acefato",
+    "no_cultura": "Feijão",
+    "legislacao": "eu",
+    "lmr": 0.01
+  },
+  {
+    "rank": 3,
+    "ia": "acefato",
+    "no_cultura": "Melão",
+    "legislacao": "br",
+    "lmr": 0.1
+  },
+  {
+    "rank": 3,
+    "ia": "acefato",
+    "no_cultura": "Melão",
+    "legislacao": "eu",
+    "lmr": 0.01
+  },
+  {
+    "rank": 3,
+    "ia": "acefato",
+    "no_cultura": "Milho",
+    "legislacao": "br",
+    "lmr": 0.02
+  },
+  {
+    "rank": 3,
+    "ia": "acefato",
+    "no_cultura": "Milho",
+    "legislacao": "eu",
+    "lmr": 0.01
+  },
+  {
+    "rank": 3,
+    "ia": "acefato",
+    "no_cultura": "Tomate",
+    "legislacao": "br",
+    "lmr": 0.02
+  },
+  {
+    "rank": 3,
+    "ia": "acefato",
+    "no_cultura": "Tomate",
+    "legislacao": "eu",
+    "lmr": 0.01
+  },
+  {
+    "rank": 6,
+    "ia": "atrazina",
+    "no_cultura": "Cana-de-açúcar",
+    "legislacao": "br",
+    "lmr": 0.25
+  },
+  {
+    "rank": 6,
+    "ia": "atrazina",
+    "no_cultura": "Cana-de-açúcar",
+    "legislacao": "eu",
+    "lmr": 0.05
+  },
+  {
+    "rank": 6,
+    "ia": "atrazina",
+    "no_cultura": "Milho",
+    "legislacao": "br",
+    "lmr": 0.25
+  },
+  {
+    "rank": 6,
+    "ia": "atrazina",
+    "no_cultura": "Milho",
+    "legislacao": "eu",
+    "lmr": 0.05
+  },
+  {
+    "rank": 6,
+    "ia": "atrazina",
+    "no_cultura": "Sorgo",
+    "legislacao": "br",
+    "lmr": 0.25
+  },
+  {
+    "rank": 6,
+    "ia": "atrazina",
+    "no_cultura": "Sorgo",
+    "legislacao": "eu",
+    "lmr": 0.05
+  },
+  {
+    "rank": 5,
+    "ia": "clorpirifós",
+    "no_cultura": "Aveia",
+    "legislacao": "br",
+    "lmr": 0.2
+  },
+  {
+    "rank": 5,
+    "ia": "clorpirifós",
+    "no_cultura": "Aveia",
+    "legislacao": "eu",
+    "lmr": 0.01
+  },
+  {
+    "rank": 5,
+    "ia": "clorpirifós",
+    "no_cultura": "Batata",
+    "legislacao": "br",
+    "lmr": 1
+  },
+  {
+    "rank": 5,
+    "ia": "clorpirifós",
+    "no_cultura": "Batata",
+    "legislacao": "eu",
+    "lmr": 0.01
+  },
+  {
+    "rank": 5,
+    "ia": "clorpirifós",
+    "no_cultura": "Café",
+    "legislacao": "br",
+    "lmr": 0.05
+  },
+  {
+    "rank": 5,
+    "ia": "clorpirifós",
+    "no_cultura": "Café",
+    "legislacao": "eu",
+    "lmr": 0.01
+  },
+  {
+    "rank": 5,
+    "ia": "clorpirifós",
+    "no_cultura": "Centeio",
+    "legislacao": "br",
+    "lmr": 0.2
+  },
+  {
+    "rank": 5,
+    "ia": "clorpirifós",
+    "no_cultura": "Centeio",
+    "legislacao": "eu",
+    "lmr": 0.01
+  },
+  {
+    "rank": 5,
+    "ia": "clorpirifós",
+    "no_cultura": "Cevada",
+    "legislacao": "br",
+    "lmr": 0.1
+  },
+  {
+    "rank": 5,
+    "ia": "clorpirifós",
+    "no_cultura": "Cevada",
+    "legislacao": "eu",
+    "lmr": 0.01
+  },
+  {
+    "rank": 5,
+    "ia": "clorpirifós",
+    "no_cultura": "Citros",
+    "legislacao": "br",
+    "lmr": 2
+  },
+  {
+    "rank": 5,
+    "ia": "clorpirifós",
+    "no_cultura": "Citros",
+    "legislacao": "eu",
+    "lmr": 0.01
+  },
+  {
+    "rank": 5,
+    "ia": "clorpirifós",
+    "no_cultura": "Feijão",
+    "legislacao": "br",
+    "lmr": 0.1
+  },
+  {
+    "rank": 5,
+    "ia": "clorpirifós",
+    "no_cultura": "Feijão",
+    "legislacao": "eu",
+    "lmr": 0.01
+  },
+  {
+    "rank": 5,
+    "ia": "clorpirifós",
+    "no_cultura": "Lentilha",
+    "legislacao": "br",
+    "lmr": 0.1
+  },
+  {
+    "rank": 5,
+    "ia": "clorpirifós",
+    "no_cultura": "Lentilha",
+    "legislacao": "eu",
+    "lmr": 0.01
+  },
+  {
+    "rank": 5,
+    "ia": "clorpirifós",
+    "no_cultura": "Maçã",
+    "legislacao": "br",
+    "lmr": 1
+  },
+  {
+    "rank": 5,
+    "ia": "clorpirifós",
+    "no_cultura": "Maçã",
+    "legislacao": "eu",
+    "lmr": 0.01
+  },
+  {
+    "rank": 5,
+    "ia": "clorpirifós",
+    "no_cultura": "Milho",
+    "legislacao": "br",
+    "lmr": 0.1
+  },
+  {
+    "rank": 5,
+    "ia": "clorpirifós",
+    "no_cultura": "Milho",
+    "legislacao": "eu",
+    "lmr": 0.01
+  },
+  {
+    "rank": 5,
+    "ia": "clorpirifós",
+    "no_cultura": "Sorgo",
+    "legislacao": "br",
+    "lmr": 0.07
+  },
+  {
+    "rank": 5,
+    "ia": "clorpirifós",
+    "no_cultura": "Sorgo",
+    "legislacao": "eu",
+    "lmr": 0.01
+  },
+  {
+    "rank": 5,
+    "ia": "clorpirifós",
+    "no_cultura": "Tomate",
+    "legislacao": "br",
+    "lmr": 0.5
+  },
+  {
+    "rank": 5,
+    "ia": "clorpirifós",
+    "no_cultura": "Tomate",
+    "legislacao": "eu",
+    "lmr": 0.01
+  },
+  {
+    "rank": 5,
+    "ia": "clorpirifós",
+    "no_cultura": "Trigo",
+    "legislacao": "br",
+    "lmr": 0.2
+  },
+  {
+    "rank": 5,
+    "ia": "clorpirifós",
+    "no_cultura": "Trigo",
+    "legislacao": "eu",
+    "lmr": 0.01
+  },
+  {
+    "rank": 7,
+    "ia": "ditiocarbamatos",
+    "no_cultura": "Abacaxi",
+    "legislacao": "br",
+    "lmr": 1
+  },
+  {
+    "rank": 7,
+    "ia": "ditiocarbamatos",
+    "no_cultura": "Abacaxi",
+    "legislacao": "eu",
+    "lmr": 0.05
+  },
+  {
+    "rank": 7,
+    "ia": "ditiocarbamatos",
+    "no_cultura": "Arroz",
+    "legislacao": "br",
+    "lmr": 0.5
+  },
+  {
+    "rank": 7,
+    "ia": "ditiocarbamatos",
+    "no_cultura": "Arroz",
+    "legislacao": "eu",
+    "lmr": 0.05
+  },
+  {
+    "rank": 7,
+    "ia": "ditiocarbamatos",
+    "no_cultura": "Batata",
+    "legislacao": "br",
+    "lmr": 1
+  },
+  {
+    "rank": 7,
+    "ia": "ditiocarbamatos",
+    "no_cultura": "Batata",
+    "legislacao": "eu",
+    "lmr": 0.3
+  },
+  {
+    "rank": 7,
+    "ia": "ditiocarbamatos",
+    "no_cultura": "Café",
+    "legislacao": "br",
+    "lmr": 0.3
+  },
+  {
+    "rank": 7,
+    "ia": "ditiocarbamatos",
+    "no_cultura": "Café",
+    "legislacao": "eu",
+    "lmr": 0.1
+  },
+  {
+    "rank": 7,
+    "ia": "ditiocarbamatos",
+    "no_cultura": "Cana-de-açúcar",
+    "legislacao": "br",
+    "lmr": 0.07
+  },
+  {
+    "rank": 7,
+    "ia": "ditiocarbamatos",
+    "no_cultura": "Cana-de-açúcar",
+    "legislacao": "eu",
+    "lmr": 0.05
+  },
+  {
+    "rank": 7,
+    "ia": "ditiocarbamatos",
+    "no_cultura": "Cenoura",
+    "legislacao": "br",
+    "lmr": 0.3
+  },
+  {
+    "rank": 7,
+    "ia": "ditiocarbamatos",
+    "no_cultura": "Cenoura",
+    "legislacao": "eu",
+    "lmr": 0.2
+  },
+  {
+    "rank": 7,
+    "ia": "ditiocarbamatos",
+    "no_cultura": "Couve",
+    "legislacao": "br",
+    "lmr": 1
+  },
+  {
+    "rank": 7,
+    "ia": "ditiocarbamatos",
+    "no_cultura": "Couve",
+    "legislacao": "eu",
+    "lmr": 0.5
+  },
+  {
+    "rank": 7,
+    "ia": "ditiocarbamatos",
+    "no_cultura": "Feijão",
+    "legislacao": "br",
+    "lmr": 0.3
+  },
+  {
+    "rank": 7,
+    "ia": "ditiocarbamatos",
+    "no_cultura": "Feijão",
+    "legislacao": "eu",
+    "lmr": 0.1
+  },
+  {
+    "rank": 7,
+    "ia": "ditiocarbamatos",
+    "no_cultura": "Figo",
+    "legislacao": "br",
+    "lmr": 2
+  },
+  {
+    "rank": 7,
+    "ia": "ditiocarbamatos",
+    "no_cultura": "Figo",
+    "legislacao": "eu",
+    "lmr": 0.05
+  },
+  {
+    "rank": 7,
+    "ia": "ditiocarbamatos",
+    "no_cultura": "Maracujá",
+    "legislacao": "br",
+    "lmr": 1
+  },
+  {
+    "rank": 7,
+    "ia": "ditiocarbamatos",
+    "no_cultura": "Maracujá",
+    "legislacao": "eu",
+    "lmr": 0.05
+  },
+  {
+    "rank": 7,
+    "ia": "ditiocarbamatos",
+    "no_cultura": "Milho",
+    "legislacao": "br",
+    "lmr": 0.3
+  },
+  {
+    "rank": 7,
+    "ia": "ditiocarbamatos",
+    "no_cultura": "Milho",
+    "legislacao": "eu",
+    "lmr": 0.05
+  },
+  {
+    "rank": 7,
+    "ia": "ditiocarbamatos",
+    "no_cultura": "Pêssego",
+    "legislacao": "br",
+    "lmr": 4
+  },
+  {
+    "rank": 7,
+    "ia": "ditiocarbamatos",
+    "no_cultura": "Pêssego",
+    "legislacao": "eu",
+    "lmr": 2
+  },
+  {
+    "rank": 7,
+    "ia": "ditiocarbamatos",
+    "no_cultura": "Sorgo",
+    "legislacao": "br",
+    "lmr": 0.3
+  },
+  {
+    "rank": 7,
+    "ia": "ditiocarbamatos",
+    "no_cultura": "Sorgo",
+    "legislacao": "eu",
+    "lmr": 0.05
+  },
+  {
+    "rank": 10,
+    "ia": "diuron",
+    "no_cultura": "Abacaxi",
+    "legislacao": "br",
+    "lmr": 0.1
+  },
+  {
+    "rank": 10,
+    "ia": "diuron",
+    "no_cultura": "Abacaxi",
+    "legislacao": "eu",
+    "lmr": 0.01
+  },
+  {
+    "rank": 10,
+    "ia": "diuron",
+    "no_cultura": "Banana",
+    "legislacao": "br",
+    "lmr": 0.1
+  },
+  {
+    "rank": 10,
+    "ia": "diuron",
+    "no_cultura": "Banana",
+    "legislacao": "eu",
+    "lmr": 0.01
+  },
+  {
+    "rank": 10,
+    "ia": "diuron",
+    "no_cultura": "Cacau",
+    "legislacao": "br",
+    "lmr": 0.1
+  },
+  {
+    "rank": 10,
+    "ia": "diuron",
+    "no_cultura": "Cacau",
+    "legislacao": "eu",
+    "lmr": 0.05
+  },
+  {
+    "rank": 10,
+    "ia": "diuron",
+    "no_cultura": "Café",
+    "legislacao": "br",
+    "lmr": 1
+  },
+  {
+    "rank": 10,
+    "ia": "diuron",
+    "no_cultura": "Café",
+    "legislacao": "eu",
+    "lmr": 0.05
+  },
+  {
+    "rank": 10,
+    "ia": "diuron",
+    "no_cultura": "Cana-de-açúcar",
+    "legislacao": "br",
+    "lmr": 0.1
+  },
+  {
+    "rank": 10,
+    "ia": "diuron",
+    "no_cultura": "Cana-de-açúcar",
+    "legislacao": "eu",
+    "lmr": 0.01
+  },
+  {
+    "rank": 10,
+    "ia": "diuron",
+    "no_cultura": "Citros",
+    "legislacao": "br",
+    "lmr": 0.1
+  },
+  {
+    "rank": 10,
+    "ia": "diuron",
+    "no_cultura": "Citros",
+    "legislacao": "eu",
+    "lmr": 0.01
+  },
+  {
+    "rank": 10,
+    "ia": "diuron",
+    "no_cultura": "Milho",
+    "legislacao": "br",
+    "lmr": 0.05
+  },
+  {
+    "rank": 10,
+    "ia": "diuron",
+    "no_cultura": "Milho",
+    "legislacao": "eu",
+    "lmr": 0.01
+  },
+  {
+    "rank": 10,
+    "ia": "diuron",
+    "no_cultura": "Trigo",
+    "legislacao": "br",
+    "lmr": 0.05
+  },
+  {
+    "rank": 10,
+    "ia": "diuron",
+    "no_cultura": "Trigo",
+    "legislacao": "eu",
+    "lmr": 0.01
+  },
+  {
+    "rank": 10,
+    "ia": "diuron",
+    "no_cultura": "Uva",
+    "legislacao": "br",
+    "lmr": 0.1
+  },
+  {
+    "rank": 10,
+    "ia": "diuron",
+    "no_cultura": "Uva",
+    "legislacao": "eu",
+    "lmr": 0.01
+  },
+  {
+    "rank": 1,
+    "ia": "glifosato",
+    "no_cultura": "Ameixa",
+    "legislacao": "br",
+    "lmr": 0.2
+  },
+  {
+    "rank": 1,
+    "ia": "glifosato",
+    "no_cultura": "Ameixa",
+    "legislacao": "eu",
+    "lmr": 0.1
+  },
+  {
+    "rank": 1,
+    "ia": "glifosato",
+    "no_cultura": "Arroz",
+    "legislacao": "br",
+    "lmr": 0.2
+  },
+  {
+    "rank": 1,
+    "ia": "glifosato",
+    "no_cultura": "Arroz",
+    "legislacao": "eu",
+    "lmr": 0.1
+  },
+  {
+    "rank": 1,
+    "ia": "glifosato",
+    "no_cultura": "Café",
+    "legislacao": "br",
+    "lmr": 1
+  },
+  {
+    "rank": 1,
+    "ia": "glifosato",
+    "no_cultura": "Café",
+    "legislacao": "eu",
+    "lmr": 0.1
+  },
+  {
+    "rank": 1,
+    "ia": "glifosato",
+    "no_cultura": "Cana-de-açúcar",
+    "legislacao": "br",
+    "lmr": 1
+  },
+  {
+    "rank": 1,
+    "ia": "glifosato",
+    "no_cultura": "Cana-de-açúcar",
+    "legislacao": "eu",
+    "lmr": 0.1
+  },
+  {
+    "rank": 1,
+    "ia": "glifosato",
+    "no_cultura": "Caqui",
+    "legislacao": "br",
+    "lmr": 0.2
+  },
+  {
+    "rank": 1,
+    "ia": "glifosato",
+    "no_cultura": "Caqui",
+    "legislacao": "eu",
+    "lmr": 0.1
+  },
+  {
+    "rank": 1,
+    "ia": "glifosato",
+    "no_cultura": "Carambola",
+    "legislacao": "br",
+    "lmr": 0.2
+  },
+  {
+    "rank": 1,
+    "ia": "glifosato",
+    "no_cultura": "Carambola",
+    "legislacao": "eu",
+    "lmr": 0.1
+  },
+  {
+    "rank": 1,
+    "ia": "glifosato",
+    "no_cultura": "Figo",
+    "legislacao": "br",
+    "lmr": 0.2
+  },
+  {
+    "rank": 1,
+    "ia": "glifosato",
+    "no_cultura": "Figo",
+    "legislacao": "eu",
+    "lmr": 0.1
+  },
+  {
+    "rank": 1,
+    "ia": "glifosato",
+    "no_cultura": "Goiaba",
+    "legislacao": "br",
+    "lmr": 0.2
+  },
+  {
+    "rank": 1,
+    "ia": "glifosato",
+    "no_cultura": "Goiaba",
+    "legislacao": "eu",
+    "lmr": 0.1
+  },
+  {
+    "rank": 1,
+    "ia": "glifosato",
+    "no_cultura": "Maçã",
+    "legislacao": "br",
+    "lmr": 0.2
+  },
+  {
+    "rank": 1,
+    "ia": "glifosato",
+    "no_cultura": "Maçã",
+    "legislacao": "eu",
+    "lmr": 0.1
+  },
+  {
+    "rank": 1,
+    "ia": "glifosato",
+    "no_cultura": "Nêspera",
+    "legislacao": "br",
+    "lmr": 0.2
+  },
+  {
+    "rank": 1,
+    "ia": "glifosato",
+    "no_cultura": "Nêspera",
+    "legislacao": "eu",
+    "lmr": 0.1
+  },
+  {
+    "rank": 1,
+    "ia": "glifosato",
+    "no_cultura": "Pêra",
+    "legislacao": "br",
+    "lmr": 0.2
+  },
+  {
+    "rank": 1,
+    "ia": "glifosato",
+    "no_cultura": "Pêra",
+    "legislacao": "eu",
+    "lmr": 0.1
+  },
+  {
+    "rank": 1,
+    "ia": "glifosato",
+    "no_cultura": "Pêssego",
+    "legislacao": "br",
+    "lmr": 0.2
+  },
+  {
+    "rank": 1,
+    "ia": "glifosato",
+    "no_cultura": "Pêssego",
+    "legislacao": "eu",
+    "lmr": 0.1
+  },
+  {
+    "rank": 9,
+    "ia": "metomil",
+    "no_cultura": "Amora",
+    "legislacao": "br",
+    "lmr": 0.015
+  },
+  {
+    "rank": 9,
+    "ia": "metomil",
+    "no_cultura": "Amora",
+    "legislacao": "eu",
+    "lmr": 0.01
+  },
+  {
+    "rank": 9,
+    "ia": "metomil",
+    "no_cultura": "Arroz",
+    "legislacao": "br",
+    "lmr": 0.2
+  },
+  {
+    "rank": 9,
+    "ia": "metomil",
+    "no_cultura": "Arroz",
+    "legislacao": "eu",
+    "lmr": 0.01
+  },
+  {
+    "rank": 9,
+    "ia": "metomil",
+    "no_cultura": "Aveia",
+    "legislacao": "br",
+    "lmr": 0.1
+  },
+  {
+    "rank": 9,
+    "ia": "metomil",
+    "no_cultura": "Aveia",
+    "legislacao": "eu",
+    "lmr": 0.02
+  },
+  {
+    "rank": 9,
+    "ia": "metomil",
+    "no_cultura": "Batata",
+    "legislacao": "br",
+    "lmr": 0.1
+  },
+  {
+    "rank": 9,
+    "ia": "metomil",
+    "no_cultura": "Batata",
+    "legislacao": "eu",
+    "lmr": 0.01
+  },
+  {
+    "rank": 9,
+    "ia": "metomil",
+    "no_cultura": "Brócolis",
+    "legislacao": "br",
+    "lmr": 3
+  },
+  {
+    "rank": 9,
+    "ia": "metomil",
+    "no_cultura": "Brócolis",
+    "legislacao": "eu",
+    "lmr": 0.01
+  },
+  {
+    "rank": 9,
+    "ia": "metomil",
+    "no_cultura": "Café",
+    "legislacao": "br",
+    "lmr": 0.1
+  },
+  {
+    "rank": 9,
+    "ia": "metomil",
+    "no_cultura": "Café",
+    "legislacao": "eu",
+    "lmr": 0.05
+  },
+  {
+    "rank": 9,
+    "ia": "metomil",
+    "no_cultura": "Centeio",
+    "legislacao": "br",
+    "lmr": 0.1
+  },
+  {
+    "rank": 9,
+    "ia": "metomil",
+    "no_cultura": "Centeio",
+    "legislacao": "eu",
+    "lmr": 0.01
+  },
+  {
+    "rank": 9,
+    "ia": "metomil",
+    "no_cultura": "Cevada",
+    "legislacao": "br",
+    "lmr": 0.1
+  },
+  {
+    "rank": 9,
+    "ia": "metomil",
+    "no_cultura": "Cevada",
+    "legislacao": "eu",
+    "lmr": 0.01
+  },
+  {
+    "rank": 9,
+    "ia": "metomil",
+    "no_cultura": "Couve",
+    "legislacao": "br",
+    "lmr": 3
+  },
+  {
+    "rank": 9,
+    "ia": "metomil",
+    "no_cultura": "Couve",
+    "legislacao": "eu",
+    "lmr": 0.01
+  },
+  {
+    "rank": 9,
+    "ia": "metomil",
+    "no_cultura": "Framboesa",
+    "legislacao": "br",
+    "lmr": 0.015
+  },
+  {
+    "rank": 9,
+    "ia": "metomil",
+    "no_cultura": "Framboesa",
+    "legislacao": "eu",
+    "lmr": 0.01
+  },
+  {
+    "rank": 9,
+    "ia": "metomil",
+    "no_cultura": "Milho",
+    "legislacao": "br",
+    "lmr": 0.1
+  },
+  {
+    "rank": 9,
+    "ia": "metomil",
+    "no_cultura": "Milho",
+    "legislacao": "eu",
+    "lmr": 0.02
+  },
+  {
+    "rank": 9,
+    "ia": "metomil",
+    "no_cultura": "Mirtilo",
+    "legislacao": "br",
+    "lmr": 0.015
+  },
+  {
+    "rank": 9,
+    "ia": "metomil",
+    "no_cultura": "Mirtilo",
+    "legislacao": "eu",
+    "lmr": 0.01
+  },
+  {
+    "rank": 9,
+    "ia": "metomil",
+    "no_cultura": "Morango",
+    "legislacao": "br",
+    "lmr": 0.015
+  },
+  {
+    "rank": 9,
+    "ia": "metomil",
+    "no_cultura": "Morango",
+    "legislacao": "eu",
+    "lmr": 0.01
+  },
+  {
+    "rank": 9,
+    "ia": "metomil",
+    "no_cultura": "Repolho",
+    "legislacao": "br",
+    "lmr": 3
+  },
+  {
+    "rank": 9,
+    "ia": "metomil",
+    "no_cultura": "Repolho",
+    "legislacao": "eu",
+    "lmr": 0.01
+  },
+  {
+    "rank": 9,
+    "ia": "metomil",
+    "no_cultura": "Sorgo",
+    "legislacao": "br",
+    "lmr": 0.1
+  },
+  {
+    "rank": 9,
+    "ia": "metomil",
+    "no_cultura": "Sorgo",
+    "legislacao": "eu",
+    "lmr": 0.01
+  },
+  {
+    "rank": 9,
+    "ia": "metomil",
+    "no_cultura": "Tomate",
+    "legislacao": "br",
+    "lmr": 1
+  },
+  {
+    "rank": 9,
+    "ia": "metomil",
+    "no_cultura": "Tomate",
+    "legislacao": "eu",
+    "lmr": 0.01
+  },
+  {
+    "rank": 9,
+    "ia": "metomil",
+    "no_cultura": "Trigo",
+    "legislacao": "br",
+    "lmr": 0.1
+  },
+  {
+    "rank": 9,
+    "ia": "metomil",
+    "no_cultura": "Trigo",
+    "legislacao": "eu",
+    "lmr": 0.01
+  }
+]
