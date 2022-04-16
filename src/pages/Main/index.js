@@ -2,8 +2,10 @@ import { Link } from "react-router-dom";
 
 import logo from '../../static/imgs/apragareal.svg';
 import PestFilter from './components/PestFilter/PestFilter';
+import Plate from './components/Plate/Plate';
 
 import getPestData from './functions/getPestData';
+import normalizeStr from './functions/normalizeStr';
 import usePestFilter from './hooks/usePestFilter';
 
 import './style.css';
@@ -43,6 +45,20 @@ function Main(props) {
         </div>
 
       </header>
+
+      <div className="plates-wrapper">
+        {data.map(d => {
+          const [cultive, pestData] = d
+          return (
+            <Plate 
+              key={normalizeStr(cultive)}
+              cultive={cultive}
+              pestData={pestData} />
+            )
+        })}
+      </div>
+
+      <div className="footer"></div>
 
     </div>
   );
