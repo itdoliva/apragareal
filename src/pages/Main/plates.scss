@@ -1,0 +1,85 @@
+$plate-width: 240px;
+$plate-height: 240px;
+$plate-margin: 0px;
+$viewport-threshold: $plate-width + $plate-margin;
+
+.plates-wrapper {
+    margin: 48px 0;
+    position: relative;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+    list-style: none;
+
+    overflow: auto;
+
+    flex-grow: 1;   
+
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scrollbar-width: none;  /* Firefox */
+}
+
+.plates-wrapper::-webkit-scrollbar { 
+    display: none;  /* Safari and Chrome */
+}
+
+.plate-wrapper {
+    position: relative;
+    width: 240px;
+    height: 240px;
+    margin: $plate-margin/2 $plate-margin;
+}
+
+
+
+@media (max-width:#{2*$viewport-threshold}){
+    .plate-wrapper {
+        margin: #{$plate-margin/2 + $plate-height/2} $plate-margin;
+    }
+}
+  
+@media (min-width: #{2*$viewport-threshold}) and (max-width:#{3*$viewport-threshold}) {
+    .plate-wrapper:nth-child(3n) {
+        margin-right: calc(50% - #{$plate-width/2});
+        margin-left: calc(50% - #{$plate-width/2});
+    }
+
+    .honeycomb__placeholder:nth-child(3n + 5) {
+        display:block;
+    }
+}
+  
+@media (min-width: #{3*$viewport-threshold}) and (max-width:#{4*$viewport-threshold}) {
+    .plate-wrapper:nth-child(5n + 4) {
+        margin-left: calc(50% - #{$plate-width + $plate-margin});
+    }
+
+    .plate-wrapper:nth-child(5n + 5) {
+        margin-right: calc(50% - #{$plate-width + $plate-margin});
+    }
+
+    .honeycomb__placeholder:nth-child(5n), 
+    .honeycomb__placeholder:nth-child(5n + 3) {
+        display:block;
+    }
+}
+  
+@media (min-width: #{4*$viewport-threshold}) {
+    .plate-wrapper:nth-child(7n + 5)  {
+        margin-left: calc(50% - #{$plate-width*1.5 + $plate-margin});
+    }
+
+    .plate-wrapper:nth-child(7n + 7), 
+    .plate-wrapper:nth-child(7n + 5):nth-last-child(2) {
+        margin-right: calc(50% - #{$plate-width*1.5 + $plate-margin});
+    }
+
+    .honeycomb__placeholder:nth-child(7n + 7), 
+    .honeycomb__placeholder:nth-child(7n + 9), 
+    .honeycomb__placeholder:nth-child(7n + 11){
+        display:block;
+    }
+}
