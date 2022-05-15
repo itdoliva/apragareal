@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import { useState, useEffect } from "react";
 
 import logo from '../../static/imgs/apragareal.svg';
 import PestFilter from './components/PestFilter/PestFilter';
@@ -14,11 +15,17 @@ import './plates.scss';
 function Main(props) {
 
 
-  const [pesticides, anyActive, togglePesticide] = usePestFilter()
+  const [pesticides, togglePesticide] = usePestFilter()
 
-  const data = getPestData(pesticides, anyActive);
+  const [ data, setData ] = useState(null)
+  useEffect(() => {
+    const newData = getPestData(pesticides)
 
-  return (
+    setData(newData)
+  }, [pesticides])
+
+
+  return data && (
     <div className="main-page">
 
       <header>
@@ -48,15 +55,12 @@ function Main(props) {
       </header>
 
       <ul className="plates-wrapper">
-        {data.map(d => {
-          const [cultive, pestData] = d
-          return (
+        {data.map(d => (
             <Plate 
-              key={normalizeStr(cultive)}
-              cultive={cultive}
-              pestData={pestData} />
+              key={normalizeStr(d.cultive) + '-' + d.data.map(d => d.rank).join('-')}
+              {...d} />
             )
-        })}
+        )}
         <li className="plate-wrapper honeycomb-placeholder" />
       </ul>
 
