@@ -37,6 +37,11 @@ text, textPath {
     fill: #AEAEAE;
 }
 
+.drop-shine {
+    fill: #FFFFFF;
+    fill-opacity: 0.8;
+}
+
 .drop-0 { 
     fill: transparent; 
     stroke: black; 
@@ -50,6 +55,26 @@ text, textPath {
 .drop-7 { fill: var(--pest-7); }
 .drop-9 { fill: var(--pest-9); }
 .drop-10 { fill: var(--pest-10); }
+
+.drop-shadow {
+    fill: #060606;
+    fill-opacity: .6;
+}
+
+.drop-light-shadow {
+    fill: #060606;
+    fill-opacity: 0.08;
+}
+
+.drop-light-darker {
+    fill: #FFFFFF;
+    fill-opacity: 0.2;
+}
+
+.drop-light-lighter {
+    fill: #FFFFFF;
+    fill-opacity: 0.3;
+}
 
 .br {
     stroke: green;

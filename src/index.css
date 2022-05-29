@@ -74,3 +74,11 @@ a {
 a:active {
   color: var(--black);
 }
+
+.main-page > svg {
+  transform: scale(1);
+}
+
+.main-page > svg > g > path {
+  fill: red;
+}

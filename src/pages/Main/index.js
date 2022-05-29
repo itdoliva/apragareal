@@ -27,7 +27,6 @@ function Main(props) {
 
   return data && (
     <div className="main-page">
-
       <header>
 
         <nav className="nav-wrapper">
