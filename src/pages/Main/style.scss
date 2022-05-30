@@ -10,6 +10,8 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: stretch;
+
+    position: relative;
 }
 
 .main-page header {
@@ -67,8 +69,4 @@
 
     border: 1px solid black;
     flex-shrink: 0;
-}
-
-.drop-svg path:first-child{
-    fill: red;
 }

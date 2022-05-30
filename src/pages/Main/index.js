@@ -4,6 +4,7 @@ import { useState, useEffect } from "react";
 import logo from '../../static/imgs/apragareal.svg';
 import PestFilter from './components/PestFilter/PestFilter';
 import Plate from './components/Plate/Plate';
+import Tooltip from './components/Tooltip/Tooltip';
 
 import getPestData from './functions/getPestData';
 import normalizeStr from './functions/normalizeStr';
@@ -13,7 +14,6 @@ import './style.scss';
 import './plates.scss';
 
 function Main(props) {
-
 
   const [pesticides, togglePesticide] = usePestFilter()
 
@@ -27,6 +27,7 @@ function Main(props) {
 
   return data && (
     <div className="main-page">
+
       <header>
 
         <nav className="nav-wrapper">
@@ -46,7 +47,7 @@ function Main(props) {
             <PestFilter 
               key={d.rank} 
               language={props.language}
-              toggle={() => {togglePesticide(d.rank)}}
+              toggle={() => { togglePesticide(d.rank) }}
               {...d} />
           ))}
         </div>
@@ -65,6 +66,7 @@ function Main(props) {
 
       <div className="footer"></div>
 
+      <Tooltip language={props.language} />
     </div>
   );
 }

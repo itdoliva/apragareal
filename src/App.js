@@ -10,8 +10,22 @@ import { useState } from "react";
 function App() {
 
   const languages = [
-    {id: "br", label: "Português"},
-    {id: "en", label: "English"},
+    {
+      id: "br", 
+      label: "Português", 
+      countryLabel: {
+        br: { short: "br", long: "Brasil" },
+        eu: { short: "ue", long: "União Europeia" }, 
+      }
+    },
+    {
+      id: "en", 
+      label: "English", 
+      countryLabel: {
+        br: { short: "br", long: "Brazil" },
+        eu: { short: "eu", long: "European Union" }, 
+      }
+    },
   ]
   const [language, setLanguage] = useState(languages.find(d => d.id == "br"));
 

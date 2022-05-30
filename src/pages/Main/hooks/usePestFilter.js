@@ -1,6 +1,5 @@
 import rawData from "../../../static/data/pesticides.json";
-import * as d3 from 'd3';
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 
 const data = rawData.map(d => ({ ...d, active: false }))
 

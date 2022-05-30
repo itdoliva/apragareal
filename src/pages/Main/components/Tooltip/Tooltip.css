@@ -1,0 +1,165 @@
+.tooltip-wrapper {
+    position: absolute;
+
+    background: #FFFFFF;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.25);
+    padding: 18px 22px 22px 18px;
+
+    min-width: 280px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+
+    font-style: normal;
+    font-weight: 400;
+}
+
+.tooltip-header {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+
+    font-weight: 300;
+    font-size: 8px;
+
+    line-height: 9px;
+
+    margin-bottom: 8px;
+}
+
+.tooltip-header-title {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+
+    margin: 0 0 6px 0;
+
+    text-transform: uppercase;
+
+    letter-spacing: 0.025em;
+
+    padding-bottom: 2px;
+    border-bottom: 1px solid var(--black);
+}
+
+.tooltip-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+
+    margin: 8px 0;
+    padding-bottom: 8px;
+}
+
+
+.tooltip-card-header {
+    font-size: 12px;
+    line-height: 12px;
+    color: var(--black);
+
+    margin: 4px 0;
+
+    text-transform: uppercase;
+}
+
+.tooltip-card-body {
+    margin: 6px 0;
+}
+
+.tooltip-card:not(:last-child) {
+    border-bottom: 1px solid #aeaeae25
+}
+
+
+.tooltip-card-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+
+    height: 20px;
+}
+
+.tooltip-card-row .country-label {
+    width: 14px;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 9px;
+    line-height: 9px;
+    text-transform: uppercase;
+
+    color: var(--gray-1);
+}
+
+.tooltip-card-bar-wrapper {
+    flex-grow: 1;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    margin: 0 4px;
+}
+
+.tooltip-card-bar-wrapper .bar {
+    height: 18px;
+    margin-right: 6px;
+
+    transition: width .3s ease-in-out;
+}
+
+.pest-1  .bar {background: var(--pest-1);}
+.pest-2  .bar {background: var(--pest-2);}
+.pest-3  .bar {background: var(--pest-3);}
+.pest-5  .bar {background: var(--pest-5);}
+.pest-6  .bar {background: var(--pest-6);}
+.pest-7  .bar {background: var(--pest-7);}
+.pest-9  .bar {background: var(--pest-9);}
+.pest-10 .bar {background: var(--pest-10);}
+
+.tooltip-card-row .lmr {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 105.19%;
+
+    text-align: center;
+    letter-spacing: -0.06em;
+
+    color: var(--black);
+}
+
+.tooltip-card-row .measure-unit {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 105.19%;
+
+    text-align: left;
+    letter-spacing: -0.06em;
+    font-size: 10px;
+    color: var(--black);
+    margin-left: 2px;
+}
+
+.br .multiplier-wrapper {
+    width: 26px;
+    background: #C17373;
+
+    border-radius: 2px;
+    padding: 4px 6px;
+
+    display: flex;
+    justify-content: center;
+}
+
+.br .multiplier-wrapper .multiplier {
+    font-weight: 800;
+    font-size: 10px;
+    line-height: 9px;
+    text-align: center;
+    color: #FFFFFF;
+}
