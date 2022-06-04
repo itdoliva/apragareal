@@ -14,6 +14,39 @@
 
     font-style: normal;
     font-weight: 400;
+
+    pointer-events: none;
+
+    opacity: 1;
+    
+}
+
+.tooltip-pointer {
+    display: none;
+    
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 18px;
+    height: 18px;
+
+    background: -moz-linear-gradient(135deg, var(--black) 50%, rgba(255,255,255,0) 50%);
+    background: -webkit-linear-gradient(135deg, var(--black) 50%, rgba(255,255,255,0) 50%);
+    background: linear-gradient(135deg, var(--black) 50%, rgba(255,255,255,0) 50%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#26229e",endColorstr="#ffffff",GradientType=1);
+
+}
+
+.tootip-wrapper div {
+    pointer-events: none;
+}
+
+.tooltip-wrapper.deactivate {
+    opacity: 0;
+}
+
+.tooltip-card.deactivate {
+    display: none;
 }
 
 .tooltip-header {
@@ -44,23 +77,23 @@
     border-bottom: 1px solid var(--black);
 }
 
+
 .tooltip-card {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: stretch;
 
-    margin: 8px 0;
-    padding-bottom: 8px;
+    margin: 6px 0;
+    padding-bottom: 4px;
 }
 
 
 .tooltip-card-header {
     font-size: 12px;
-    line-height: 12px;
-    color: var(--black);
+    color: var(--gray-1);
 
-    margin: 4px 0;
+    margin: 2px 0;
 
     text-transform: uppercase;
 }
@@ -73,22 +106,19 @@
     border-bottom: 1px solid #aeaeae25
 }
 
-
 .tooltip-card-row {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
 
-    height: 20px;
+    height: 16px;
 }
 
 .tooltip-card-row .country-label {
     width: 14px;
-    font-style: normal;
     font-weight: 800;
     font-size: 9px;
-    line-height: 9px;
     text-transform: uppercase;
 
     color: var(--gray-1);
@@ -101,30 +131,32 @@
     flex-direction: row;
     align-items: center;
 
-    margin: 0 4px;
+    margin: 0 2px;
 }
 
 .tooltip-card-bar-wrapper .bar {
-    height: 18px;
+    height: 14px;
     margin-right: 6px;
 
     transition: width .3s ease-in-out;
 }
 
-.pest-1  .bar {background: var(--pest-1);}
-.pest-2  .bar {background: var(--pest-2);}
-.pest-3  .bar {background: var(--pest-3);}
-.pest-5  .bar {background: var(--pest-5);}
-.pest-6  .bar {background: var(--pest-6);}
-.pest-7  .bar {background: var(--pest-7);}
-.pest-9  .bar {background: var(--pest-9);}
-.pest-10 .bar {background: var(--pest-10);}
+.card-1  .bar {background: var(--pest-1);}
+.card-2  .bar {background: var(--pest-2);}
+.card-3  .bar {background: var(--pest-3);}
+.card-5  .bar {background: var(--pest-5);}
+.card-6  .bar {background: var(--pest-6);}
+.card-7  .bar {background: var(--pest-7);}
+.card-9  .bar {background: var(--pest-9);}
+.card-10 .bar {background: var(--pest-10);}
+
+.tooltip-wrapper .eu .bar {
+    opacity: .75;
+}
 
 .tooltip-card-row .lmr {
-    font-style: normal;
     font-weight: 300;
     font-size: 14px;
-    line-height: 105.19%;
 
     text-align: center;
     letter-spacing: -0.06em;
@@ -133,10 +165,8 @@
 }
 
 .tooltip-card-row .measure-unit {
-    font-style: normal;
     font-weight: 300;
     font-size: 14px;
-    line-height: 105.19%;
 
     text-align: left;
     letter-spacing: -0.06em;

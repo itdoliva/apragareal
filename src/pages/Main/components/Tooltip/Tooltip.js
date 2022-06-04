@@ -8,10 +8,12 @@ function Tooltip(props) {
   const shorts = Object.entries(props.language.countryLabel).map(d => [d[0], d[1].short])
 
   return (
-    <div className="tooltip-wrapper">
+    <div className="tooltip-wrapper deactivate">
+
+      <div className="tooltip-pointer"></div>
 
       <div className="tooltip-header">
-        <span className="tooltip-header-title">Banana</span>
+        <span className="tooltip-header-title"></span>
         <span>LMR - Limite Máximo de Resíduos</span>
       </div>
 
@@ -19,7 +21,7 @@ function Tooltip(props) {
 
         {pesticides.map(pest => (
           <div key={pest.rank}
-          className={"tooltip-card card-" + pest.rank}>
+          className={"tooltip-card deactivate card-" + pest.rank}>
           
             <div className="tooltip-card-header">
               {pest.label[langId]}
@@ -31,9 +33,8 @@ function Tooltip(props) {
                 const [countryId, label] = short
                 
                 return (
-                  <div 
-                    key={countryId} 
-                    className={`tooltip-card-row ${countryId} pest-${pest.rank}`}>
+                  <div key={countryId} 
+                    className={`tooltip-card-row ${countryId}`}>
 
                   <span className="country-label">{label}</span>
 
@@ -41,7 +42,7 @@ function Tooltip(props) {
                     <div className="bar" />
 
                     <span>
-                      <span className="lmr">0.01</span>
+                      <span className="lmr"></span>
                       <span className="measure-unit"> mg/kg</span>
                     </span>
                     

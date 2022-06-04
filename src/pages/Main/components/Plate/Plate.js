@@ -1,8 +1,8 @@
 import { useEffect, useRef } from 'react';
 import * as d3 from 'd3';
 import fruit from '../../../../static/imgs/banana.svg';
-import './Plate.css';
 import getRandomDrop from '../../functions/getRandomDrop';
+import './Plate.css';
 
 
 export default function Plate({ cultive, data, nodes, extentLMR }) {
@@ -19,11 +19,13 @@ export default function Plate({ cultive, data, nodes, extentLMR }) {
     }, [data])
 
     return (
-        <li className="plate-wrapper">
+        <li ref={ref} className="plate-wrapper">
+            <div className="tooltip-trigger"></div>
             <img src={fruit} className="cultive-svg" alt={cultive} />
-            <svg ref={ref}>
+            <svg>
               <defs></defs>
             </svg>
+            
         </li>
     )
 }
@@ -103,30 +105,64 @@ PlateD3.arcGenerator = d3.arc()
 
 // Drop Arcs
 PlateD3.create = (ref, cultive, data, nodes, extentLMR) => {
-    const svg = d3.select(ref.current)
+    const wrapper = d3.select(ref.current)
+    const svg = wrapper.select('svg')
+    const ttipTrigger = wrapper.select('.tooltip-trigger')
 
-    const barScale = d3.scaleLinear()
-      .domain(extentLMR)
-      .range([0, 120])
+    PlateD3.drawPlate(svg)
+    PlateD3.drawCountryLabel(svg)
+    PlateD3.drawDrops(svg, nodes, extentLMR)
+    PlateD3.setHoverEvents(svg, ttipTrigger, cultive, data, extentLMR)
 
-    const multiplierColor = d3.scaleLinear()
-      .domain([1, 20])
-      .range(['#C17373', '#C23838'])
+    // Update
+    PlateD3.update(ref, data)
+}
 
-    svg.on('mouseenter', () => {
-      const tooltip = d3.select('.tooltip-wrapper')  
+PlateD3.setHoverEvents = (svg, ttipTrigger, cultive, data, extentLMR) => {
+  const barScale = d3.scaleLinear()
+    .domain(extentLMR)
+    .range([0, 120])
 
-      tooltip
-        .select('.tooltip-header-title')
+  const multiplierColor = d3.scaleLinear()
+    .domain([1, 20])
+    .range(['#C17373', '#C23838'])
+
+  const tooltip = d3.select('.tooltip-wrapper')
+  const plateCircle = svg.select('.plate-circle')
+
+
+  ttipTrigger.on('mouseenter', function(d) {
+
+    tooltip
+        .classed('deactivate', false)
+      .select('.tooltip-header-title')
         .text(cultive)
 
-      data.forEach(pest => {
-        const cardBR = tooltip.select(`.tooltip-card.card-${pest.rank} .br`)
-        const cardEU = tooltip.select(`.tooltip-card.card-${pest.rank} .eu`)
+    plateCircle
+      .classed('stronger', true)
+
+    tooltip.selectAll('.tooltip-card')
+      .each(function() {
+        const ttCard = d3.select(this)
+
+        const reg = /(?!card-)\d+/g
+        const rank = +reg.exec(ttCard.attr('class'))
+
+        const pest = data.find(d => d.rank === rank)
+
+        ttCard
+          .classed('deactivate', !pest)
+
+        if (!pest) {
+          return
+        }
+
+        const cardBR = ttCard.select('.br')
+        const cardEU = ttCard.select('.eu')
 
         cardBR
-          .select('.bar')
-            .style('width', barScale(pest.brLMR) + 'px')
+        .select('.bar')
+          .style('width', barScale(pest.brLMR) + 'px')
 
         cardBR
           .select('.lmr')
@@ -145,22 +181,42 @@ PlateD3.create = (ref, cultive, data, nodes, extentLMR) => {
         cardEU
           .select('.lmr')
             .text(pest.euLMR)
-
-          
       })
 
-      
-    })
+    const screen = d3.select('.App')
+    const screenWidth = +screen.style('width').replace('px', '')
+    const screenHeight = +screen.style('height').replace('px', '')
+    const tooltipWidth = +tooltip.style('width').replace('px', '')
+    const tooltipHeight = +tooltip.style('height').replace('px', '')
+
+    let x = d.x - d.offsetX + 222
+    let y = d.y - d.offsetY + 168
+
+    
+    if (screenHeight - (y + tooltipHeight) < 0) {
+      y = y + (screenHeight - (y + tooltipHeight)) - 126
+    } 
+
+    if (screenWidth - (x + tooltipWidth) < 0) {
+      x = x - tooltipWidth - 222
+    }
     
 
-    PlateD3.drawPlate(svg)
-    PlateD3.drawCountryLabel(svg)
-    PlateD3.drawDrops(svg, nodes, extentLMR)
+    tooltip
+      .style('top', y+'px')
+      .style('left', x+'px');
+    
+    
+  })
 
-    // Update
-    PlateD3.update(ref, data)
+  ttipTrigger.on('mouseleave', () => {
+    tooltip
+      .classed('deactivate', true)
+
+    plateCircle
+      .classed('stronger', false)
+  })
 }
-
 
 PlateD3.drawPlate = (svg) => {
   const defs = svg.select('defs')
@@ -325,7 +381,7 @@ PlateD3.drawDrops = (svg, nodes, extentLMR) => {
 
 
 PlateD3.update = (ref, data) => {
-  const svg = d3.select(ref.current)
+  const svg = d3.select(ref.current).select('svg')
   const width = +svg.style('width').replace('px', '')
   const height = +svg.style('height').replace('px', '')
   const center = width/2
