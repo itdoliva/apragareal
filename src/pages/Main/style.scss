@@ -1,5 +1,5 @@
 .main-page {
-    padding: 54px 8.5%;
+    padding: 54px 8.5% 2.5% 54px;
     
     width: 100vw;
     height: 100vh;
@@ -17,6 +17,10 @@
 .main-page header {
     display: flex;
     flex-direction: column;
+    padding: 0 10%;
+}
+
+.main-page footer {
     padding: 0 10%;
 }
 
@@ -62,11 +66,4 @@
     flex-direction: row;
     justify-content: center;
     align-items: flex-start;
-}
-
-.footer {
-    height: 40px;
-
-    border: 1px solid black;
-    flex-shrink: 0;
 }

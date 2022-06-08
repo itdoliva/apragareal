@@ -3,15 +3,16 @@ import { useState, useEffect } from "react";
 
 import logo from '../../static/imgs/apragareal.svg';
 import PestFilter from './components/PestFilter/PestFilter';
-import Plate from './components/Plate/Plate';
+import Plates from './components/Plates/Plates';
 import Tooltip from './components/Tooltip/Tooltip';
+import Footer from './components/Footer/Footer';
 
 import getPestData from './functions/getPestData';
-import normalizeStr from './functions/normalizeStr';
 import usePestFilter from './hooks/usePestFilter';
 
 import './style.scss';
 import './plates.scss';
+import './legend.scss';
 
 function Main(props) {
 
@@ -38,9 +39,8 @@ function Main(props) {
             <li><Link to="/about" >{props.language.id == "br" ? "Sobre" : "About"}</Link></li>
             <li><button onClick={props.changeLanguage}>{props.language.label}</button></li>
           </ul>
-        </nav>
 
-        
+        </nav>
 
         <div className="pest-filters">
           {pesticides.map(d => (
@@ -54,17 +54,9 @@ function Main(props) {
 
       </header>
 
-      <ul className="plates-wrapper">
-        {data.map(d => (
-            <Plate 
-              key={normalizeStr(d.cultive) + '-' + d.data.map(d => d.rank).join('-')}
-              {...d} />
-            )
-        )}
-        <li className="plate-wrapper honeycomb-placeholder" />
-      </ul>
+      <Plates data={data}/>
 
-      <div className="footer"></div>
+      <Footer />
 
       <Tooltip language={props.language} />
     </div>

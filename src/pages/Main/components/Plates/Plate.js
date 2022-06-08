@@ -1,7 +1,7 @@
 import { useEffect, useRef } from 'react';
 import * as d3 from 'd3';
 import fruit from '../../../../static/imgs/banana.svg';
-import getRandomDrop from '../../functions/getRandomDrop';
+import getDrop from '../../functions/getDrop';
 import './Plate.css';
 
 
@@ -349,7 +349,7 @@ PlateD3.drawDrops = (svg, nodes, extentLMR) => {
 
     nodeG
       .each(function(d) {
-        const drop = getRandomDrop()
+        const drop = getDrop()
 
         const classNames = [
           'drop-shadow',
