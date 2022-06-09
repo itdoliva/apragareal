@@ -10,7 +10,7 @@ function Plates(props) {
         key={normalizeStr(d.cultive) + '-' + d.data.map(d => d.rank).join('-')}
         {...d} />
       ))}
-      <li className="plate-wrapper" />
+      {/* <li className="plate-wrapper" /> */}
     </ul>
   )
 }

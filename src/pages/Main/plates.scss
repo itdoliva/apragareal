@@ -1,10 +1,10 @@
 $plate-width: 240px;
 $plate-height: 240px;
-$plate-margin: 0px;
-$viewport-threshold: $plate-width + $plate-margin;
+$viewport-threshold: $plate-width;
 
 .plates-wrapper {
     margin: 36px 0 22px 0;
+    padding: 0;
     position: relative;
 
     display: flex;
@@ -30,35 +30,32 @@ $viewport-threshold: $plate-width + $plate-margin;
     position: relative;
     width: 240px;
     height: 240px;
-    margin: $plate-margin/2 $plate-margin;
 }
 
-
-
-@media (max-width:#{2*$viewport-threshold}){
+@media (max-width:#{2*$plate-width/.83}){
     .plate-wrapper {
-        margin: #{$plate-margin/2 + $plate-height/2} $plate-margin;
+        margin: 0;
     }
 }
   
-@media (min-width: #{2*$viewport-threshold}) and (max-width:#{3*$viewport-threshold}) {
+@media (min-width: #{2*$plate-width/.83}) and (max-width:#{3*$plate-width/.83}) {
     .plate-wrapper:nth-child(3n) {
         margin-right: calc(50% - #{$plate-width/2});
         margin-left: calc(50% - #{$plate-width/2});
     }
 
     .honeycomb__placeholder:nth-child(3n + 5) {
-        display:block;
+        display: block;
     }
 }
   
-@media (min-width: #{3*$viewport-threshold}) and (max-width:#{4*$viewport-threshold}) {
+@media (min-width: #{3*$plate-width/.83}) and (max-width:#{4*$plate-width/.83}) {
     .plate-wrapper:nth-child(5n + 4) {
-        margin-left: calc(50% - #{$plate-width + $plate-margin});
+        margin-left: calc(50% - #{$plate-width});
     }
 
     .plate-wrapper:nth-child(5n + 5) {
-        margin-right: calc(50% - #{$plate-width + $plate-margin});
+        margin-right: calc(50% - #{$plate-width});
     }
 
     .honeycomb__placeholder:nth-child(5n), 
@@ -67,14 +64,14 @@ $viewport-threshold: $plate-width + $plate-margin;
     }
 }
   
-@media (min-width: #{4*$viewport-threshold}) {
+@media (min-width: #{4*$plate-width/.83}) {
     .plate-wrapper:nth-child(7n + 5)  {
-        margin-left: calc(50% - #{$plate-width*1.5 + $plate-margin});
+        margin-left: calc(50% - #{$plate-width*1.5});
     }
 
     .plate-wrapper:nth-child(7n + 7), 
     .plate-wrapper:nth-child(7n + 5):nth-last-child(2) {
-        margin-right: calc(50% - #{$plate-width*1.5 + $plate-margin});
+        margin-right: calc(50% - #{$plate-width*1.5});
     }
 
     .honeycomb__placeholder:nth-child(7n + 7), 
