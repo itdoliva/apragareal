@@ -14,7 +14,7 @@ import './style.scss';
 import './plates.scss';
 import './legend.scss';
 
-function Main(props) {
+function Main({ language, changeLanguage }) {
 
   const [pesticides, togglePesticide] = usePestFilter()
 
@@ -36,8 +36,8 @@ function Main(props) {
           <img src={logo} className="app-logo" alt="Logo de APRAGAREAL" />
 
           <ul>
-            <li><Link to="/about" >{props.language.id == "br" ? "Sobre" : "About"}</Link></li>
-            <li><button onClick={props.changeLanguage}>{props.language.label}</button></li>
+            <li><Link to="/about" >{language.about}</Link></li>
+            <li><button onClick={changeLanguage}>{language.name}</button></li>
           </ul>
 
         </nav>
@@ -46,7 +46,7 @@ function Main(props) {
           {pesticides.map(d => (
             <PestFilter 
               key={d.rank} 
-              language={props.language}
+              language={language}
               toggle={() => { togglePesticide(d.rank) }}
               {...d} />
           ))}
@@ -54,11 +54,11 @@ function Main(props) {
 
       </header>
 
-      <Plates data={data}/>
+      <Plates data={data} language={language}/>
 
-      <Footer />
+      <Footer label={language.legendLabel} />
 
-      <Tooltip language={props.language} />
+      <Tooltip language={language} />
     </div>
   );
 }

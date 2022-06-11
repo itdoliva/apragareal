@@ -4,7 +4,6 @@ $viewport-threshold: $plate-width;
 
 .plates-wrapper {
     margin: 36px 0 22px 0;
-    padding: 0;
     position: relative;
 
     display: flex;
@@ -64,7 +63,7 @@ $viewport-threshold: $plate-width;
     }
 }
   
-@media (min-width: #{4*$plate-width/.83}) {
+@media (min-width: #{2*$plate-width/.83}) {
     .plate-wrapper:nth-child(7n + 5)  {
         margin-left: calc(50% - #{$plate-width*1.5});
     }

@@ -8,9 +8,10 @@ function Plates(props) {
       {props.data.map(d => (
         <Plate 
         key={normalizeStr(d.cultive) + '-' + d.data.map(d => d.rank).join('-')}
+        language={props.language}
         {...d} />
       ))}
-      {/* <li className="plate-wrapper" /> */}
+      <li className="plate-wrapper" />
     </ul>
   )
 }

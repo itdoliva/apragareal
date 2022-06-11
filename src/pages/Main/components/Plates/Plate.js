@@ -5,18 +5,18 @@ import getDrop from '../../functions/getDrop';
 import './Plate.css';
 
 
-export default function Plate({ cultive, data, nodes, extentLMR }) {
+export default function Plate({ cultive, data, nodes, extentLMR, language }) {
 
     const ref = useRef(null)
 
     useEffect(() => {
-        PlateD3.create(ref, cultive, data, nodes, extentLMR)
+        PlateD3.create(ref, cultive, data, nodes, extentLMR, language)
         return PlateD3.destroy(ref)
     }, [])
 
     useEffect(() => {
-        PlateD3.update(ref, data, nodes)
-    }, [data])
+        PlateD3.update(ref, language)
+    }, [language])
 
     return (
         <li ref={ref} className="plate-wrapper">
@@ -50,7 +50,7 @@ params.countryArcRadius = { innerRadius: 100, outerRadius: 100 }
 params.countryArcs = [
   {
     country:'eu',
-    text: 'European Union',
+    text: {en: 'European Union', br: 'União Europeia'},
     x: '25%',
     dy: '0',
     textAnchor: 'middle',
@@ -63,7 +63,7 @@ params.countryArcs = [
   },
   {
     country:'br',
-    text: 'Brazil',
+    text: {en: 'Brazil', br: 'Brasil'},
     x: '25%',
     dy: '7px',
     textAnchor: 'middle',
@@ -104,13 +104,13 @@ const PlateD3 = {}
 PlateD3.arcGenerator = d3.arc()
 
 // Drop Arcs
-PlateD3.create = (ref, cultive, data, nodes, extentLMR) => {
+PlateD3.create = (ref, cultive, data, nodes, extentLMR, language) => {
     const wrapper = d3.select(ref.current)
     const svg = wrapper.select('svg')
     const ttipTrigger = wrapper.select('.tooltip-trigger')
 
     PlateD3.drawPlate(svg)
-    PlateD3.drawCountryLabel(svg)
+    PlateD3.drawCountryLabel(svg, language)
     PlateD3.drawDrops(svg, nodes, extentLMR)
     PlateD3.setHoverEvents(svg, ttipTrigger, cultive, data, extentLMR)
 
@@ -121,7 +121,7 @@ PlateD3.create = (ref, cultive, data, nodes, extentLMR) => {
 PlateD3.setHoverEvents = (svg, ttipTrigger, cultive, data, extentLMR) => {
   const barScale = d3.scaleLinear()
     .domain(extentLMR)
-    .range([0, 120])
+    .range([4, 120])
 
   const multiplierColor = d3.scaleLinear()
     .domain([1, 20])
@@ -172,7 +172,10 @@ PlateD3.setHoverEvents = (svg, ttipTrigger, cultive, data, extentLMR) => {
           .select('.multiplier-wrapper')
             .style('background', multiplierColor(pest.ratio))
           .select('.multiplier')
-            .text('x' + Math.round(pest.ratio, 1))
+            .text('x' + (pest.ratio >= 2 
+                ? pest.ratio.toFixed(0)
+                : pest.ratio.toFixed(1)
+                ))
 
         cardEU
           .select('.bar')
@@ -258,12 +261,12 @@ PlateD3.drawPlate = (svg) => {
 }
 
 
-PlateD3.drawCountryLabel = (svg) => {
+PlateD3.drawCountryLabel = (svg, language) => {
   const countryG = svg
     .append('g')
       .attr('class', 'countryG')
     .selectAll('g')
-      .data(params.countryArcs)
+      .data(params.countryArcs, d => language.id)
       .enter()
     .append('g')
   
@@ -281,7 +284,7 @@ PlateD3.drawCountryLabel = (svg) => {
       .attr('startOffset', d => d.x)
       .attr('xlink:href', d => `#country-arc-${d.country}`)
       .style('text-anchor', d => d.textAnchor)
-      .text(d => d.text)
+      .text(d => d.text[language.id])
 }
 
 
@@ -380,17 +383,19 @@ PlateD3.drawDrops = (svg, nodes, extentLMR) => {
 }
 
 
-PlateD3.update = (ref, data) => {
+PlateD3.update = (ref, language) => {
   const svg = d3.select(ref.current).select('svg')
   const width = +svg.style('width').replace('px', '')
   const height = +svg.style('height').replace('px', '')
   const center = width/2
   const radius = center * params.plateRadiusRatio
   const innerRadius = center * params.plateInnerRadiusRatio
-  
+
   svg
     .select('.countryG')
       .attr('transform', `translate(${center}, ${center})`)
+    .selectAll ('text textPath')
+      .text(d => d.text[language.id])
 
   svg
     .select('.dropsG')
@@ -416,6 +421,7 @@ PlateD3.update = (ref, data) => {
       .attr('y1', height * (1 - params.plateLineRatio))
       .attr('x2', width * (1 - params.plateLineRatio))
       .attr('y2', height * params.plateLineRatio)
+
 
 }   
 

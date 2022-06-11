@@ -1,11 +1,9 @@
+import { useEffect, useState } from 'react';
+
 import './Tooltip.css';
 import pesticides from "../../../../static/data/pesticides.json";
 
-function Tooltip(props) {
-
-  const langId = props.language.id
-
-  const shorts = Object.entries(props.language.countryLabel).map(d => [d[0], d[1].short])
+function Tooltip({ language }) {
 
   return (
     <div className="tooltip-wrapper deactivate">
@@ -14,22 +12,25 @@ function Tooltip(props) {
 
       <div className="tooltip-header">
         <span className="tooltip-header-title"></span>
-        <span>LMR - Limite Máximo de Resíduos</span>
+        <span>{language.lmr.short} - {language.lmr.long}</span>
       </div>
 
       <div className="tooltip-body">
 
         {pesticides.map(pest => (
-          <div key={pest.rank}
+          <div key={language.id + pest.rank}
           className={"tooltip-card deactivate card-" + pest.rank}>
           
             <div className="tooltip-card-header">
-              {pest.label[langId]}
+              {pest.label[language.id]}
             </div>
 
             <div className="tooltip-card-body">
 
-              {shorts.map(short => {
+              {Object
+              .entries(language.countryLabel)
+                .map(d => [d[0], d[1].short])
+                .map(short => {
                 const [countryId, label] = short
                 
                 return (

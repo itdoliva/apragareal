@@ -1,8 +1,9 @@
 import { useEffect, useRef } from 'react'
 import * as d3 from 'd3';
 import getDrop from '../../functions/getDrop';
+import pestcides from '../../../../static/data/pesticides.json'
 
-function Footer() {
+function Footer({ label }) {
   const ref = useRef(null)
 
   useEffect(() => {
@@ -17,14 +18,14 @@ function Footer() {
 
       <div className="legend color">
         <div className="legend-header">
-          <span className="legend-title strong">Cor</span>
-          <span className="legend-title">Ingrediente Ativo</span>
+          <span className="legend-title strong">{label.color.title}</span>
+          <span className="legend-title">{label.color.value}</span>
         </div>
 
         <div className="legend-body">
           <div className="color-blocks">
-            {[1, 2, 3, 5, 6, 7, 9, 10].map(d => (
-              <div className={'color-'+d}></div>
+            {pestcides.map(d => (
+              <div key={d.rank} className={'color-'+d.rank}></div>
             ))}
           </div>
         </div>
@@ -32,8 +33,8 @@ function Footer() {
 
       <div className="legend size">
         <div className="legend-header">
-          <span className="legend-title strong">Tamanho</span>
-          <span className="legend-title">LMR</span>
+          <span className="legend-title strong">{label.size.title}</span>
+          <span className="legend-title">{label.size.value}</span>
         </div>
 
         <div className="legend-body">
