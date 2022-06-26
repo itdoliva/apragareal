@@ -45,6 +45,10 @@
     opacity: 0;
 }
 
+.multiplier-wrapper.deactivate {
+    opacity: 0;
+}
+
 .tooltip-card.deactivate {
     display: none;
 }
@@ -141,16 +145,7 @@
     transition: width .3s ease-in-out;
 }
 
-.card-1  .bar {background: var(--pest-1);}
-.card-2  .bar {background: var(--pest-2);}
-.card-3  .bar {background: var(--pest-3);}
-.card-5  .bar {background: var(--pest-5);}
-.card-6  .bar {background: var(--pest-6);}
-.card-7  .bar {background: var(--pest-7);}
-.card-9  .bar {background: var(--pest-9);}
-.card-10 .bar {background: var(--pest-10);}
-
-.tooltip-wrapper .eu .bar {
+.tooltip-wrapper .en .bar {
     opacity: .75;
 }
 
@@ -175,8 +170,28 @@
     margin-left: 2px;
 }
 
-.br .multiplier-wrapper {
+.tooltip-card-row .banned-label {
+    font-weight: 600;
+
+    text-transform: uppercase;
+    text-align: left;
+    font-size: 10px;
+    color: var(--gray-1);
+    margin-left: 2px;
+}
+
+.br .skull-wrapper {
     width: 26px;
+    display: flex;
+    justify-content: center;
+}
+
+.br .skull-wrapper path {
+    fill: var(--gray-1);
+}
+
+.br .multiplier-wrapper {
+    width: 28px;
     background: #C17373;
 
     border-radius: 2px;

@@ -1,0 +1,3512 @@
+[
+    {
+        "id": "A02-amendoim-br",
+        "cd_ia": "A02",
+        "cultivo": "amendoim",
+        "legislacao": "br",
+        "lmr": 0.02,
+        "ratio": null
+    },
+    {
+        "id": "A02-batata-br",
+        "cd_ia": "A02",
+        "cultivo": "batata",
+        "legislacao": "br",
+        "lmr": 0.1,
+        "ratio": null
+    },
+    {
+        "id": "A02-cebola-br",
+        "cd_ia": "A02",
+        "cultivo": "cebola",
+        "legislacao": "br",
+        "lmr": 0.15,
+        "ratio": null
+    },
+    {
+        "id": "A02-cenoura-br",
+        "cd_ia": "A02",
+        "cultivo": "cenoura",
+        "legislacao": "br",
+        "lmr": 0.15,
+        "ratio": null
+    },
+    {
+        "id": "A02-citros-br",
+        "cd_ia": "A02",
+        "cultivo": "citros",
+        "legislacao": "br",
+        "lmr": 0.2,
+        "ratio": null
+    },
+    {
+        "id": "A02-feijao-br",
+        "cd_ia": "A02",
+        "cultivo": "feijao",
+        "legislacao": "br",
+        "lmr": 0.02,
+        "ratio": null
+    },
+    {
+        "id": "A02-melao-br",
+        "cd_ia": "A02",
+        "cultivo": "melao",
+        "legislacao": "br",
+        "lmr": 0.1,
+        "ratio": null
+    },
+    {
+        "id": "A02-milho-br",
+        "cd_ia": "A02",
+        "cultivo": "milho",
+        "legislacao": "br",
+        "lmr": 0.02,
+        "ratio": null
+    },
+    {
+        "id": "A02-soja-br",
+        "cd_ia": "A02",
+        "cultivo": "soja",
+        "legislacao": "br",
+        "lmr": 0.02,
+        "ratio": null
+    },
+    {
+        "id": "A02-tomate-br",
+        "cd_ia": "A02",
+        "cultivo": "tomate",
+        "legislacao": "br",
+        "lmr": 0.02,
+        "ratio": null
+    },
+    {
+        "id": "A14-abacaxi-br",
+        "cd_ia": "A14",
+        "cultivo": "abacaxi",
+        "legislacao": "br",
+        "lmr": 0.02,
+        "ratio": null
+    },
+    {
+        "id": "A14-cana-de-acucar-br",
+        "cd_ia": "A14",
+        "cultivo": "cana-de-acucar",
+        "legislacao": "br",
+        "lmr": 0.25,
+        "ratio": null
+    },
+    {
+        "id": "A14-milho-br",
+        "cd_ia": "A14",
+        "cultivo": "milho",
+        "legislacao": "br",
+        "lmr": 0.25,
+        "ratio": null
+    },
+    {
+        "id": "A14-soja-br",
+        "cd_ia": "A14",
+        "cultivo": "soja",
+        "legislacao": "br",
+        "lmr": 0.01,
+        "ratio": null
+    },
+    {
+        "id": "A14-sorgo-br",
+        "cd_ia": "A14",
+        "cultivo": "sorgo",
+        "legislacao": "br",
+        "lmr": 0.25,
+        "ratio": null
+    },
+    {
+        "id": "C18-abobrinha-br",
+        "cd_ia": "C18",
+        "cultivo": "abobrinha",
+        "legislacao": "br",
+        "lmr": 0.1,
+        "ratio": null
+    },
+    {
+        "id": "C18-abobora-br",
+        "cd_ia": "C18",
+        "cultivo": "abobora",
+        "legislacao": "br",
+        "lmr": 0.1,
+        "ratio": null
+    },
+    {
+        "id": "C18-alface-br",
+        "cd_ia": "C18",
+        "cultivo": "alface",
+        "legislacao": "br",
+        "lmr": 6,
+        "ratio": null
+    },
+    {
+        "id": "C18-alho-br",
+        "cd_ia": "C18",
+        "cultivo": "alho",
+        "legislacao": "br",
+        "lmr": 1,
+        "ratio": null
+    },
+    {
+        "id": "C18-amendoim-br",
+        "cd_ia": "C18",
+        "cultivo": "amendoim",
+        "legislacao": "br",
+        "lmr": 0.1,
+        "ratio": null
+    },
+    {
+        "id": "C18-arroz-br",
+        "cd_ia": "C18",
+        "cultivo": "arroz",
+        "legislacao": "br",
+        "lmr": 2,
+        "ratio": null
+    },
+    {
+        "id": "C18-aveia-br",
+        "cd_ia": "C18",
+        "cultivo": "aveia",
+        "legislacao": "br",
+        "lmr": 0.5,
+        "ratio": null
+    },
+    {
+        "id": "C18-banulla-br",
+        "cd_ia": "C18",
+        "cultivo": "banulla",
+        "legislacao": "br",
+        "lmr": 3,
+        "ratio": null
+    },
+    {
+        "id": "C18-batata-br",
+        "cd_ia": "C18",
+        "cultivo": "batata",
+        "legislacao": "br",
+        "lmr": 0.1,
+        "ratio": null
+    },
+    {
+        "id": "C18-batata-doce-br",
+        "cd_ia": "C18",
+        "cultivo": "batata-doce",
+        "legislacao": "br",
+        "lmr": 0.2,
+        "ratio": null
+    },
+    {
+        "id": "C18-berinjela-br",
+        "cd_ia": "C18",
+        "cultivo": "berinjela",
+        "legislacao": "br",
+        "lmr": 1,
+        "ratio": null
+    },
+    {
+        "id": "C18-beterraba-br",
+        "cd_ia": "C18",
+        "cultivo": "beterraba",
+        "legislacao": "br",
+        "lmr": 0.2,
+        "ratio": null
+    },
+    {
+        "id": "C18-brocolis-br",
+        "cd_ia": "C18",
+        "cultivo": "brocolis",
+        "legislacao": "br",
+        "lmr": 0.5,
+        "ratio": null
+    },
+    {
+        "id": "C18-cafe-br",
+        "cd_ia": "C18",
+        "cultivo": "cafe",
+        "legislacao": "br",
+        "lmr": 0.2,
+        "ratio": null
+    },
+    {
+        "id": "C18-cebola-br",
+        "cd_ia": "C18",
+        "cultivo": "cebola",
+        "legislacao": "br",
+        "lmr": 1,
+        "ratio": null
+    },
+    {
+        "id": "C18-cenoura-br",
+        "cd_ia": "C18",
+        "cultivo": "cenoura",
+        "legislacao": "br",
+        "lmr": 0.2,
+        "ratio": null
+    },
+    {
+        "id": "C18-centeio-br",
+        "cd_ia": "C18",
+        "cultivo": "centeio",
+        "legislacao": "br",
+        "lmr": 0.5,
+        "ratio": null
+    },
+    {
+        "id": "C18-cevada-br",
+        "cd_ia": "C18",
+        "cultivo": "cevada",
+        "legislacao": "br",
+        "lmr": 0.5,
+        "ratio": null
+    },
+    {
+        "id": "C18-citros-br",
+        "cd_ia": "C18",
+        "cultivo": "citros",
+        "legislacao": "br",
+        "lmr": 0.5,
+        "ratio": null
+    },
+    {
+        "id": "C18-couve-br",
+        "cd_ia": "C18",
+        "cultivo": "couve",
+        "legislacao": "br",
+        "lmr": 0.5,
+        "ratio": null
+    },
+    {
+        "id": "C18-couve-flor-br",
+        "cd_ia": "C18",
+        "cultivo": "couve-flor",
+        "legislacao": "br",
+        "lmr": 0.5,
+        "ratio": null
+    },
+    {
+        "id": "C18-couve-de-bruxelas-br",
+        "cd_ia": "C18",
+        "cultivo": "couve-de-bruxelas",
+        "legislacao": "br",
+        "lmr": 0.5,
+        "ratio": null
+    },
+    {
+        "id": "C18-ervilha-br",
+        "cd_ia": "C18",
+        "cultivo": "ervilha",
+        "legislacao": "br",
+        "lmr": 2,
+        "ratio": null
+    },
+    {
+        "id": "C18-feijao-br",
+        "cd_ia": "C18",
+        "cultivo": "feijao",
+        "legislacao": "br",
+        "lmr": 0.5,
+        "ratio": null
+    },
+    {
+        "id": "C18-inhame-br",
+        "cd_ia": "C18",
+        "cultivo": "inhame",
+        "legislacao": "br",
+        "lmr": 0.2,
+        "ratio": null
+    },
+    {
+        "id": "C18-lentilha-br",
+        "cd_ia": "C18",
+        "cultivo": "lentilha",
+        "legislacao": "br",
+        "lmr": 2,
+        "ratio": null
+    },
+    {
+        "id": "C18-mamao-br",
+        "cd_ia": "C18",
+        "cultivo": "mamao",
+        "legislacao": "br",
+        "lmr": 3,
+        "ratio": null
+    },
+    {
+        "id": "C18-mandioca-br",
+        "cd_ia": "C18",
+        "cultivo": "mandioca",
+        "legislacao": "br",
+        "lmr": 0.2,
+        "ratio": null
+    },
+    {
+        "id": "C18-maca-br",
+        "cd_ia": "C18",
+        "cultivo": "maca",
+        "legislacao": "br",
+        "lmr": 1,
+        "ratio": null
+    },
+    {
+        "id": "C18-melancia-br",
+        "cd_ia": "C18",
+        "cultivo": "melancia",
+        "legislacao": "br",
+        "lmr": 3,
+        "ratio": null
+    },
+    {
+        "id": "C18-melao-br",
+        "cd_ia": "C18",
+        "cultivo": "melao",
+        "legislacao": "br",
+        "lmr": 0.5,
+        "ratio": null
+    },
+    {
+        "id": "C18-milho-br",
+        "cd_ia": "C18",
+        "cultivo": "milho",
+        "legislacao": "br",
+        "lmr": 0.01,
+        "ratio": null
+    },
+    {
+        "id": "C18-nabo-br",
+        "cd_ia": "C18",
+        "cultivo": "nabo",
+        "legislacao": "br",
+        "lmr": 0.2,
+        "ratio": null
+    },
+    {
+        "id": "C18-pepino-br",
+        "cd_ia": "C18",
+        "cultivo": "pepino",
+        "legislacao": "br",
+        "lmr": 0.1,
+        "ratio": null
+    },
+    {
+        "id": "C18-pimentao-br",
+        "cd_ia": "C18",
+        "cultivo": "pimentao",
+        "legislacao": "br",
+        "lmr": 5,
+        "ratio": null
+    },
+    {
+        "id": "C18-rabanete-br",
+        "cd_ia": "C18",
+        "cultivo": "rabanete",
+        "legislacao": "br",
+        "lmr": 0.2,
+        "ratio": null
+    },
+    {
+        "id": "C18-repolho-br",
+        "cd_ia": "C18",
+        "cultivo": "repolho",
+        "legislacao": "br",
+        "lmr": 0.5,
+        "ratio": null
+    },
+    {
+        "id": "C18-soja-br",
+        "cd_ia": "C18",
+        "cultivo": "soja",
+        "legislacao": "br",
+        "lmr": 0.1,
+        "ratio": null
+    },
+    {
+        "id": "C18-sorgo-br",
+        "cd_ia": "C18",
+        "cultivo": "sorgo",
+        "legislacao": "br",
+        "lmr": 0.01,
+        "ratio": null
+    },
+    {
+        "id": "C18-tomate-br",
+        "cd_ia": "C18",
+        "cultivo": "tomate",
+        "legislacao": "br",
+        "lmr": 3,
+        "ratio": null
+    },
+    {
+        "id": "C18-trigo-br",
+        "cd_ia": "C18",
+        "cultivo": "trigo",
+        "legislacao": "br",
+        "lmr": 0.5,
+        "ratio": null
+    },
+    {
+        "id": "C18-uva-br",
+        "cd_ia": "C18",
+        "cultivo": "uva",
+        "legislacao": "br",
+        "lmr": 5,
+        "ratio": null
+    },
+    {
+        "id": "C20-amendoim-br",
+        "cd_ia": "C20",
+        "cultivo": "amendoim",
+        "legislacao": "br",
+        "lmr": 0.1,
+        "ratio": null
+    },
+    {
+        "id": "C20-aveia-br",
+        "cd_ia": "C20",
+        "cultivo": "aveia",
+        "legislacao": "br",
+        "lmr": 0.2,
+        "ratio": null
+    },
+    {
+        "id": "C20-banulla-br",
+        "cd_ia": "C20",
+        "cultivo": "banulla",
+        "legislacao": "br",
+        "lmr": 0.01,
+        "ratio": null
+    },
+    {
+        "id": "C20-batata-br",
+        "cd_ia": "C20",
+        "cultivo": "batata",
+        "legislacao": "br",
+        "lmr": 1,
+        "ratio": null
+    },
+    {
+        "id": "C20-cafe-br",
+        "cd_ia": "C20",
+        "cultivo": "cafe",
+        "legislacao": "br",
+        "lmr": 0.05,
+        "ratio": null
+    },
+    {
+        "id": "C20-centeio-br",
+        "cd_ia": "C20",
+        "cultivo": "centeio",
+        "legislacao": "br",
+        "lmr": 0.2,
+        "ratio": null
+    },
+    {
+        "id": "C20-cevada-br",
+        "cd_ia": "C20",
+        "cultivo": "cevada",
+        "legislacao": "br",
+        "lmr": 0.1,
+        "ratio": null
+    },
+    {
+        "id": "C20-citros-br",
+        "cd_ia": "C20",
+        "cultivo": "citros",
+        "legislacao": "br",
+        "lmr": 2,
+        "ratio": null
+    },
+    {
+        "id": "C20-ervilha-br",
+        "cd_ia": "C20",
+        "cultivo": "ervilha",
+        "legislacao": "br",
+        "lmr": 0.1,
+        "ratio": null
+    },
+    {
+        "id": "C20-feijao-br",
+        "cd_ia": "C20",
+        "cultivo": "feijao",
+        "legislacao": "br",
+        "lmr": 0.1,
+        "ratio": null
+    },
+    {
+        "id": "C20-lentilha-br",
+        "cd_ia": "C20",
+        "cultivo": "lentilha",
+        "legislacao": "br",
+        "lmr": 0.1,
+        "ratio": null
+    },
+    {
+        "id": "C20-maca-br",
+        "cd_ia": "C20",
+        "cultivo": "maca",
+        "legislacao": "br",
+        "lmr": 1,
+        "ratio": null
+    },
+    {
+        "id": "C20-milho-br",
+        "cd_ia": "C20",
+        "cultivo": "milho",
+        "legislacao": "br",
+        "lmr": 0.1,
+        "ratio": null
+    },
+    {
+        "id": "C20-soja-br",
+        "cd_ia": "C20",
+        "cultivo": "soja",
+        "legislacao": "br",
+        "lmr": 0.01,
+        "ratio": null
+    },
+    {
+        "id": "C20-sorgo-br",
+        "cd_ia": "C20",
+        "cultivo": "sorgo",
+        "legislacao": "br",
+        "lmr": 0.07,
+        "ratio": null
+    },
+    {
+        "id": "C20-tomate-br",
+        "cd_ia": "C20",
+        "cultivo": "tomate",
+        "legislacao": "br",
+        "lmr": 0.5,
+        "ratio": null
+    },
+    {
+        "id": "C20-trigo-br",
+        "cd_ia": "C20",
+        "cultivo": "trigo",
+        "legislacao": "br",
+        "lmr": 0.2,
+        "ratio": null
+    },
+    {
+        "id": "D27-arroz-br",
+        "cd_ia": "D27",
+        "cultivo": "arroz",
+        "legislacao": "br",
+        "lmr": 0.2,
+        "ratio": 2
+    },
+    {
+        "id": "D27-aveia-br",
+        "cd_ia": "D27",
+        "cultivo": "aveia",
+        "legislacao": "br",
+        "lmr": 0.2,
+        "ratio": 4
+    },
+    {
+        "id": "D27-cafe-br",
+        "cd_ia": "D27",
+        "cultivo": "cafe",
+        "legislacao": "br",
+        "lmr": 0.1,
+        "ratio": 1
+    },
+    {
+        "id": "D27-cana-de-acucar-br",
+        "cd_ia": "D27",
+        "cultivo": "cana-de-acucar",
+        "legislacao": "br",
+        "lmr": 0.1,
+        "ratio": 2
+    },
+    {
+        "id": "D27-centeio-br",
+        "cd_ia": "D27",
+        "cultivo": "centeio",
+        "legislacao": "br",
+        "lmr": 0.2,
+        "ratio": 0.1
+    },
+    {
+        "id": "D27-cevada-br",
+        "cd_ia": "D27",
+        "cultivo": "cevada",
+        "legislacao": "br",
+        "lmr": 0.2,
+        "ratio": 4
+    },
+    {
+        "id": "D27-milho-br",
+        "cd_ia": "D27",
+        "cultivo": "milho",
+        "legislacao": "br",
+        "lmr": 0.2,
+        "ratio": 4
+    },
+    {
+        "id": "D27-soja-br",
+        "cd_ia": "D27",
+        "cultivo": "soja",
+        "legislacao": "br",
+        "lmr": 0.1,
+        "ratio": 2
+    },
+    {
+        "id": "D27-sorgo-br",
+        "cd_ia": "D27",
+        "cultivo": "sorgo",
+        "legislacao": "br",
+        "lmr": 0.2,
+        "ratio": 4
+    },
+    {
+        "id": "D27-trigo-br",
+        "cd_ia": "D27",
+        "cultivo": "trigo",
+        "legislacao": "br",
+        "lmr": 0.2,
+        "ratio": 0.1
+    },
+    {
+        "id": "G01-abacate-br",
+        "cd_ia": "G01",
+        "cultivo": "abacate",
+        "legislacao": "br",
+        "lmr": 0.1,
+        "ratio": 1
+    },
+    {
+        "id": "G01-abacaxi-br",
+        "cd_ia": "G01",
+        "cultivo": "abacaxi",
+        "legislacao": "br",
+        "lmr": 0.1,
+        "ratio": 1
+    },
+    {
+        "id": "G01-ameixa-br",
+        "cd_ia": "G01",
+        "cultivo": "ameixa",
+        "legislacao": "br",
+        "lmr": 0.2,
+        "ratio": 2
+    },
+    {
+        "id": "G01-amendoim-br",
+        "cd_ia": "G01",
+        "cultivo": "amendoim",
+        "legislacao": "br",
+        "lmr": 0.01,
+        "ratio": 0.1
+    },
+    {
+        "id": "G01-arroz-br",
+        "cd_ia": "G01",
+        "cultivo": "arroz",
+        "legislacao": "br",
+        "lmr": 0.2,
+        "ratio": 2
+    },
+    {
+        "id": "G01-aveia-br",
+        "cd_ia": "G01",
+        "cultivo": "aveia",
+        "legislacao": "br",
+        "lmr": 0.05,
+        "ratio": 0
+    },
+    {
+        "id": "G01-banulla-br",
+        "cd_ia": "G01",
+        "cultivo": "banulla",
+        "legislacao": "br",
+        "lmr": 0.02,
+        "ratio": 0.2
+    },
+    {
+        "id": "G01-batata-doce-br",
+        "cd_ia": "G01",
+        "cultivo": "batata-doce",
+        "legislacao": "br",
+        "lmr": 0.01,
+        "ratio": 0.1
+    },
+    {
+        "id": "G01-beterraba-br",
+        "cd_ia": "G01",
+        "cultivo": "beterraba",
+        "legislacao": "br",
+        "lmr": 0.01,
+        "ratio": 0.1
+    },
+    {
+        "id": "G01-cacau-br",
+        "cd_ia": "G01",
+        "cultivo": "cacau",
+        "legislacao": "br",
+        "lmr": 0.1,
+        "ratio": 1
+    },
+    {
+        "id": "G01-cafe-br",
+        "cd_ia": "G01",
+        "cultivo": "cafe",
+        "legislacao": "br",
+        "lmr": 1,
+        "ratio": 10
+    },
+    {
+        "id": "G01-cana-de-acucar-br",
+        "cd_ia": "G01",
+        "cultivo": "cana-de-acucar",
+        "legislacao": "br",
+        "lmr": 1,
+        "ratio": 10
+    },
+    {
+        "id": "G01-caqui-br",
+        "cd_ia": "G01",
+        "cultivo": "caqui",
+        "legislacao": "br",
+        "lmr": 0.2,
+        "ratio": 2
+    },
+    {
+        "id": "G01-carambola-br",
+        "cd_ia": "G01",
+        "cultivo": "carambola",
+        "legislacao": "br",
+        "lmr": 0.2,
+        "ratio": 2
+    },
+    {
+        "id": "G01-castanha-do-para-br",
+        "cd_ia": "G01",
+        "cultivo": "castanha-do-para",
+        "legislacao": "br",
+        "lmr": 0.1,
+        "ratio": 1
+    },
+    {
+        "id": "G01-cenoura-br",
+        "cd_ia": "G01",
+        "cultivo": "cenoura",
+        "legislacao": "br",
+        "lmr": 0.01,
+        "ratio": 0.1
+    },
+    {
+        "id": "G01-centeio-br",
+        "cd_ia": "G01",
+        "cultivo": "centeio",
+        "legislacao": "br",
+        "lmr": 0.05,
+        "ratio": 0
+    },
+    {
+        "id": "G01-cevada-br",
+        "cd_ia": "G01",
+        "cultivo": "cevada",
+        "legislacao": "br",
+        "lmr": 0.05,
+        "ratio": 0
+    },
+    {
+        "id": "G01-citros-br",
+        "cd_ia": "G01",
+        "cultivo": "citros",
+        "legislacao": "br",
+        "lmr": 0.2,
+        "ratio": 0.4
+    },
+    {
+        "id": "G01-coco-br",
+        "cd_ia": "G01",
+        "cultivo": "coco",
+        "legislacao": "br",
+        "lmr": 0.1,
+        "ratio": 1
+    },
+    {
+        "id": "G01-dende-br",
+        "cd_ia": "G01",
+        "cultivo": "dende",
+        "legislacao": "br",
+        "lmr": 0.1,
+        "ratio": 1
+    },
+    {
+        "id": "G01-ervilha-br",
+        "cd_ia": "G01",
+        "cultivo": "ervilha",
+        "legislacao": "br",
+        "lmr": 0.01,
+        "ratio": 0.1
+    },
+    {
+        "id": "G01-feijao-br",
+        "cd_ia": "G01",
+        "cultivo": "feijao",
+        "legislacao": "br",
+        "lmr": 0.05,
+        "ratio": 0.02
+    },
+    {
+        "id": "G01-figo-br",
+        "cd_ia": "G01",
+        "cultivo": "figo",
+        "legislacao": "br",
+        "lmr": 0.2,
+        "ratio": 2
+    },
+    {
+        "id": "G01-goiaba-br",
+        "cd_ia": "G01",
+        "cultivo": "goiaba",
+        "legislacao": "br",
+        "lmr": 0.2,
+        "ratio": 2
+    },
+    {
+        "id": "G01-inhame-br",
+        "cd_ia": "G01",
+        "cultivo": "inhame",
+        "legislacao": "br",
+        "lmr": 0.01,
+        "ratio": 0.1
+    },
+    {
+        "id": "G01-kiwi-br",
+        "cd_ia": "G01",
+        "cultivo": "kiwi",
+        "legislacao": "br",
+        "lmr": 0.1,
+        "ratio": 1
+    },
+    {
+        "id": "G01-lentilha-br",
+        "cd_ia": "G01",
+        "cultivo": "lentilha",
+        "legislacao": "br",
+        "lmr": 0.01,
+        "ratio": 0
+    },
+    {
+        "id": "G01-macadamia-br",
+        "cd_ia": "G01",
+        "cultivo": "macadamia",
+        "legislacao": "br",
+        "lmr": 0.1,
+        "ratio": 1
+    },
+    {
+        "id": "G01-mamao-br",
+        "cd_ia": "G01",
+        "cultivo": "mamao",
+        "legislacao": "br",
+        "lmr": 0.1,
+        "ratio": 1
+    },
+    {
+        "id": "G01-mandioca-br",
+        "cd_ia": "G01",
+        "cultivo": "mandioca",
+        "legislacao": "br",
+        "lmr": 0.01,
+        "ratio": 0.1
+    },
+    {
+        "id": "G01-manga-br",
+        "cd_ia": "G01",
+        "cultivo": "manga",
+        "legislacao": "br",
+        "lmr": 0.1,
+        "ratio": 1
+    },
+    {
+        "id": "G01-maracuja-br",
+        "cd_ia": "G01",
+        "cultivo": "maracuja",
+        "legislacao": "br",
+        "lmr": 0.1,
+        "ratio": 1
+    },
+    {
+        "id": "G01-maca-br",
+        "cd_ia": "G01",
+        "cultivo": "maca",
+        "legislacao": "br",
+        "lmr": 0.2,
+        "ratio": 2
+    },
+    {
+        "id": "G01-milho-br",
+        "cd_ia": "G01",
+        "cultivo": "milho",
+        "legislacao": "br",
+        "lmr": 1,
+        "ratio": 1
+    },
+    {
+        "id": "G01-nabo-br",
+        "cd_ia": "G01",
+        "cultivo": "nabo",
+        "legislacao": "br",
+        "lmr": 0.01,
+        "ratio": 0.1
+    },
+    {
+        "id": "G01-nespera-br",
+        "cd_ia": "G01",
+        "cultivo": "nespera",
+        "legislacao": "br",
+        "lmr": 0.2,
+        "ratio": 2
+    },
+    {
+        "id": "G01-pinhao-br",
+        "cd_ia": "G01",
+        "cultivo": "pinhao",
+        "legislacao": "br",
+        "lmr": 0.1,
+        "ratio": 1
+    },
+    {
+        "id": "G01-pera-br",
+        "cd_ia": "G01",
+        "cultivo": "pera",
+        "legislacao": "br",
+        "lmr": 0.2,
+        "ratio": 2
+    },
+    {
+        "id": "G01-pessego-br",
+        "cd_ia": "G01",
+        "cultivo": "pessego",
+        "legislacao": "br",
+        "lmr": 0.2,
+        "ratio": 2
+    },
+    {
+        "id": "G01-rabanete-br",
+        "cd_ia": "G01",
+        "cultivo": "rabanete",
+        "legislacao": "br",
+        "lmr": 0.01,
+        "ratio": 0.1
+    },
+    {
+        "id": "G01-roma-br",
+        "cd_ia": "G01",
+        "cultivo": "roma",
+        "legislacao": "br",
+        "lmr": 0.1,
+        "ratio": 1
+    },
+    {
+        "id": "G01-soja-br",
+        "cd_ia": "G01",
+        "cultivo": "soja",
+        "legislacao": "br",
+        "lmr": 10,
+        "ratio": 0.5
+    },
+    {
+        "id": "G01-sorgo-br",
+        "cd_ia": "G01",
+        "cultivo": "sorgo",
+        "legislacao": "br",
+        "lmr": 0.1,
+        "ratio": 0
+    },
+    {
+        "id": "G01-trigo-br",
+        "cd_ia": "G01",
+        "cultivo": "trigo",
+        "legislacao": "br",
+        "lmr": 0.05,
+        "ratio": 0
+    },
+    {
+        "id": "G01-uva-br",
+        "cd_ia": "G01",
+        "cultivo": "uva",
+        "legislacao": "br",
+        "lmr": 0.2,
+        "ratio": 0.4
+    },
+    {
+        "id": "I13-abacaxi-br",
+        "cd_ia": "I13",
+        "cultivo": "abacaxi",
+        "legislacao": "br",
+        "lmr": 0.05,
+        "ratio": null
+    },
+    {
+        "id": "I13-abobrinha-br",
+        "cd_ia": "I13",
+        "cultivo": "abobrinha",
+        "legislacao": "br",
+        "lmr": 0.05,
+        "ratio": null
+    },
+    {
+        "id": "I13-abobora-br",
+        "cd_ia": "I13",
+        "cultivo": "abobora",
+        "legislacao": "br",
+        "lmr": 0.05,
+        "ratio": null
+    },
+    {
+        "id": "I13-alface-br",
+        "cd_ia": "I13",
+        "cultivo": "alface",
+        "legislacao": "br",
+        "lmr": 0.5,
+        "ratio": null
+    },
+    {
+        "id": "I13-alho-br",
+        "cd_ia": "I13",
+        "cultivo": "alho",
+        "legislacao": "br",
+        "lmr": 0.05,
+        "ratio": null
+    },
+    {
+        "id": "I13-amendoim-br",
+        "cd_ia": "I13",
+        "cultivo": "amendoim",
+        "legislacao": "br",
+        "lmr": 0.05,
+        "ratio": null
+    },
+    {
+        "id": "I13-arroz-br",
+        "cd_ia": "I13",
+        "cultivo": "arroz",
+        "legislacao": "br",
+        "lmr": 0.2,
+        "ratio": null
+    },
+    {
+        "id": "I13-aveia-br",
+        "cd_ia": "I13",
+        "cultivo": "aveia",
+        "legislacao": "br",
+        "lmr": 0.05,
+        "ratio": null
+    },
+    {
+        "id": "I13-banulla-br",
+        "cd_ia": "I13",
+        "cultivo": "banulla",
+        "legislacao": "br",
+        "lmr": 0.1,
+        "ratio": null
+    },
+    {
+        "id": "I13-batata-br",
+        "cd_ia": "I13",
+        "cultivo": "batata",
+        "legislacao": "br",
+        "lmr": 0.05,
+        "ratio": null
+    },
+    {
+        "id": "I13-berinjela-br",
+        "cd_ia": "I13",
+        "cultivo": "berinjela",
+        "legislacao": "br",
+        "lmr": 0.5,
+        "ratio": null
+    },
+    {
+        "id": "I13-brocolis-br",
+        "cd_ia": "I13",
+        "cultivo": "brocolis",
+        "legislacao": "br",
+        "lmr": 0.01,
+        "ratio": null
+    },
+    {
+        "id": "I13-cafe-br",
+        "cd_ia": "I13",
+        "cultivo": "cafe",
+        "legislacao": "br",
+        "lmr": 0.5,
+        "ratio": null
+    },
+    {
+        "id": "I13-cana-de-acucar-br",
+        "cd_ia": "I13",
+        "cultivo": "cana-de-acucar",
+        "legislacao": "br",
+        "lmr": 0.4,
+        "ratio": null
+    },
+    {
+        "id": "I13-cebola-br",
+        "cd_ia": "I13",
+        "cultivo": "cebola",
+        "legislacao": "br",
+        "lmr": 0.05,
+        "ratio": null
+    },
+    {
+        "id": "I13-cenoura-br",
+        "cd_ia": "I13",
+        "cultivo": "cenoura",
+        "legislacao": "br",
+        "lmr": 0.05,
+        "ratio": null
+    },
+    {
+        "id": "I13-centeio-br",
+        "cd_ia": "I13",
+        "cultivo": "centeio",
+        "legislacao": "br",
+        "lmr": 0.5,
+        "ratio": null
+    },
+    {
+        "id": "I13-cevada-br",
+        "cd_ia": "I13",
+        "cultivo": "cevada",
+        "legislacao": "br",
+        "lmr": 0.05,
+        "ratio": null
+    },
+    {
+        "id": "I13-citros-br",
+        "cd_ia": "I13",
+        "cultivo": "citros",
+        "legislacao": "br",
+        "lmr": 1,
+        "ratio": null
+    },
+    {
+        "id": "I13-couve-br",
+        "cd_ia": "I13",
+        "cultivo": "couve",
+        "legislacao": "br",
+        "lmr": 2,
+        "ratio": null
+    },
+    {
+        "id": "I13-couve-flor-br",
+        "cd_ia": "I13",
+        "cultivo": "couve-flor",
+        "legislacao": "br",
+        "lmr": 0.05,
+        "ratio": null
+    },
+    {
+        "id": "I13-feijao-br",
+        "cd_ia": "I13",
+        "cultivo": "feijao",
+        "legislacao": "br",
+        "lmr": 0.07,
+        "ratio": null
+    },
+    {
+        "id": "I13-goiaba-br",
+        "cd_ia": "I13",
+        "cultivo": "goiaba",
+        "legislacao": "br",
+        "lmr": 0.1,
+        "ratio": null
+    },
+    {
+        "id": "I13-mamao-br",
+        "cd_ia": "I13",
+        "cultivo": "mamao",
+        "legislacao": "br",
+        "lmr": 2,
+        "ratio": null
+    },
+    {
+        "id": "I13-manga-br",
+        "cd_ia": "I13",
+        "cultivo": "manga",
+        "legislacao": "br",
+        "lmr": 0.7,
+        "ratio": null
+    },
+    {
+        "id": "I13-maracuja-br",
+        "cd_ia": "I13",
+        "cultivo": "maracuja",
+        "legislacao": "br",
+        "lmr": 0.2,
+        "ratio": null
+    },
+    {
+        "id": "I13-melancia-br",
+        "cd_ia": "I13",
+        "cultivo": "melancia",
+        "legislacao": "br",
+        "lmr": 0.2,
+        "ratio": null
+    },
+    {
+        "id": "I13-melao-br",
+        "cd_ia": "I13",
+        "cultivo": "melao",
+        "legislacao": "br",
+        "lmr": 0.2,
+        "ratio": null
+    },
+    {
+        "id": "I13-milho-br",
+        "cd_ia": "I13",
+        "cultivo": "milho",
+        "legislacao": "br",
+        "lmr": 0.5,
+        "ratio": null
+    },
+    {
+        "id": "I13-pepino-br",
+        "cd_ia": "I13",
+        "cultivo": "pepino",
+        "legislacao": "br",
+        "lmr": 0.2,
+        "ratio": null
+    },
+    {
+        "id": "I13-pimentao-br",
+        "cd_ia": "I13",
+        "cultivo": "pimentao",
+        "legislacao": "br",
+        "lmr": 0.5,
+        "ratio": null
+    },
+    {
+        "id": "I13-pessego-br",
+        "cd_ia": "I13",
+        "cultivo": "pessego",
+        "legislacao": "br",
+        "lmr": 0.1,
+        "ratio": null
+    },
+    {
+        "id": "I13-repolho-br",
+        "cd_ia": "I13",
+        "cultivo": "repolho",
+        "legislacao": "br",
+        "lmr": 0.05,
+        "ratio": null
+    },
+    {
+        "id": "I13-soja-br",
+        "cd_ia": "I13",
+        "cultivo": "soja",
+        "legislacao": "br",
+        "lmr": 0.1,
+        "ratio": null
+    },
+    {
+        "id": "I13-sorgo-br",
+        "cd_ia": "I13",
+        "cultivo": "sorgo",
+        "legislacao": "br",
+        "lmr": 0.1,
+        "ratio": null
+    },
+    {
+        "id": "I13-tomate-br",
+        "cd_ia": "I13",
+        "cultivo": "tomate",
+        "legislacao": "br",
+        "lmr": 0.5,
+        "ratio": null
+    },
+    {
+        "id": "I13-trigo-br",
+        "cd_ia": "I13",
+        "cultivo": "trigo",
+        "legislacao": "br",
+        "lmr": 0.5,
+        "ratio": null
+    },
+    {
+        "id": "I13-uva-br",
+        "cd_ia": "I13",
+        "cultivo": "uva",
+        "legislacao": "br",
+        "lmr": 1,
+        "ratio": null
+    },
+    {
+        "id": "M01-alface-br",
+        "cd_ia": "M01",
+        "cultivo": "alface",
+        "legislacao": "br",
+        "lmr": 8,
+        "ratio": 16
+    },
+    {
+        "id": "M01-arroz-br",
+        "cd_ia": "M01",
+        "cultivo": "arroz",
+        "legislacao": "br",
+        "lmr": 8,
+        "ratio": 1
+    },
+    {
+        "id": "M01-berinjela-br",
+        "cd_ia": "M01",
+        "cultivo": "berinjela",
+        "legislacao": "br",
+        "lmr": 0.5,
+        "ratio": 25
+    },
+    {
+        "id": "M01-brocolis-br",
+        "cd_ia": "M01",
+        "cultivo": "brocolis",
+        "legislacao": "br",
+        "lmr": 5,
+        "ratio": 250
+    },
+    {
+        "id": "M01-cacau-br",
+        "cd_ia": "M01",
+        "cultivo": "cacau",
+        "legislacao": "br",
+        "lmr": 0.2,
+        "ratio": 10
+    },
+    {
+        "id": "M01-cafe-br",
+        "cd_ia": "M01",
+        "cultivo": "cafe",
+        "legislacao": "br",
+        "lmr": 0.01,
+        "ratio": 0.5
+    },
+    {
+        "id": "M01-citros-br",
+        "cd_ia": "M01",
+        "cultivo": "citros",
+        "legislacao": "br",
+        "lmr": 4,
+        "ratio": 2
+    },
+    {
+        "id": "M01-couve-br",
+        "cd_ia": "M01",
+        "cultivo": "couve",
+        "legislacao": "br",
+        "lmr": 3,
+        "ratio": 150
+    },
+    {
+        "id": "M01-couve-flor-br",
+        "cd_ia": "M01",
+        "cultivo": "couve-flor",
+        "legislacao": "br",
+        "lmr": 0.5,
+        "ratio": 25
+    },
+    {
+        "id": "M01-feijao-br",
+        "cd_ia": "M01",
+        "cultivo": "feijao",
+        "legislacao": "br",
+        "lmr": 8,
+        "ratio": 400
+    },
+    {
+        "id": "M01-maca-br",
+        "cd_ia": "M01",
+        "cultivo": "maca",
+        "legislacao": "br",
+        "lmr": 2,
+        "ratio": 100
+    },
+    {
+        "id": "M01-milho-br",
+        "cd_ia": "M01",
+        "cultivo": "milho",
+        "legislacao": "br",
+        "lmr": 8,
+        "ratio": 1
+    },
+    {
+        "id": "M01-morango-br",
+        "cd_ia": "M01",
+        "cultivo": "morango",
+        "legislacao": "br",
+        "lmr": 1,
+        "ratio": 50
+    },
+    {
+        "id": "M01-pepino-br",
+        "cd_ia": "M01",
+        "cultivo": "pepino",
+        "legislacao": "br",
+        "lmr": 3,
+        "ratio": 150
+    },
+    {
+        "id": "M01-pera-br",
+        "cd_ia": "M01",
+        "cultivo": "pera",
+        "legislacao": "br",
+        "lmr": 0.5,
+        "ratio": 25
+    },
+    {
+        "id": "M01-pessego-br",
+        "cd_ia": "M01",
+        "cultivo": "pessego",
+        "legislacao": "br",
+        "lmr": 6,
+        "ratio": 300
+    },
+    {
+        "id": "M01-repolho-br",
+        "cd_ia": "M01",
+        "cultivo": "repolho",
+        "legislacao": "br",
+        "lmr": 1,
+        "ratio": 50
+    },
+    {
+        "id": "M01-soja-br",
+        "cd_ia": "M01",
+        "cultivo": "soja",
+        "legislacao": "br",
+        "lmr": 0.01,
+        "ratio": 0.5
+    },
+    {
+        "id": "M01-sorgo-br",
+        "cd_ia": "M01",
+        "cultivo": "sorgo",
+        "legislacao": "br",
+        "lmr": 8,
+        "ratio": 1
+    },
+    {
+        "id": "M01-tomate-br",
+        "cd_ia": "M01",
+        "cultivo": "tomate",
+        "legislacao": "br",
+        "lmr": 3,
+        "ratio": 150
+    },
+    {
+        "id": "M01-trigo-br",
+        "cd_ia": "M01",
+        "cultivo": "trigo",
+        "legislacao": "br",
+        "lmr": 8,
+        "ratio": 1
+    },
+    {
+        "id": "M02-abacate-br",
+        "cd_ia": "M02",
+        "cultivo": "abacate",
+        "legislacao": "br",
+        "lmr": 1,
+        "ratio": null
+    },
+    {
+        "id": "M02-abobora-br",
+        "cd_ia": "M02",
+        "cultivo": "abobora",
+        "legislacao": "br",
+        "lmr": 1,
+        "ratio": null
+    },
+    {
+        "id": "M02-alface-br",
+        "cd_ia": "M02",
+        "cultivo": "alface",
+        "legislacao": "br",
+        "lmr": 3,
+        "ratio": null
+    },
+    {
+        "id": "M02-alho-br",
+        "cd_ia": "M02",
+        "cultivo": "alho",
+        "legislacao": "br",
+        "lmr": 0.1,
+        "ratio": null
+    },
+    {
+        "id": "M02-amendoim-br",
+        "cd_ia": "M02",
+        "cultivo": "amendoim",
+        "legislacao": "br",
+        "lmr": 0.3,
+        "ratio": null
+    },
+    {
+        "id": "M02-arroz-br",
+        "cd_ia": "M02",
+        "cultivo": "arroz",
+        "legislacao": "br",
+        "lmr": 0.8,
+        "ratio": null
+    },
+    {
+        "id": "M02-aveia-br",
+        "cd_ia": "M02",
+        "cultivo": "aveia",
+        "legislacao": "br",
+        "lmr": 1,
+        "ratio": null
+    },
+    {
+        "id": "M02-banulla-br",
+        "cd_ia": "M02",
+        "cultivo": "banulla",
+        "legislacao": "br",
+        "lmr": 2,
+        "ratio": null
+    },
+    {
+        "id": "M02-batata-br",
+        "cd_ia": "M02",
+        "cultivo": "batata",
+        "legislacao": "br",
+        "lmr": 1,
+        "ratio": null
+    },
+    {
+        "id": "M02-berinjela-br",
+        "cd_ia": "M02",
+        "cultivo": "berinjela",
+        "legislacao": "br",
+        "lmr": 0.5,
+        "ratio": null
+    },
+    {
+        "id": "M02-beterraba-br",
+        "cd_ia": "M02",
+        "cultivo": "beterraba",
+        "legislacao": "br",
+        "lmr": 0.3,
+        "ratio": null
+    },
+    {
+        "id": "M02-brocolis-br",
+        "cd_ia": "M02",
+        "cultivo": "brocolis",
+        "legislacao": "br",
+        "lmr": 0.5,
+        "ratio": null
+    },
+    {
+        "id": "M02-cafe-br",
+        "cd_ia": "M02",
+        "cultivo": "cafe",
+        "legislacao": "br",
+        "lmr": 0.3,
+        "ratio": null
+    },
+    {
+        "id": "M02-cana-de-acucar-br",
+        "cd_ia": "M02",
+        "cultivo": "cana-de-acucar",
+        "legislacao": "br",
+        "lmr": 0.07,
+        "ratio": null
+    },
+    {
+        "id": "M02-cebola-br",
+        "cd_ia": "M02",
+        "cultivo": "cebola",
+        "legislacao": "br",
+        "lmr": 1,
+        "ratio": null
+    },
+    {
+        "id": "M02-cenoura-br",
+        "cd_ia": "M02",
+        "cultivo": "cenoura",
+        "legislacao": "br",
+        "lmr": 0.3,
+        "ratio": null
+    },
+    {
+        "id": "M02-centeio-br",
+        "cd_ia": "M02",
+        "cultivo": "centeio",
+        "legislacao": "br",
+        "lmr": 1.5,
+        "ratio": null
+    },
+    {
+        "id": "M02-cevada-br",
+        "cd_ia": "M02",
+        "cultivo": "cevada",
+        "legislacao": "br",
+        "lmr": 1.5,
+        "ratio": null
+    },
+    {
+        "id": "M02-citros-br",
+        "cd_ia": "M02",
+        "cultivo": "citros",
+        "legislacao": "br",
+        "lmr": 2,
+        "ratio": null
+    },
+    {
+        "id": "M02-couve-br",
+        "cd_ia": "M02",
+        "cultivo": "couve",
+        "legislacao": "br",
+        "lmr": 1,
+        "ratio": null
+    },
+    {
+        "id": "M02-couve-flor-br",
+        "cd_ia": "M02",
+        "cultivo": "couve-flor",
+        "legislacao": "br",
+        "lmr": 0.5,
+        "ratio": null
+    },
+    {
+        "id": "M02-ervilha-br",
+        "cd_ia": "M02",
+        "cultivo": "ervilha",
+        "legislacao": "br",
+        "lmr": 0.3,
+        "ratio": null
+    },
+    {
+        "id": "M02-feijao-br",
+        "cd_ia": "M02",
+        "cultivo": "feijao",
+        "legislacao": "br",
+        "lmr": 0.3,
+        "ratio": null
+    },
+    {
+        "id": "M02-feijao vagem-br",
+        "cd_ia": "M02",
+        "cultivo": "feijao vagem",
+        "legislacao": "br",
+        "lmr": 0.3,
+        "ratio": null
+    },
+    {
+        "id": "M02-feijao-fava-br",
+        "cd_ia": "M02",
+        "cultivo": "feijao-fava",
+        "legislacao": "br",
+        "lmr": 0.3,
+        "ratio": null
+    },
+    {
+        "id": "M02-feijao-guandu-br",
+        "cd_ia": "M02",
+        "cultivo": "feijao-guandu",
+        "legislacao": "br",
+        "lmr": 0.3,
+        "ratio": null
+    },
+    {
+        "id": "M02-feijao-mungo-br",
+        "cd_ia": "M02",
+        "cultivo": "feijao-mungo",
+        "legislacao": "br",
+        "lmr": 0.3,
+        "ratio": null
+    },
+    {
+        "id": "M02-figo-br",
+        "cd_ia": "M02",
+        "cultivo": "figo",
+        "legislacao": "br",
+        "lmr": 2,
+        "ratio": null
+    },
+    {
+        "id": "M02-mamao-br",
+        "cd_ia": "M02",
+        "cultivo": "mamao",
+        "legislacao": "br",
+        "lmr": 3,
+        "ratio": null
+    },
+    {
+        "id": "M02-manga-br",
+        "cd_ia": "M02",
+        "cultivo": "manga",
+        "legislacao": "br",
+        "lmr": 1,
+        "ratio": null
+    },
+    {
+        "id": "M02-maracuja-br",
+        "cd_ia": "M02",
+        "cultivo": "maracuja",
+        "legislacao": "br",
+        "lmr": 1,
+        "ratio": null
+    },
+    {
+        "id": "M02-maca-br",
+        "cd_ia": "M02",
+        "cultivo": "maca",
+        "legislacao": "br",
+        "lmr": 2,
+        "ratio": null
+    },
+    {
+        "id": "M02-melancia-br",
+        "cd_ia": "M02",
+        "cultivo": "melancia",
+        "legislacao": "br",
+        "lmr": 0.3,
+        "ratio": null
+    },
+    {
+        "id": "M02-melao-br",
+        "cd_ia": "M02",
+        "cultivo": "melao",
+        "legislacao": "br",
+        "lmr": 1,
+        "ratio": null
+    },
+    {
+        "id": "M02-milho-br",
+        "cd_ia": "M02",
+        "cultivo": "milho",
+        "legislacao": "br",
+        "lmr": 0.4,
+        "ratio": null
+    },
+    {
+        "id": "M02-pepino-br",
+        "cd_ia": "M02",
+        "cultivo": "pepino",
+        "legislacao": "br",
+        "lmr": 0.3,
+        "ratio": null
+    },
+    {
+        "id": "M02-pimentao-br",
+        "cd_ia": "M02",
+        "cultivo": "pimentao",
+        "legislacao": "br",
+        "lmr": 3,
+        "ratio": null
+    },
+    {
+        "id": "M02-pera-br",
+        "cd_ia": "M02",
+        "cultivo": "pera",
+        "legislacao": "br",
+        "lmr": 3,
+        "ratio": null
+    },
+    {
+        "id": "M02-pessego-br",
+        "cd_ia": "M02",
+        "cultivo": "pessego",
+        "legislacao": "br",
+        "lmr": 2,
+        "ratio": null
+    },
+    {
+        "id": "M02-repolho-br",
+        "cd_ia": "M02",
+        "cultivo": "repolho",
+        "legislacao": "br",
+        "lmr": 1,
+        "ratio": null
+    },
+    {
+        "id": "M02-soja-br",
+        "cd_ia": "M02",
+        "cultivo": "soja",
+        "legislacao": "br",
+        "lmr": 0.3,
+        "ratio": null
+    },
+    {
+        "id": "M02-sorgo-br",
+        "cd_ia": "M02",
+        "cultivo": "sorgo",
+        "legislacao": "br",
+        "lmr": 0.4,
+        "ratio": null
+    },
+    {
+        "id": "M02-tomate-br",
+        "cd_ia": "M02",
+        "cultivo": "tomate",
+        "legislacao": "br",
+        "lmr": 2,
+        "ratio": null
+    },
+    {
+        "id": "M02-trigo-br",
+        "cd_ia": "M02",
+        "cultivo": "trigo",
+        "legislacao": "br",
+        "lmr": 1.5,
+        "ratio": null
+    },
+    {
+        "id": "M02-uva-br",
+        "cd_ia": "M02",
+        "cultivo": "uva",
+        "legislacao": "br",
+        "lmr": 3,
+        "ratio": null
+    },
+    {
+        "id": "A02-amendoim-eu",
+        "cd_ia": "A02",
+        "cultivo": "amendoim",
+        "legislacao": "eu",
+        "lmr": null
+    },
+    {
+        "id": "A02-batata-eu",
+        "cd_ia": "A02",
+        "cultivo": "batata",
+        "legislacao": "eu",
+        "lmr": null
+    },
+    {
+        "id": "A02-cebola-eu",
+        "cd_ia": "A02",
+        "cultivo": "cebola",
+        "legislacao": "eu",
+        "lmr": null
+    },
+    {
+        "id": "A02-cenoura-eu",
+        "cd_ia": "A02",
+        "cultivo": "cenoura",
+        "legislacao": "eu",
+        "lmr": null
+    },
+    {
+        "id": "A02-citros-eu",
+        "cd_ia": "A02",
+        "cultivo": "citros",
+        "legislacao": "eu",
+        "lmr": null
+    },
+    {
+        "id": "A02-feijao-eu",
+        "cd_ia": "A02",
+        "cultivo": "feijao",
+        "legislacao": "eu",
+        "lmr": null
+    },
+    {
+        "id": "A02-melao-eu",
+        "cd_ia": "A02",
+        "cultivo": "melao",
+        "legislacao": "eu",
+        "lmr": null
+    },
+    {
+        "id": "A02-milho-eu",
+        "cd_ia": "A02",
+        "cultivo": "milho",
+        "legislacao": "eu",
+        "lmr": null
+    },
+    {
+        "id": "A02-soja-eu",
+        "cd_ia": "A02",
+        "cultivo": "soja",
+        "legislacao": "eu",
+        "lmr": null
+    },
+    {
+        "id": "A02-tomate-eu",
+        "cd_ia": "A02",
+        "cultivo": "tomate",
+        "legislacao": "eu",
+        "lmr": null
+    },
+    {
+        "id": "A14-abacaxi-eu",
+        "cd_ia": "A14",
+        "cultivo": "abacaxi",
+        "legislacao": "eu",
+        "lmr": null
+    },
+    {
+        "id": "A14-cana-de-acucar-eu",
+        "cd_ia": "A14",
+        "cultivo": "cana-de-acucar",
+        "legislacao": "eu",
+        "lmr": null
+    },
+    {
+        "id": "A14-milho-eu",
+        "cd_ia": "A14",
+        "cultivo": "milho",
+        "legislacao": "eu",
+        "lmr": null
+    },
+    {
+        "id": "A14-soja-eu",
+        "cd_ia": "A14",
+        "cultivo": "soja",
+        "legislacao": "eu",
+        "lmr": null
+    },
+    {
+        "id": "A14-sorgo-eu",
+        "cd_ia": "A14",
+        "cultivo": "sorgo",
+        "legislacao": "eu",
+        "lmr": null
+    },
+    {
+        "id": "C18-abobrinha-eu",
+        "cd_ia": "C18",
+        "cultivo": "abobrinha",
+        "legislacao": "eu",
+        "lmr": null
+    },
+    {
+        "id": "C18-abobora-eu",
+        "cd_ia": "C18",
+        "cultivo": "abobora",
+        "legislacao": "eu",
+        "lmr": null
+    },
+    {
+        "id": "C18-alface-eu",
+        "cd_ia": "C18",
+        "cultivo": "alface",
+        "legislacao": "eu",
+        "lmr": null
+    },
+    {
+        "id": "C18-alho-eu",
+        "cd_ia": "C18",
+        "cultivo": "alho",
+        "legislacao": "eu",
+        "lmr": null
+    },
+    {
+        "id": "C18-amendoim-eu",
+        "cd_ia": "C18",
+        "cultivo": "amendoim",
+        "legislacao": "eu",
+        "lmr": null
+    },
+    {
+        "id": "C18-arroz-eu",
+        "cd_ia": "C18",
+        "cultivo": "arroz",
+        "legislacao": "eu",
+        "lmr": null
+    },
+    {
+        "id": "C18-aveia-eu",
+        "cd_ia": "C18",
+        "cultivo": "aveia",
+        "legislacao": "eu",
+        "lmr": null
+    },
+    {
+        "id": "C18-banulla-eu",
+        "cd_ia": "C18",
+        "cultivo": "banulla",
+        "legislacao": "eu",
+        "lmr": null
+    },
+    {
+        "id": "C18-batata-eu",
+        "cd_ia": "C18",
+        "cultivo": "batata",
+        "legislacao": "eu",
+        "lmr": null
+    },
+    {
+        "id": "C18-batata-doce-eu",
+        "cd_ia": "C18",
+        "cultivo": "batata-doce",
+        "legislacao": "eu",
+        "lmr": null
+    },
+    {
+        "id": "C18-berinjela-eu",
+        "cd_ia": "C18",
+        "cultivo": "berinjela",
+        "legislacao": "eu",
+        "lmr": null
+    },
+    {
+        "id": "C18-beterraba-eu",
+        "cd_ia": "C18",
+        "cultivo": "beterraba",
+        "legislacao": "eu",
+        "lmr": null
+    },
+    {
+        "id": "C18-brocolis-eu",
+        "cd_ia": "C18",
+        "cultivo": "brocolis",
+        "legislacao": "eu",
+        "lmr": null
+    },
+    {
+        "id": "C18-cafe-eu",
+        "cd_ia": "C18",
+        "cultivo": "cafe",
+        "legislacao": "eu",
+        "lmr": null
+    },
+    {
+        "id": "C18-cebola-eu",
+        "cd_ia": "C18",
+        "cultivo": "cebola",
+        "legislacao": "eu",
+        "lmr": null
+    },
+    {
+        "id": "C18-cenoura-eu",
+        "cd_ia": "C18",
+        "cultivo": "cenoura",
+        "legislacao": "eu",
+        "lmr": null
+    },
+    {
+        "id": "C18-centeio-eu",
+        "cd_ia": "C18",
+        "cultivo": "centeio",
+        "legislacao": "eu",
+        "lmr": null
+    },
+    {
+        "id": "C18-cevada-eu",
+        "cd_ia": "C18",
+        "cultivo": "cevada",
+        "legislacao": "eu",
+        "lmr": null
+    },
+    {
+        "id": "C18-citros-eu",
+        "cd_ia": "C18",
+        "cultivo": "citros",
+        "legislacao": "eu",
+        "lmr": null
+    },
+    {
+        "id": "C18-couve-eu",
+        "cd_ia": "C18",
+        "cultivo": "couve",
+        "legislacao": "eu",
+        "lmr": null
+    },
+    {
+        "id": "C18-couve-flor-eu",
+        "cd_ia": "C18",
+        "cultivo": "couve-flor",
+        "legislacao": "eu",
+        "lmr": null
+    },
+    {
+        "id": "C18-couve-de-bruxelas-eu",
+        "cd_ia": "C18",
+        "cultivo": "couve-de-bruxelas",
+        "legislacao": "eu",
+        "lmr": null
+    },
+    {
+        "id": "C18-ervilha-eu",
+        "cd_ia": "C18",
+        "cultivo": "ervilha",
+        "legislacao": "eu",
+        "lmr": null
+    },
+    {
+        "id": "C18-feijao-eu",
+        "cd_ia": "C18",
+        "cultivo": "feijao",
+        "legislacao": "eu",
+        "lmr": null
+    },
+    {
+        "id": "C18-inhame-eu",
+        "cd_ia": "C18",
+        "cultivo": "inhame",
+        "legislacao": "eu",
+        "lmr": null
+    },
+    {
+        "id": "C18-lentilha-eu",
+        "cd_ia": "C18",
+        "cultivo": "lentilha",
+        "legislacao": "eu",
+        "lmr": null
+    },
+    {
+        "id": "C18-mamao-eu",
+        "cd_ia": "C18",
+        "cultivo": "mamao",
+        "legislacao": "eu",
+        "lmr": null
+    },
+    {
+        "id": "C18-mandioca-eu",
+        "cd_ia": "C18",
+        "cultivo": "mandioca",
+        "legislacao": "eu",
+        "lmr": null
+    },
+    {
+        "id": "C18-maca-eu",
+        "cd_ia": "C18",
+        "cultivo": "maca",
+        "legislacao": "eu",
+        "lmr": null
+    },
+    {
+        "id": "C18-melancia-eu",
+        "cd_ia": "C18",
+        "cultivo": "melancia",
+        "legislacao": "eu",
+        "lmr": null
+    },
+    {
+        "id": "C18-melao-eu",
+        "cd_ia": "C18",
+        "cultivo": "melao",
+        "legislacao": "eu",
+        "lmr": null
+    },
+    {
+        "id": "C18-milho-eu",
+        "cd_ia": "C18",
+        "cultivo": "milho",
+        "legislacao": "eu",
+        "lmr": null
+    },
+    {
+        "id": "C18-nabo-eu",
+        "cd_ia": "C18",
+        "cultivo": "nabo",
+        "legislacao": "eu",
+        "lmr": null
+    },
+    {
+        "id": "C18-pepino-eu",
+        "cd_ia": "C18",
+        "cultivo": "pepino",
+        "legislacao": "eu",
+        "lmr": null
+    },
+    {
+        "id": "C18-pimentao-eu",
+        "cd_ia": "C18",
+        "cultivo": "pimentao",
+        "legislacao": "eu",
+        "lmr": null
+    },
+    {
+        "id": "C18-rabanete-eu",
+        "cd_ia": "C18",
+        "cultivo": "rabanete",
+        "legislacao": "eu",
+        "lmr": null
+    },
+    {
+        "id": "C18-repolho-eu",
+        "cd_ia": "C18",
+        "cultivo": "repolho",
+        "legislacao": "eu",
+        "lmr": null
+    },
+    {
+        "id": "C18-soja-eu",
+        "cd_ia": "C18",
+        "cultivo": "soja",
+        "legislacao": "eu",
+        "lmr": null
+    },
+    {
+        "id": "C18-sorgo-eu",
+        "cd_ia": "C18",
+        "cultivo": "sorgo",
+        "legislacao": "eu",
+        "lmr": null
+    },
+    {
+        "id": "C18-tomate-eu",
+        "cd_ia": "C18",
+        "cultivo": "tomate",
+        "legislacao": "eu",
+        "lmr": null
+    },
+    {
+        "id": "C18-trigo-eu",
+        "cd_ia": "C18",
+        "cultivo": "trigo",
+        "legislacao": "eu",
+        "lmr": null
+    },
+    {
+        "id": "C18-uva-eu",
+        "cd_ia": "C18",
+        "cultivo": "uva",
+        "legislacao": "eu",
+        "lmr": null
+    },
+    {
+        "id": "C20-amendoim-eu",
+        "cd_ia": "C20",
+        "cultivo": "amendoim",
+        "legislacao": "eu",
+        "lmr": null
+    },
+    {
+        "id": "C20-aveia-eu",
+        "cd_ia": "C20",
+        "cultivo": "aveia",
+        "legislacao": "eu",
+        "lmr": null
+    },
+    {
+        "id": "C20-banulla-eu",
+        "cd_ia": "C20",
+        "cultivo": "banulla",
+        "legislacao": "eu",
+        "lmr": null
+    },
+    {
+        "id": "C20-batata-eu",
+        "cd_ia": "C20",
+        "cultivo": "batata",
+        "legislacao": "eu",
+        "lmr": null
+    },
+    {
+        "id": "C20-cafe-eu",
+        "cd_ia": "C20",
+        "cultivo": "cafe",
+        "legislacao": "eu",
+        "lmr": null
+    },
+    {
+        "id": "C20-centeio-eu",
+        "cd_ia": "C20",
+        "cultivo": "centeio",
+        "legislacao": "eu",
+        "lmr": null
+    },
+    {
+        "id": "C20-cevada-eu",
+        "cd_ia": "C20",
+        "cultivo": "cevada",
+        "legislacao": "eu",
+        "lmr": null
+    },
+    {
+        "id": "C20-citros-eu",
+        "cd_ia": "C20",
+        "cultivo": "citros",
+        "legislacao": "eu",
+        "lmr": null
+    },
+    {
+        "id": "C20-ervilha-eu",
+        "cd_ia": "C20",
+        "cultivo": "ervilha",
+        "legislacao": "eu",
+        "lmr": null
+    },
+    {
+        "id": "C20-feijao-eu",
+        "cd_ia": "C20",
+        "cultivo": "feijao",
+        "legislacao": "eu",
+        "lmr": null
+    },
+    {
+        "id": "C20-lentilha-eu",
+        "cd_ia": "C20",
+        "cultivo": "lentilha",
+        "legislacao": "eu",
+        "lmr": null
+    },
+    {
+        "id": "C20-maca-eu",
+        "cd_ia": "C20",
+        "cultivo": "maca",
+        "legislacao": "eu",
+        "lmr": null
+    },
+    {
+        "id": "C20-milho-eu",
+        "cd_ia": "C20",
+        "cultivo": "milho",
+        "legislacao": "eu",
+        "lmr": null
+    },
+    {
+        "id": "C20-soja-eu",
+        "cd_ia": "C20",
+        "cultivo": "soja",
+        "legislacao": "eu",
+        "lmr": null
+    },
+    {
+        "id": "C20-sorgo-eu",
+        "cd_ia": "C20",
+        "cultivo": "sorgo",
+        "legislacao": "eu",
+        "lmr": null
+    },
+    {
+        "id": "C20-tomate-eu",
+        "cd_ia": "C20",
+        "cultivo": "tomate",
+        "legislacao": "eu",
+        "lmr": null
+    },
+    {
+        "id": "C20-trigo-eu",
+        "cd_ia": "C20",
+        "cultivo": "trigo",
+        "legislacao": "eu",
+        "lmr": null
+    },
+    {
+        "id": "D27-arroz-eu",
+        "cd_ia": "D27",
+        "cultivo": "arroz",
+        "legislacao": "eu",
+        "lmr": 0.1
+    },
+    {
+        "id": "D27-aveia-eu",
+        "cd_ia": "D27",
+        "cultivo": "aveia",
+        "legislacao": "eu",
+        "lmr": 0.05
+    },
+    {
+        "id": "D27-cafe-eu",
+        "cd_ia": "D27",
+        "cultivo": "cafe",
+        "legislacao": "eu",
+        "lmr": 0.1
+    },
+    {
+        "id": "D27-cana-de-acucar-eu",
+        "cd_ia": "D27",
+        "cultivo": "cana-de-acucar",
+        "legislacao": "eu",
+        "lmr": 0.05
+    },
+    {
+        "id": "D27-centeio-eu",
+        "cd_ia": "D27",
+        "cultivo": "centeio",
+        "legislacao": "eu",
+        "lmr": 2
+    },
+    {
+        "id": "D27-cevada-eu",
+        "cd_ia": "D27",
+        "cultivo": "cevada",
+        "legislacao": "eu",
+        "lmr": 0.05
+    },
+    {
+        "id": "D27-milho-eu",
+        "cd_ia": "D27",
+        "cultivo": "milho",
+        "legislacao": "eu",
+        "lmr": 0.05
+    },
+    {
+        "id": "D27-soja-eu",
+        "cd_ia": "D27",
+        "cultivo": "soja",
+        "legislacao": "eu",
+        "lmr": 0.05
+    },
+    {
+        "id": "D27-sorgo-eu",
+        "cd_ia": "D27",
+        "cultivo": "sorgo",
+        "legislacao": "eu",
+        "lmr": 0.05
+    },
+    {
+        "id": "D27-trigo-eu",
+        "cd_ia": "D27",
+        "cultivo": "trigo",
+        "legislacao": "eu",
+        "lmr": 2
+    },
+    {
+        "id": "G01-abacate-eu",
+        "cd_ia": "G01",
+        "cultivo": "abacate",
+        "legislacao": "eu",
+        "lmr": 0.1
+    },
+    {
+        "id": "G01-abacaxi-eu",
+        "cd_ia": "G01",
+        "cultivo": "abacaxi",
+        "legislacao": "eu",
+        "lmr": 0.1
+    },
+    {
+        "id": "G01-ameixa-eu",
+        "cd_ia": "G01",
+        "cultivo": "ameixa",
+        "legislacao": "eu",
+        "lmr": 0.1
+    },
+    {
+        "id": "G01-amendoim-eu",
+        "cd_ia": "G01",
+        "cultivo": "amendoim",
+        "legislacao": "eu",
+        "lmr": 0.1
+    },
+    {
+        "id": "G01-arroz-eu",
+        "cd_ia": "G01",
+        "cultivo": "arroz",
+        "legislacao": "eu",
+        "lmr": 0.1
+    },
+    {
+        "id": "G01-aveia-eu",
+        "cd_ia": "G01",
+        "cultivo": "aveia",
+        "legislacao": "eu",
+        "lmr": 20
+    },
+    {
+        "id": "G01-banulla-eu",
+        "cd_ia": "G01",
+        "cultivo": "banulla",
+        "legislacao": "eu",
+        "lmr": 0.1
+    },
+    {
+        "id": "G01-batata-doce-eu",
+        "cd_ia": "G01",
+        "cultivo": "batata-doce",
+        "legislacao": "eu",
+        "lmr": 0.1
+    },
+    {
+        "id": "G01-beterraba-eu",
+        "cd_ia": "G01",
+        "cultivo": "beterraba",
+        "legislacao": "eu",
+        "lmr": 0.1
+    },
+    {
+        "id": "G01-cacau-eu",
+        "cd_ia": "G01",
+        "cultivo": "cacau",
+        "legislacao": "eu",
+        "lmr": 0.1
+    },
+    {
+        "id": "G01-cafe-eu",
+        "cd_ia": "G01",
+        "cultivo": "cafe",
+        "legislacao": "eu",
+        "lmr": 0.1
+    },
+    {
+        "id": "G01-cana-de-acucar-eu",
+        "cd_ia": "G01",
+        "cultivo": "cana-de-acucar",
+        "legislacao": "eu",
+        "lmr": 0.1
+    },
+    {
+        "id": "G01-caqui-eu",
+        "cd_ia": "G01",
+        "cultivo": "caqui",
+        "legislacao": "eu",
+        "lmr": 0.1
+    },
+    {
+        "id": "G01-carambola-eu",
+        "cd_ia": "G01",
+        "cultivo": "carambola",
+        "legislacao": "eu",
+        "lmr": 0.1
+    },
+    {
+        "id": "G01-castanha-do-para-eu",
+        "cd_ia": "G01",
+        "cultivo": "castanha-do-para",
+        "legislacao": "eu",
+        "lmr": 0.1
+    },
+    {
+        "id": "G01-cenoura-eu",
+        "cd_ia": "G01",
+        "cultivo": "cenoura",
+        "legislacao": "eu",
+        "lmr": 0.1
+    },
+    {
+        "id": "G01-centeio-eu",
+        "cd_ia": "G01",
+        "cultivo": "centeio",
+        "legislacao": "eu",
+        "lmr": 10
+    },
+    {
+        "id": "G01-cevada-eu",
+        "cd_ia": "G01",
+        "cultivo": "cevada",
+        "legislacao": "eu",
+        "lmr": 20
+    },
+    {
+        "id": "G01-citros-eu",
+        "cd_ia": "G01",
+        "cultivo": "citros",
+        "legislacao": "eu",
+        "lmr": 0.5
+    },
+    {
+        "id": "G01-coco-eu",
+        "cd_ia": "G01",
+        "cultivo": "coco",
+        "legislacao": "eu",
+        "lmr": 0.1
+    },
+    {
+        "id": "G01-dende-eu",
+        "cd_ia": "G01",
+        "cultivo": "dende",
+        "legislacao": "eu",
+        "lmr": 0.1
+    },
+    {
+        "id": "G01-ervilha-eu",
+        "cd_ia": "G01",
+        "cultivo": "ervilha",
+        "legislacao": "eu",
+        "lmr": 0.1
+    },
+    {
+        "id": "G01-feijao-eu",
+        "cd_ia": "G01",
+        "cultivo": "feijao",
+        "legislacao": "eu",
+        "lmr": 2
+    },
+    {
+        "id": "G01-figo-eu",
+        "cd_ia": "G01",
+        "cultivo": "figo",
+        "legislacao": "eu",
+        "lmr": 0.1
+    },
+    {
+        "id": "G01-goiaba-eu",
+        "cd_ia": "G01",
+        "cultivo": "goiaba",
+        "legislacao": "eu",
+        "lmr": 0.1
+    },
+    {
+        "id": "G01-inhame-eu",
+        "cd_ia": "G01",
+        "cultivo": "inhame",
+        "legislacao": "eu",
+        "lmr": 0.1
+    },
+    {
+        "id": "G01-kiwi-eu",
+        "cd_ia": "G01",
+        "cultivo": "kiwi",
+        "legislacao": "eu",
+        "lmr": 0.1
+    },
+    {
+        "id": "G01-lentilha-eu",
+        "cd_ia": "G01",
+        "cultivo": "lentilha",
+        "legislacao": "eu",
+        "lmr": 10
+    },
+    {
+        "id": "G01-macadamia-eu",
+        "cd_ia": "G01",
+        "cultivo": "macadamia",
+        "legislacao": "eu",
+        "lmr": 0.1
+    },
+    {
+        "id": "G01-mamao-eu",
+        "cd_ia": "G01",
+        "cultivo": "mamao",
+        "legislacao": "eu",
+        "lmr": 0.1
+    },
+    {
+        "id": "G01-mandioca-eu",
+        "cd_ia": "G01",
+        "cultivo": "mandioca",
+        "legislacao": "eu",
+        "lmr": 0.1
+    },
+    {
+        "id": "G01-manga-eu",
+        "cd_ia": "G01",
+        "cultivo": "manga",
+        "legislacao": "eu",
+        "lmr": 0.1
+    },
+    {
+        "id": "G01-maracuja-eu",
+        "cd_ia": "G01",
+        "cultivo": "maracuja",
+        "legislacao": "eu",
+        "lmr": 0.1
+    },
+    {
+        "id": "G01-maca-eu",
+        "cd_ia": "G01",
+        "cultivo": "maca",
+        "legislacao": "eu",
+        "lmr": 0.1
+    },
+    {
+        "id": "G01-milho-eu",
+        "cd_ia": "G01",
+        "cultivo": "milho",
+        "legislacao": "eu",
+        "lmr": 1
+    },
+    {
+        "id": "G01-nabo-eu",
+        "cd_ia": "G01",
+        "cultivo": "nabo",
+        "legislacao": "eu",
+        "lmr": 0.1
+    },
+    {
+        "id": "G01-nespera-eu",
+        "cd_ia": "G01",
+        "cultivo": "nespera",
+        "legislacao": "eu",
+        "lmr": 0.1
+    },
+    {
+        "id": "G01-pinhao-eu",
+        "cd_ia": "G01",
+        "cultivo": "pinhao",
+        "legislacao": "eu",
+        "lmr": 0.1
+    },
+    {
+        "id": "G01-pera-eu",
+        "cd_ia": "G01",
+        "cultivo": "pera",
+        "legislacao": "eu",
+        "lmr": 0.1
+    },
+    {
+        "id": "G01-pessego-eu",
+        "cd_ia": "G01",
+        "cultivo": "pessego",
+        "legislacao": "eu",
+        "lmr": 0.1
+    },
+    {
+        "id": "G01-rabanete-eu",
+        "cd_ia": "G01",
+        "cultivo": "rabanete",
+        "legislacao": "eu",
+        "lmr": 0.1
+    },
+    {
+        "id": "G01-roma-eu",
+        "cd_ia": "G01",
+        "cultivo": "roma",
+        "legislacao": "eu",
+        "lmr": 0.1
+    },
+    {
+        "id": "G01-soja-eu",
+        "cd_ia": "G01",
+        "cultivo": "soja",
+        "legislacao": "eu",
+        "lmr": 20
+    },
+    {
+        "id": "G01-sorgo-eu",
+        "cd_ia": "G01",
+        "cultivo": "sorgo",
+        "legislacao": "eu",
+        "lmr": 20
+    },
+    {
+        "id": "G01-trigo-eu",
+        "cd_ia": "G01",
+        "cultivo": "trigo",
+        "legislacao": "eu",
+        "lmr": 10
+    },
+    {
+        "id": "G01-uva-eu",
+        "cd_ia": "G01",
+        "cultivo": "uva",
+        "legislacao": "eu",
+        "lmr": 0.5
+    },
+    {
+        "id": "I13-abacaxi-eu",
+        "cd_ia": "I13",
+        "cultivo": "abacaxi",
+        "legislacao": "eu",
+        "lmr": null
+    },
+    {
+        "id": "I13-abobrinha-eu",
+        "cd_ia": "I13",
+        "cultivo": "abobrinha",
+        "legislacao": "eu",
+        "lmr": null
+    },
+    {
+        "id": "I13-abobora-eu",
+        "cd_ia": "I13",
+        "cultivo": "abobora",
+        "legislacao": "eu",
+        "lmr": null
+    },
+    {
+        "id": "I13-alface-eu",
+        "cd_ia": "I13",
+        "cultivo": "alface",
+        "legislacao": "eu",
+        "lmr": null
+    },
+    {
+        "id": "I13-alho-eu",
+        "cd_ia": "I13",
+        "cultivo": "alho",
+        "legislacao": "eu",
+        "lmr": null
+    },
+    {
+        "id": "I13-amendoim-eu",
+        "cd_ia": "I13",
+        "cultivo": "amendoim",
+        "legislacao": "eu",
+        "lmr": null
+    },
+    {
+        "id": "I13-arroz-eu",
+        "cd_ia": "I13",
+        "cultivo": "arroz",
+        "legislacao": "eu",
+        "lmr": null
+    },
+    {
+        "id": "I13-aveia-eu",
+        "cd_ia": "I13",
+        "cultivo": "aveia",
+        "legislacao": "eu",
+        "lmr": null
+    },
+    {
+        "id": "I13-banulla-eu",
+        "cd_ia": "I13",
+        "cultivo": "banulla",
+        "legislacao": "eu",
+        "lmr": null
+    },
+    {
+        "id": "I13-batata-eu",
+        "cd_ia": "I13",
+        "cultivo": "batata",
+        "legislacao": "eu",
+        "lmr": null
+    },
+    {
+        "id": "I13-berinjela-eu",
+        "cd_ia": "I13",
+        "cultivo": "berinjela",
+        "legislacao": "eu",
+        "lmr": null
+    },
+    {
+        "id": "I13-brocolis-eu",
+        "cd_ia": "I13",
+        "cultivo": "brocolis",
+        "legislacao": "eu",
+        "lmr": null
+    },
+    {
+        "id": "I13-cafe-eu",
+        "cd_ia": "I13",
+        "cultivo": "cafe",
+        "legislacao": "eu",
+        "lmr": null
+    },
+    {
+        "id": "I13-cana-de-acucar-eu",
+        "cd_ia": "I13",
+        "cultivo": "cana-de-acucar",
+        "legislacao": "eu",
+        "lmr": null
+    },
+    {
+        "id": "I13-cebola-eu",
+        "cd_ia": "I13",
+        "cultivo": "cebola",
+        "legislacao": "eu",
+        "lmr": null
+    },
+    {
+        "id": "I13-cenoura-eu",
+        "cd_ia": "I13",
+        "cultivo": "cenoura",
+        "legislacao": "eu",
+        "lmr": null
+    },
+    {
+        "id": "I13-centeio-eu",
+        "cd_ia": "I13",
+        "cultivo": "centeio",
+        "legislacao": "eu",
+        "lmr": null
+    },
+    {
+        "id": "I13-cevada-eu",
+        "cd_ia": "I13",
+        "cultivo": "cevada",
+        "legislacao": "eu",
+        "lmr": null
+    },
+    {
+        "id": "I13-citros-eu",
+        "cd_ia": "I13",
+        "cultivo": "citros",
+        "legislacao": "eu",
+        "lmr": null
+    },
+    {
+        "id": "I13-couve-eu",
+        "cd_ia": "I13",
+        "cultivo": "couve",
+        "legislacao": "eu",
+        "lmr": null
+    },
+    {
+        "id": "I13-couve-flor-eu",
+        "cd_ia": "I13",
+        "cultivo": "couve-flor",
+        "legislacao": "eu",
+        "lmr": null
+    },
+    {
+        "id": "I13-feijao-eu",
+        "cd_ia": "I13",
+        "cultivo": "feijao",
+        "legislacao": "eu",
+        "lmr": null
+    },
+    {
+        "id": "I13-goiaba-eu",
+        "cd_ia": "I13",
+        "cultivo": "goiaba",
+        "legislacao": "eu",
+        "lmr": null
+    },
+    {
+        "id": "I13-mamao-eu",
+        "cd_ia": "I13",
+        "cultivo": "mamao",
+        "legislacao": "eu",
+        "lmr": null
+    },
+    {
+        "id": "I13-manga-eu",
+        "cd_ia": "I13",
+        "cultivo": "manga",
+        "legislacao": "eu",
+        "lmr": null
+    },
+    {
+        "id": "I13-maracuja-eu",
+        "cd_ia": "I13",
+        "cultivo": "maracuja",
+        "legislacao": "eu",
+        "lmr": null
+    },
+    {
+        "id": "I13-melancia-eu",
+        "cd_ia": "I13",
+        "cultivo": "melancia",
+        "legislacao": "eu",
+        "lmr": null
+    },
+    {
+        "id": "I13-melao-eu",
+        "cd_ia": "I13",
+        "cultivo": "melao",
+        "legislacao": "eu",
+        "lmr": null
+    },
+    {
+        "id": "I13-milho-eu",
+        "cd_ia": "I13",
+        "cultivo": "milho",
+        "legislacao": "eu",
+        "lmr": null
+    },
+    {
+        "id": "I13-pepino-eu",
+        "cd_ia": "I13",
+        "cultivo": "pepino",
+        "legislacao": "eu",
+        "lmr": null
+    },
+    {
+        "id": "I13-pimentao-eu",
+        "cd_ia": "I13",
+        "cultivo": "pimentao",
+        "legislacao": "eu",
+        "lmr": null
+    },
+    {
+        "id": "I13-pessego-eu",
+        "cd_ia": "I13",
+        "cultivo": "pessego",
+        "legislacao": "eu",
+        "lmr": null
+    },
+    {
+        "id": "I13-repolho-eu",
+        "cd_ia": "I13",
+        "cultivo": "repolho",
+        "legislacao": "eu",
+        "lmr": null
+    },
+    {
+        "id": "I13-soja-eu",
+        "cd_ia": "I13",
+        "cultivo": "soja",
+        "legislacao": "eu",
+        "lmr": null
+    },
+    {
+        "id": "I13-sorgo-eu",
+        "cd_ia": "I13",
+        "cultivo": "sorgo",
+        "legislacao": "eu",
+        "lmr": null
+    },
+    {
+        "id": "I13-tomate-eu",
+        "cd_ia": "I13",
+        "cultivo": "tomate",
+        "legislacao": "eu",
+        "lmr": null
+    },
+    {
+        "id": "I13-trigo-eu",
+        "cd_ia": "I13",
+        "cultivo": "trigo",
+        "legislacao": "eu",
+        "lmr": null
+    },
+    {
+        "id": "I13-uva-eu",
+        "cd_ia": "I13",
+        "cultivo": "uva",
+        "legislacao": "eu",
+        "lmr": null
+    },
+    {
+        "id": "M01-alface-eu",
+        "cd_ia": "M01",
+        "cultivo": "alface",
+        "legislacao": "eu",
+        "lmr": 0.5
+    },
+    {
+        "id": "M01-arroz-eu",
+        "cd_ia": "M01",
+        "cultivo": "arroz",
+        "legislacao": "eu",
+        "lmr": 8
+    },
+    {
+        "id": "M01-berinjela-eu",
+        "cd_ia": "M01",
+        "cultivo": "berinjela",
+        "legislacao": "eu",
+        "lmr": 0.02
+    },
+    {
+        "id": "M01-brocolis-eu",
+        "cd_ia": "M01",
+        "cultivo": "brocolis",
+        "legislacao": "eu",
+        "lmr": 0.02
+    },
+    {
+        "id": "M01-cacau-eu",
+        "cd_ia": "M01",
+        "cultivo": "cacau",
+        "legislacao": "eu",
+        "lmr": 0.02
+    },
+    {
+        "id": "M01-cafe-eu",
+        "cd_ia": "M01",
+        "cultivo": "cafe",
+        "legislacao": "eu",
+        "lmr": 0.02
+    },
+    {
+        "id": "M01-citros-eu",
+        "cd_ia": "M01",
+        "cultivo": "citros",
+        "legislacao": "eu",
+        "lmr": 2
+    },
+    {
+        "id": "M01-couve-eu",
+        "cd_ia": "M01",
+        "cultivo": "couve",
+        "legislacao": "eu",
+        "lmr": 0.02
+    },
+    {
+        "id": "M01-couve-flor-eu",
+        "cd_ia": "M01",
+        "cultivo": "couve-flor",
+        "legislacao": "eu",
+        "lmr": 0.02
+    },
+    {
+        "id": "M01-feijao-eu",
+        "cd_ia": "M01",
+        "cultivo": "feijao",
+        "legislacao": "eu",
+        "lmr": 0.02
+    },
+    {
+        "id": "M01-maca-eu",
+        "cd_ia": "M01",
+        "cultivo": "maca",
+        "legislacao": "eu",
+        "lmr": 0.02
+    },
+    {
+        "id": "M01-milho-eu",
+        "cd_ia": "M01",
+        "cultivo": "milho",
+        "legislacao": "eu",
+        "lmr": 8
+    },
+    {
+        "id": "M01-morango-eu",
+        "cd_ia": "M01",
+        "cultivo": "morango",
+        "legislacao": "eu",
+        "lmr": 0.02
+    },
+    {
+        "id": "M01-pepino-eu",
+        "cd_ia": "M01",
+        "cultivo": "pepino",
+        "legislacao": "eu",
+        "lmr": 0.02
+    },
+    {
+        "id": "M01-pera-eu",
+        "cd_ia": "M01",
+        "cultivo": "pera",
+        "legislacao": "eu",
+        "lmr": 0.02
+    },
+    {
+        "id": "M01-pessego-eu",
+        "cd_ia": "M01",
+        "cultivo": "pessego",
+        "legislacao": "eu",
+        "lmr": 0.02
+    },
+    {
+        "id": "M01-repolho-eu",
+        "cd_ia": "M01",
+        "cultivo": "repolho",
+        "legislacao": "eu",
+        "lmr": 0.02
+    },
+    {
+        "id": "M01-soja-eu",
+        "cd_ia": "M01",
+        "cultivo": "soja",
+        "legislacao": "eu",
+        "lmr": 0.02
+    },
+    {
+        "id": "M01-sorgo-eu",
+        "cd_ia": "M01",
+        "cultivo": "sorgo",
+        "legislacao": "eu",
+        "lmr": 8
+    },
+    {
+        "id": "M01-tomate-eu",
+        "cd_ia": "M01",
+        "cultivo": "tomate",
+        "legislacao": "eu",
+        "lmr": 0.02
+    },
+    {
+        "id": "M01-trigo-eu",
+        "cd_ia": "M01",
+        "cultivo": "trigo",
+        "legislacao": "eu",
+        "lmr": 8
+    },
+    {
+        "id": "M02-abacate-eu",
+        "cd_ia": "M02",
+        "cultivo": "abacate",
+        "legislacao": "eu",
+        "lmr": null
+    },
+    {
+        "id": "M02-abobora-eu",
+        "cd_ia": "M02",
+        "cultivo": "abobora",
+        "legislacao": "eu",
+        "lmr": null
+    },
+    {
+        "id": "M02-alface-eu",
+        "cd_ia": "M02",
+        "cultivo": "alface",
+        "legislacao": "eu",
+        "lmr": null
+    },
+    {
+        "id": "M02-alho-eu",
+        "cd_ia": "M02",
+        "cultivo": "alho",
+        "legislacao": "eu",
+        "lmr": null
+    },
+    {
+        "id": "M02-amendoim-eu",
+        "cd_ia": "M02",
+        "cultivo": "amendoim",
+        "legislacao": "eu",
+        "lmr": null
+    },
+    {
+        "id": "M02-arroz-eu",
+        "cd_ia": "M02",
+        "cultivo": "arroz",
+        "legislacao": "eu",
+        "lmr": null
+    },
+    {
+        "id": "M02-aveia-eu",
+        "cd_ia": "M02",
+        "cultivo": "aveia",
+        "legislacao": "eu",
+        "lmr": null
+    },
+    {
+        "id": "M02-banulla-eu",
+        "cd_ia": "M02",
+        "cultivo": "banulla",
+        "legislacao": "eu",
+        "lmr": null
+    },
+    {
+        "id": "M02-batata-eu",
+        "cd_ia": "M02",
+        "cultivo": "batata",
+        "legislacao": "eu",
+        "lmr": null
+    },
+    {
+        "id": "M02-berinjela-eu",
+        "cd_ia": "M02",
+        "cultivo": "berinjela",
+        "legislacao": "eu",
+        "lmr": null
+    },
+    {
+        "id": "M02-beterraba-eu",
+        "cd_ia": "M02",
+        "cultivo": "beterraba",
+        "legislacao": "eu",
+        "lmr": null
+    },
+    {
+        "id": "M02-brocolis-eu",
+        "cd_ia": "M02",
+        "cultivo": "brocolis",
+        "legislacao": "eu",
+        "lmr": null
+    },
+    {
+        "id": "M02-cafe-eu",
+        "cd_ia": "M02",
+        "cultivo": "cafe",
+        "legislacao": "eu",
+        "lmr": null
+    },
+    {
+        "id": "M02-cana-de-acucar-eu",
+        "cd_ia": "M02",
+        "cultivo": "cana-de-acucar",
+        "legislacao": "eu",
+        "lmr": null
+    },
+    {
+        "id": "M02-cebola-eu",
+        "cd_ia": "M02",
+        "cultivo": "cebola",
+        "legislacao": "eu",
+        "lmr": null
+    },
+    {
+        "id": "M02-cenoura-eu",
+        "cd_ia": "M02",
+        "cultivo": "cenoura",
+        "legislacao": "eu",
+        "lmr": null
+    },
+    {
+        "id": "M02-centeio-eu",
+        "cd_ia": "M02",
+        "cultivo": "centeio",
+        "legislacao": "eu",
+        "lmr": null
+    },
+    {
+        "id": "M02-cevada-eu",
+        "cd_ia": "M02",
+        "cultivo": "cevada",
+        "legislacao": "eu",
+        "lmr": null
+    },
+    {
+        "id": "M02-citros-eu",
+        "cd_ia": "M02",
+        "cultivo": "citros",
+        "legislacao": "eu",
+        "lmr": null
+    },
+    {
+        "id": "M02-couve-eu",
+        "cd_ia": "M02",
+        "cultivo": "couve",
+        "legislacao": "eu",
+        "lmr": null
+    },
+    {
+        "id": "M02-couve-flor-eu",
+        "cd_ia": "M02",
+        "cultivo": "couve-flor",
+        "legislacao": "eu",
+        "lmr": null
+    },
+    {
+        "id": "M02-ervilha-eu",
+        "cd_ia": "M02",
+        "cultivo": "ervilha",
+        "legislacao": "eu",
+        "lmr": null
+    },
+    {
+        "id": "M02-feijao-eu",
+        "cd_ia": "M02",
+        "cultivo": "feijao",
+        "legislacao": "eu",
+        "lmr": null
+    },
+    {
+        "id": "M02-feijao vagem-eu",
+        "cd_ia": "M02",
+        "cultivo": "feijao vagem",
+        "legislacao": "eu",
+        "lmr": null
+    },
+    {
+        "id": "M02-feijao-fava-eu",
+        "cd_ia": "M02",
+        "cultivo": "feijao-fava",
+        "legislacao": "eu",
+        "lmr": null
+    },
+    {
+        "id": "M02-feijao-guandu-eu",
+        "cd_ia": "M02",
+        "cultivo": "feijao-guandu",
+        "legislacao": "eu",
+        "lmr": null
+    },
+    {
+        "id": "M02-feijao-mungo-eu",
+        "cd_ia": "M02",
+        "cultivo": "feijao-mungo",
+        "legislacao": "eu",
+        "lmr": null
+    },
+    {
+        "id": "M02-figo-eu",
+        "cd_ia": "M02",
+        "cultivo": "figo",
+        "legislacao": "eu",
+        "lmr": null
+    },
+    {
+        "id": "M02-mamao-eu",
+        "cd_ia": "M02",
+        "cultivo": "mamao",
+        "legislacao": "eu",
+        "lmr": null
+    },
+    {
+        "id": "M02-manga-eu",
+        "cd_ia": "M02",
+        "cultivo": "manga",
+        "legislacao": "eu",
+        "lmr": null
+    },
+    {
+        "id": "M02-maracuja-eu",
+        "cd_ia": "M02",
+        "cultivo": "maracuja",
+        "legislacao": "eu",
+        "lmr": null
+    },
+    {
+        "id": "M02-maca-eu",
+        "cd_ia": "M02",
+        "cultivo": "maca",
+        "legislacao": "eu",
+        "lmr": null
+    },
+    {
+        "id": "M02-melancia-eu",
+        "cd_ia": "M02",
+        "cultivo": "melancia",
+        "legislacao": "eu",
+        "lmr": null
+    },
+    {
+        "id": "M02-melao-eu",
+        "cd_ia": "M02",
+        "cultivo": "melao",
+        "legislacao": "eu",
+        "lmr": null
+    },
+    {
+        "id": "M02-milho-eu",
+        "cd_ia": "M02",
+        "cultivo": "milho",
+        "legislacao": "eu",
+        "lmr": null
+    },
+    {
+        "id": "M02-pepino-eu",
+        "cd_ia": "M02",
+        "cultivo": "pepino",
+        "legislacao": "eu",
+        "lmr": null
+    },
+    {
+        "id": "M02-pimentao-eu",
+        "cd_ia": "M02",
+        "cultivo": "pimentao",
+        "legislacao": "eu",
+        "lmr": null
+    },
+    {
+        "id": "M02-pera-eu",
+        "cd_ia": "M02",
+        "cultivo": "pera",
+        "legislacao": "eu",
+        "lmr": null
+    },
+    {
+        "id": "M02-pessego-eu",
+        "cd_ia": "M02",
+        "cultivo": "pessego",
+        "legislacao": "eu",
+        "lmr": null
+    },
+    {
+        "id": "M02-repolho-eu",
+        "cd_ia": "M02",
+        "cultivo": "repolho",
+        "legislacao": "eu",
+        "lmr": null
+    },
+    {
+        "id": "M02-soja-eu",
+        "cd_ia": "M02",
+        "cultivo": "soja",
+        "legislacao": "eu",
+        "lmr": null
+    },
+    {
+        "id": "M02-sorgo-eu",
+        "cd_ia": "M02",
+        "cultivo": "sorgo",
+        "legislacao": "eu",
+        "lmr": null
+    },
+    {
+        "id": "M02-tomate-eu",
+        "cd_ia": "M02",
+        "cultivo": "tomate",
+        "legislacao": "eu",
+        "lmr": null
+    },
+    {
+        "id": "M02-trigo-eu",
+        "cd_ia": "M02",
+        "cultivo": "trigo",
+        "legislacao": "eu",
+        "lmr": null
+    },
+    {
+        "id": "M02-uva-eu",
+        "cd_ia": "M02",
+        "cultivo": "uva",
+        "legislacao": "eu",
+        "lmr": null
+    }
+]

@@ -1,0 +1,83 @@
+[
+    {
+        "id": "G01",
+        "rank": 1,
+        "label": {
+            "br": "GLIFOSATO",
+            "en": "GLYPHOSATE"
+        },
+        "approved": true
+    },
+    {
+        "id": "D27",
+        "rank": 2,
+        "label": {
+            "br": "2,4-D",
+            "en": "2,4-D"
+        },
+        "approved": true
+    },
+    {
+        "id": "M02",
+        "rank": 3,
+        "label": {
+            "br": "MANCOZEBE",
+            "en": "MANCOZEB"
+        },
+        "approved": false
+    },
+    {
+        "id": "A14",
+        "rank": 4,
+        "label": {
+            "br": "ATRAZINA",
+            "en": "ATRAZINE"
+        },
+        "approved": false
+    },
+    {
+        "id": "A02",
+        "rank": 5,
+        "label": {
+            "br": "ACEFATO",
+            "en": "ACEPHATE"
+        },
+        "approved": false
+    },
+    {
+        "id": "C18",
+        "rank": 6,
+        "label": {
+            "br": "CLOROTALONIL",
+            "en": "CHLOROTHALONIL"
+        },
+        "approved": false
+    },
+    {
+        "id": "M01",
+        "rank": 7,
+        "label": {
+            "br": "MALATIONA",
+            "en": "MALATHION"
+        },
+        "approved": true
+    },
+    {
+        "id": "I13",
+        "rank": 9,
+        "label": {
+            "br": "IMIDACLOPRIDO",
+            "en": "IMIDACLOPRID"
+        },
+        "approved": false
+    },
+    {
+        "id": "C20",
+        "rank": 10,
+        "label": {
+            "br": "CLORPIRIFÓS",
+            "en": "CHLORPYRIFOS"
+        },
+        "approved": false
+    }
+]

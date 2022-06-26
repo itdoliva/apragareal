@@ -1,14 +1,13 @@
-import Plate from './Plate'
+import { image } from 'd3';
+import Plate from './Plate';
 
-import normalizeStr from '../../functions/normalizeStr';
-
-function Plates(props) {
+function Plates({ data, language }) {
   return (
     <ul className="plates-wrapper">
-      {props.data.map(d => (
+      {data.map(d => (
         <Plate 
-        key={normalizeStr(d.cultive) + '-' + d.data.map(d => d.rank).join('-')}
-        language={props.language}
+        key={d.cultivo + '-' + d.data.map(d => d.id).join('-')}
+        language={language}
         {...d} />
       ))}
       <li className="plate-wrapper" />

@@ -1,0 +1,389 @@
+{
+    "alface": {
+        "name": {
+            "br": "Alface",
+            "en": "Lettuces"
+        }
+    },
+    "tomate": {
+        "name": {
+            "br": "Tomate",
+            "en": "Tomatoes"
+        }
+    },
+    "uva": {
+        "name": {
+            "br": "Uva",
+            "en": "Grapes"
+        }
+    },
+    "pimentao": {
+        "name": {
+            "br": "Pimentão",
+            "en": "Sweet peppers/bell peppers"
+        }
+    },
+    "pessego": {
+        "name": {
+            "br": "Pêssego",
+            "en": "Peaches"
+        }
+    },
+    "mamao": {
+        "name": {
+            "br": "Mamão",
+            "en": "Papayas"
+        }
+    },
+    "citros": {
+        "name": {
+            "br": "Citros",
+            "en": "Citrus fruits"
+        }
+    },
+    "feijao": {
+        "name": {
+            "br": "Feijão",
+            "en": "Beans"
+        }
+    },
+    "couve": {
+        "name": {
+            "br": "Couve",
+            "en": "Kales"
+        }
+    },
+    "maca": {
+        "name": {
+            "br": "Maçã",
+            "en": "Apples"
+        }
+    },
+    "brocolis": {
+        "name": {
+            "br": "Brócolis",
+            "en": "Broccoli"
+        }
+    },
+    "banana": {
+        "name": {
+            "br": "Banana",
+            "en": "Bananas"
+        }
+    },
+    "pera": {
+        "name": {
+            "br": "Pêra",
+            "en": "Pears"
+        }
+    },
+    "pepino": {
+        "name": {
+            "br": "Pepino",
+            "en": [
+                "Cucumbers",
+                "Gherkins"
+            ]
+        }
+    },
+    "melancia": {
+        "name": {
+            "br": "Melancia",
+            "en": "Watermelons"
+        }
+    },
+    "arroz": {
+        "name": {
+            "br": "Arroz",
+            "en": "Rice"
+        }
+    },
+    "repolho": {
+        "name": {
+            "br": "Repolho",
+            "en": "Head cabbages"
+        }
+    },
+    "berinjela": {
+        "name": {
+            "br": "Berinjela",
+            "en": "Aubergines/eggplants"
+        }
+    },
+    "ervilha": {
+        "name": {
+            "br": "Ervilha",
+            "en": "Peas (without pods)"
+        }
+    },
+    "batata": {
+        "name": {
+            "br": "Batata",
+            "en": "Potatoes"
+        }
+    },
+    "cebola": {
+        "name": {
+            "br": "Cebola",
+            "en": "Onions"
+        }
+    },
+    "figo": {
+        "name": {
+            "br": "Figo",
+            "en": "Figs"
+        }
+    },
+    "cafe": {
+        "name": {
+            "br": "Café",
+            "en": "Coffee beans"
+        }
+    },
+    "melao": {
+        "name": {
+            "br": "Melão",
+            "en": "Melons"
+        }
+    },
+    "manga": {
+        "name": {
+            "br": "Manga",
+            "en": "Mangoes"
+        }
+    },
+    "cana-de-acucar": {
+        "name": {
+            "br": "Cana-de-açúcar",
+            "en": "Sugar canes"
+        }
+    },
+    "couve-flor": {
+        "name": {
+            "br": "Couve-Flor",
+            "en": "Cauliflowers"
+        }
+    },
+    "milho": {
+        "name": {
+            "br": "Milho",
+            "en": "Maize/corn"
+        }
+    },
+    "maracuja": {
+        "name": {
+            "br": "Maracujá",
+            "en": "Passionfruits/maracujas"
+        }
+    },
+    "alho": {
+        "name": {
+            "br": "Alho",
+            "en": "Garlic"
+        }
+    },
+    "abobora": {
+        "name": {
+            "br": "Abóbora",
+            "en": "Pumpkins"
+        }
+    },
+    "abacate": {
+        "name": {
+            "br": "Abacate",
+            "en": "Avocados"
+        }
+    },
+    "morango": {
+        "name": {
+            "br": "Morango",
+            "en": "Strawberries"
+        }
+    },
+    "cenoura": {
+        "name": {
+            "br": "Cenoura",
+            "en": "Carrots"
+        }
+    },
+    "couve-de-bruxelas": {
+        "name": {
+            "br": "Couve-de-bruxelas",
+            "en": "Brussels sprouts"
+        }
+    },
+    "amendoim": {
+        "name": {
+            "br": "Amendoim",
+            "en": "Peanuts/groundnuts"
+        }
+    },
+    "beterraba": {
+        "name": {
+            "br": "Beterraba",
+            "en": "Beetroots"
+        }
+    },
+    "goiaba": {
+        "name": {
+            "br": "Goiaba",
+            "en": "Guavas"
+        }
+    },
+    "cacau": {
+        "name": {
+            "br": "Cacau",
+            "en": "Cocoa beans"
+        }
+    },
+    "abobrinha": {
+        "name": {
+            "br": "Abobrinha",
+            "en": "Courgettes"
+        }
+    },
+    "inhame": {
+        "name": {
+            "br": "Inhame",
+            "en": "Yams"
+        }
+    },
+    "batata-doce": {
+        "name": {
+            "br": "Batata-doce",
+            "en": "Sweet potatoes"
+        }
+    },
+    "mandioca": {
+        "name": {
+            "br": "Mandioca",
+            "en": "Cassava roots/manioc"
+        }
+    },
+    "nabo": {
+        "name": {
+            "br": "Nabo",
+            "en": "Turnips"
+        }
+    },
+    "rabanete": {
+        "name": {
+            "br": "Rabanete",
+            "en": "Radishes"
+        }
+    },
+    "ameixa": {
+        "name": {
+            "br": "Ameixa",
+            "en": "Plums"
+        }
+    },
+    "nespera": {
+        "name": {
+            "br": "Nêspera",
+            "en": "Loquats/Japanese medlars"
+        }
+    },
+    "caqui": {
+        "name": {
+            "br": "Caqui",
+            "en": "Kaki/Japanese persimmons"
+        }
+    },
+    "carambola": {
+        "name": {
+            "br": "Carambola",
+            "en": "Carambolas"
+        }
+    },
+    "abacaxi": {
+        "name": {
+            "br": "Abacaxi",
+            "en": "Pineapples"
+        }
+    },
+    "castanha-do-para": {
+        "name": {
+            "br": "Castanha-do-Pará",
+            "en": "Brazil nuts"
+        }
+    },
+    "macadamia": {
+        "name": {
+            "br": "Macadâmia",
+            "en": "Macadamias"
+        }
+    },
+    "pinhao": {
+        "name": {
+            "br": "Pinhão",
+            "en": "Pine nut kernels"
+        }
+    },
+    "kiwi": {
+        "name": {
+            "br": "Kiwi",
+            "en": "Kiwi fruits (green, red, yellow)"
+        }
+    },
+    "coco": {
+        "name": {
+            "br": "Côco",
+            "en": "Coconuts"
+        }
+    },
+    "roma": {
+        "name": {
+            "br": "Romã",
+            "en": "Granate apples/pomegranates"
+        }
+    },
+    "dende": {
+        "name": {
+            "br": "Dendê",
+            "en": "Palm oil"
+        }
+    },
+    "lentilha": {
+        "name": {
+            "br": "Lentilha",
+            "en": "Lentils"
+        }
+    },
+    "centeio": {
+        "name": {
+            "br": "Centeio",
+            "en": "Rye"
+        }
+    },
+    "trigo": {
+        "name": {
+            "br": "Trigo",
+            "en": "Wheat"
+        }
+    },
+    "soja": {
+        "name": {
+            "br": "Soja",
+            "en": "Soyabeans"
+        }
+    },
+    "cevada": {
+        "name": {
+            "br": "Cevada",
+            "en": "Barley"
+        }
+    },
+    "aveia": {
+        "name": {
+            "br": "Aveia",
+            "en": "Oat"
+        }
+    },
+    "sorgo": {
+        "name": {
+            "br": "Sorgo",
+            "en": "Sorghum"
+        }
+    }
+}

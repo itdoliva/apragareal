@@ -1,7 +1,7 @@
 import { useEffect, useRef } from 'react'
 import * as d3 from 'd3';
 import getDrop from '../../functions/getDrop';
-import pestcides from '../../../../static/data/pesticides.json'
+import pesticides from '../../../../static/data/data_pesticides.json'
 
 function Footer({ label }) {
   const ref = useRef(null)
@@ -24,8 +24,8 @@ function Footer({ label }) {
 
         <div className="legend-body">
           <div className="color-blocks">
-            {pestcides.map(d => (
-              <div key={d.rank} className={'color-'+d.rank}></div>
+            {pesticides.map(d => (
+              <div key={d.id} className={'pest-' + d.id}></div>
             ))}
           </div>
         </div>

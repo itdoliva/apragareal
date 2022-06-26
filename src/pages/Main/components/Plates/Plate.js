@@ -1,27 +1,31 @@
-import { useEffect, useRef } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import * as d3 from 'd3';
 import fruit from '../../../../static/imgs/banana.svg';
 import getDrop from '../../functions/getDrop';
 import './Plate.css';
 
 
-export default function Plate({ cultive, data, nodes, extentLMR, language }) {
+export default function Plate({ language, cultivo, names, extent, img, data }) {
 
     const ref = useRef(null)
 
+    const [name, setName] = useState(names[language.id])
+
     useEffect(() => {
-        PlateD3.create(ref, cultive, data, nodes, extentLMR, language)
+        PlateD3.create(ref, name, data, language, extent)
         return PlateD3.destroy(ref)
     }, [])
 
     useEffect(() => {
-        PlateD3.update(ref, language)
+        const newName = names[language.id]
+        PlateD3.update(ref, newName, data, language, extent)
+        setName(newName)
     }, [language])
 
     return (
         <li ref={ref} className="plate-wrapper">
             <div className="tooltip-trigger"></div>
-            <img src={fruit} className="cultive-svg" alt={cultive} />
+            <img src={fruit} className="cultive-svg"/>
             <svg>
               <defs></defs>
             </svg>
@@ -103,125 +107,130 @@ const PlateD3 = {}
 
 PlateD3.arcGenerator = d3.arc()
 
-// Drop Arcs
-PlateD3.create = (ref, cultive, data, nodes, extentLMR, language) => {
-    const wrapper = d3.select(ref.current)
-    const svg = wrapper.select('svg')
-    const ttipTrigger = wrapper.select('.tooltip-trigger')
+PlateD3.ttipMouseEnter = (name, plateCircle, ttipWrapper, data, extent) => function(d) {
 
-    PlateD3.drawPlate(svg)
-    PlateD3.drawCountryLabel(svg, language)
-    PlateD3.drawDrops(svg, nodes, extentLMR)
-    PlateD3.setHoverEvents(svg, ttipTrigger, cultive, data, extentLMR)
-
-    // Update
-    PlateD3.update(ref, data)
-}
-
-PlateD3.setHoverEvents = (svg, ttipTrigger, cultive, data, extentLMR) => {
   const barScale = d3.scaleLinear()
-    .domain(extentLMR)
-    .range([4, 120])
+    .domain([0, extent[1]])
+    .range([2, 120])
 
   const multiplierColor = d3.scaleLinear()
     .domain([1, 20])
     .range(['#C17373', '#C23838'])
 
-  const tooltip = d3.select('.tooltip-wrapper')
-  const plateCircle = svg.select('.plate-circle')
+  plateCircle
+    .classed('stronger', true)
 
+  ttipWrapper
+    .classed('deactivate', false)
 
-  ttipTrigger.on('mouseenter', function(d) {
+  ttipWrapper
+    .select('.tooltip-header-title')
+      .text(() => name)
 
-    tooltip
-        .classed('deactivate', false)
-      .select('.tooltip-header-title')
-        .text(cultive)
+  ttipWrapper.selectAll('.tooltip-card')
+    .each(function() {
+      const ttCard = d3.select(this)
 
-    plateCircle
-      .classed('stronger', true)
+      const reg = /(?!card-)\w\d+/g
+      const cd_ia = reg.exec(ttCard.attr('class'))[0]
 
-    tooltip.selectAll('.tooltip-card')
-      .each(function() {
-        const ttCard = d3.select(this)
+      const pestBR = data.find(d => d.cd_ia === cd_ia && d.legislacao === "br")
+      const pestEU = data.find(d => d.cd_ia === cd_ia && d.legislacao === "eu")
 
-        const reg = /(?!card-)\d+/g
-        const rank = +reg.exec(ttCard.attr('class'))
+      ttCard
+        .classed('deactivate', !pestBR)
 
-        const pest = data.find(d => d.rank === rank)
+      const cardBR = ttCard.select('.br')
+      const cardEU = ttCard.select('.en')
 
-        ttCard
-          .classed('deactivate', !pest)
-
-        if (!pest) {
-          return
-        }
-
-        const cardBR = ttCard.select('.br')
-        const cardEU = ttCard.select('.eu')
-
+      if (pestBR && pestBR.lmr) {
         cardBR
-        .select('.bar')
-          .style('width', barScale(pest.brLMR) + 'px')
+          .select('.bar')
+            .style('width', barScale(pestBR.lmr) + 'px')
 
         cardBR
           .select('.lmr')
-            .text(pest.brLMR)
+            .text(pestBR.lmr)
 
-        cardBR
-          .select('.multiplier-wrapper')
-            .style('background', multiplierColor(pest.ratio))
-          .select('.multiplier')
-            .text('x' + (pest.ratio >= 2 
-                ? pest.ratio.toFixed(0)
-                : pest.ratio.toFixed(1)
-                ))
-
+        if (pestBR.ratio) {
+          cardBR
+            .select('.multiplier-wrapper')
+              .style('background', multiplierColor(pestBR.ratio))
+            .select('.multiplier')
+              .text('x' + (pestBR.ratio >= 2 
+                  ? pestBR.ratio.toFixed(0)
+                  : pestBR.ratio.toFixed(1)
+                  ))
+        }
+        
+      }
+    
+      if (pestEU && pestEU.lmr) {
         cardEU
           .select('.bar')
-            .style('width', barScale(pest.euLMR) + 'px')
+            .style('width', barScale(pestEU.lmr) + 'px')
 
         cardEU
           .select('.lmr')
-            .text(pest.euLMR)
-      })
+            .text(pestEU.lmr)
+      } else if (pestEU && !pestEU.lmr) {
+        cardEU
+          .select('.lmr')
+            .text('0')
+      }
+      
+    })
 
-    const screen = d3.select('.App')
-    const screenWidth = +screen.style('width').replace('px', '')
-    const screenHeight = +screen.style('height').replace('px', '')
-    const tooltipWidth = +tooltip.style('width').replace('px', '')
-    const tooltipHeight = +tooltip.style('height').replace('px', '')
+  const screen = d3.select('.App')
+  const screenWidth = +screen.style('width').replace('px', '')
+  const screenHeight = +screen.style('height').replace('px', '')
+  const tooltipWidth = +ttipWrapper.style('width').replace('px', '')
+  const tooltipHeight = +ttipWrapper.style('height').replace('px', '')
 
-    let x = d.x - d.offsetX + 222
-    let y = d.y - d.offsetY + 168
+  let x = d.x - d.offsetX + 222
+  let y = d.y - d.offsetY + 168
 
-    
-    if (screenHeight - (y + tooltipHeight) < 0) {
-      y = y + (screenHeight - (y + tooltipHeight)) - 126
-    } 
+  
+  if (screenHeight - (y + tooltipHeight) < 0) {
+    y = y + (screenHeight - (y + tooltipHeight)) - 126
+  } 
 
-    if (screenWidth - (x + tooltipWidth) < 0) {
-      x = x - tooltipWidth - 222
-    }
-    
+  if (screenWidth - (x + tooltipWidth) < 0) {
+    x = x - tooltipWidth - 222
+  }
+  
 
-    tooltip
-      .style('top', y+'px')
-      .style('left', x+'px');
-    
-    
-  })
-
-  ttipTrigger.on('mouseleave', () => {
-    tooltip
-      .classed('deactivate', true)
-
-    plateCircle
-      .classed('stronger', false)
-  })
+  ttipWrapper
+    .style('top', y+'px')
+    .style('left', x+'px');
+  
+  
 }
 
-PlateD3.drawPlate = (svg) => {
+PlateD3.ttipMouseLeave = (plateCircle, ttipWrapper) => () => {
+  plateCircle
+    .classed('stronger', false)
+
+  ttipWrapper
+    .classed('deactivate', true)
+
+}
+
+// Drop Arcs
+PlateD3.create = (ref, name, data, language, extent) => {
+    const wrapper = d3.select(ref.current)
+
+    PlateD3.drawPlate(wrapper)
+    PlateD3.drawCountryLabel(wrapper, language)
+    PlateD3.drawDrops(wrapper, data, extent)
+    PlateD3.setHoverEvents(wrapper, name, data, extent)
+
+    // Update
+    PlateD3.update(ref, name, data, language, extent)
+}
+
+PlateD3.drawPlate = (wrapper) => {
+  const svg = wrapper.select('svg')
   const defs = svg.select('defs')
         
   //Create a radial plate-like gradient
@@ -260,8 +269,8 @@ PlateD3.drawPlate = (svg) => {
   
 }
 
-
-PlateD3.drawCountryLabel = (svg, language) => {
+PlateD3.drawCountryLabel = (wrapper, language) => {
+  const svg = wrapper.select('svg')
   const countryG = svg
     .append('g')
       .attr('class', 'countryG')
@@ -287,9 +296,8 @@ PlateD3.drawCountryLabel = (svg, language) => {
       .text(d => d.text[language.id])
 }
 
-
-PlateD3.drawDrops = (svg, nodes, extentLMR) => {
-  
+PlateD3.drawDrops = (wrapper, data, extentLMR) => {
+  const svg = wrapper.select('svg')
   const dropsG = svg
     .append('g')
       .attr('class', 'dropsG')
@@ -311,7 +319,7 @@ PlateD3.drawDrops = (svg, nodes, extentLMR) => {
   const delta =  45
 
   // Changing starting position
-  nodes = nodes.map(d => ({
+  const nodes = data.filter(d => d.lmr).map(d => ({
     ...d, 
     x: -5 + 10 * Math.random() + (d.id.includes('br') ? delta : -delta),
     y: -5 + 10 * Math.random() + (d.id.includes('br') ? delta : -delta)
@@ -329,8 +337,8 @@ PlateD3.drawDrops = (svg, nodes, extentLMR) => {
   const collideForce = d3.forceCollide(nodeRadius(1))
     .strength(1)
 
-  const radialForce = d3.forceRadial(60, 0, 0)
-    .strength(.3)
+  const radialForce = d3.forceRadial(65, 0, 0)
+    .strength(.8)
     
   const simulation = d3.forceSimulation(nodes)
     .force("collide", collideForce)
@@ -339,7 +347,7 @@ PlateD3.drawDrops = (svg, nodes, extentLMR) => {
     .force("y", yForce)
     .velocityDecay(.75)
 
-  // Draw
+  // // Draw
   const nodeG = dropsG
     .append('g')
     .selectAll('g')
@@ -356,7 +364,7 @@ PlateD3.drawDrops = (svg, nodes, extentLMR) => {
 
         const classNames = [
           'drop-shadow',
-          'drop-' + d.rank,
+          'pest-' + d.cd_ia,
           'drop-light-shadow',
           'drop-light-darker',
           'drop-light-lighter'
@@ -382,14 +390,28 @@ PlateD3.drawDrops = (svg, nodes, extentLMR) => {
 
 }
 
+PlateD3.setHoverEvents = (wrapper, name, data, extent) => {
+  console.log('name', name)
+  const plateCircle = wrapper.select('.plate-circle')
+  const ttipTrigger = wrapper.select('.tooltip-trigger')
+  const ttipWrapper = d3.select('.tooltip-wrapper')
 
-PlateD3.update = (ref, language) => {
-  const svg = d3.select(ref.current).select('svg')
+  ttipTrigger.on('mouseenter', PlateD3.ttipMouseEnter(name, plateCircle, ttipWrapper, data, extent))
+
+  ttipTrigger.on('mouseleave', PlateD3.ttipMouseLeave(plateCircle, ttipWrapper))
+}
+
+
+PlateD3.update = (ref, name, data, language, extent) => {
+  const wrapper = d3.select(ref.current)
+  const svg = wrapper.select('svg')
   const width = +svg.style('width').replace('px', '')
   const height = +svg.style('height').replace('px', '')
   const center = width/2
   const radius = center * params.plateRadiusRatio
   const innerRadius = center * params.plateInnerRadiusRatio
+
+  PlateD3.setHoverEvents(wrapper, name, data, extent)
 
   svg
     .select('.countryG')

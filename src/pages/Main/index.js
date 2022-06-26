@@ -17,8 +17,8 @@ import './legend.scss';
 function Main({ language, changeLanguage }) {
 
   const [pesticides, togglePesticide] = usePestFilter()
-
   const [ data, setData ] = useState(null)
+
   useEffect(() => {
     const newData = getPestData(pesticides)
 
@@ -45,9 +45,9 @@ function Main({ language, changeLanguage }) {
         <div className="pest-filters">
           {pesticides.map(d => (
             <PestFilter 
-              key={d.rank} 
+              key={d.id} 
               language={language}
-              toggle={() => { togglePesticide(d.rank) }}
+              toggle={() => { togglePesticide(d.id) }}
               {...d} />
           ))}
         </div>

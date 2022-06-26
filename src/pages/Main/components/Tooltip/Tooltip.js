@@ -1,73 +1,34 @@
-import { useEffect, useState } from 'react';
-
+import pesticides from "../../../../static/data/data_pesticides.json";
+import TooltipCard from './TooltipCard';
 import './Tooltip.css';
-import pesticides from "../../../../static/data/pesticides.json";
 
 function Tooltip({ language }) {
+
+  const shorts = Object.entries(language.countryLabel)
+        .map(d => ({language: d[0], label: d[1].short}))
 
   return (
     <div className="tooltip-wrapper deactivate">
 
-      <div className="tooltip-pointer"></div>
-
       <div className="tooltip-header">
-        <span className="tooltip-header-title"></span>
+        <span className="tooltip-header-title" />
         <span>{language.lmr.short} - {language.lmr.long}</span>
       </div>
 
       <div className="tooltip-body">
 
-        {pesticides.map(pest => (
-          <div key={language.id + pest.rank}
-          className={"tooltip-card deactivate card-" + pest.rank}>
-          
-            <div className="tooltip-card-header">
-              {pest.label[language.id]}
-            </div>
-
-            <div className="tooltip-card-body">
-
-              {Object
-              .entries(language.countryLabel)
-                .map(d => [d[0], d[1].short])
-                .map(short => {
-                const [countryId, label] = short
-                
-                return (
-                  <div key={countryId} 
-                    className={`tooltip-card-row ${countryId}`}>
-
-                  <span className="country-label">{label}</span>
-
-                  <div className="tooltip-card-bar-wrapper">
-                    <div className="bar" />
-
-                    <span>
-                      <span className="lmr"></span>
-                      <span className="measure-unit"> mg/kg</span>
-                    </span>
-                    
-                    
-                  </div>
-
-                  <div className="multiplier-wrapper">
-                    <span className="multiplier"></span>
-                  </div>
-
-                </div>
-
-                )})}
-
-
-            </div>
-
-          </div>
+        {pesticides.map(pesticide => (
+          <TooltipCard 
+            key={pesticide.id} 
+            language={language}
+            pesticide={pesticide}
+            shorts={shorts}/>
         ))}
 
       </div>
 
     </div>
-    )
+  )
 }
 
 export default Tooltip;

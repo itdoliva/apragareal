@@ -23,7 +23,7 @@ function PestFilter(props) {
             <div>
                 <span className="pest-filter__rank">{formatRank()}</span>
                 <div className="pest-filter__bullet" 
-                    style={{backgroundColor: `var(--pest-${props.rank})`}} />
+                    style={{backgroundColor: `var(--pest-${props.id})`}} />
             </div>
             
             
