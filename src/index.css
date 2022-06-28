@@ -76,6 +76,11 @@ a:active {
   color: var(--black);
 }
 
+ul {
+  margin: 0;
+  padding: 0;
+}
+
 .main-page > svg {
   transform: scale(1);
 }

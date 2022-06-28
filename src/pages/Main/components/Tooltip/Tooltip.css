@@ -176,7 +176,7 @@
     text-transform: uppercase;
     text-align: left;
     font-size: 10px;
-    color: var(--gray-1);
+    color: var(--black);
     margin-left: 2px;
 }
 
@@ -187,7 +187,7 @@
 }
 
 .br .skull-wrapper path {
-    fill: var(--gray-1);
+    fill: var(--black);
 }
 
 .br .multiplier-wrapper {

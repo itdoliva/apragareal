@@ -1,11 +1,10 @@
 import { useEffect, useRef, useState } from 'react';
 import * as d3 from 'd3';
-import fruit from '../../../../static/imgs/banana.svg';
 import getDrop from '../../functions/getDrop';
 import './Plate.css';
 
 
-export default function Plate({ language, cultivo, names, extent, img, data }) {
+export default function Plate({ language, cultivo, names, extent, img, data, margins }) {
 
     const ref = useRef(null)
 
@@ -23,9 +22,12 @@ export default function Plate({ language, cultivo, names, extent, img, data }) {
     }, [language])
 
     return (
-        <li ref={ref} className="plate-wrapper">
+        <li 
+          ref={ref} 
+          className="plate-wrapper"
+          style={{marginLeft: margins.left, marginRight: margins.right}}>
             <div className="tooltip-trigger"></div>
-            <img src={fruit} className="cultive-svg"/>
+            <img src={img} className="cultive-svg"/>
             <svg>
               <defs></defs>
             </svg>
@@ -391,7 +393,6 @@ PlateD3.drawDrops = (wrapper, data, extentLMR) => {
 }
 
 PlateD3.setHoverEvents = (wrapper, name, data, extent) => {
-  console.log('name', name)
   const plateCircle = wrapper.select('.plate-circle')
   const ttipTrigger = wrapper.select('.tooltip-trigger')
   const ttipWrapper = d3.select('.tooltip-wrapper')

@@ -3,7 +3,8 @@
         "name": {
             "br": "Alface",
             "en": "Lettuces"
-        }
+        },
+        "img": "lettuce.png"
     },
     "tomate": {
         "name": {

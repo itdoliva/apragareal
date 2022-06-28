@@ -1,5 +1,6 @@
 import rawData from "../../../static/data/data_lmr.json";
 import cultives from "../../../static/data/data_cultives.json";
+import imgs from "../../../static/data/cultive_imgs";
 import * as d3 from 'd3';
 
 function getPestData(pesticides) {
@@ -28,8 +29,7 @@ function getPestData(pesticides) {
         d => d.lmr)
 
       const names = cultives[cultivo].name
-
-      const img = null
+      const img = imgs[cultivo]
 
       pestData.push({ 
         cultivo,
