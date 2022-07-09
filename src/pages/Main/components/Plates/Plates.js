@@ -24,7 +24,8 @@ function Plates({ data, language }) {
         if (position === platesByRow) {
           margins.left = 120
         } 
-        else if (position === rowSize-1) {
+
+        if (position === rowSize-1) {
           margins.right = 120
         }
         else if (data.length - 1 === i && position > platesByRow) {
