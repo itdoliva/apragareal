@@ -59,7 +59,7 @@
     z-index: 5;
 
     -webkit-filter: drop-shadow(1px 1px 1px  var(--gray-1));
-    filter: drop-shadow(1px 1px 1px var(--gray-1)) sepia(25%); /*sepia(60%)*/
+    filter: drop-shadow(1px 1px 1px var(--gray-1)) sepia(40%); /*sepia(60%)*/
 }
 
 .plate-svg {

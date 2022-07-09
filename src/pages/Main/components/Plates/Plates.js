@@ -4,7 +4,7 @@ import useContainerDimensions from '../../hooks/useContainerDimensions';
 
 function Plates({ data, language }) {
   const componentRef = useRef()
-  const { width, height } = useContainerDimensions(componentRef)
+  const { width } = useContainerDimensions(componentRef)
 
   const [ platesByRow, setPlatesByRow ] = useState(~~(width/240))
   const [ rowSize, setRowSize ] = useState(2*platesByRow-1)

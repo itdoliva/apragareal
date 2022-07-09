@@ -2,7 +2,6 @@ import { useEffect, useRef, useState } from 'react';
 import * as d3 from 'd3';
 import getDrop from '../../functions/getDrop';
 import './Plate.css';
-import imgG from '../../../../static/imgs/apple-clean.png'
 
 
 export default function Plate({ language, cultivo, names, extent, img, data, margins }) {
@@ -32,7 +31,7 @@ export default function Plate({ language, cultivo, names, extent, img, data, mar
               <defs />
             </svg>
 
-            <img src={img.src} style={img.style} className="cultive-svg"/>
+            <img src={img.src} style={img.style} className="cultive-svg" alt={name}/>
 
             <div className="drops-wrapper" />
         </li>
@@ -116,24 +115,15 @@ PlateD3.arcGenerator = d3.arc()
 
 // Drop Arcs
 PlateD3.create = (ref, name, data, language, extent) => {
-    const wrapper = d3.select(ref.current)
-    PlateD3.ref = ref.current
-    PlateD3.selections.wrapper = wrapper
-    PlateD3.selections.svg = wrapper.select('svg')
-    PlateD3.selections.ttipTrigger = wrapper.select('.tooltip-trigger')
-    PlateD3.selections.ttipWrapper = d3.select('.tooltip-wrapper')
-
-    PlateD3.drawPlate()
-    PlateD3.drawCountryLabel(language)
-    PlateD3.drawDrops(data, extent)
+    PlateD3.drawPlate(ref)
+    PlateD3.drawCountryLabel(ref, language)
+    PlateD3.drawDrops(ref, data, extent)
     PlateD3.setHoverEvents(ref, name, data, extent)
-
-    // Update
-    PlateD3.update(ref, name, data, language, extent)
 }
 
-PlateD3.drawPlate = () => {
-  const svg = PlateD3.selections.svg
+PlateD3.drawPlate = (ref) => {
+  const wrapper = d3.select(ref.current)
+  const svg = wrapper.select('svg')
   const defs = svg.select('defs')
         
   //Create a radial plate-like gradient
@@ -155,30 +145,26 @@ PlateD3.drawPlate = () => {
     .append('g')
       .attr('class', 'plateG')
 
-  const plateCircle = plateG
+  plateG
     .append('circle')
       .attr('class', 'plate-circle')
       .style('fill', 'url(#plate-gradient)')
 
   // Diagonal Line
-  const plateDiagonal = plateG
+  plateG
     .append('line')
       .attr('class', 'diagonal-line')
 
   // Inner Plate
-  const plateInnerCircle = plateG
+  plateG
     .append('circle')
       .attr('class', 'plate-inner-circle')
-
-  PlateD3.selections.plateG = plateG
-  PlateD3.selections.plateCircle = plateCircle
-  PlateD3.selections.plateDiagonal = plateDiagonal
-  PlateD3.selections.plateInnerCircle = plateInnerCircle
   
 }
 
-PlateD3.drawCountryLabel = (language) => {
-  const svg = PlateD3.selections.wrapper.select('svg')
+PlateD3.drawCountryLabel = (ref, language) => {
+  const wrapper = d3.select(ref.current)
+  const svg = wrapper.select('svg')
 
   const countryG = svg
     .append('g')
@@ -205,8 +191,9 @@ PlateD3.drawCountryLabel = (language) => {
       .text(d => d.text[language.id])
 }
 
-PlateD3.drawDrops = (data, extentLMR) => {
-  const svg = PlateD3.selections.svg
+PlateD3.drawDrops = (ref, data, extentLMR) => {
+  const wrapper = d3.select(ref.current)
+  const svg = wrapper.select('svg')
 
   const dropsG = svg
     .append('g')
@@ -302,8 +289,6 @@ PlateD3.drawDrops = (data, extentLMR) => {
 
 PlateD3.ttipMouseEnter = (ref, name, data, extent) => function(d) {
   const wrapper = d3.select(ref.current)
-  const svg = wrapper.select('svg')
-  const plateG = wrapper.select('.plateG')
   const plateCircle = wrapper.select('.plate-circle')
   const ttipWrapper = d3.select('.tooltip-wrapper')
 
@@ -407,8 +392,6 @@ PlateD3.ttipMouseEnter = (ref, name, data, extent) => function(d) {
 
 PlateD3.ttipMouseLeave = (ref) => () => {
   const wrapper = d3.select(ref.current)
-  const svg = wrapper.select('svg')
-  const plateG = wrapper.select('.plateG')
   const plateCircle = wrapper.select('.plate-circle')
   const ttipWrapper = d3.select('.tooltip-wrapper')
 
@@ -422,14 +405,16 @@ PlateD3.ttipMouseLeave = (ref) => () => {
 }
 
 PlateD3.setHoverEvents = (ref, name, data, extent) => {
-  PlateD3.selections.ttipTrigger
+  d3.select(ref.current)
+    .select('.tooltip-trigger')
     .on('mouseenter', PlateD3.ttipMouseEnter(ref, name, data, extent))
     .on('mouseleave', PlateD3.ttipMouseLeave(ref))
 }
 
 
 PlateD3.update = (ref, name, data, language, extent) => {
-  const svg = PlateD3.selections.svg
+  const wrapper = d3.select(ref.current)
+  const svg = wrapper.select('svg')
   const width = +svg.style('width').replace('px', '')
   const height = +svg.style('height').replace('px', '')
   const center = width/2
@@ -438,6 +423,7 @@ PlateD3.update = (ref, name, data, language, extent) => {
 
   PlateD3.setHoverEvents(ref, name, data, extent)
 
+  // Update country arcs
   svg
     .select('.countryG')
       .attr('transform', `translate(${center}, ${center})`)
@@ -472,4 +458,5 @@ PlateD3.update = (ref, name, data, language, extent) => {
 
 }   
 
-PlateD3.destroy = (ref) => {}
+PlateD3.destroy = (ref) => {
+}
