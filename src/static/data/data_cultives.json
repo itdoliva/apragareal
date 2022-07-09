@@ -3,8 +3,7 @@
         "name": {
             "br": "Alface",
             "en": "Lettuces"
-        },
-        "img": "lettuce.png"
+        }
     },
     "tomate": {
         "name": {
@@ -21,7 +20,7 @@
     "pimentao": {
         "name": {
             "br": "Pimentão",
-            "en": "Sweet peppers/bell peppers"
+            "en": "Bell peppers"
         }
     },
     "pessego": {
@@ -108,13 +107,13 @@
     "berinjela": {
         "name": {
             "br": "Berinjela",
-            "en": "Aubergines/eggplants"
+            "en": "Eggplants"
         }
     },
     "ervilha": {
         "name": {
             "br": "Ervilha",
-            "en": "Peas (without pods)"
+            "en": "Peas"
         }
     },
     "batata": {
@@ -168,13 +167,13 @@
     "milho": {
         "name": {
             "br": "Milho",
-            "en": "Maize/corn"
+            "en": "Maize"
         }
     },
     "maracuja": {
         "name": {
             "br": "Maracujá",
-            "en": "Passionfruits/maracujas"
+            "en": "Passionfruits"
         }
     },
     "alho": {
@@ -216,7 +215,7 @@
     "amendoim": {
         "name": {
             "br": "Amendoim",
-            "en": "Peanuts/groundnuts"
+            "en": "Peanuts"
         }
     },
     "beterraba": {
@@ -258,7 +257,7 @@
     "mandioca": {
         "name": {
             "br": "Mandioca",
-            "en": "Cassava roots/manioc"
+            "en": "Cassava roots"
         }
     },
     "nabo": {
@@ -282,13 +281,13 @@
     "nespera": {
         "name": {
             "br": "Nêspera",
-            "en": "Loquats/Japanese medlars"
+            "en": "Loquats"
         }
     },
     "caqui": {
         "name": {
             "br": "Caqui",
-            "en": "Kaki/Japanese persimmons"
+            "en": "Kaki"
         }
     },
     "carambola": {
@@ -324,7 +323,7 @@
     "kiwi": {
         "name": {
             "br": "Kiwi",
-            "en": "Kiwi fruits (green, red, yellow)"
+            "en": "Kiwi fruits"
         }
     },
     "coco": {
@@ -336,7 +335,7 @@
     "roma": {
         "name": {
             "br": "Romã",
-            "en": "Granate apples/pomegranates"
+            "en": "Granate apples"
         }
     },
     "dende": {

@@ -19,6 +19,7 @@
 
     opacity: 1;
     
+    z-index: 10;
 }
 
 .tooltip-pointer {
@@ -39,18 +40,6 @@
 
 .tootip-wrapper div {
     pointer-events: none;
-}
-
-.tooltip-wrapper.deactivate {
-    opacity: 0;
-}
-
-.multiplier-wrapper.deactivate {
-    opacity: 0;
-}
-
-.tooltip-card.deactivate {
-    display: none;
 }
 
 .tooltip-header {

@@ -11,7 +11,6 @@ import getPestData from './functions/getPestData';
 import usePestFilter from './hooks/usePestFilter';
 
 import './style.scss';
-import './plates.scss';
 import './legend.scss';
 
 function Main({ language, changeLanguage }) {

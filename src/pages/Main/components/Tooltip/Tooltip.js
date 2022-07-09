@@ -8,7 +8,7 @@ function Tooltip({ language }) {
         .map(d => ({language: d[0], label: d[1].short}))
 
   return (
-    <div className="tooltip-wrapper deactivate">
+    <div className="tooltip-wrapper transparent">
 
       <div className="tooltip-header">
         <span className="tooltip-header-title" />

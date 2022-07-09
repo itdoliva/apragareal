@@ -184,3 +184,11 @@ h1, h2, h3, h4, h5, h6 {
   stroke: blue;
   stroke-width: 0px;
 }
+
+.deactivate {
+  display: none !important;
+}
+
+.transparent {
+  opacity: 0 !important;
+}
