@@ -12,7 +12,14 @@
         "size": { "title": "Tamanho", "value": "LMR"},
         "color": { "title": "Cor", "value": "Ingrediente Ativo" }
       },
-      "ban": "Banido"
+      "ban": "Banido",
+      "quote": "A obrigação de suportar nos dá o direito de saber",
+      "aboutMainText": [
+        "Formigas, roedores, lagartas, ervas daninhas entre outros são fundamentais para a manutenção de ecossistemas.",
+        "Estes pequenos animais e vegetais se multiplicam aceleradamente dentro do modelo de monocultura implantado no Brasil e em diversos países.",
+        "A fim de dizimá-los da agricultura, toneladas de agrotóxicos são aplicadas sobre as plantações e penetram o interior dos alimentos, de onde não poderão ser eliminados.",
+        "Os países estabelecem as concentrações máximas de agrotóxicos toleradas para os alimentos que chegam às nossas mesas, isto é, o Limite Máximo de Resíduos (LMR) de cada agrotóxico sobre os diversos cultivos. A Anvisa é responsável pela definição dos LMRs no Brasil."
+      ] 
     },
     {
       "id": "en", 
@@ -27,6 +34,13 @@
         "size": { "title": "Size", "value": "MRL"},
         "color": { "title": "Color", "value": "Pesticide" }
       },
-      "ban": "Banned"
+      "ban": "Banned",
+      "quote": "The obligation to endure gives us the right ot know",
+      "aboutMainText": [
+        "Ants, roedores, lagartas, weed entre outros são fundamentais para a manutenção de ecossistemas.",
+        "Those small animals and vegetables multiplicam aceleradamente dentro do modelo de monocultura implantado no Brasil e em diversos países.",
+        "To purge them from agriculture, toneladas de agrotóxicos são aplicadas sobre as plantações e penetram o interior dos alimentos, de onde não poderão ser eliminados.",
+        "Os países estabelecem as concentrações máximas de agrotóxicos toleradas para os alimentos que chegam às nossas mesas, isto é, o Limite Máximo de Resíduos (LMR) de cada agrotóxico sobre os diversos cultivos. A Anvisa é responsável pela definição dos LMRs no Brasil."
+      ] 
     }
   ]

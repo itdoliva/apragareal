@@ -42,7 +42,7 @@ function Main({ language, changeLanguage }) {
         </nav>
 
         <div className="pest-filters">
-          {pesticides.map(d => (
+          {pesticides.filter(d => d.show).map(d => (
             <PestFilter 
               key={d.id} 
               language={language}

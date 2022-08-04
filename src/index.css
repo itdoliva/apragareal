@@ -10,6 +10,8 @@
 body {
   margin: 0;
   font-family: Roboto, -apple-system, sans-serif;
+  font-weight: 300;
+  line-height: 150%;
   color: var(--black);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -37,6 +39,11 @@ code {
   --pest-I13: #BA9E57;
   --pest-C20: #977D4A;
 
+  --blue-1: #5A90DA;
+  --blue-2: #2573d8;
+  --blue-3: #1555D9;
+  --blue-4: #0339D9;
+
   --red: #BD3030;
 }
 
@@ -53,6 +60,7 @@ button {
   padding: 0;
   margin: 0;
   font-family: inherit;
+  text-shadow: inherit;
 
   cursor: pointer;
 }
@@ -70,6 +78,18 @@ a {
   text-decoration: none;
 
   cursor: pointer;
+}
+
+.weblink {
+  color: var(--blue-2);
+  font-weight: 400;
+  transition: all .3s ease-in-out;
+  /* border-bottom: 2px solid rgba(37, 115, 216, 0); */
+}
+
+.weblink:hover {
+  color: var(--blue-4);
+  /* border-bottom: 2px solid var(--blue-2); */
 }
 
 a:active {

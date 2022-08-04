@@ -24,7 +24,7 @@ function Footer({ label }) {
 
         <div className="legend-body">
           <div className="color-blocks">
-            {pesticides.map(d => (
+            {pesticides.filter(d => d.show).map(d => (
               <div key={d.id} className={'pest-' + d.id}></div>
             ))}
           </div>

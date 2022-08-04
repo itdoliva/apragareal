@@ -6,7 +6,10 @@
             "br": "GLIFOSATO",
             "en": "GLYPHOSATE"
         },
-        "approved": true
+        "show": true,
+        "approved": true,
+        "color": "#86694D",
+        "salesTon": 246017.51
     },
     {
         "id": "D27",
@@ -15,7 +18,10 @@
             "br": "2,4-D",
             "en": "2,4-D"
         },
-        "approved": true
+        "show": true,
+        "approved": true,
+        "color": "#858C64",
+        "salesTon": 57597.57
     },
     {
         "id": "M02",
@@ -24,7 +30,10 @@
             "br": "MANCOZEBE",
             "en": "MANCOZEB"
         },
-        "approved": false
+        "show": true,
+        "approved": false,
+        "color": "#D1AA75",
+        "salesTon": 50526.87
     },
     {
         "id": "A14",
@@ -33,7 +42,10 @@
             "br": "ATRAZINA",
             "en": "ATRAZINE"
         },
-        "approved": false
+        "show": true,
+        "approved": false,
+        "color": "#A18561",
+        "salesTon": 33321.11
     },
     {
         "id": "A02",
@@ -42,7 +54,10 @@
             "br": "ACEFATO",
             "en": "ACEPHATE"
         },
-        "approved": false
+        "show": true,
+        "approved": false,
+        "color": "#D8D5A8",
+        "salesTon": 29982.50
     },
     {
         "id": "C18",
@@ -51,7 +66,10 @@
             "br": "CLOROTALONIL",
             "en": "CHLOROTHALONIL"
         },
-        "approved": false
+        "show": true,
+        "approved": false,
+        "color": "#717658",
+        "salesTon": 24191.03
     },
     {
         "id": "M01",
@@ -60,7 +78,22 @@
             "br": "MALATIONA",
             "en": "MALATHION"
         },
-        "approved": true
+        "show": true,
+        "approved": true,
+        "color": "#999165",
+        "salesTon": 15702.11
+    },
+    {
+        "id": "S00",
+        "rank": 8,
+        "label": {
+            "br": "ENXOFRE",
+            "en": "SULFUR"
+        },
+        "show": false,
+        "approved": true,
+        "color": "#E9E9E9",
+        "salesTon": 11390.90
     },
     {
         "id": "I13",
@@ -69,7 +102,10 @@
             "br": "IMIDACLOPRIDO",
             "en": "IMIDACLOPRID"
         },
-        "approved": false
+        "show": true,
+        "approved": false,
+        "color": "#BA9E57",
+        "salesTon": 9401.65
     },
     {
         "id": "C20",
@@ -78,6 +114,9 @@
             "br": "CLORPIRIFÓS",
             "en": "CHLORPYRIFOS"
         },
-        "approved": false
+        "show": true,
+        "approved": false,
+        "color": "#977D4A",
+        "salesTon": 8864.88
     }
 ]

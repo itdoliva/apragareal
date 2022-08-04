@@ -336,14 +336,22 @@ PlateD3.ttipMouseEnter = (ref, name, data, extent) => function(d) {
             .text(pestBR.lmr)
 
         if (pestBR.ratio) {
+          let fmtRatio = pestBR.ratio
+          if (fmtRatio >= 2) {
+            fmtRatio = fmtRatio.toFixed(0)
+          } 
+          else if (fmtRatio >= .1) {
+            fmtRatio = fmtRatio.toFixed(1)
+          } 
+          else {
+            fmtRatio = fmtRatio.toFixed(2)
+          }
+
           cardBR
             .select('.multiplier-wrapper')
               .style('background', multiplierColor(pestBR.ratio))
             .select('.multiplier')
-              .text('x' + (pestBR.ratio >= 2 
-                  ? pestBR.ratio.toFixed(0)
-                  : pestBR.ratio.toFixed(1)
-                  ))
+              .text('x' + fmtRatio)
         }
         
       }

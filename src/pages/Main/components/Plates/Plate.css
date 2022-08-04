@@ -1,6 +1,7 @@
 .plates-wrapper {
     margin: 36px 0 22px 0;
     position: relative;
+    box-sizing: content-box;
 
     display: flex;
     flex-wrap: wrap;
