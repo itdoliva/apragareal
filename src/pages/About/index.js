@@ -2,18 +2,11 @@ import { Link } from "react-router-dom";
 import {ReactComponent as Logo} from '../../static/imgs/apragareal.svg';
 import pesticides from '../../static/data/data_pesticides.json';
 import profilePicture from '../../static/imgs/profile.png';
-import { useEffect, useRef } from 'react';
-import * as d3 from 'd3';
-import fmtValueLabel from "./functions/fmtValueLabel";
+import BarChart from "./components/BarChart/BarChart";
 
 import './style.scss';
 
 function About({ language, changeLanguage }) {
-  const ref = useRef(null)
-
-  useEffect(() => {
-    BarChartD3.create(ref, language)
-  }, [])
 
   return (
     <div className="about-page">
@@ -64,7 +57,7 @@ function About({ language, changeLanguage }) {
         
         <div className="listwrapper">
           <h5>Os 10 Ingredientes Ativos mais vendidos no Brasil em 2020</h5>
-          <svg className="barchart" ref={ref}></svg>
+          <BarChart data={pesticides} language={language} />
         </div>
         <p>Sob a ausência de dados dos IA mais utilizados nas lavouras brasileiras, a lista acima foi adotada como representante dos IA mais utilizados.</p>
         
@@ -93,122 +86,5 @@ function About({ language, changeLanguage }) {
   );
 }
 
-const BarChartD3 = {}
-
-BarChartD3.create = (ref, language) => {
-  const svg = d3.select(ref.current)
-
-  const figurePad = 18
-  const yticklabelWidth = 90
-  const valueLabelWidth = 60
-  const tickMargin = 8
-
-  const width = +svg.style('width').replace('px', '')
-  const height = +svg.style('height').replace('px', '')
-  
-  const yScale = d3.scaleBand()
-    .domain(pesticides.map(d => d.id))
-    .range([figurePad, height - 2*figurePad])
-    .padding(.175)
-
-  const bandwidth = yScale.bandwidth()
-
-  const xScale = d3.scaleLinear()
-    .domain([0, d3.max(pesticides, d => d.salesTon)*1.25])
-    .range([0, width - 2*figurePad - yticklabelWidth - valueLabelWidth - 2*tickMargin])
-
-  const xAxisGenerator = d3
-    .axisTop(xScale)
-    .ticks(5)
-    .tickFormat(d3.format('.2s'))
-    .tickSize(2)
-
-  const figure = svg
-    .append('g')
-      .attr('class', 'figure')
-
-  const canvas = figure
-    .append('g')
-      .attr('class', 'canvas')
-      .attr('transform', `translate(${figurePad}, ${figurePad})`)
-      .attr('width', width -2*figurePad)
-      .attr('height', height -2*figurePad)
-
-  const yticklabels = canvas
-    .append('g')
-      .attr('class', 'yaxis')
-    .append('g')
-      .attr('class', 'yticklabels')
-
-  const xaxis = canvas
-    .append('g')
-      .attr('class', 'xaxis')
-      .attr('transform', `translate(${yticklabelWidth + tickMargin}, ${figurePad - tickMargin})`)
-      .call(xAxisGenerator)
-
-  const plotarea = canvas
-    .append('g')
-      .attr('class', 'plotarea')
-      .attr('transform', `translate(${yticklabelWidth + tickMargin}, 0)`)
-
-  const bars = plotarea
-    .append('g')
-      .attr('class', 'bars')
-
-  const values = plotarea
-    .append('g')
-      .attr('class', 'values')
-
-  const triggers = canvas
-    .append('g')
-      .attr('class', 'trigger')
-
-  pesticides.forEach(function(d) {
-
-      const y = yScale(d.id)
-      const barWidth = xScale(d.salesTon)
-
-      const ticklabel = yticklabels
-        .append('text')
-          .attr('class', d.id)
-          .attr('x', yticklabelWidth)
-          .attr('y', y)
-          .attr('dy', bandwidth*.75)
-          .text(d.label.br)
-
-      const bar = bars
-        .append('rect')
-          .attr('class', 'bar')
-          .attr('y', y)
-          .attr('width', barWidth)
-          .attr('height', bandwidth)
-          .attr('fill', d.color)
-
-      const value = values
-        .append('text')
-          .attr('x', barWidth + tickMargin)
-          .attr('y', y)
-          .attr('dy', bandwidth*.75)
-          .text(fmtValueLabel(d.salesTon, language.id))
-
-      triggers
-        .append('rect')
-          .attr('x', 0)
-          .attr('y', y)
-          .attr('width', width)
-          .attr('height', bandwidth)
-          .on('mouseenter', () => {
-            ticklabel.classed('strong', true)
-            value.classed('strong', true)
-            bar.classed('strong', true)
-          })
-          .on('mouseleave', () => {
-            ticklabel.classed('strong', false)
-            value.classed('strong', false)
-            bar.classed('strong', false)
-          })
-
-    })
-}
 
 export default About;
