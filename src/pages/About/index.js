@@ -1,8 +1,7 @@
-import { Link } from "react-router-dom";
-import {ReactComponent as Logo} from '../../static/imgs/apragareal.svg';
 import pesticides from '../../static/data/data_pesticides.json';
 import profilePicture from '../../static/imgs/profile.png';
 import BarChart from "./components/BarChart/BarChart";
+import NavBar from "./components/NavBar/NavBar"
 
 import './style.scss';
 
@@ -11,27 +10,7 @@ function About({ language, changeLanguage }) {
   return (
     <div className="about-page">
 
-    <header>
-
-      <div className="header-wrapper">
-        <Logo className="app-logo" color="white"/>
-        <div className="colorful-border">
-            {pesticides.filter(d => d.show).map(d => (
-              <div key={d.id} className={'pest-' + d.id}></div>
-            ))}
-          </div>
-        
-        <div className='background'>
-          <div className='background-image'/>
-        </div>
-
-        <ul className="menu">
-          <li><Link to="/" >Home</Link></li>
-          <li><button onClick={changeLanguage}>{language.name}</button></li>
-        </ul>
-      </div>
-      
-    </header>
+    <NavBar language={language} changeLanguage={changeLanguage} />
 
     <section>
 

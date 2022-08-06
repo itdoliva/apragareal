@@ -3,10 +3,10 @@ function fmtValueLabel(value, lang) {
     if (lang == "br") {
         return value
             .replace('.', ',')
-            .replace(/\B(?=(\d{3})+(?!\d))/g, " ") + ' mil ton'
+            .replace(/\B(?=(\d{3})+(?!\d))/g, " ") + ' kt'
     } else {
         return value
-            .replace(/\B(?=(\d{3})+(?!\d))/g, ",") + ' kiloton'
+            .replace(/\B(?=(\d{3})+(?!\d))/g, ",") + ' kt'
     }
 
 }
