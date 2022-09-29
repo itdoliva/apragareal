@@ -1,0 +1,31 @@
+.sec-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+    &:last-child {
+        padding-bottom: 64px;
+    };
+
+    h1 {
+      width: 100%;
+      font-size: 1.5rem;
+      // border-bottom: 1px solid var(--gray-1);
+      padding-bottom: .75rem;
+      margin-bottom: 1rem;
+      color: var(--gray-1);
+    }
+
+    h4 {
+        text-transform: uppercase;
+        color: var(--gray-1);
+        margin-top: .8rem;
+        margin-bottom: 0.5rem;
+    }
+
+    h5 {
+        text-transform: uppercase;
+        color: var(--gray-1);
+    }
+  }

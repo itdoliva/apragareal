@@ -88,9 +88,9 @@
         "ratio": null
     },
     {
-        "id": "A14-cana-de-acucar-br",
+        "id": "A14-canadeacucar-br",
         "cd_ia": "A14",
-        "cultivo": "cana-de-acucar",
+        "cultivo": "canadeacucar",
         "legislacao": "br",
         "lmr": 0.25,
         "ratio": null
@@ -176,9 +176,9 @@
         "ratio": null
     },
     {
-        "id": "C18-banulla-br",
+        "id": "C18-banana-br",
         "cd_ia": "C18",
-        "cultivo": "banulla",
+        "cultivo": "banana",
         "legislacao": "br",
         "lmr": 3,
         "ratio": null
@@ -192,9 +192,9 @@
         "ratio": null
     },
     {
-        "id": "C18-batata-doce-br",
+        "id": "C18-batatadoce-br",
         "cd_ia": "C18",
-        "cultivo": "batata-doce",
+        "cultivo": "batatadoce",
         "legislacao": "br",
         "lmr": 0.2,
         "ratio": null
@@ -280,17 +280,17 @@
         "ratio": null
     },
     {
-        "id": "C18-couve-flor-br",
+        "id": "C18-couveflor-br",
         "cd_ia": "C18",
-        "cultivo": "couve-flor",
+        "cultivo": "couveflor",
         "legislacao": "br",
         "lmr": 0.5,
         "ratio": null
     },
     {
-        "id": "C18-couve-de-bruxelas-br",
+        "id": "C18-couvedebruxelas-br",
         "cd_ia": "C18",
-        "cultivo": "couve-de-bruxelas",
+        "cultivo": "couvedebruxelas",
         "legislacao": "br",
         "lmr": 0.5,
         "ratio": null
@@ -472,9 +472,9 @@
         "ratio": null
     },
     {
-        "id": "C20-banulla-br",
+        "id": "C20-banana-br",
         "cd_ia": "C20",
-        "cultivo": "banulla",
+        "cultivo": "banana",
         "legislacao": "br",
         "lmr": 0.01,
         "ratio": null
@@ -616,9 +616,9 @@
         "ratio": 1
     },
     {
-        "id": "D27-cana-de-acucar-br",
+        "id": "D27-canadeacucar-br",
         "cd_ia": "D27",
-        "cultivo": "cana-de-acucar",
+        "cultivo": "canadeacucar",
         "legislacao": "br",
         "lmr": 0.1,
         "ratio": 2
@@ -720,17 +720,17 @@
         "ratio": 0
     },
     {
-        "id": "G01-banulla-br",
+        "id": "G01-banana-br",
         "cd_ia": "G01",
-        "cultivo": "banulla",
+        "cultivo": "banana",
         "legislacao": "br",
         "lmr": 0.02,
         "ratio": 0.2
     },
     {
-        "id": "G01-batata-doce-br",
+        "id": "G01-batatadoce-br",
         "cd_ia": "G01",
-        "cultivo": "batata-doce",
+        "cultivo": "batatadoce",
         "legislacao": "br",
         "lmr": 0.01,
         "ratio": 0.1
@@ -760,9 +760,9 @@
         "ratio": 10
     },
     {
-        "id": "G01-cana-de-acucar-br",
+        "id": "G01-canadeacucar-br",
         "cd_ia": "G01",
-        "cultivo": "cana-de-acucar",
+        "cultivo": "canadeacucar",
         "legislacao": "br",
         "lmr": 1,
         "ratio": 10
@@ -784,9 +784,9 @@
         "ratio": 2
     },
     {
-        "id": "G01-castanha-do-para-br",
+        "id": "G01-castanhadopara-br",
         "cd_ia": "G01",
-        "cultivo": "castanha-do-para",
+        "cultivo": "castanhadopara",
         "legislacao": "br",
         "lmr": 0.1,
         "ratio": 1
@@ -1104,9 +1104,9 @@
         "ratio": null
     },
     {
-        "id": "I13-banulla-br",
+        "id": "I13-banana-br",
         "cd_ia": "I13",
-        "cultivo": "banulla",
+        "cultivo": "banana",
         "legislacao": "br",
         "lmr": 0.1,
         "ratio": null
@@ -1144,9 +1144,9 @@
         "ratio": null
     },
     {
-        "id": "I13-cana-de-acucar-br",
+        "id": "I13-canadeacucar-br",
         "cd_ia": "I13",
-        "cultivo": "cana-de-acucar",
+        "cultivo": "canadeacucar",
         "legislacao": "br",
         "lmr": 0.4,
         "ratio": null
@@ -1200,9 +1200,9 @@
         "ratio": null
     },
     {
-        "id": "I13-couve-flor-br",
+        "id": "I13-couveflor-br",
         "cd_ia": "I13",
-        "cultivo": "couve-flor",
+        "cultivo": "couveflor",
         "legislacao": "br",
         "lmr": 0.05,
         "ratio": null
@@ -1408,9 +1408,9 @@
         "ratio": 150
     },
     {
-        "id": "M01-couve-flor-br",
+        "id": "M01-couveflor-br",
         "cd_ia": "M01",
-        "cultivo": "couve-flor",
+        "cultivo": "couveflor",
         "legislacao": "br",
         "lmr": 0.5,
         "ratio": 25
@@ -1568,9 +1568,9 @@
         "ratio": null
     },
     {
-        "id": "M02-banulla-br",
+        "id": "M02-banana-br",
         "cd_ia": "M02",
-        "cultivo": "banulla",
+        "cultivo": "banana",
         "legislacao": "br",
         "lmr": 2,
         "ratio": null
@@ -1616,9 +1616,9 @@
         "ratio": null
     },
     {
-        "id": "M02-cana-de-acucar-br",
+        "id": "M02-canadeacucar-br",
         "cd_ia": "M02",
-        "cultivo": "cana-de-acucar",
+        "cultivo": "canadeacucar",
         "legislacao": "br",
         "lmr": 0.07,
         "ratio": null
@@ -1672,9 +1672,9 @@
         "ratio": null
     },
     {
-        "id": "M02-couve-flor-br",
+        "id": "M02-couveflor-br",
         "cd_ia": "M02",
-        "cultivo": "couve-flor",
+        "cultivo": "couveflor",
         "legislacao": "br",
         "lmr": 0.5,
         "ratio": null
@@ -1691,38 +1691,6 @@
         "id": "M02-feijao-br",
         "cd_ia": "M02",
         "cultivo": "feijao",
-        "legislacao": "br",
-        "lmr": 0.3,
-        "ratio": null
-    },
-    {
-        "id": "M02-feijao vagem-br",
-        "cd_ia": "M02",
-        "cultivo": "feijao vagem",
-        "legislacao": "br",
-        "lmr": 0.3,
-        "ratio": null
-    },
-    {
-        "id": "M02-feijao-fava-br",
-        "cd_ia": "M02",
-        "cultivo": "feijao-fava",
-        "legislacao": "br",
-        "lmr": 0.3,
-        "ratio": null
-    },
-    {
-        "id": "M02-feijao-guandu-br",
-        "cd_ia": "M02",
-        "cultivo": "feijao-guandu",
-        "legislacao": "br",
-        "lmr": 0.3,
-        "ratio": null
-    },
-    {
-        "id": "M02-feijao-mungo-br",
-        "cd_ia": "M02",
-        "cultivo": "feijao-mungo",
         "legislacao": "br",
         "lmr": 0.3,
         "ratio": null
@@ -1949,9 +1917,9 @@
         "lmr": null
     },
     {
-        "id": "A14-cana-de-acucar-eu",
+        "id": "A14-canadeacucar-eu",
         "cd_ia": "A14",
-        "cultivo": "cana-de-acucar",
+        "cultivo": "canadeacucar",
         "legislacao": "eu",
         "lmr": null
     },
@@ -2026,9 +1994,9 @@
         "lmr": null
     },
     {
-        "id": "C18-banulla-eu",
+        "id": "C18-banana-eu",
         "cd_ia": "C18",
-        "cultivo": "banulla",
+        "cultivo": "banana",
         "legislacao": "eu",
         "lmr": null
     },
@@ -2040,9 +2008,9 @@
         "lmr": null
     },
     {
-        "id": "C18-batata-doce-eu",
+        "id": "C18-batatadoce-eu",
         "cd_ia": "C18",
-        "cultivo": "batata-doce",
+        "cultivo": "batatadoce",
         "legislacao": "eu",
         "lmr": null
     },
@@ -2117,16 +2085,16 @@
         "lmr": null
     },
     {
-        "id": "C18-couve-flor-eu",
+        "id": "C18-couveflor-eu",
         "cd_ia": "C18",
-        "cultivo": "couve-flor",
+        "cultivo": "couveflor",
         "legislacao": "eu",
         "lmr": null
     },
     {
-        "id": "C18-couve-de-bruxelas-eu",
+        "id": "C18-couvedebruxelas-eu",
         "cd_ia": "C18",
-        "cultivo": "couve-de-bruxelas",
+        "cultivo": "couvedebruxelas",
         "legislacao": "eu",
         "lmr": null
     },
@@ -2285,9 +2253,9 @@
         "lmr": null
     },
     {
-        "id": "C20-banulla-eu",
+        "id": "C20-banana-eu",
         "cd_ia": "C20",
-        "cultivo": "banulla",
+        "cultivo": "banana",
         "legislacao": "eu",
         "lmr": null
     },
@@ -2411,9 +2379,9 @@
         "lmr": 0.1
     },
     {
-        "id": "D27-cana-de-acucar-eu",
+        "id": "D27-canadeacucar-eu",
         "cd_ia": "D27",
-        "cultivo": "cana-de-acucar",
+        "cultivo": "canadeacucar",
         "legislacao": "eu",
         "lmr": 0.05
     },
@@ -2502,16 +2470,16 @@
         "lmr": 20
     },
     {
-        "id": "G01-banulla-eu",
+        "id": "G01-banana-eu",
         "cd_ia": "G01",
-        "cultivo": "banulla",
+        "cultivo": "banana",
         "legislacao": "eu",
         "lmr": 0.1
     },
     {
-        "id": "G01-batata-doce-eu",
+        "id": "G01-batatadoce-eu",
         "cd_ia": "G01",
-        "cultivo": "batata-doce",
+        "cultivo": "batatadoce",
         "legislacao": "eu",
         "lmr": 0.1
     },
@@ -2537,9 +2505,9 @@
         "lmr": 0.1
     },
     {
-        "id": "G01-cana-de-acucar-eu",
+        "id": "G01-canadeacucar-eu",
         "cd_ia": "G01",
-        "cultivo": "cana-de-acucar",
+        "cultivo": "canadeacucar",
         "legislacao": "eu",
         "lmr": 0.1
     },
@@ -2558,9 +2526,9 @@
         "lmr": 0.1
     },
     {
-        "id": "G01-castanha-do-para-eu",
+        "id": "G01-castanhadopara-eu",
         "cd_ia": "G01",
-        "cultivo": "castanha-do-para",
+        "cultivo": "castanhadopara",
         "legislacao": "eu",
         "lmr": 0.1
     },
@@ -2838,9 +2806,9 @@
         "lmr": null
     },
     {
-        "id": "I13-banulla-eu",
+        "id": "I13-banana-eu",
         "cd_ia": "I13",
-        "cultivo": "banulla",
+        "cultivo": "banana",
         "legislacao": "eu",
         "lmr": null
     },
@@ -2873,9 +2841,9 @@
         "lmr": null
     },
     {
-        "id": "I13-cana-de-acucar-eu",
+        "id": "I13-canadeacucar-eu",
         "cd_ia": "I13",
-        "cultivo": "cana-de-acucar",
+        "cultivo": "canadeacucar",
         "legislacao": "eu",
         "lmr": null
     },
@@ -2922,9 +2890,9 @@
         "lmr": null
     },
     {
-        "id": "I13-couve-flor-eu",
+        "id": "I13-couveflor-eu",
         "cd_ia": "I13",
-        "cultivo": "couve-flor",
+        "cultivo": "couveflor",
         "legislacao": "eu",
         "lmr": null
     },
@@ -3104,9 +3072,9 @@
         "lmr": 0.02
     },
     {
-        "id": "M01-couve-flor-eu",
+        "id": "M01-couveflor-eu",
         "cd_ia": "M01",
-        "cultivo": "couve-flor",
+        "cultivo": "couveflor",
         "legislacao": "eu",
         "lmr": 0.02
     },
@@ -3244,9 +3212,9 @@
         "lmr": null
     },
     {
-        "id": "M02-banulla-eu",
+        "id": "M02-banana-eu",
         "cd_ia": "M02",
-        "cultivo": "banulla",
+        "cultivo": "banana",
         "legislacao": "eu",
         "lmr": null
     },
@@ -3286,9 +3254,9 @@
         "lmr": null
     },
     {
-        "id": "M02-cana-de-acucar-eu",
+        "id": "M02-canadeacucar-eu",
         "cd_ia": "M02",
-        "cultivo": "cana-de-acucar",
+        "cultivo": "canadeacucar",
         "legislacao": "eu",
         "lmr": null
     },
@@ -3335,9 +3303,9 @@
         "lmr": null
     },
     {
-        "id": "M02-couve-flor-eu",
+        "id": "M02-couveflor-eu",
         "cd_ia": "M02",
-        "cultivo": "couve-flor",
+        "cultivo": "couveflor",
         "legislacao": "eu",
         "lmr": null
     },
@@ -3352,34 +3320,6 @@
         "id": "M02-feijao-eu",
         "cd_ia": "M02",
         "cultivo": "feijao",
-        "legislacao": "eu",
-        "lmr": null
-    },
-    {
-        "id": "M02-feijao vagem-eu",
-        "cd_ia": "M02",
-        "cultivo": "feijao vagem",
-        "legislacao": "eu",
-        "lmr": null
-    },
-    {
-        "id": "M02-feijao-fava-eu",
-        "cd_ia": "M02",
-        "cultivo": "feijao-fava",
-        "legislacao": "eu",
-        "lmr": null
-    },
-    {
-        "id": "M02-feijao-guandu-eu",
-        "cd_ia": "M02",
-        "cultivo": "feijao-guandu",
-        "legislacao": "eu",
-        "lmr": null
-    },
-    {
-        "id": "M02-feijao-mungo-eu",
-        "cd_ia": "M02",
-        "cultivo": "feijao-mungo",
         "legislacao": "eu",
         "lmr": null
     },
