@@ -12,7 +12,14 @@ import useActive from '../../hooks/useActive';
 import useContainerDimensions from '../../hooks/useContainerDimensions';
 import useCultives from '../../hooks/useCultives';
 
-function Plates ({ isMobile, cultives, pesticides, language, colorBlocks, cultiveGroups }) {
+import { useSelector } from 'react-redux'
+
+import { selectLanguage, selectIsMobile } from '../../features/mainSlice'
+
+function Plates ({ cultives, pesticides, colorBlocks, cultiveGroups }) {
+  
+  const language = useSelector(selectLanguage)
+  const isMobile = useSelector(selectIsMobile)
 
   const [ data, setData ] = useState([])
   const [ fPesticides, togglePesticide ] = useActive(pesticides, true)
@@ -25,8 +32,10 @@ function Plates ({ isMobile, cultives, pesticides, language, colorBlocks, cultiv
   }, [ cultiveTypes ])
   
   useEffect(() => {
-    setData(getCultivesData(fCultives, fPesticides))
+    setData(getCultivesData(fCultives, fPesticides, isMobile))
   }, [ fCultives, fPesticides ])
+
+  console.log('Data', data)
 
 
   // ----- Filters Section ----- //
@@ -79,26 +88,27 @@ function Plates ({ isMobile, cultives, pesticides, language, colorBlocks, cultiv
   const [ rowSize, setRowSize ] = useState(2*platesByRow-1)
 
   const plates = data.map((d, i) => {
-    let margins = { left: 0, right: 0 }
+    let margins = { marginLeft: 0, marginRight: 0 }
     const row = Math.floor(i/rowSize)
     const position = i - (row*rowSize)
     if (position === platesByRow) {
-      margins.left = 120
+      margins.marginLeft = 120
     } 
 
     if (position === rowSize-1) {
-      margins.right = 120
+      margins.marginRight = 120
     }
     else if (data.length - 1 === i && position > platesByRow) {
-      margins.right = 120
+      margins.marginRight = 120
     }
 
     return (
-      <Plate 
-        key={d.cultivo + '-' + d.data.map(d => d.id).join('-')}
-        language={language}
-        margins={margins}
-        {...d} />
+      <li style={margins}
+      
+      key={d.cultivo + '-' + d.data.map(d => d.id).join('-')}>
+        <Plate 
+          {...d} />
+      </li>
     )
   })
   
@@ -116,14 +126,12 @@ function Plates ({ isMobile, cultives, pesticides, language, colorBlocks, cultiv
       <section className="sec-plates">
 
 
-        <div className="plate-wrapper">
+        <div>
           {data
             .filter(d => d.isSelected)
             .map(d => (
               <Plate 
                 key={d.cultivo + '-' + d.data.map(d => d.id).join('-')}
-                language={language}
-                isMobile={isMobile}
                 {...d} />
             ))
           }

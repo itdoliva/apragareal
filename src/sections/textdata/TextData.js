@@ -1,6 +1,12 @@
 import BarChart from "../../components/BarChart/BarChart";
 
-function TextData({ pesticides, language }) {
+import { useSelector } from 'react-redux'
+
+import { selectLanguage } from '../../features/mainSlice'
+
+function TextData({ pesticides }) {
+    const language = useSelector(selectLanguage)
+
     return (
       <section className="sec-text">
         <h1>SOBRE OS DADOS</h1>

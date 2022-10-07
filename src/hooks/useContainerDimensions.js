@@ -1,11 +1,17 @@
 import { useState, useEffect } from "react";
 
+const initState = { width: 0, height: 0 }
+
 const useContainerDimensions = (myRef) => {
-    const getDimensions = () => ({
-      width: myRef.current.offsetWidth,
-      height: myRef.current.offsetHeight
-    })
-    const [dimensions, setDimensions] = useState({ width: 0, height: 0 })
+    const getDimensions = () => !myRef.current 
+      ? initState
+      : {
+        width: myRef.current.offsetWidth, 
+        height: myRef.current.offsetHeight 
+      }
+    
+
+    const [dimensions, setDimensions] = useState(initState)
   
     useEffect(() => {
       const handleResize = () => {

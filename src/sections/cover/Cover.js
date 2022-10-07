@@ -1,6 +1,11 @@
 import { ReactComponent as Logo } from '../../static/imgs/apragareal.svg';
+import { useSelector } from 'react-redux'
 
-function Cover({ colorBlocks, language }) {
+import { selectLanguage } from '../../features/mainSlice'
+
+function Cover({ colorBlocks }) {
+  const language = useSelector(selectLanguage)
+  
   return (
     <section className="sec-cover">
 

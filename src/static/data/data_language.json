@@ -1,5 +1,5 @@
-{
-  "br": {
+[
+  {
     "id": "br", 
     "name": "Português", 
     "shortName": "PT", 
@@ -17,7 +17,7 @@
     "ban": "Banido",
     "quote": "A obrigação de suportar nos dá o direito de saber"
   },
-  "en": {
+  {
     "id": "en", 
     "name": "English", 
     "shortName": "EN", 
@@ -35,4 +35,4 @@
     "ban": "Banned",
     "quote": "The obligation to endure gives us the right to know"
   }
-}
+]

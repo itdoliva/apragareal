@@ -1,7 +1,7 @@
 import lmrData from "../static/data/data_lmr.json";
 import * as d3 from 'd3';
 
-function getCultivesData(cultives, pesticides) {
+function getCultivesData(cultives, pesticides, isMobile) {
   const activePest = pesticides
     .filter(d => d.active)
     .map(d => d.id)
@@ -9,7 +9,7 @@ function getCultivesData(cultives, pesticides) {
   const fLmrData = lmrData.filter(d => activePest.length === 0 || activePest.includes(d.cd_ia))
 
   const cultivesData = cultives
-    .filter(d => d.isAvailable)
+    .filter(d => d.isAvailable || (isMobile && d.isSelected))
     .map(cultive => {
       const cultiveLmrData = fLmrData.filter(d => d.cultivo === cultive.id)
 
@@ -26,8 +26,6 @@ function getCultivesData(cultives, pesticides) {
       }
     })
     .filter(d => d.data.length > 0)
-
-  console.log(cultivesData)
 
   return cultivesData
 }

@@ -1,4 +1,4 @@
-import { useState, useRef, useEffect } from "react";
+import { useRef, useEffect } from "react";
 
 import useContainerDimensions from './hooks/useContainerDimensions';
 
@@ -11,45 +11,50 @@ import TextMe from './sections/textme/TextMe';
 import pesticides from './static/data/data_pesticides.json';
 import cultives from './static/data/data_cultives';
 import cultiveGroups from './static/data/data_cultive_groups.json';
-import languages from './static/data/data_language.json'
+import { useSelector, useDispatch } from 'react-redux'
+
+import { 
+  setIsMobile, 
+  selectIsMobile, 
+  selectLanguage,
+  toggleLanguage
+} from './features/mainSlice'
 
 import "./App.scss"
 
 
 function App() {
 
-  const [language, setLanguage] = useState(languages.br);
-  const toggleLanguage = () => {setLanguage(language.id === "br" ? languages.en : languages.br)}
+  const dispatch = useDispatch()
+  const language = useSelector(selectLanguage)
+  const isMobile = useSelector(selectIsMobile)
 
   const colorBlocks = pesticides.filter(d => d.show).map(d => (
     <div key={d.id} style={{background: d.color}}></div>
   ))
 
+    
   const appRef = useRef(null)
   const { width } = useContainerDimensions(appRef)
 
-  const [isMobile, setIsMobile] = useState(false)
+  
   useEffect(() => {
-    setIsMobile(width >= 768 ? false : true)
+    dispatch(setIsMobile(width))
   }, [width])
 
   const coverProps = {
-    colorBlocks,
-    language
+    colorBlocks
   }
 
   const platesProps = {
-    isMobile,
     pesticides,
     cultives,
     cultiveGroups,
-    colorBlocks,
-    language
+    colorBlocks
   }
 
   const textDataProps = {
-    pesticides,
-    language
+    pesticides
   }
   
 
@@ -62,7 +67,7 @@ function App() {
         </div>
 
         <div className="header-container">
-            <button onClick={toggleLanguage}>
+            <button onClick={() => dispatch(toggleLanguage())}>
               {!isMobile ? language.name : language.shortName}
             </button>
         </div>

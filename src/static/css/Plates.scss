@@ -264,6 +264,7 @@ $plate-size: 240px;
   display: flex;
   justify-content: center;
   align-items: center;
+  align-content: flex-start;
   flex-wrap: wrap;
 
   flex-grow: 1;
@@ -272,6 +273,11 @@ $plate-size: 240px;
   list-style: none;
 
   overflow: auto;
+
+  li {
+    width: $plate-size;
+    aspect-ratio: 1/1;
+  }  
 
   -ms-overflow-style: none;  /* Internet Explorer 10+ */
   scrollbar-width: none;  /* Firefox */
@@ -615,10 +621,11 @@ $plate-size: 240px;
   }
 }
 
+
+
 .plate-wrapper {
   position: relative;
-  width: $plate-size;
-  height: $plate-size;
+  aspect-ratio: 1/1;
 
   .tooltip-trigger {
       position: absolute;
@@ -634,8 +641,8 @@ $plate-size: 240px;
 
   .cultive-container {
     position: absolute;
-    width: 66px;
-    height: 66px;
+    width: 27.5%;
+    aspect-ratio: 1/1;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
