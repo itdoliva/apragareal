@@ -2,9 +2,11 @@
   "name": "app",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://italocolt.github.io/apragareal",
   "dependencies": {
     "@reduxjs/toolkit": "^1.8.5",
     "d3": "^7.4.3",
+    "gh-pages": "^4.0.0",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
     "react-redux": "^8.0.4",
@@ -14,6 +16,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
