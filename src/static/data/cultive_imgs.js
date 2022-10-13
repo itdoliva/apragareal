@@ -76,7 +76,7 @@ const imgs = {
     "pera": {src: pears, style: {width: '140%', height: '140%'}},
     "pepino": {src: cucumber, style: {width: '94%', height: '94%'}},
     "melancia": {src: watermelon, style: {width: '94%', height: '94%'}},
-    "arroz": {src: rice, style: {width: '94%', height: '94%'}},
+    "arroz": {src: rice, style: {width: '80%', height: '80%'}},
     "repolho": {src: cabbage, style: {width: '78%', height: '78%'}},
     "berinjela": {src: eggplant, style: {width: '94%', height: '94%'}},
     "ervilha": {src: peas, style: {width: '86%', height: '86%'}},

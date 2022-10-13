@@ -3,8 +3,8 @@ import { useRef, useState, useEffect } from "react";
 import Plate from "../../components/Plate/Plate";
 import PestFilter from "../../components/PestFilter/PestFilter";
 import TooltipCard from "../../components/TooltipCard/TooltipCard";
-
-import LegendD3 from '../../functions/LegendD3';
+import SizeLegend from "../../components/SizeLegend/SizeLegend";
+import TooltipTable from "../../components/TooltipTable/TooltipTable";
 
 import getCultivesData from '../../functions/getCultivesData';
 
@@ -35,8 +35,6 @@ function Plates ({ cultives, pesticides, colorBlocks, cultiveGroups }) {
     setData(getCultivesData(fCultives, fPesticides, isMobile))
   }, [ fCultives, fPesticides ])
 
-  console.log('Data', data)
-
 
   // ----- Filters Section ----- //
   const cultiveFilters = fCultives
@@ -45,7 +43,7 @@ function Plates ({ cultives, pesticides, colorBlocks, cultiveGroups }) {
       return (
       <button 
         key={'cultive-'+d.id}
-        className="filter-element cultive-btn" 
+        className={"filter-element cultive-btn" + (d.isSelected ? " selected" : "")} 
         onClick={() => selectCultive(d.id)}>
         <img 
           className="cultive-img"
@@ -75,11 +73,6 @@ function Plates ({ cultives, pesticides, colorBlocks, cultiveGroups }) {
     ))
 
   // ------------------------- //
-
-  const legendRef = useRef(null)
-  useEffect(() => {
-    LegendD3.create(legendRef)
-  }, [ legendRef ])
 
   const platesRef = useRef(null)
   const { width } = useContainerDimensions(platesRef)
@@ -121,25 +114,19 @@ function Plates ({ cultives, pesticides, colorBlocks, cultiveGroups }) {
   const shorts = Object.entries(language.countryLabel)
     .map(d => ({language: d[0], label: d[1].short}))
 
+  const selected = data.find(d => d.isSelected)
+
   return (isMobile && data.length > 0)
     ? (
       <section className="sec-plates">
-
-
-        <div>
-          {data
-            .filter(d => d.isSelected)
-            .map(d => (
-              <Plate 
-                key={d.cultivo + '-' + d.data.map(d => d.id).join('-')}
-                {...d} />
-            ))
+        <div className="plate-container">
+          {<Plate 
+            key={selected.cultivo + '-' + selected.data.map(d => d.id).join('-')}
+            {...selected} />
           }
         </div>
 
-        <div className="table-wrapper">
-
-        </div>
+          <TooltipTable pesticides={pesticides} {...selected} language={language} />
 
         <div className="filters-wrapper">
 
@@ -182,7 +169,7 @@ function Plates ({ cultives, pesticides, colorBlocks, cultiveGroups }) {
           {plates}
         </ul>
 
-        <div className="side-panel" ref={legendRef}>
+        <div className="side-panel">
 
           <div className="legend color">
             <div className="legend-header">
@@ -202,7 +189,7 @@ function Plates ({ cultives, pesticides, colorBlocks, cultiveGroups }) {
             </div>
 
             <div className="legend-body">
-              <svg />
+              <SizeLegend />
             </div>
           </div>
 

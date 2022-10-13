@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from 'react';
+import { useEffect, useRef } from 'react';
 import { useSelector } from 'react-redux'
 import * as d3 from 'd3';
 
@@ -8,13 +8,14 @@ import useContainerDimensions from '../../hooks/useContainerDimensions';
 import { selectLanguage, selectIsMobile } from '../../features/mainSlice'
 
 export default function Plate({ name, img, extent, data }) {
+  
 
     const language = useSelector(selectLanguage)
     const isMobile = useSelector(selectIsMobile)
 
     const ref = useRef(null)
-    const { width } = useContainerDimensions(ref)
-    const params = new PlateParams(name, data, extent, width, language.id)
+    const { width, size } = useContainerDimensions(ref)
+    const params = new PlateParams(name, data, extent, size, language.id)
 
     useEffect(() => {
         PlateD3.create(ref, params)
@@ -22,7 +23,7 @@ export default function Plate({ name, img, extent, data }) {
     }, [])
 
     useEffect(() => {
-      PlateD3.update(ref, params)
+      PlateD3.update(ref, params, isMobile)
     }, [params])
 
     return (
@@ -102,8 +103,14 @@ PlateD3.setGroups = (ref) => {
   const wrapper = d3.select(ref.current)
   const svg = wrapper.select('svg')
 
-  svg.append('g').attr('class', 'countryG')
-  svg.append('g').attr('class', 'dropsG').append('g')
+  svg
+    .append('g')
+      .attr('class', 'countryG')
+
+  svg
+    .append('g')
+      .attr('class', 'dropsG')
+    .append('g')
 
 }
 
@@ -140,7 +147,7 @@ PlateD3.drawCountryLabel = (ref, params) => {
 }
 
 
-PlateD3.drawDrops = (ref, params) => {
+PlateD3.drawDrops = (ref, params, isMobile) => {
   
   const wrapper = d3.select(ref.current)
   const svg = wrapper.select('svg')
@@ -175,26 +182,38 @@ PlateD3.drawDrops = (ref, params) => {
 
       const g = d3.select(this).append('g')
 
-      g
+      const drops = g
         .selectAll('path')
           .data(dropConf)
           .enter()
         .append('path')
           .attr('class', dd => dd.className)
           .attr('d', dd => dd.pathD)
+
+      if (isMobile) {
+        drops
+          .style('opacity', 0)
+          .transition()
+          .delay(50)
+          .duration(500)
+          .style('opacity', 1)
+      }
     })
 
 
 
+    let tick = 0
+    const tickRate = !isMobile ? 4 : 1 
     params.forceSimulation.on("tick", () => {
-      nodeG
+      if (tick % tickRate === 0) {
+        nodeG
         .attr('transform', d => {
           const radius = params.collideRadiusScale(d.lmr)
           return `translate(${d.x - radius}, ${d.y - radius})`
         })
+      }
+      tick++
     })
-
-    window.params = params
 
     params.forceHasRun = true
       
@@ -210,6 +229,7 @@ PlateD3.ttipMouseEnter = (ref, params) => function(d) {
   const barScale = d3.scaleLinear()
     .domain([0, params.maxLMR])
     .range([0, 120])
+
 
   const multiplierColor = d3.scaleLinear()
     .domain([1, 20])
@@ -228,19 +248,19 @@ PlateD3.ttipMouseEnter = (ref, params) => function(d) {
   const data = params.data
   ttipWrapper.selectAll('.tooltip-card')
     .each(function() {
-      const ttCard = d3.select(this)
+      const card = d3.select(this)
 
-      const reg = /(?!card-)\w\d+/g
-      const cd_ia = reg.exec(ttCard.attr('class'))[0]
+      const regex = /(?!card-)\w\d+/g
+      const cd_ia = regex.exec(card.attr('class'))[0]
 
       const pestBR = data.find(d => d.cd_ia === cd_ia && d.legislacao === "br")
       const pestEU = data.find(d => d.cd_ia === cd_ia && d.legislacao === "eu")
 
-      ttCard
+      card
         .classed('deactivate', !pestBR)
 
-      const cardBR = ttCard.select('.br')
-      const cardEU = ttCard.select('.en')
+      const cardBR = card.select('.br')
+      const cardEU = card.select('.en')
 
       if (pestBR && pestBR.lmr) {
         cardBR
@@ -259,15 +279,21 @@ PlateD3.ttipMouseEnter = (ref, params) => function(d) {
           else if (fmtRatio >= .1) {
             fmtRatio = fmtRatio.toFixed(1)
           } 
-          else {
+          else if (fmtRatio >= .01) {
             fmtRatio = fmtRatio.toFixed(2)
           }
 
           cardBR
             .select('.multiplier-wrapper')
               .style('background', multiplierColor(pestBR.ratio))
+              .style('opacity', 1)
             .select('.multiplier')
               .text('x' + fmtRatio)
+
+        } else if (pestBR.ratio === 0) {
+          cardBR
+            .select('.multiplier-wrapper')
+              .style('opacity', 0)
         }
         
       }
@@ -333,7 +359,7 @@ PlateD3.setHoverEvents = (ref, params) => {
     .on('mouseleave', PlateD3.ttipMouseLeave(ref))
 }
 
-PlateD3.update = (ref, params) => {
+PlateD3.update = (ref, params, isMobile) => {
   const wrapper = d3.select(ref.current)
   const svg = wrapper.select('svg')
   const svgWidth = +svg.style('width').replace('px', '')
@@ -344,7 +370,7 @@ PlateD3.update = (ref, params) => {
 
 
   if (!params.forceHasRun && params.width > 1) {
-    PlateD3.drawDrops(ref, params)
+    PlateD3.drawDrops(ref, params, isMobile)
   }
 
   PlateD3.setHoverEvents(ref, params)

@@ -12,8 +12,8 @@ function TextData({ pesticides }) {
         <h1>SOBRE OS DADOS</h1>
         <div className="paragraph-wrapper double-column about">
           <h4>Ingredientes Ativos mais utilizados no Brasil</h4>
-          <p>Ingrediente Ativo (IA) ou Princípio Ativo é a principal substância química que confere propriedades biocidas a um agrotóxico.</p>
-          <p>O IBAMA fornece a <a className="weblink" target="_blank" href="http://www.ibama.gov.br/agrotoxicos/relatorios-de-comercializacao-de-agrotoxicos">lista</a> dos 10 IA mais vendidos em toneladas no Brasil por ano. Em Junho de 2022, a lista mais recente encontrada foi referente ao ano de 2020.</p>
+          <p>O Ingrediente Ativo (IA) é a principal substância química do agrotóxico.</p>
+          <p>No Brasil, o IBAMA fornece a <a className="weblink" target="_blank" href="http://www.ibama.gov.br/agrotoxicos/relatorios-de-comercializacao-de-agrotoxicos">lista</a> dos 10 IA mais vendidos em toneladas no Brasil por ano. Em Junho de 2022, a lista mais recente encontrada foi referente ao ano de 2020.</p>
           
           <div className="listwrapper">
             <h5>Os 10 Ingredientes Ativos mais vendidos no Brasil em 2020</h5>

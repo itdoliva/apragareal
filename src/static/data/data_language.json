@@ -23,14 +23,14 @@
     "shortName": "EN", 
     "about": "About",
     "lmr": { "short": "MRL", "long": "Maximum Residue Levels" },
-    "filtersLabel": "Most used Active Ingredients in Brazil, 2020",
+    "filtersLabel": "Most used Active Substance in Brazil, 2020",
     "countryLabel": {
       "br": { "short": "br", "long": "Brazil" },
       "en": { "short": "eu", "long": "European Union" }
     },
     "legendLabel": {
       "size": { "title": "Size", "value": "MRL"},
-      "color": { "title": "Color", "value": "Pesticide" }
+      "color": { "title": "Color", "value": "Active Substance" }
     },
     "ban": "Banned",
     "quote": "The obligation to endure gives us the right to know"

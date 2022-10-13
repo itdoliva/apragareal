@@ -1,15 +1,30 @@
+import { useEffect, useRef, useState } from 'react';
 import * as d3 from 'd3';
-import getDrop from './getDrop';
+
+import getDrop from '../../functions/getDrop';
+
+export default function SizeLegend() {
+
+    const ref = useRef(null)
+
+    useEffect(() => {
+        LegendD3.create(ref)
+    }, [])
+    return (
+        <svg ref={ref}></svg>
+    )
+}
+
 
 const LegendD3 = {}
 
 LegendD3.create = (ref) => {
-  const panel = d3.select(ref.current)
+  const svg = d3.select(ref.current)
 
-  LegendD3.drawDrops(panel)
+  LegendD3.drawDrops(svg)
 }
 
-LegendD3.drawDrops = (ref) => {
+LegendD3.drawDrops = (svg) => {
 
   const drop = getDrop(0)
 
@@ -23,11 +38,7 @@ LegendD3.drawDrops = (ref) => {
 
   const dropConf = drop.map((e, i) => [e, classNames[i]])
 
-  const scales = [ .2, .275, .35, .425, .5]
-  const nodes = scales.map((d, i) => ({id: i+1, scale: d}))
-
-  const svg = ref
-    .select('.legend.size .legend-body svg')
+  const scales = [ .2, .3, .4, .5]
 
   const padding = 24
   const w = +svg.style('width').replace('px', '') - 2*padding
@@ -35,11 +46,14 @@ LegendD3.drawDrops = (ref) => {
 
   const blockWidth = w / scales.length
 
-  const dropsG = svg
-    .selectAll('g')
+  const enter = svg
+    .selectAll('g.legendDropG')
       .data(scales)
       .enter()
+
+  const dropsG = enter
     .append('g')
+      .attr('class', 'legendDropG')
       .style('transform', (d, i) => {
         const x = padding + i*blockWidth + blockWidth/2
         const y = (h/2)*.85
@@ -70,5 +84,3 @@ LegendD3.drawDrops = (ref) => {
         .style('transform', `translate(-${groupWidth/2}px, -${groupHeight/2}px)`)
     })
 }
-
-export default LegendD3;
