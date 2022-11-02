@@ -658,6 +658,7 @@ $plate-size: 240px;
 .plate-wrapper {
   position: relative;
   aspect-ratio: 1/1;
+  z-index: 1;
 
   .tooltip-trigger {
       position: absolute;
@@ -777,6 +778,10 @@ $plate-size: 240px;
           text-transform: uppercase;
           font-weight: 600;
           font-size: .6rem;
+
+          display: flex;
+          justify-content: flex-start;
+          align-items: center;
 
           &:first-child {
             padding-left: 18px;

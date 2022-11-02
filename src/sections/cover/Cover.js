@@ -15,8 +15,8 @@ function Cover({ colorBlocks }) {
       </div>
 
       <div className="quotation">
-        <p className="quote">&quot;{language.quote}&quot;</p>
-        <p className="author">&mdash; Jean Rostand</p>
+        <span className="quote">&quot;{language.quote}&quot;</span>
+        <span className="author">&mdash; Jean Rostand</span>
       </div>
 
     </section>

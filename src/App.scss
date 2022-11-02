@@ -13,7 +13,7 @@
 
     display: flex;
 
-    z-index: 10;
+    z-index: 2;
     
     .header-container {
         display: flex;
@@ -24,8 +24,8 @@
             width: 200px;
             height: 24px;
 
-            -webkit-mask: url(../src/static/imgs/apragareal.svg) no-repeat center;
-            mask: url(../src/static/imgs/apragareal.svg) no-repeat center;
+            -webkit-mask: url(./static/imgs/apragareal.svg) no-repeat center;
+            mask: url(./static/imgs/apragareal.svg) no-repeat center;
             
             background-color: black;
             z-index: 10;
@@ -101,15 +101,11 @@
 }
 
 @media (min-width: 768px) {
-  .double-column {
-    column-count: 2;
-    column-fill: auto;
-    column-gap: 36px;
-  }
-
-  .sec-text {
-    padding: 64px 17.5vw 32px 17.5vw;
-  }
+  // .double-column {
+  //   column-count: 2;
+  //   column-fill: auto;
+  //   column-gap: 36px;
+  // }
 
   .aboutme > div {
     flex-direction: row;
@@ -133,15 +129,11 @@
 }
 
 @media (max-width: 768px) {
-  .double-column {
-    column-count: 1;
-    column-fill: auto;
-    column-gap: 36px;
-  }
-
-  .sec-text {
-    padding: 64px 10vw 32px 10vw;
-  }
+  // .double-column {
+  //   column-count: 1;
+  //   column-fill: auto;
+  //   column-gap: 36px;
+  // }
 
   .aboutme > div {
     flex-direction: column;

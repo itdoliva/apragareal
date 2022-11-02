@@ -41,9 +41,9 @@ BarChartD3.create = (ref, data, language) => {
 
   const xAxisGenerator = d3
     .axisTop(xScale)
-    .ticks(5)
+    .ticks(2)
     .tickFormat(d3.format('.2s'), "+t")
-    .tickSize(2)
+    .tickSize(4)
 
   const figure = svg
     .append('g')

@@ -273,7 +273,7 @@ PlateD3.ttipMouseEnter = (ref, params) => function(d) {
 
         if (pestBR.ratio) {
           let fmtRatio = pestBR.ratio
-          if (fmtRatio >= 2) {
+          if (fmtRatio >= 2 || fmtRatio === 1) {
             fmtRatio = fmtRatio.toFixed(0)
           } 
           else if (fmtRatio >= .1) {
