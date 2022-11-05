@@ -23,6 +23,10 @@ export default function Plate({ name, img, extent, data }) {
     }, [])
 
     useEffect(() => {
+      console.log('Update', ref)
+    }, [ref])
+
+    useEffect(() => {
       PlateD3.update(ref, params, isMobile)
     }, [params])
 
@@ -315,23 +319,28 @@ PlateD3.ttipMouseEnter = (ref, params) => function(d) {
       
     })
 
-  const screen = d3.select('.App')
+  const screen = d3.select('.app')
   const screenWidth = +screen.style('width').replace('px', '')
   const screenHeight = +screen.style('height').replace('px', '')
   const tooltipWidth = +ttipWrapper.style('width').replace('px', '')
   const tooltipHeight = +ttipWrapper.style('height').replace('px', '')
 
-  let x = d.x - d.offsetX + 200
-  let y = d.y - d.offsetY + 128
+  // let x = d.x - d.offsetX + 200
+  // let y = d.y - d.offsetY + 128
+
+  let x = d.pageX - d.offsetX + 200
+  let y = d.pageY- d.offsetY + 128
+
+  console.log('d', d)
 
   
-  if (screenHeight - (y + tooltipHeight) < 0) {
-    y = y + (screenHeight - (y + tooltipHeight)) - 24
-  } 
+  // if (screenHeight - (y + tooltipHeight) < 0) {
+  //   y = y + (screenHeight - (y + tooltipHeight)) - 24
+  // } 
 
-  if (screenWidth - (x + tooltipWidth) < 0) {
-    x = x - tooltipWidth - 204
-  }
+  // if (screenWidth - (x + tooltipWidth) < 0) {
+  //   x = x - tooltipWidth - 204
+  // }
 
   ttipWrapper
     .style('top', y+'px')

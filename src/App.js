@@ -21,8 +21,6 @@ import {
   toggleLanguage
 } from './features/mainSlice'
 
-import "./App.scss"
-
 
 function App() {
 
@@ -60,29 +58,32 @@ function App() {
   
 
   return (
-    <div className="App" ref={appRef}> 
+    <div className="app" ref={appRef}> 
 
-      <header>
-        <div className="header-container">
+      <header className="nav">
+
+        <div className="nav-element">
           <div className="app-logo" alt="Logo de APRAGAREAL" />
         </div>
 
-        <div className="header-container">
-            <button onClick={() => dispatch(toggleLanguage())}>
+        <div className="nav-element">
+            <button className="lang-btn"onClick={() => dispatch(toggleLanguage())}>
               {!isMobile ? language.name : language.shortName}
             </button>
         </div>
+
       </header>
 
-      <Cover {...coverProps} />
-      <Plates {...platesProps} />
-      <TextKeyTerms />
-      <TextIntro />
-      {/* <TextData {...textDataProps} /> */}
-      {/* <TextMe /> */}
+      <div className="container">
 
+        <Cover {...coverProps} />
+        <Plates {...platesProps} />
+        <TextKeyTerms />
+        <TextIntro />
+        {/* <TextData {...textDataProps} />  */}
+        {/* <TextMe /> */}
 
-      
+      </div>
 
     </div>
   );

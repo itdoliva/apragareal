@@ -49,7 +49,7 @@ export default function TooltipTable({ data, name, pesticides, language }) {
 
         <div className="table-grid--body">
           {rows.map(d => (
-            <div className="table-grid--row">
+            <div key={d.id} className="table-grid--row">
 
               <div className={`col col-value  col-${d.id}`}>
                 <span>{d.label}</span>

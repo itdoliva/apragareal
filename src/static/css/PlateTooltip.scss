@@ -1,0 +1,204 @@
+.tooltip {
+    &-wrapper {
+      position: absolute;
+  
+      background: #FFFFFF;
+      box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.25);
+      padding: 18px 22px 12px 18px;
+  
+      min-width: 280px;
+  
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: stretch;
+  
+      font-style: normal;
+      font-weight: 400;
+  
+      pointer-events: none;
+  
+      opacity: 1;
+      
+      z-index: 10;
+  
+      div {
+        pointer-events: none;
+      }
+  
+      .en .bar {
+        opacity: .75;
+      }
+    }
+  
+    &-pointer {
+      display: none;
+      
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 18px;
+      height: 18px;
+  
+      background: -moz-linear-gradient(135deg, var(--black) 50%, rgba(255,255,255,0) 50%);
+      background: -webkit-linear-gradient(135deg, var(--black) 50%, rgba(255,255,255,0) 50%);
+      background: linear-gradient(135deg, var(--black) 50%, rgba(255,255,255,0) 50%);
+      filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#26229e",endColorstr="#ffffff",GradientType=1);
+  
+    }
+  
+    &-header {
+      display: flex;
+      flex-direction: column;
+      align-items: stretch;
+  
+      font-weight: 300;
+      font-size: 8px;
+  
+      line-height: 9px;
+  
+      margin-bottom: 4px;
+  
+      &-title {
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 19px;
+    
+        margin: 0 0 6px 0;
+    
+        text-transform: uppercase;
+    
+        letter-spacing: 0.025em;
+    
+        padding-bottom: 2px;
+        border-bottom: 1px solid var(--black);
+    }
+    }
+  
+    &-card {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: stretch;
+  
+      margin: 6px 0;
+      padding-top: 2px;
+      padding-bottom: 8px;
+  
+      &-header {
+        margin: 0;
+  
+        line-height: 100%;
+  
+        padding: 4px 0 6px 0;
+        font-size: 12px;
+        text-transform: uppercase;
+        color: var(--gray-1);
+      }
+  
+      &-body {
+        margin: 0;
+      }
+  
+      &-row {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+    
+        height: 16px;
+    
+        .country-label {
+          width: 14px;
+          font-weight: 800;
+          font-size: 9px;
+          text-transform: uppercase;
+      
+          color: var(--gray-1);
+        }
+    
+    
+        .lmr {
+          font-weight: 300;
+          font-size: 14px;
+      
+          text-align: center;
+          letter-spacing: -0.06em;
+      
+          color: var(--black);
+        }
+    
+        .measure-unit {
+          font-weight: 300;
+          font-size: 14px;
+      
+          text-align: left;
+          letter-spacing: -0.06em;
+          font-size: 10px;
+          color: var(--black);
+          margin-left: 2px;
+        }
+    
+        .banned-label {
+          font-weight: 600;
+    
+          text-transform: uppercase;
+          text-align: left;
+          font-size: 10px;
+          color: var(--black);
+          margin-left: 2px;
+        }
+      }
+  
+      &-bar-wrapper {
+        flex-grow: 1;
+    
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    
+        margin: 0 2px;
+  
+        .bar {
+          height: 14px;
+          margin-right: 6px;
+      
+          transition: width .3s ease-in-out;
+        }
+      }
+  
+      &:not(:last-child) {
+        border-bottom: 1px solid #aeaeae25;
+      }
+    }
+  }
+
+
+  .multiplier-wrapper {
+    width: 28px;
+    background: #C17373;
+  
+    border-radius: 2px;
+    padding: 4px 6px;
+  
+    display: flex;
+    justify-content: center;
+  
+    .multiplier {
+      font-weight: 800;
+      font-size: 10px;
+      line-height: 9px;
+      text-align: center;
+      color: #FFFFFF;
+    }
+  }
+  
+  .skull-wrapper {
+    width: 26px;
+    display: flex;
+    justify-content: center;
+  
+    path {
+      fill: var(--black);
+    }
+  }

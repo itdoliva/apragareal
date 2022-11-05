@@ -1,7 +1,13 @@
 .sec-cover {
     position: relative;
 
-    z-index: 2;
+    width: 100%;
+    height: 100vh;
+
+    margin: 0;
+    padding: 0;
+
+    z-index: 10;
   
     background: linear-gradient(to right, rgba(153, 145, 101, .85), rgba(153, 145, 101, .85)),
     url('../../static/imgs/wheat-field.png');

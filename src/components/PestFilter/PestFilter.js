@@ -18,6 +18,7 @@ function PestFilter(props) {
 
     return (
         <button onClick={props.toggle} className={props.active ? "pest-filter active" : "pest-filter"}>
+
             <div>
                 <span className="pest-filter-rank">{formatRank()}</span>
                 <div className="pest-filter-bullet" 
@@ -28,6 +29,7 @@ function PestFilter(props) {
             <div className="pest-filter-label">
                 <span>{props.label[props.language.id]}</span>
             </div>
+
         </button>
     );
 }

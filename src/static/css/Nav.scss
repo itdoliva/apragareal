@@ -1,0 +1,68 @@
+.nav {
+    width: 100vw;
+    
+    position: fixed;
+    top: 0;
+    z-index: 5;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+    pointer-events: none;
+
+    .app-logo {
+        position: relative;
+        aspect-ratio: 55/8;
+        width: 110px;
+
+        -webkit-mask: url(../imgs/apragareal.svg) no-repeat center;
+        -webkit-mask-size: contain;
+
+        mask: url(../imgs/apragareal.svg) no-repeat center;
+        mask-size: contain;
+        
+        background-color: black;
+    }
+
+    .nav-element:last-child {
+        grid-column: 3;
+        justify-self: end;
+    }
+
+    .lang-btn {
+        pointer-events: all;
+    }
+  }
+
+  @media (min-width: 768px) {
+    .nav {
+        padding: 24px 36px 16px 24px;
+        height: 60px;
+
+        .nav-element:first-child {
+            grid-column: 1;
+        }
+    }
+  }
+
+  @media (max-width: 767px) {
+    .nav {
+        background: #858C64;
+
+        padding: 9px 12px;  
+    
+        .app-logo {
+        background-color: white;
+        }
+
+        .nav-element:first-child {
+            grid-column: 2;
+            justify-self: center;
+        }
+
+        .nav-element:last-child {
+            color: white;
+        }
+    
+      }
+  }

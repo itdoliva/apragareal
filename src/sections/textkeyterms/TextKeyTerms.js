@@ -3,7 +3,7 @@ import {ReactComponent as KeepOut}  from '../../static/imgs/keepout.svg';
 
 function TextKeyTerms() {
   return (
-    <section className="sec-text key-terms">
+    <section id="key-terms" className="section sec-text key-terms">
 
       <div className="text-wrapper">
 
@@ -17,7 +17,7 @@ function TextKeyTerms() {
         <div className="text-element">
           <h2>Limite Máximo de Resíduos - LMR</h2>
           <p>
-            O parâmetro que <span className="strong">limita a concentração máxima permitida</span> de um Ingrediente Ativo em determinado alimento é o <span className="strong">Limite Máximo de Resíduos</span>, ou <span className="strong">LMR</span>. Sua definição é de responsabilidade da Anvisa no Brasil e pode ser consultada neste <a href="https://www.gov.br/anvisa/pt-br/acessoainformacao/dadosabertos/informacoes-analiticas/monografias-de-agrotoxicos" target="_blank">dashboard</a>. Os dados da União Europeia podem ser obtidos através <a href="https://ec.europa.eu/food/plant/pesticides/eu-pesticides-database/mrls/?event=search.pr" target="_blank">deste link</a>.
+            O parâmetro que <span className="strong">limita a concentração máxima permitida</span> de um Ingrediente Ativo em determinado alimento é o <span className="strong">Limite Máximo de Resíduos</span>, ou <span className="strong">LMR</span>. Sua definição é de responsabilidade da Anvisa no Brasil e pode ser consultada neste <a className="link" href="https://www.gov.br/anvisa/pt-br/acessoainformacao/dadosabertos/informacoes-analiticas/monografias-de-agrotoxicos" target="_blank">dashboard</a>. Os dados da União Europeia podem ser obtidos através <a className="link" href="https://ec.europa.eu/food/plant/pesticides/eu-pesticides-database/mrls/?event=search.pr" target="_blank">deste link</a>.
           </p>
         </div>
 

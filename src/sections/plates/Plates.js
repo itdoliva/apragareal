@@ -35,7 +35,6 @@ function Plates ({ cultives, pesticides, colorBlocks, cultiveGroups }) {
     setData(getCultivesData(fCultives, fPesticides, isMobile))
   }, [ fCultives, fPesticides ])
 
-
   // ----- Filters Section ----- //
   const cultiveFilters = fCultives
     .filter(d => d.isAvailable)
@@ -56,7 +55,7 @@ function Plates ({ cultives, pesticides, colorBlocks, cultiveGroups }) {
     .map(d => (
       <button 
         key={'type-'+d.id}
-        className={"filter-element type-option" + (d.active ? " active" : "")}
+        className={"type-option" + (d.active ? " active" : "")}
         onClick={() => toggleType(d.id)}>
         {d.label[language.id]}
       </button>
@@ -118,7 +117,7 @@ function Plates ({ cultives, pesticides, colorBlocks, cultiveGroups }) {
 
   return (isMobile && data.length > 0)
     ? (
-      <section className="sec-plates">
+      <section id="sec-plates" className="section plates">
         <div className="plate-container">
           {<Plate 
             key={selected.cultivo + '-' + selected.data.map(d => d.id).join('-')}
@@ -143,38 +142,35 @@ function Plates ({ cultives, pesticides, colorBlocks, cultiveGroups }) {
       </section>
     )
     : (
-    <section className="sec-plates">
+    <section id="sec-plates" className="section plates">
 
-      <div className="sec-plates-header">
+      <div className="plates-header">
         
-        <div className="pest-filter-wrapper">
-          <span className="filter-title">{language.filtersLabel}</span>
-          {pesticideFilters}
-        </div>
-
-      </div>
-
-      <div className="sec-plates-body">
-        <div className="gradient upper"/>
-        <div className="gradient lower"/>
-
-        <div className="side-panel">
-          <div className="types-wrapper">
-            {typeFilters}
+        <div className="pest-filter-container">
+          <h6 className="filter-title">{language.filtersLabel}</h6>
+          <div className="btns-wrapper">
+            {pesticideFilters}
           </div>
           
         </div>
 
-        <ul className="plates-wrapper" ref={platesRef}>
-          {plates}
-        </ul>
+      </div>
 
-        <div className="side-panel">
+      <div className="plates-body">
 
-          <div className="legend color">
+        <div className="side-panel type">
+            <div className="slide-container flex-column">
+              {typeFilters}
+            </div>
+        </div>
+
+      <div className="side-panel details">
+
+        <div className="slide-container flex-column">
+          <div className="legend-container color">
             <div className="legend-header">
               <span className="legend-header-title strong">{language.legendLabel.color.title}</span>
-              <span className="legend-header-title">{language.legendLabel.color.value}</span>
+              <a href="#key-terms"><span className="legend-header-title">{language.legendLabel.color.value}</span></a>
             </div>
 
             <div className="legend-body">
@@ -182,21 +178,27 @@ function Plates ({ cultives, pesticides, colorBlocks, cultiveGroups }) {
             </div>
           </div>
 
-          <div className="legend size">
+          <div className="legend-container size">
             <div className="legend-header">
               <span className="legend-header-title strong">{language.legendLabel.size.title}</span>
-              <span className="legend-header-title">{language.legendLabel.size.value}</span>
+              <a href="#key-terms"><span className="legend-header-title">{language.legendLabel.size.value}</span></a>
             </div>
 
             <div className="legend-body">
               <SizeLegend />
             </div>
           </div>
-
         </div>
+        
       </div>
 
-      <div className="tooltip-wrapper transparent">
+      <div className="center-panel body">
+
+        <ul className="plates-wrapper" ref={platesRef}>
+          {plates}
+        </ul>
+
+        <div className="tooltip-wrapper transparent">
 
         <div className="tooltip-header">
           <span className="tooltip-header-title" />
@@ -212,6 +214,12 @@ function Plates ({ cultives, pesticides, colorBlocks, cultiveGroups }) {
           ))}
         </div>
       </div>
+        
+      </div>
+
+      </div>
+
+      
     </section>
   )
 }

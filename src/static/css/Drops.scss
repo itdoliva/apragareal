@@ -1,0 +1,79 @@
+.drop {
+    &-shine {
+        fill: #FFFFFF;
+        fill-opacity: 0.8;
+    }
+
+    &-size {
+        fill: var(--gray-1); 
+    }
+
+    &-shadow {
+        fill: #060606;
+        fill-opacity: .6;
+    }
+
+    &-light {
+        &-shadow {
+            fill: #060606;
+            fill-opacity: 0.08;
+        }
+
+        &-darker {
+            fill: #FFFFFF;
+            fill-opacity: 0.2;
+        }
+
+        &-lighter {
+            fill: #FFFFFF;
+            fill-opacity: 0.3;
+        }
+    }
+}
+
+.pest-G01,
+.card-G01 .bar {
+fill: var(--pest-G01);
+background: var(--pest-G01);
+}
+.pest-D27,
+.card-D27 .bar {
+fill: var(--pest-D27);
+background: var(--pest-D27);
+}
+.pest-M02,
+.card-M02 .bar {
+fill: var(--pest-M02);
+background: var(--pest-M02);
+}
+.pest-A14,
+.card-A14 .bar {
+fill: var(--pest-A14);
+background: var(--pest-A14);
+}
+.pest-A02,
+.card-A02 .bar {
+fill: var(--pest-A02);
+background: var(--pest-A02);
+}
+.pest-C18,
+.card-C18 .bar {
+fill: var(--pest-C18);
+background: var(--pest-C18);
+}
+.pest-M01,
+.card-M01 .bar {
+fill: var(--pest-M01);
+background: var(--pest-M01);
+}
+.pest-I13,
+.card-I13 .bar {
+fill: var(--pest-I13);
+background: var(--pest-I13);
+}
+.pest-C20,
+.card-C20 .bar {
+fill: var(--pest-C20);
+background: var(--pest-C20);
+}
+

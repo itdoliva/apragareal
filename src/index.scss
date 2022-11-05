@@ -1,0 +1,172 @@
+@import 
+  './static/css/Cover.scss', 
+  './static/css/Plates.scss', 
+  './static/css/Text.scss', 
+  './static/css/Drops.scss', 
+  './static/css/Nav.scss', 
+  './static/css/PlateTooltip.scss';
+
+
+:root {
+  --white: #FFFFFF;
+  --off-white: #FCFCFC;
+  --black: #060606;
+  --off-black: #1f1f1f;
+  --gray-0: #4F4F4F;
+  --gray-1: #6E6E6F;
+  --gray-2: #AEAEAE;
+
+  --pest-G01: #86694D;
+  --pest-D27: #858C64;
+  --pest-M02: #D1AA75;
+  --pest-A14: #A18561;
+  --pest-A02: #D8D5A8;
+  --pest-C18: #717658;
+  --pest-M01: #999165;
+  --pest-I13: #BA9E57;
+  --pest-C20: #977D4A;
+
+  --blue-1: #5A90DA;
+  --blue-2: #2573d8;
+  --blue-3: #1555D9;
+  --blue-4: #0339D9;
+
+  --red: #BD3030;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  font-family: Roboto, -apple-system, sans-serif;
+  font-weight: 400;
+  font-size: calc(12px + .25vw);
+  text-align: left;
+  color: var(--off-black);
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  overflow-x: hidden;
+}
+
+section {
+  width: 100vw;
+  max-width: 100%;
+}
+
+#root {
+  width: 100vw;
+  max-width: 100%;
+}
+
+.section {
+  max-width: 1600px;
+  padding: 0;
+  margin: 4em auto;
+}
+
+@media (max-width: 768px) {
+  .section {
+    padding-top: 36px;
+  }
+}
+
+@media (min-width: 768px) {
+  .section {
+    padding-top: 36px;
+    padding: 0 1em;
+  }
+}
+
+@media (max-height: 1440px) {
+  .section {
+    min-height: 100vh;
+  }
+}
+
+@media (min-height: 1440px) {
+  .section {
+    min-height: 1440px;
+  }
+}
+
+button {
+  border: none;
+  outline: none;
+  background: none;
+  color: inherit;
+  font-style: inherit;
+  font-weight: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  text-align: inherit;
+  padding: 0;
+  margin: 0;
+  font-family: inherit;
+  text-shadow: inherit;
+
+  cursor: pointer;
+
+  font-size: 12px;
+}
+
+.link {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+
+  color: var(--blue-2);
+  font-weight: 500;
+
+  &:hover {
+    font-weight: 600;
+  }
+
+  &:focus {
+    font-weight: 600;
+    color: var(--blue-3);
+  }
+
+  &:active {
+    font-weight: 600;
+    color: var(--blue-3);
+  }
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  text-transform: uppercase;
+  line-height: 150%;
+  margin: 0;
+  margin-bottom: 1rem;
+  padding: 0;
+}
+
+h3 {
+  text-transform: uppercase;
+  text-align: center;
+  margin: 18px 0 0 0;
+  color: var(--black);
+}
+
+p {
+  line-height: 145%;
+  font-weight: 400;
+}
+
+.deactivate {
+  display: none !important;
+}
+
+.transparent {
+  opacity: 0 !important;
+}

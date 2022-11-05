@@ -1,34 +1,12 @@
-h1, h2, h3, h4, h5, h6 {
-    text-transform: uppercase;
-    line-height: 150%;
-    margin: 0;
-    padding: 0;
-    color: var(--gray-0);
-}
-
-p {
-    line-height: 145%;
-    font-weight: 400;
-    color: var(--gray-0);
-}
-
 p:not(:first-child) {
     margin-top: 1rem;
-}
-
-a {
-    color: var(--blue-1);
-    font-weight: 500;
-}
-
-a:hover {
-    color: var(--blue-2);
-    font-weight: 500;
 }
 
 
 .sec-text {
     padding: 64px 32px 32px 32px;
+
+    overflow: hidden;
 }
 
 .strong {
@@ -119,7 +97,7 @@ a:hover {
     }
 
     .text-wrapper {
-        padding: 12px;
+        padding: 24px 18px 18px 24px;
     }
 }
 

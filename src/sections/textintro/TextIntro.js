@@ -9,7 +9,7 @@ function TextIntro() {
   
   return !isMobile 
     ? (
-    <section className="sec-text intro">
+    <section className="section sec-text intro">
 
       <div className="double-column">
 
