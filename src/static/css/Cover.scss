@@ -1,12 +1,6 @@
-.sec-cover {
+.cover {
     position: relative;
-
-    width: 100%;
-    height: 100vh;
-
-    margin: 0;
-    padding: 0;
-
+    
     z-index: 10;
   
     background: linear-gradient(to right, rgba(153, 145, 101, .85), rgba(153, 145, 101, .85)),
@@ -15,72 +9,73 @@
     background-size: cover;
     background-position: 50% 25%;
     background-attachment: fixed;
-  
-    .logo-container {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-  
-        .app-logo {
-            width: 40vw;
-            min-width: 20rem;
-            height: 100%;
-  
-            margin-bottom: 1.25vw;
-            filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.logo-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    .app-logo {
+        aspect-ratio: 55/8;
+        width: 40vw;
+        min-width: 20rem;
+        height: 100%;
+
+        margin-bottom: 1.25vw;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    }
+
+    .colorful-border {
+        height: .8vw;
+        max-height: 16px;
+        min-height: 6px;
+        box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.33);
+        margin-bottom: 1vw;
+
+        display: flex;
+        align-items: stretch;
+    
+        div {
+            flex-grow: 1;
         }
-  
-        .colorful-border {
-            height: .8vw;
-            max-height: 16px;
-            min-height: 6px;
-            box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.33);
-            margin-bottom: 1vw;
-  
-            display: flex;
-            align-items: stretch;
-        
-            div {
-                flex-grow: 1;
-            }
-        }
     }
+}
 
-    @media (max-width: 768px) {
-      .quotation {
-          width: 80%;
-      }
-    }
-
-    .quotation {
-      position: absolute;
-      bottom: 10%;
-      left: 50%;
-      transform: translateX(-50%);
-
-      color: var(--white);
-
-      align-self: center;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-  
-      font-family: 'Georgia';
-      font-style: italic;
-      font-weight: 400;
-      line-height: 23px;
-
-      text-shadow: 0px 2px 2px rgba(0, 0, 0, .25);
-  
-      .quote {
-          text-align: center;
-          margin-bottom: 0;
-      }
-  
-      .author {
-          align-self: flex-end;
-      }
-    }
+@media (max-width: 768px) {
+  .quotation {
+      width: 80%;
   }
+}
+
+.quotation {
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+
+  color: var(--white);
+
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  font-family: 'Georgia';
+  font-style: italic;
+  font-weight: 400;
+  line-height: 23px;
+
+  text-shadow: 0px 2px 2px rgba(0, 0, 0, .25);
+
+  .quote {
+      text-align: center;
+      margin-bottom: 0;
+  }
+
+  .author {
+      align-self: flex-end;
+  }
+}

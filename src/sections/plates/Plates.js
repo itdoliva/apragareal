@@ -27,6 +27,10 @@ function Plates ({ cultives, pesticides, colorBlocks, cultiveGroups }) {
 
   const [ fCultives, selectCultive, filterByGroup ] = useCultives(cultives)
 
+  const secRef = useRef(null)
+
+  const executeScroll = () => secRef.current.scrollIntoView()
+
   useEffect(() => {
     filterByGroup(cultiveTypes.find(d => d.active).id)
   }, [ cultiveTypes ])
@@ -43,7 +47,10 @@ function Plates ({ cultives, pesticides, colorBlocks, cultiveGroups }) {
       <button 
         key={'cultive-'+d.id}
         className={"filter-element cultive-btn" + (d.isSelected ? " selected" : "")} 
-        onClick={() => selectCultive(d.id)}>
+        onClick={() => {
+          selectCultive(d.id)
+          executeScroll()
+          }}>
         <img 
           className="cultive-img"
           src={d.img.src}
@@ -56,7 +63,10 @@ function Plates ({ cultives, pesticides, colorBlocks, cultiveGroups }) {
       <button 
         key={'type-'+d.id}
         className={"type-option" + (d.active ? " active" : "")}
-        onClick={() => toggleType(d.id)}>
+        onClick={() => {
+          toggleType(d.id)
+          executeScroll()
+          }}>
         {d.label[language.id]}
       </button>
     ))
@@ -67,7 +77,10 @@ function Plates ({ cultives, pesticides, colorBlocks, cultiveGroups }) {
       <PestFilter 
         key={d.id} 
         language={language}
-        toggle={() => togglePesticide(d.id) }
+        toggle={() => {
+          togglePesticide(d.id)
+          executeScroll()
+        } }
         {...d} />
     ))
 
@@ -117,7 +130,7 @@ function Plates ({ cultives, pesticides, colorBlocks, cultiveGroups }) {
 
   return (isMobile && data.length > 0)
     ? (
-      <section id="sec-plates" className="section plates">
+      <section ref={secRef} className="plates">
         <div className="plate-container">
           {<Plate 
             key={selected.cultivo + '-' + selected.data.map(d => d.id).join('-')}
@@ -142,12 +155,12 @@ function Plates ({ cultives, pesticides, colorBlocks, cultiveGroups }) {
       </section>
     )
     : (
-    <section id="sec-plates" className="section plates">
+    <section ref={secRef} className="plates">
 
       <div className="plates-header">
         
         <div className="pest-filter-container">
-          <h6 className="filter-title">{language.filtersLabel}</h6>
+          <span className="filter-title">{language.filtersLabel}</span>
           <div className="btns-wrapper">
             {pesticideFilters}
           </div>
@@ -158,13 +171,13 @@ function Plates ({ cultives, pesticides, colorBlocks, cultiveGroups }) {
 
       <div className="plates-body">
 
-        <div className="side-panel type">
+        <aside className="side-panel type">
             <div className="slide-container flex-column">
               {typeFilters}
             </div>
-        </div>
+        </aside>
 
-      <div className="side-panel details">
+      <aside className="side-panel details">
 
         <div className="slide-container flex-column">
           <div className="legend-container color">
@@ -190,7 +203,7 @@ function Plates ({ cultives, pesticides, colorBlocks, cultiveGroups }) {
           </div>
         </div>
         
-      </div>
+      </aside>
 
       <div className="center-panel body">
 

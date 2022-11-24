@@ -5,6 +5,7 @@
     "shortName": "PT", 
     "about": "Sobre",
     "lmr": { "short": "LMR", "long": "Limite Máximo de Resíduos"},
+    "rankLabel": "Ingredientes Ativos mais utilizados",
     "filtersLabel": "Ingredientes Ativos mais utilizados no Brasil em 2020",
     "countryLabel": {
       "br": { "short": "br", "long": "Brasil" },
@@ -15,6 +16,8 @@
       "color": { "title": "Cor", "value": "Ingrediente Ativo" }
     },
     "ban": "Banido",
+    "ton": { "short": "t", "long": "Tonelada" },
+    "kton": { "short": "kt", "long": "Kilotonelada" },
     "quote": "A obrigação de suportar nos dá o direito de saber"
   },
   {
@@ -23,7 +26,8 @@
     "shortName": "EN", 
     "about": "About",
     "lmr": { "short": "MRL", "long": "Maximum Residue Levels" },
-    "filtersLabel": "Most used Active Substance in Brazil, 2020",
+    "rankLabel": "Most used Active Substances",
+    "filtersLabel": "Most used Active Substances in Brazil, 2020",
     "countryLabel": {
       "br": { "short": "br", "long": "Brazil" },
       "en": { "short": "eu", "long": "European Union" }
@@ -33,6 +37,8 @@
       "color": { "title": "Color", "value": "Active Substance" }
     },
     "ban": "Banned",
+    "ton": { "short": "ton", "long": "Ton" },
+    "kton": { "short": "kton", "long": "Kiloton" },
     "quote": "The obligation to endure gives us the right to know"
   }
 ]

@@ -1,4 +1,4 @@
-.nav {
+nav {
     width: 100vw;
     
     position: fixed;
@@ -35,8 +35,8 @@
   }
 
   @media (min-width: 768px) {
-    .nav {
-        padding: 24px 36px 16px 24px;
+    nav {
+        padding: 24px 36px 16px 2em;
         height: 60px;
 
         .nav-element:first-child {
@@ -46,7 +46,7 @@
   }
 
   @media (max-width: 767px) {
-    .nav {
+    nav {
         background: #858C64;
 
         padding: 9px 12px;  

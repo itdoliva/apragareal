@@ -3,9 +3,9 @@ import {ReactComponent as KeepOut}  from '../../static/imgs/keepout.svg';
 
 function TextKeyTerms() {
   return (
-    <section id="key-terms" className="section sec-text key-terms">
+    <section id="key-terms" className="text key-terms flow-hidden">
 
-      <div className="text-wrapper">
+      <article className="def-shadow">
 
         <div className="text-element">
           <h2>Ingrediente Ativo</h2>
@@ -21,9 +21,9 @@ function TextKeyTerms() {
           </p>
         </div>
 
-      </div>
+      </article>
 
-      <KeepOut className="keep-out" />
+      {/* <KeepOut className="keep-out" /> */}
       
     </section>
   )

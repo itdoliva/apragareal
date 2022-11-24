@@ -20,6 +20,10 @@ $plate-size: 240px;
   .pest-filter-container {
     width: 600px;
     margin: 0 auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
   }
 
   .btns-wrapper {
@@ -30,9 +34,9 @@ $plate-size: 240px;
   }
 
   .filter-title {
-    transform: translate(0, 0);
-
     text-align: center;
+
+    transform: translate(0, 0);
 
     font-size: 10px;
     font-weight: 400;
@@ -260,6 +264,8 @@ $plate-size: 240px;
 .plate-wrapper {
   position: relative;
   width: 100%;
+
+  margin: auto auto;
   aspect-ratio: 1/1;
   z-index: 1;
 
@@ -322,8 +328,8 @@ $plate-size: 240px;
       fill: var(--white);
     }
 
-    .plate-cricle.stronger {
-      filter: drop-shadow(4px 4px 10px rgba(0, 0, 0, 0.4));
+    .plate-circle.stronger {
+      filter: drop-shadow(2px 2px 8px rgba(0, 0, 0, 0.4));
     }
 
     .diagonal-line {
@@ -416,7 +422,7 @@ $plate-size: 240px;
 
 @media (max-width: 768px) {
 
-  .section.plates {
+  section.plates {
     height: 100vh;
 
     display: flex;
@@ -515,21 +521,37 @@ $plate-size: 240px;
 
 .table {
   padding: .8rem 1.25rem 1.25rem 1.25rem;
+  flex-grow: 1;
+
   display: flex;
   flex-direction: column;
   align-items: stretch;
 
   height: 30%;
 
-  h3 {
-    border-bottom: 1px solid var(--gray-2);
-    padding-bottom: 4px;
-    margin: 0;
-  }
+  .table-title {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 4px;
+    
+    span {
+      text-transform: uppercase;
+      text-align: center;
+    }
+    
+    span.main {
+      font-size: 14px;
+      font-weight: 600;
+      border-bottom: 1px solid var(--gray-2);
+      padding-bottom: 4px;
+      margin: 0;
+    }
 
-  h6 {
-    text-align: center;
-    font-weight: 400;
+    span.sub {
+      margin-top: 4px;
+      font-size: 8px;
+      font-weight: 400;
+    }
   }
 
   .table-grid {

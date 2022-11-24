@@ -4,7 +4,8 @@
   './static/css/Text.scss', 
   './static/css/Drops.scss', 
   './static/css/Nav.scss', 
-  './static/css/PlateTooltip.scss';
+  './static/css/PlateTooltip.scss', 
+  './static/css/Rank.scss';
 
 
 :root {
@@ -34,6 +35,12 @@
   --red: #BD3030;
 }
 
+
+#root {
+  width: 100vw;
+  max-width: 100%;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -56,44 +63,27 @@ body {
 
 section {
   width: 100vw;
-  max-width: 100%;
-}
+  padding: 0 2em;
 
-#root {
-  width: 100vw;
-  max-width: 100%;
-}
-
-.section {
-  max-width: 1600px;
-  padding: 0;
-  margin: 4em auto;
-}
-
-@media (max-width: 768px) {
-  .section {
-    padding-top: 36px;
+  &:not(.cover) {
+    max-width: 1600px;
+    margin: 0 auto;
+    margin-top: 2em;
   }
-}
 
-@media (min-width: 768px) {
-  .section {
-    padding-top: 36px;
-    padding: 0 1em;
+  &.cover {
+    min-height: 100vh;
   }
-}
 
-@media (max-height: 1440px) {
-  .section {
+  &:last-child {
     min-height: 100vh;
   }
 }
 
-@media (min-height: 1440px) {
-  .section {
-    min-height: 1440px;
-  }
+article > div:not(:last-child) {
+  margin-bottom: 2rem;
 }
+
 
 button {
   border: none;
@@ -147,20 +137,63 @@ h1, h2, h3, h4, h5, h6 {
   text-transform: uppercase;
   line-height: 150%;
   margin: 0;
-  margin-bottom: 1rem;
   padding: 0;
 }
 
 h3 {
-  text-transform: uppercase;
   text-align: center;
   margin: 18px 0 0 0;
   color: var(--black);
 }
 
+h4 {
+  font-weight: 400;
+  color: var(--gray-1);
+}
+
 p {
   line-height: 145%;
   font-weight: 400;
+  margin-top: 1rem;
+}
+
+// ------------- MOBILE -------------
+@media (max-width: 768px) {
+  section {
+    padding: 0;
+    padding-top: 34px;
+  }
+
+  p, span, .footnote, .caption {
+    font-size: .75rem;
+  }
+
+  h2 {
+      font-size: 16px;
+      font-weight: 400;
+  }
+}
+
+// ------------- DESKTOP -------------
+@media (min-width: 768px) {
+  p, span, .footnote, .caption {
+    font-size: .85rem;
+  }
+
+  h2 {
+      font-size: 24px;
+      font-weight: 400;
+  }
+}
+
+.footnote {
+  color: var(--gray-1);
+}
+
+.caption {
+  font-weight: 300;
+  margin-top: .3rem;
+  width: 100%;
 }
 
 .deactivate {
@@ -169,4 +202,24 @@ p {
 
 .transparent {
   opacity: 0 !important;
+}
+
+.pos-relative {
+  position: relative;
+}
+
+.flow-hidden {
+  overflow: hidden;
+}
+
+.text-align-center {
+  text-align: center;
+}
+
+.strong {
+  font-weight: 600;
+}
+
+.def-shadow {
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.25);
 }

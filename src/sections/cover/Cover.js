@@ -7,11 +7,11 @@ function Cover({ colorBlocks }) {
   const language = useSelector(selectLanguage)
   
   return (
-    <section className="sec-cover">
+    <section className="cover">
 
       <div className="logo-container">
         <Logo className="app-logo" color="white"/>
-        <div className="colorful-border">{colorBlocks}</div>
+        <ul className="colorful-border">{colorBlocks}</ul>
       </div>
 
       <div className="quotation">

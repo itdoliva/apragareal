@@ -1,29 +1,116 @@
-import BarChart from "../../components/BarChart/BarChart";
-import PartyChart from "../../components/PartyChart/PartyChart";
-
 import { useSelector } from 'react-redux'
 
-import { selectLanguage } from '../../features/mainSlice'
+import { selectLanguage, selectIsMobile } from '../../features/mainSlice'
+
+import range from '../../functions/range'
+import getPestType from '../../functions/getPestType'
+import tonBlockerizer from '../../functions/tonBlockerizer'
+
 
 function TextData({ pesticides }) {
-    const language = useSelector(selectLanguage)
+  const language = useSelector(selectLanguage)
+  const isMobile = useSelector(selectIsMobile)
 
-    return (
-      <section className="sec-text data">
+  return !isMobile 
+    ? (
+      <section className="text rank">
+        <h4 className="text-align-center">{language.countryLabel.br.long}, 2020</h4>
+        <h2 className="text-align-center">{language.rankLabel}</h2>
 
-        <div className="text-element" style={{width: '400px'}}>
-          <h2>Perigoso na Europa, liberado no Brasil</h2>
-          <div className="text-block">
-            <p>Embora os efeitos nocivos causados pelos agrotóxicos sejam os mesmos em todo o globo, dos 10 ingredientes ativos mais utilizados¹ no Brasil, 6 foram banidos na União Europeia - alguns há décadas.</p>
-            <p>Nesta mesma lista, os 3 ingredientes ativos permitidos em ambas as legislações - e analisados² neste projeto - possuem limites de concentração muito mais frouxos no Brasil para a maioria dos alimentos dos nossos pratos, incluindo o arroz e o feijão, base da alimentação brasileira. </p>
-            
-            <p className="footnote">¹ A lista dos 10 ingredientes ativos mais vendidos no Brasil em toneladas por ano é fornecida pelo IBAMA. O último ano com dados disponíveis era 2020 no acesso de Junho de 2022. Nesta análise, utilizou-se 'toneladas vendidas' como variável proxy, isto é, variável representante, de 'toneladas utilizadas'. <a href="http://www.ibama.gov.br/agrotoxicos/relatorios-de-comercializacao-de-agrotoxicos" target="_blank">Acesse aqui.</a></p>
-            <p className="footnote">² O enxofre, oitavo ingrediente ativo mais utilizado no Brasil em 2020, não foi analisado neste projeto. Sua presença em diversos outros ingredientes ativos mais complexos dificultava comparações.</p>
+        <div>
+
+          <div className="desc-panel">
+            <h4>Perigoso na Europa,<br/>Liberado no Brasil</h4>
+            <div className="text-block">
+              <p>Embora os efeitos nocivos causados pelos agrotóxicos sejam os mesmos em todo o globo, dos 10 ingredientes ativos mais utilizados¹ no Brasil, <span className="inline-legend banned"><span /><span>6 foram banidos na União Europeia</span></span> - alguns há décadas.</p>
+              <p>Nesta mesma lista, os <span className="inline-legend approved"><span /><span>3 ingredientes ativos permitidos em ambas as legislações - e analisados neste projeto²</span></span> - possuem limites de concentração muito mais frouxos no Brasil para a maioria dos alimentos dos nossos pratos, incluindo o arroz e o feijão, base da alimentação brasileira. </p>
+              
+              <p className="footnote">¹ A lista dos 10 ingredientes ativos mais vendidos no Brasil em toneladas por ano é fornecida pelo IBAMA. O último ano com dados disponíveis era 2020 no acesso de Junho de 2022. Nesta análise, utilizou-se 'toneladas vendidas' como variável proxy, isto é, variável representante, de 'toneladas utilizadas'. <a className="link" href="http://www.ibama.gov.br/agrotoxicos/relatorios-de-comercializacao-de-agrotoxicos" target="_blank">Acesse aqui.</a></p>
+              <p className="footnote">² O <div className="inline-legend sulfur"><span /><span>enxofre, oitavo ingrediente ativo mais utilizado no Brasil em 2020</span></div>, não foi analisado neste projeto. Sua presença em diversos outros ingredientes ativos mais complexos dificultava comparações.</p>
+            </div>
           </div>
+
+          <div className="rank-panel">
+
+            <div className="ton-legend">
+              <span className="ton-circle" />
+              <span className="ton-legend--label">1000 {language.ton.long}s</span>
+            </div>
+
+            {pesticides.map((d, i) => {
+              const pestType = getPestType(d)
+              const blocks = tonBlockerizer(d.salesTon)
+
+              return (
+                <div className={`rank-card ${pestType}`}>
+
+                  <div className="ton-rank">
+                    <span>{d.rank}</span>
+                  </div>
+
+                  <div className="ton-pest">
+                    <span>{d.label[language.id]}</span>
+                  </div>
+
+                  {blocks.map((block, j) => {
+                    const alignSelf = (blocks.length > 1 && j === blocks.length -1 ) ? 'start' : 'center'
+                    return (
+                      <div className="ton-matrix--column" style={{ alignSelf }}>
+                        {range(block).map(() => (<span className="ton-circle" />))}
+                      </div>
+                    )
+                  })}
+
+                </div>
+              )
+            })}
+
+          </div>
+
         </div>
 
-      </section>
+    </section>
+    ) 
+    : (
+    <section className="text rank">
+      <h4>{language.countryLabel.br.long}, 2020</h4>
+      <h2>{language.rankLabel}</h2>
+      <p>Embora os efeitos nocivos causados pelos agrotóxicos sejam os mesmos em todo o globo, dos 10 ingredientes ativos mais utilizados¹ no Brasil, <span className="inline-legend banned"><span /><span>6 foram banidos na União Europeia</span></span> - alguns há décadas.</p>
+      <p>Nesta mesma lista, os <span className="inline-legend approved"><span /><span>3 ingredientes ativos permitidos em ambas as legislações - e analisados neste projeto²</span></span> - possuem limites de concentração muito mais frouxos no Brasil para a maioria dos alimentos dos nossos pratos, incluindo o arroz e o feijão, base da alimentação brasileira. </p>
+      
+      <div className="rank-panel">
+      {pesticides.map((d, i) => (
+        <div className={`rank-card ${getPestType(d)}`}>
+
+          <div className="ton-rank">
+            <span>{d.rank}</span>
+          </div>
+
+          <div className="ton-pest">
+            <span>{d.label[language.id]}</span>
+          </div>
+
+          <div className="ton-qty">
+            <span>{parseInt(Math.round(d.salesTon / 1000))}</span>
+            <span>kton</span>
+          </div>
+
+        </div>
+      ))}
+
+      </div>
+
+      <div style={{display: "flex", justifyContent: "flex-end"}}>
+        <span style={{fontSize: '.65rem', fontWeight: 300}}>1 kton = 1000 toneladas</span>
+      </div>
+
+      <p className="footnote">¹ A lista dos 10 ingredientes ativos mais vendidos no Brasil em toneladas por ano é fornecida pelo IBAMA. O último ano com dados disponíveis era 2020 no acesso de Junho de 2022. Nesta análise, utilizou-se 'toneladas vendidas' como variável proxy, isto é, variável representante, de 'toneladas utilizadas'. <a className="link" href="http://www.ibama.gov.br/agrotoxicos/relatorios-de-comercializacao-de-agrotoxicos" target="_blank">Acesse aqui.</a></p>
+      <p className="footnote">² O <div className="inline-legend sulfur"><span /><span>enxofre, oitavo ingrediente ativo mais utilizado no Brasil em 2020</span></div>, não foi analisado neste projeto. Sua presença em diversos outros ingredientes ativos mais complexos dificultava comparações.</p>
+
+
+    </section>
     )
+  
 }
 
 export default TextData;

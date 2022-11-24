@@ -7,7 +7,7 @@ import Plates from './sections/plates/Plates';
 import TextKeyTerms from './sections/textkeyterms/TextKeyTerms';
 import TextIntro from './sections/textintro/TextIntro';
 import TextData from './sections/textdata/TextData';
-import TextMe from './sections/textme/TextMe';
+import PoisonPack from './sections/poisonpack/PoisonPack';
 
 import pesticides from './static/data/data_pesticides.json';
 import cultives from './static/data/data_cultives';
@@ -31,7 +31,6 @@ function App() {
   const colorBlocks = pesticides.filter(d => d.show).map(d => (
     <div key={d.id} style={{background: d.color}}></div>
   ))
-
     
   const appRef = useRef(null)
   const { width } = useContainerDimensions(appRef)
@@ -58,34 +57,28 @@ function App() {
   
 
   return (
-    <div className="app" ref={appRef}> 
+    <main className="app" aria-label={'isMobile ' + isMobile} ref={appRef}> 
 
-      <header className="nav">
-
+      <nav>
         <div className="nav-element">
           <div className="app-logo" alt="Logo de APRAGAREAL" />
         </div>
 
         <div className="nav-element">
-            <button className="lang-btn"onClick={() => dispatch(toggleLanguage())}>
+            <button className="lang-btn" onClick={() => dispatch(toggleLanguage())}>
               {!isMobile ? language.name : language.shortName}
             </button>
         </div>
+      </nav>
 
-      </header>
+      <Cover {...coverProps} />
+      <Plates {...platesProps} />
+      <TextKeyTerms />
+      <TextIntro />
+      <TextData {...textDataProps} /> 
+      {/* <PoisonPack /> */}
 
-      <div className="container">
-
-        <Cover {...coverProps} />
-        <Plates {...platesProps} />
-        <TextKeyTerms />
-        <TextIntro />
-        {/* <TextData {...textDataProps} />  */}
-        {/* <TextMe /> */}
-
-      </div>
-
-    </div>
+    </main>
   );
 }
 
