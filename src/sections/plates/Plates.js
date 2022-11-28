@@ -138,7 +138,7 @@ function Plates ({ cultives, pesticides, colorBlocks, cultiveGroups }) {
           }
         </div>
 
-          <TooltipTable pesticides={pesticides} {...selected} language={language} />
+        <TooltipTable pesticides={pesticides} {...selected} language={language} />
 
         <div className="filters-wrapper">
 

@@ -200,8 +200,6 @@ PlateD3.drawDrops = (ref, params, isMobile) => {
       }
     })
 
-
-
     let tick = 0
     const tickRate = !isMobile ? 4 : 1 
     params.forceSimulation.on("tick", () => {
@@ -217,8 +215,6 @@ PlateD3.drawDrops = (ref, params, isMobile) => {
 
     params.forceHasRun = true
       
-  
-
 }
 
 PlateD3.ttipMouseEnter = (ref, params) => function(d) {
@@ -321,10 +317,6 @@ PlateD3.ttipMouseEnter = (ref, params) => function(d) {
   const tooltipWidth = +ttipWrapper.style('width').replace('px', '')
   const tooltipHeight = +ttipWrapper.style('height').replace('px', '')
 
-  console.log('d', d)
-  console.log('height', window.innerHeight)
-  console.log('width', window.innerWidth)
-
   const stepX = 200
   const stepY = 128
 
@@ -373,7 +365,13 @@ PlateD3.setHoverEvents = (ref, params) => {
 
 PlateD3.update = (ref, params, isMobile) => {
   const wrapper = d3.select(ref.current)
+  const width = +wrapper.style('width').replace('px', '')
+  const height = +wrapper.style('height').replace('px', '')
+  const svgSize = Math.min(width, height)
+
   const svg = wrapper.select('svg')
+    .style('width', svgSize)
+    .style('height', svgSize)
   const svgWidth = +svg.style('width').replace('px', '')
   const svgHeight = +svg.style('height').replace('px', '')
   const center = svgWidth/2
@@ -387,8 +385,6 @@ PlateD3.update = (ref, params, isMobile) => {
 
   PlateD3.setHoverEvents(ref, params)
   PlateD3.drawCountryLabel(ref, params)
-
-  
 
   // Transform country arcs
   svg
