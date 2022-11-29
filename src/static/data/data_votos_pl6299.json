@@ -1,3180 +1,2924 @@
-[
-    {
-        "nome": "Pastor Sargento Isidório",
-        "partido": "AVANTE",
-        "uf": "BA",
-        "voto": "Não",
-        "ideologia": "Centro"
-    },
-    {
-        "nome": "Chiquinho Brazão",
-        "partido": "AVANTE",
-        "uf": "RJ",
-        "voto": "Sim",
-        "ideologia": "Centro"
-    },
-    {
-        "nome": "Greyce Elias",
-        "partido": "AVANTE",
-        "uf": "MG",
-        "voto": "Sim",
-        "ideologia": "Centro"
-    },
-    {
-        "nome": "Leda Sadala",
-        "partido": "AVANTE",
-        "uf": "AP",
-        "voto": "Sim",
-        "ideologia": "Centro"
-    },
-    {
-        "nome": "Sebastião Oliveira",
-        "partido": "AVANTE",
-        "uf": "PE",
-        "voto": "Sim",
-        "ideologia": "Centro"
-    },
-    {
-        "nome": "Tito",
-        "partido": "AVANTE",
-        "uf": "BA",
-        "voto": "Sim",
-        "ideologia": "Centro"
-    },
-    {
-        "nome": "Carmen Zanotto",
-        "partido": "CIDADANIA",
-        "uf": "SC",
-        "voto": "Abstenção",
-        "ideologia": "Centro"
-    },
-    {
-        "nome": "Alex Manente",
-        "partido": "CIDADANIA",
-        "uf": "SP",
-        "voto": "Não",
-        "ideologia": "Centro"
-    },
-    {
-        "nome": "Daniel Coelho",
-        "partido": "CIDADANIA",
-        "uf": "PE",
-        "voto": "Não",
-        "ideologia": "Centro"
-    },
-    {
-        "nome": "Rubens Bueno",
-        "partido": "CIDADANIA",
-        "uf": "PR",
-        "voto": "Não",
-        "ideologia": "Centro"
-    },
-    {
-        "nome": "Arnaldo Jardim",
-        "partido": "CIDADANIA",
-        "uf": "SP",
-        "voto": "Sim",
-        "ideologia": "Centro"
-    },
-    {
-        "nome": "Da Vitória",
-        "partido": "CIDADANIA",
-        "uf": "ES",
-        "voto": "Sim",
-        "ideologia": "Centro"
-    },
-    {
-        "nome": "Paula Belmonte",
-        "partido": "CIDADANIA",
-        "uf": "DF",
-        "voto": "Sim",
-        "ideologia": "Centro"
-    },
-    {
-        "nome": "Carlos Bezerra",
-        "partido": "MDB",
-        "uf": "MT",
-        "voto": "Não",
-        "ideologia": "Centro"
-    },
-    {
-        "nome": "Elcione Barbalho",
-        "partido": "MDB",
-        "uf": "PA",
-        "voto": "Não",
-        "ideologia": "Centro"
-    },
-    {
-        "nome": "Fábio Ramalho",
-        "partido": "MDB",
-        "uf": "MG",
-        "voto": "Não",
-        "ideologia": "Centro"
-    },
-    {
-        "nome": "Jéssica Sales",
-        "partido": "MDB",
-        "uf": "AC",
-        "voto": "Não",
-        "ideologia": "Centro"
-    },
-    {
-        "nome": "Raul Henry",
-        "partido": "MDB",
-        "uf": "PE",
-        "voto": "Não",
-        "ideologia": "Centro"
-    },
-    {
-        "nome": "Alceu Moreira",
-        "partido": "MDB",
-        "uf": "RS",
-        "voto": "Sim",
-        "ideologia": "Centro"
-    },
-    {
-        "nome": "Baleia Rossi",
-        "partido": "MDB",
-        "uf": "SP",
-        "voto": "Sim",
-        "ideologia": "Centro"
-    },
-    {
-        "nome": "Carlos Chiodini",
-        "partido": "MDB",
-        "uf": "SC",
-        "voto": "Sim",
-        "ideologia": "Centro"
-    },
-    {
-        "nome": "Celso Maldaner",
-        "partido": "MDB",
-        "uf": "SC",
-        "voto": "Sim",
-        "ideologia": "Centro"
-    },
-    {
-        "nome": "Daniela do Waguinho",
-        "partido": "MDB",
-        "uf": "RJ",
-        "voto": "Sim",
-        "ideologia": "Centro"
-    },
-    {
-        "nome": "Dulce Miranda",
-        "partido": "MDB",
-        "uf": "TO",
-        "voto": "Sim",
-        "ideologia": "Centro"
-    },
-    {
-        "nome": "Fabio Reis",
-        "partido": "MDB",
-        "uf": "SE",
-        "voto": "Sim",
-        "ideologia": "Centro"
-    },
-    {
-        "nome": "Flaviano Melo",
-        "partido": "MDB",
-        "uf": "AC",
-        "voto": "Sim",
-        "ideologia": "Centro"
-    },
-    {
-        "nome": "Giovani Feltes",
-        "partido": "MDB",
-        "uf": "RS",
-        "voto": "Sim",
-        "ideologia": "Centro"
-    },
-    {
-        "nome": "Gutemberg Reis",
-        "partido": "MDB",
-        "uf": "RJ",
-        "voto": "Sim",
-        "ideologia": "Centro"
-    },
-    {
-        "nome": "Herculano Passos",
-        "partido": "MDB",
-        "uf": "SP",
-        "voto": "Sim",
-        "ideologia": "Centro"
-    },
-    {
-        "nome": "Hercílio Coelho Diniz",
-        "partido": "MDB",
-        "uf": "MG",
-        "voto": "Sim",
-        "ideologia": "Centro"
-    },
-    {
-        "nome": "Hermes Parcianello",
-        "partido": "MDB",
-        "uf": "PR",
-        "voto": "Sim",
-        "ideologia": "Centro"
-    },
-    {
-        "nome": "Hildo Rocha",
-        "partido": "MDB",
-        "uf": "MA",
-        "voto": "Sim",
-        "ideologia": "Centro"
-    },
-    {
-        "nome": "Isnaldo Bulhões Jr.",
-        "partido": "MDB",
-        "uf": "AL",
-        "voto": "Sim",
-        "ideologia": "Centro"
-    },
-    {
-        "nome": "João Marcelo Souza",
-        "partido": "MDB",
-        "uf": "MA",
-        "voto": "Sim",
-        "ideologia": "Centro"
-    },
-    {
-        "nome": "Juarez Costa",
-        "partido": "MDB",
-        "uf": "MT",
-        "voto": "Sim",
-        "ideologia": "Centro"
-    },
-    {
-        "nome": "Leonardo Picciani",
-        "partido": "MDB",
-        "uf": "RJ",
-        "voto": "Sim",
-        "ideologia": "Centro"
-    },
-    {
-        "nome": "Mauro Lopes",
-        "partido": "MDB",
-        "uf": "MG",
-        "voto": "Sim",
-        "ideologia": "Centro"
-    },
-    {
-        "nome": "Márcio Biolchi",
-        "partido": "MDB",
-        "uf": "RS",
-        "voto": "Sim",
-        "ideologia": "Centro"
-    },
-    {
-        "nome": "Newton Cardoso Jr",
-        "partido": "MDB",
-        "uf": "MG",
-        "voto": "Sim",
-        "ideologia": "Centro"
-    },
-    {
-        "nome": "Osmar Terra",
-        "partido": "MDB",
-        "uf": "RS",
-        "voto": "Sim",
-        "ideologia": "Centro"
-    },
-    {
-        "nome": "Rogério Peninha Mendonça",
-        "partido": "MDB",
-        "uf": "SC",
-        "voto": "Sim",
-        "ideologia": "Centro"
-    },
-    {
-        "nome": "Sergio Souza",
-        "partido": "MDB",
-        "uf": "PR",
-        "voto": "Sim",
-        "ideologia": "Centro"
-    },
-    {
-        "nome": "Walter Alves",
-        "partido": "MDB",
-        "uf": "RN",
-        "voto": "Sim",
-        "ideologia": "Centro"
-    },
-    {
-        "nome": "Renata Abreu",
-        "partido": "PODE",
-        "uf": "SP",
-        "voto": "Não",
-        "ideologia": "Centro"
-    },
-    {
-        "nome": "Roberto de Lucena",
-        "partido": "PODE",
-        "uf": "SP",
-        "voto": "Não",
-        "ideologia": "Centro"
-    },
-    {
-        "nome": "Diego Garcia",
-        "partido": "PODE",
-        "uf": "PR",
-        "voto": "Sim",
-        "ideologia": "Centro"
-    },
-    {
-        "nome": "Igor Timo",
-        "partido": "PODE",
-        "uf": "MG",
-        "voto": "Sim",
-        "ideologia": "Centro"
-    },
-    {
-        "nome": "Josivaldo JP",
-        "partido": "PODE",
-        "uf": "MA",
-        "voto": "Sim",
-        "ideologia": "Centro"
-    },
-    {
-        "nome": "José Medeiros",
-        "partido": "PODE",
-        "uf": "MT",
-        "voto": "Sim",
-        "ideologia": "Centro"
-    },
-    {
-        "nome": "José Nelto",
-        "partido": "PODE",
-        "uf": "GO",
-        "voto": "Sim",
-        "ideologia": "Centro"
-    },
-    {
-        "nome": "Léo Moraes",
-        "partido": "PODE",
-        "uf": "RO",
-        "voto": "Sim",
-        "ideologia": "Centro"
-    },
-    {
-        "nome": "Ricardo Teobaldo",
-        "partido": "PODE",
-        "uf": "PE",
-        "voto": "Sim",
-        "ideologia": "Centro"
-    },
-    {
-        "nome": "Rodrigo Coelho",
-        "partido": "PODE",
-        "uf": "SC",
-        "voto": "Sim",
-        "ideologia": "Centro"
-    },
-    {
-        "nome": "Capitão Wagner",
-        "partido": "PROS",
-        "uf": "CE",
-        "voto": "Não",
-        "ideologia": "Centro"
-    },
-    {
-        "nome": "Clarissa Garotinho",
-        "partido": "PROS",
-        "uf": "RJ",
-        "voto": "Não",
-        "ideologia": "Centro"
-    },
-    {
-        "nome": "Weliton Prado",
-        "partido": "PROS",
-        "uf": "MG",
-        "voto": "Não",
-        "ideologia": "Centro"
-    },
-    {
-        "nome": "Acácio Favacho",
-        "partido": "PROS",
-        "uf": "AP",
-        "voto": "Sim",
-        "ideologia": "Centro"
-    },
-    {
-        "nome": "Carla Dickson",
-        "partido": "PROS",
-        "uf": "RN",
-        "voto": "Sim",
-        "ideologia": "Centro"
-    },
-    {
-        "nome": "Eros Biondini",
-        "partido": "PROS",
-        "uf": "MG",
-        "voto": "Sim",
-        "ideologia": "Centro"
-    },
-    {
-        "nome": "Gastão Vieira",
-        "partido": "PROS",
-        "uf": "MA",
-        "voto": "Sim",
-        "ideologia": "Centro"
-    },
-    {
-        "nome": "Toninho Wandscheer",
-        "partido": "PROS",
-        "uf": "PR",
-        "voto": "Sim",
-        "ideologia": "Centro"
-    },
-    {
-        "nome": "Uldurico Junior",
-        "partido": "PROS",
-        "uf": "BA",
-        "voto": "Sim",
-        "ideologia": "Centro"
-    },
-    {
-        "nome": "Vaidon Oliveira",
-        "partido": "PROS",
-        "uf": "CE",
-        "voto": "Sim",
-        "ideologia": "Centro"
-    },
-    {
-        "nome": "Fábio Trad",
-        "partido": "PSD",
-        "uf": "MS",
-        "voto": "Não",
-        "ideologia": "Centro"
-    },
-    {
-        "nome": "Otto Alencar Filho",
-        "partido": "PSD",
-        "uf": "BA",
-        "voto": "Não",
-        "ideologia": "Centro"
-    },
-    {
-        "nome": "Antonio Brito",
-        "partido": "PSD",
-        "uf": "BA",
-        "voto": "Sim",
-        "ideologia": "Centro"
-    },
-    {
-        "nome": "Cezinha de Madureira",
-        "partido": "PSD",
-        "uf": "SP",
-        "voto": "Sim",
-        "ideologia": "Centro"
-    },
-    {
-        "nome": "Charles Fernandes",
-        "partido": "PSD",
-        "uf": "BA",
-        "voto": "Sim",
-        "ideologia": "Centro"
-    },
-    {
-        "nome": "Darci de Matos",
-        "partido": "PSD",
-        "uf": "SC",
-        "voto": "Sim",
-        "ideologia": "Centro"
-    },
-    {
-        "nome": "Delegado Éder Mauro",
-        "partido": "PSD",
-        "uf": "PA",
-        "voto": "Sim",
-        "ideologia": "Centro"
-    },
-    {
-        "nome": "Diego Andrade",
-        "partido": "PSD",
-        "uf": "MG",
-        "voto": "Sim",
-        "ideologia": "Centro"
-    },
-    {
-        "nome": "Domingos Neto",
-        "partido": "PSD",
-        "uf": "CE",
-        "voto": "Sim",
-        "ideologia": "Centro"
-    },
-    {
-        "nome": "Edilázio Júnior",
-        "partido": "PSD",
-        "uf": "MA",
-        "voto": "Sim",
-        "ideologia": "Centro"
-    },
-    {
-        "nome": "Expedito Netto",
-        "partido": "PSD",
-        "uf": "RO",
-        "voto": "Sim",
-        "ideologia": "Centro"
-    },
-    {
-        "nome": "Francisco Jr.",
-        "partido": "PSD",
-        "uf": "GO",
-        "voto": "Sim",
-        "ideologia": "Centro"
-    },
-    {
-        "nome": "Fábio Mitidieri",
-        "partido": "PSD",
-        "uf": "SE",
-        "voto": "Sim",
-        "ideologia": "Centro"
-    },
-    {
-        "nome": "Haroldo Cathedral",
-        "partido": "PSD",
-        "uf": "RR",
-        "voto": "Sim",
-        "ideologia": "Centro"
-    },
-    {
-        "nome": "Hugo Leal",
-        "partido": "PSD",
-        "uf": "RJ",
-        "voto": "Sim",
-        "ideologia": "Centro"
-    },
-    {
-        "nome": "Joaquim Passarinho",
-        "partido": "PSD",
-        "uf": "PA",
-        "voto": "Sim",
-        "ideologia": "Centro"
-    },
-    {
-        "nome": "Jones Moura",
-        "partido": "PSD",
-        "uf": "RJ",
-        "voto": "Sim",
-        "ideologia": "Centro"
-    },
-    {
-        "nome": "José Nunes",
-        "partido": "PSD",
-        "uf": "BA",
-        "voto": "Sim",
-        "ideologia": "Centro"
-    },
-    {
-        "nome": "Júnior Ferrari",
-        "partido": "PSD",
-        "uf": "PA",
-        "voto": "Sim",
-        "ideologia": "Centro"
-    },
-    {
-        "nome": "Marx Beltrão",
-        "partido": "PSD",
-        "uf": "AL",
-        "voto": "Sim",
-        "ideologia": "Centro"
-    },
-    {
-        "nome": "Neucimar Fraga",
-        "partido": "PSD",
-        "uf": "ES",
-        "voto": "Sim",
-        "ideologia": "Centro"
-    },
-    {
-        "nome": "Paulo Magalhães",
-        "partido": "PSD",
-        "uf": "BA",
-        "voto": "Sim",
-        "ideologia": "Centro"
-    },
-    {
-        "nome": "Reinhold Stephanes Junior",
-        "partido": "PSD",
-        "uf": "PR",
-        "voto": "Sim",
-        "ideologia": "Centro"
-    },
-    {
-        "nome": "Ricardo Guidi",
-        "partido": "PSD",
-        "uf": "SC",
-        "voto": "Sim",
-        "ideologia": "Centro"
-    },
-    {
-        "nome": "Sargento Fahur",
-        "partido": "PSD",
-        "uf": "PR",
-        "voto": "Sim",
-        "ideologia": "Centro"
-    },
-    {
-        "nome": "Sidney Leite",
-        "partido": "PSD",
-        "uf": "AM",
-        "voto": "Sim",
-        "ideologia": "Centro"
-    },
-    {
-        "nome": "Stefano Aguiar",
-        "partido": "PSD",
-        "uf": "MG",
-        "voto": "Sim",
-        "ideologia": "Centro"
-    },
-    {
-        "nome": "Sérgio Brito",
-        "partido": "PSD",
-        "uf": "BA",
-        "voto": "Sim",
-        "ideologia": "Centro"
-    },
-    {
-        "nome": "Vermelho",
-        "partido": "PSD",
-        "uf": "PR",
-        "voto": "Sim",
-        "ideologia": "Centro"
-    },
-    {
-        "nome": "Alexandre Frota",
-        "partido": "PSDB",
-        "uf": "SP",
-        "voto": "Não",
-        "ideologia": "Centro"
-    },
-    {
-        "nome": "Aécio Neves",
-        "partido": "PSDB",
-        "uf": "MG",
-        "voto": "Não",
-        "ideologia": "Centro"
-    },
-    {
-        "nome": "Bruna Furlan",
-        "partido": "PSDB",
-        "uf": "SP",
-        "voto": "Não",
-        "ideologia": "Centro"
-    },
-    {
-        "nome": "Eduardo Cury",
-        "partido": "PSDB",
-        "uf": "SP",
-        "voto": "Não",
-        "ideologia": "Centro"
-    },
-    {
-        "nome": "Miguel Haddad",
-        "partido": "PSDB",
-        "uf": "SP",
-        "voto": "Não",
-        "ideologia": "Centro"
-    },
-    {
-        "nome": "Pedro Cunha Lima",
-        "partido": "PSDB",
-        "uf": "PB",
-        "voto": "Não",
-        "ideologia": "Centro"
-    },
-    {
-        "nome": "Rose Modesto",
-        "partido": "PSDB",
-        "uf": "MS",
-        "voto": "Não",
-        "ideologia": "Centro"
-    },
-    {
-        "nome": "Ruy Carneiro",
-        "partido": "PSDB",
-        "uf": "PB",
-        "voto": "Não",
-        "ideologia": "Centro"
-    },
-    {
-        "nome": "Shéridan",
-        "partido": "PSDB",
-        "uf": "RR",
-        "voto": "Não",
-        "ideologia": "Centro"
-    },
-    {
-        "nome": "Tereza Nelma",
-        "partido": "PSDB",
-        "uf": "AL",
-        "voto": "Não",
-        "ideologia": "Centro"
-    },
-    {
-        "nome": "Adolfo Viana",
-        "partido": "PSDB",
-        "uf": "BA",
-        "voto": "Sim",
-        "ideologia": "Centro"
-    },
-    {
-        "nome": "Bia Cavassa",
-        "partido": "PSDB",
-        "uf": "MS",
-        "voto": "Sim",
-        "ideologia": "Centro"
-    },
-    {
-        "nome": "Carlos Sampaio",
-        "partido": "PSDB",
-        "uf": "SP",
-        "voto": "Sim",
-        "ideologia": "Centro"
-    },
-    {
-        "nome": "Célio Silveira",
-        "partido": "PSDB",
-        "uf": "GO",
-        "voto": "Sim",
-        "ideologia": "Centro"
-    },
-    {
-        "nome": "Danilo Forte",
-        "partido": "PSDB",
-        "uf": "CE",
-        "voto": "Sim",
-        "ideologia": "Centro"
-    },
-    {
-        "nome": "Eduardo Barbosa",
-        "partido": "PSDB",
-        "uf": "MG",
-        "voto": "Sim",
-        "ideologia": "Centro"
-    },
-    {
-        "nome": "Geovania de Sá",
-        "partido": "PSDB",
-        "uf": "SC",
-        "voto": "Sim",
-        "ideologia": "Centro"
-    },
-    {
-        "nome": "Lucas Redecker",
-        "partido": "PSDB",
-        "uf": "RS",
-        "voto": "Sim",
-        "ideologia": "Centro"
-    },
-    {
-        "nome": "Mara Rocha",
-        "partido": "PSDB",
-        "uf": "AC",
-        "voto": "Sim",
-        "ideologia": "Centro"
-    },
-    {
-        "nome": "Mariana Carvalho",
-        "partido": "PSDB",
-        "uf": "RO",
-        "voto": "Sim",
-        "ideologia": "Centro"
-    },
-    {
-        "nome": "Nilson Pinto",
-        "partido": "PSDB",
-        "uf": "PA",
-        "voto": "Sim",
-        "ideologia": "Centro"
-    },
-    {
-        "nome": "Otavio Leite",
-        "partido": "PSDB",
-        "uf": "RJ",
-        "voto": "Sim",
-        "ideologia": "Centro"
-    },
-    {
-        "nome": "Paulo Abi-Ackel",
-        "partido": "PSDB",
-        "uf": "MG",
-        "voto": "Sim",
-        "ideologia": "Centro"
-    },
-    {
-        "nome": "Pedro Vilela",
-        "partido": "PSDB",
-        "uf": "AL",
-        "voto": "Sim",
-        "ideologia": "Centro"
-    },
-    {
-        "nome": "Rodrigo de Castro",
-        "partido": "PSDB",
-        "uf": "MG",
-        "voto": "Sim",
-        "ideologia": "Centro"
-    },
-    {
-        "nome": "Samuel Moreira",
-        "partido": "PSDB",
-        "uf": "SP",
-        "voto": "Sim",
-        "ideologia": "Centro"
-    },
-    {
-        "nome": "Vanderlei Macris",
-        "partido": "PSDB",
-        "uf": "SP",
-        "voto": "Sim",
-        "ideologia": "Centro"
-    },
-    {
-        "nome": "Augusto Coutinho",
-        "partido": "SOLIDARIEDADE",
-        "uf": "PE",
-        "voto": "Sim",
-        "ideologia": "Centro"
-    },
-    {
-        "nome": "Aureo Ribeiro",
-        "partido": "SOLIDARIEDADE",
-        "uf": "RJ",
-        "voto": "Sim",
-        "ideologia": "Centro"
-    },
-    {
-        "nome": "Bosco Saraiva",
-        "partido": "SOLIDARIEDADE",
-        "uf": "AM",
-        "voto": "Sim",
-        "ideologia": "Centro"
-    },
-    {
-        "nome": "Dr. Leonardo",
-        "partido": "SOLIDARIEDADE",
-        "uf": "MT",
-        "voto": "Sim",
-        "ideologia": "Centro"
-    },
-    {
-        "nome": "Dra. Vanda Milani",
-        "partido": "SOLIDARIEDADE",
-        "uf": "AC",
-        "voto": "Sim",
-        "ideologia": "Centro"
-    },
-    {
-        "nome": "Eli Borges",
-        "partido": "SOLIDARIEDADE",
-        "uf": "TO",
-        "voto": "Sim",
-        "ideologia": "Centro"
-    },
-    {
-        "nome": "Genecias Noronha",
-        "partido": "SOLIDARIEDADE",
-        "uf": "CE",
-        "voto": "Sim",
-        "ideologia": "Centro"
-    },
-    {
-        "nome": "Gustinho Ribeiro",
-        "partido": "SOLIDARIEDADE",
-        "uf": "SE",
-        "voto": "Sim",
-        "ideologia": "Centro"
-    },
-    {
-        "nome": "Ottaci Nascimento",
-        "partido": "SOLIDARIEDADE",
-        "uf": "RR",
-        "voto": "Sim",
-        "ideologia": "Centro"
-    },
-    {
-        "nome": "Paulinho da Força",
-        "partido": "SOLIDARIEDADE",
-        "uf": "SP",
-        "voto": "Sim",
-        "ideologia": "Centro"
-    },
-    {
-        "nome": "Tiago Dimas",
-        "partido": "SOLIDARIEDADE",
-        "uf": "TO",
-        "voto": "Sim",
-        "ideologia": "Centro"
-    },
-    {
-        "nome": "Leur Lomanto Júnior",
-        "partido": "DEM",
-        "uf": "BA",
-        "voto": "Não",
-        "ideologia": "Direita"
-    },
-    {
-        "nome": "Alan Rick",
-        "partido": "DEM",
-        "uf": "AC",
-        "voto": "Sim",
-        "ideologia": "Direita"
-    },
-    {
-        "nome": "Alexandre Leite",
-        "partido": "DEM",
-        "uf": "SP",
-        "voto": "Sim",
-        "ideologia": "Direita"
-    },
-    {
-        "nome": "Arthur Oliveira Maia",
-        "partido": "DEM",
-        "uf": "BA",
-        "voto": "Sim",
-        "ideologia": "Direita"
-    },
-    {
-        "nome": "Carlos Henrique Gaguim",
-        "partido": "DEM",
-        "uf": "TO",
-        "voto": "Sim",
-        "ideologia": "Direita"
-    },
-    {
-        "nome": "Dr. Zacharias Calil",
-        "partido": "DEM",
-        "uf": "GO",
-        "voto": "Sim",
-        "ideologia": "Direita"
-    },
-    {
-        "nome": "Efraim Filho",
-        "partido": "DEM",
-        "uf": "PB",
-        "voto": "Sim",
-        "ideologia": "Direita"
-    },
-    {
-        "nome": "Eli Corrêa Filho",
-        "partido": "DEM",
-        "uf": "SP",
-        "voto": "Sim",
-        "ideologia": "Direita"
-    },
-    {
-        "nome": "Elmar Nascimento",
-        "partido": "DEM",
-        "uf": "BA",
-        "voto": "Sim",
-        "ideologia": "Direita"
-    },
-    {
-        "nome": "Geninho Zuliani",
-        "partido": "DEM",
-        "uf": "SP",
-        "voto": "Sim",
-        "ideologia": "Direita"
-    },
-    {
-        "nome": "Hélio Leite",
-        "partido": "DEM",
-        "uf": "PA",
-        "voto": "Sim",
-        "ideologia": "Direita"
-    },
-    {
-        "nome": "Igor Kannário",
-        "partido": "DEM",
-        "uf": "BA",
-        "voto": "Sim",
-        "ideologia": "Direita"
-    },
-    {
-        "nome": "Jose Mario Schreiner",
-        "partido": "DEM",
-        "uf": "GO",
-        "voto": "Sim",
-        "ideologia": "Direita"
-    },
-    {
-        "nome": "Juninho do Pneu",
-        "partido": "DEM",
-        "uf": "RJ",
-        "voto": "Sim",
-        "ideologia": "Direita"
-    },
-    {
-        "nome": "Juscelino Filho",
-        "partido": "DEM",
-        "uf": "MA",
-        "voto": "Sim",
-        "ideologia": "Direita"
-    },
-    {
-        "nome": "Kim Kataguiri",
-        "partido": "DEM",
-        "uf": "SP",
-        "voto": "Sim",
-        "ideologia": "Direita"
-    },
-    {
-        "nome": "Luis Miranda",
-        "partido": "DEM",
-        "uf": "DF",
-        "voto": "Sim",
-        "ideologia": "Direita"
-    },
-    {
-        "nome": "Norma Ayub",
-        "partido": "DEM",
-        "uf": "ES",
-        "voto": "Sim",
-        "ideologia": "Direita"
-    },
-    {
-        "nome": "Olival Marques",
-        "partido": "DEM",
-        "uf": "PA",
-        "voto": "Sim",
-        "ideologia": "Direita"
-    },
-    {
-        "nome": "Pedro Lupion",
-        "partido": "DEM",
-        "uf": "PR",
-        "voto": "Sim",
-        "ideologia": "Direita"
-    },
-    {
-        "nome": "Professora Dorinha Seabra Rezende",
-        "partido": "DEM",
-        "uf": "TO",
-        "voto": "Sim",
-        "ideologia": "Direita"
-    },
-    {
-        "nome": "Sóstenes Cavalcante",
-        "partido": "DEM",
-        "uf": "RJ",
-        "voto": "Sim",
-        "ideologia": "Direita"
-    },
-    {
-        "nome": "Adriana Ventura",
-        "partido": "NOVO",
-        "uf": "SP",
-        "voto": "Sim",
-        "ideologia": "Direita"
-    },
-    {
-        "nome": "Alexis Fonteyne",
-        "partido": "NOVO",
-        "uf": "SP",
-        "voto": "Sim",
-        "ideologia": "Direita"
-    },
-    {
-        "nome": "Gilson Marques",
-        "partido": "NOVO",
-        "uf": "SC",
-        "voto": "Sim",
-        "ideologia": "Direita"
-    },
-    {
-        "nome": "Lucas Gonzalez",
-        "partido": "NOVO",
-        "uf": "MG",
-        "voto": "Sim",
-        "ideologia": "Direita"
-    },
-    {
-        "nome": "Marcel van Hattem",
-        "partido": "NOVO",
-        "uf": "RS",
-        "voto": "Sim",
-        "ideologia": "Direita"
-    },
-    {
-        "nome": "Paulo Ganime",
-        "partido": "NOVO",
-        "uf": "RJ",
-        "voto": "Sim",
-        "ideologia": "Direita"
-    },
-    {
-        "nome": "Tiago Mitraud",
-        "partido": "NOVO",
-        "uf": "MG",
-        "voto": "Sim",
-        "ideologia": "Direita"
-    },
-    {
-        "nome": "Vinicius Poit",
-        "partido": "NOVO",
-        "uf": "SP",
-        "voto": "Sim",
-        "ideologia": "Direita"
-    },
-    {
-        "nome": "Alcides Rodrigues",
-        "partido": "PATRIOTA",
-        "uf": "GO",
-        "voto": "Sim",
-        "ideologia": "Direita"
-    },
-    {
-        "nome": "Dr. Frederico",
-        "partido": "PATRIOTA",
-        "uf": "MG",
-        "voto": "Sim",
-        "ideologia": "Direita"
-    },
-    {
-        "nome": "Marreca Filho",
-        "partido": "PATRIOTA",
-        "uf": "MA",
-        "voto": "Sim",
-        "ideologia": "Direita"
-    },
-    {
-        "nome": "Pastor Eurico",
-        "partido": "PATRIOTA",
-        "uf": "PE",
-        "voto": "Sim",
-        "ideologia": "Direita"
-    },
-    {
-        "nome": "Roman",
-        "partido": "PATRIOTA",
-        "uf": "PR",
-        "voto": "Sim",
-        "ideologia": "Direita"
-    },
-    {
-        "nome": "Valdevan Noventa",
-        "partido": "PL",
-        "uf": "SE",
-        "voto": "Não",
-        "ideologia": "Direita"
-    },
-    {
-        "nome": "Abílio Santana",
-        "partido": "PL",
-        "uf": "BA",
-        "voto": "Sim",
-        "ideologia": "Direita"
-    },
-    {
-        "nome": "Aelton Freitas",
-        "partido": "PL",
-        "uf": "MG",
-        "voto": "Sim",
-        "ideologia": "Direita"
-    },
-    {
-        "nome": "Altineu Côrtes",
-        "partido": "PL",
-        "uf": "RJ",
-        "voto": "Sim",
-        "ideologia": "Direita"
-    },
-    {
-        "nome": "Bosco Costa",
-        "partido": "PL",
-        "uf": "SE",
-        "voto": "Sim",
-        "ideologia": "Direita"
-    },
-    {
-        "nome": "Capitão Augusto",
-        "partido": "PL",
-        "uf": "SP",
-        "voto": "Sim",
-        "ideologia": "Direita"
-    },
-    {
-        "nome": "Capitão Fábio Abreu",
-        "partido": "PL",
-        "uf": "PI",
-        "voto": "Sim",
-        "ideologia": "Direita"
-    },
-    {
-        "nome": "Christiane de Souza Yared",
-        "partido": "PL",
-        "uf": "PR",
-        "voto": "Sim",
-        "ideologia": "Direita"
-    },
-    {
-        "nome": "Cristiano Vale",
-        "partido": "PL",
-        "uf": "PA",
-        "voto": "Sim",
-        "ideologia": "Direita"
-    },
-    {
-        "nome": "Dr. Jaziel",
-        "partido": "PL",
-        "uf": "CE",
-        "voto": "Sim",
-        "ideologia": "Direita"
-    },
-    {
-        "nome": "Edio Lopes",
-        "partido": "PL",
-        "uf": "RR",
-        "voto": "Sim",
-        "ideologia": "Direita"
-    },
-    {
-        "nome": "Fernando Rodolfo",
-        "partido": "PL",
-        "uf": "PE",
-        "voto": "Sim",
-        "ideologia": "Direita"
-    },
-    {
-        "nome": "Gelson Azevedo",
-        "partido": "PL",
-        "uf": "RJ",
-        "voto": "Sim",
-        "ideologia": "Direita"
-    },
-    {
-        "nome": "Giacobo",
-        "partido": "PL",
-        "uf": "PR",
-        "voto": "Sim",
-        "ideologia": "Direita"
-    },
-    {
-        "nome": "Giovani Cherini",
-        "partido": "PL",
-        "uf": "RS",
-        "voto": "Sim",
-        "ideologia": "Direita"
-    },
-    {
-        "nome": "Jorielson",
-        "partido": "PL",
-        "uf": "AP",
-        "voto": "Sim",
-        "ideologia": "Direita"
-    },
-    {
-        "nome": "Josimar Maranhãozinho",
-        "partido": "PL",
-        "uf": "MA",
-        "voto": "Sim",
-        "ideologia": "Direita"
-    },
-    {
-        "nome": "José Rocha",
-        "partido": "PL",
-        "uf": "BA",
-        "voto": "Sim",
-        "ideologia": "Direita"
-    },
-    {
-        "nome": "João Carlos Bacelar",
-        "partido": "PL",
-        "uf": "BA",
-        "voto": "Sim",
-        "ideologia": "Direita"
-    },
-    {
-        "nome": "João Maia",
-        "partido": "PL",
-        "uf": "RN",
-        "voto": "Sim",
-        "ideologia": "Direita"
-    },
-    {
-        "nome": "Junior Lourenço",
-        "partido": "PL",
-        "uf": "MA",
-        "voto": "Sim",
-        "ideologia": "Direita"
-    },
-    {
-        "nome": "Júnior Mano",
-        "partido": "PL",
-        "uf": "CE",
-        "voto": "Sim",
-        "ideologia": "Direita"
-    },
-    {
-        "nome": "Laerte Bessa",
-        "partido": "PL",
-        "uf": "DF",
-        "voto": "Sim",
-        "ideologia": "Direita"
-    },
-    {
-        "nome": "Lincoln Portela",
-        "partido": "PL",
-        "uf": "MG",
-        "voto": "Sim",
-        "ideologia": "Direita"
-    },
-    {
-        "nome": "Luiz Antônio Corrêa",
-        "partido": "PL",
-        "uf": "RJ",
-        "voto": "Sim",
-        "ideologia": "Direita"
-    },
-    {
-        "nome": "Luiz Carlos Motta",
-        "partido": "PL",
-        "uf": "SP",
-        "voto": "Sim",
-        "ideologia": "Direita"
-    },
-    {
-        "nome": "Luiz Nishimori",
-        "partido": "PL",
-        "uf": "PR",
-        "voto": "Sim",
-        "ideologia": "Direita"
-    },
-    {
-        "nome": "Magda Mofatto",
-        "partido": "PL",
-        "uf": "GO",
-        "voto": "Sim",
-        "ideologia": "Direita"
-    },
-    {
-        "nome": "Marcio Alvino",
-        "partido": "PL",
-        "uf": "SP",
-        "voto": "Sim",
-        "ideologia": "Direita"
-    },
-    {
-        "nome": "Miguel Lombardi",
-        "partido": "PL",
-        "uf": "SP",
-        "voto": "Sim",
-        "ideologia": "Direita"
-    },
-    {
-        "nome": "Pastor Gil",
-        "partido": "PL",
-        "uf": "MA",
-        "voto": "Sim",
-        "ideologia": "Direita"
-    },
-    {
-        "nome": "Paulo Freire Costa",
-        "partido": "PL",
-        "uf": "SP",
-        "voto": "Sim",
-        "ideologia": "Direita"
-    },
-    {
-        "nome": "Policial Katia Sastre",
-        "partido": "PL",
-        "uf": "SP",
-        "voto": "Sim",
-        "ideologia": "Direita"
-    },
-    {
-        "nome": "Pr. Marco Feliciano",
-        "partido": "PL",
-        "uf": "SP",
-        "voto": "Sim",
-        "ideologia": "Direita"
-    },
-    {
-        "nome": "Tiririca",
-        "partido": "PL",
-        "uf": "SP",
-        "voto": "Sim",
-        "ideologia": "Direita"
-    },
-    {
-        "nome": "Vicentinho Júnior",
-        "partido": "PL",
-        "uf": "TO",
-        "voto": "Sim",
-        "ideologia": "Direita"
-    },
-    {
-        "nome": "Zé Vitor",
-        "partido": "PL",
-        "uf": "MG",
-        "voto": "Sim",
-        "ideologia": "Direita"
-    },
-    {
-        "nome": "Arthur Lira",
-        "partido": "PP",
-        "uf": "AL",
-        "voto": "Artigo 17",
-        "ideologia": "Direita"
-    },
-    {
-        "nome": "Aguinaldo Ribeiro",
-        "partido": "PP",
-        "uf": "PB",
-        "voto": "Não",
-        "ideologia": "Direita"
-    },
-    {
-        "nome": "Mário Negromonte Jr.",
-        "partido": "PP",
-        "uf": "BA",
-        "voto": "Não",
-        "ideologia": "Direita"
-    },
-    {
-        "nome": "AJ Albuquerque",
-        "partido": "PP",
-        "uf": "CE",
-        "voto": "Sim",
-        "ideologia": "Direita"
-    },
-    {
-        "nome": "Adriano do Baldy",
-        "partido": "PP",
-        "uf": "GO",
-        "voto": "Sim",
-        "ideologia": "Direita"
-    },
-    {
-        "nome": "Afonso Hamm",
-        "partido": "PP",
-        "uf": "RS",
-        "voto": "Sim",
-        "ideologia": "Direita"
-    },
-    {
-        "nome": "André Abdon",
-        "partido": "PP",
-        "uf": "AP",
-        "voto": "Sim",
-        "ideologia": "Direita"
-    },
-    {
-        "nome": "André Fufuca",
-        "partido": "PP",
-        "uf": "MA",
-        "voto": "Sim",
-        "ideologia": "Direita"
-    },
-    {
-        "nome": "Angela Amin",
-        "partido": "PP",
-        "uf": "SC",
-        "voto": "Sim",
-        "ideologia": "Direita"
-    },
-    {
-        "nome": "Beto Rosado",
-        "partido": "PP",
-        "uf": "RN",
-        "voto": "Sim",
-        "ideologia": "Direita"
-    },
-    {
-        "nome": "Cacá Leão",
-        "partido": "PP",
-        "uf": "BA",
-        "voto": "Sim",
-        "ideologia": "Direita"
-    },
-    {
-        "nome": "Capitão Derrite",
-        "partido": "PP",
-        "uf": "SP",
-        "voto": "Sim",
-        "ideologia": "Direita"
-    },
-    {
-        "nome": "Celina Leão",
-        "partido": "PP",
-        "uf": "DF",
-        "voto": "Sim",
-        "ideologia": "Direita"
-    },
-    {
-        "nome": "Christino Aureo",
-        "partido": "PP",
-        "uf": "RJ",
-        "voto": "Sim",
-        "ideologia": "Direita"
-    },
-    {
-        "nome": "Claudio Cajado",
-        "partido": "PP",
-        "uf": "BA",
-        "voto": "Sim",
-        "ideologia": "Direita"
-    },
-    {
-        "nome": "Covatti Filho",
-        "partido": "PP",
-        "uf": "RS",
-        "voto": "Sim",
-        "ideologia": "Direita"
-    },
-    {
-        "nome": "Dimas Fabiano",
-        "partido": "PP",
-        "uf": "MG",
-        "voto": "Sim",
-        "ideologia": "Direita"
-    },
-    {
-        "nome": "Eduardo da Fonte",
-        "partido": "PP",
-        "uf": "PE",
-        "voto": "Sim",
-        "ideologia": "Direita"
-    },
-    {
-        "nome": "Evair Vieira de Melo",
-        "partido": "PP",
-        "uf": "ES",
-        "voto": "Sim",
-        "ideologia": "Direita"
-    },
-    {
-        "nome": "Fausto Pinato",
-        "partido": "PP",
-        "uf": "SP",
-        "voto": "Sim",
-        "ideologia": "Direita"
-    },
-    {
-        "nome": "Fernando Monteiro",
-        "partido": "PP",
-        "uf": "PE",
-        "voto": "Sim",
-        "ideologia": "Direita"
-    },
-    {
-        "nome": "Franco Cartafina",
-        "partido": "PP",
-        "uf": "MG",
-        "voto": "Sim",
-        "ideologia": "Direita"
-    },
-    {
-        "nome": "Hiran Gonçalves",
-        "partido": "PP",
-        "uf": "RR",
-        "voto": "Sim",
-        "ideologia": "Direita"
-    },
-    {
-        "nome": "Iracema Portella",
-        "partido": "PP",
-        "uf": "PI",
-        "voto": "Sim",
-        "ideologia": "Direita"
-    },
-    {
-        "nome": "Jaqueline Cassol",
-        "partido": "PP",
-        "uf": "RO",
-        "voto": "Sim",
-        "ideologia": "Direita"
-    },
-    {
-        "nome": "Jerônimo Goergen",
-        "partido": "PP",
-        "uf": "RS",
-        "voto": "Sim",
-        "ideologia": "Direita"
-    },
-    {
-        "nome": "Julio Lopes",
-        "partido": "PP",
-        "uf": "RJ",
-        "voto": "Sim",
-        "ideologia": "Direita"
-    },
-    {
-        "nome": "Laercio Oliveira",
-        "partido": "PP",
-        "uf": "SE",
-        "voto": "Sim",
-        "ideologia": "Direita"
-    },
-    {
-        "nome": "Marcelo Aro",
-        "partido": "PP",
-        "uf": "MG",
-        "voto": "Sim",
-        "ideologia": "Direita"
-    },
-    {
-        "nome": "Margarete Coelho",
-        "partido": "PP",
-        "uf": "PI",
-        "voto": "Sim",
-        "ideologia": "Direita"
-    },
-    {
-        "nome": "Neri Geller",
-        "partido": "PP",
-        "uf": "MT",
-        "voto": "Sim",
-        "ideologia": "Direita"
-    },
-    {
-        "nome": "Osmar Serraglio",
-        "partido": "PP",
-        "uf": "PR",
-        "voto": "Sim",
-        "ideologia": "Direita"
-    },
-    {
-        "nome": "Pinheirinho",
-        "partido": "PP",
-        "uf": "MG",
-        "voto": "Sim",
-        "ideologia": "Direita"
-    },
-    {
-        "nome": "Professor Alcides",
-        "partido": "PP",
-        "uf": "GO",
-        "voto": "Sim",
-        "ideologia": "Direita"
-    },
-    {
-        "nome": "Ricardo Barros",
-        "partido": "PP",
-        "uf": "PR",
-        "voto": "Sim",
-        "ideologia": "Direita"
-    },
-    {
-        "nome": "Ronaldo Carletto",
-        "partido": "PP",
-        "uf": "BA",
-        "voto": "Sim",
-        "ideologia": "Direita"
-    },
-    {
-        "nome": "Átila Lins",
-        "partido": "PP",
-        "uf": "AM",
-        "voto": "Sim",
-        "ideologia": "Direita"
-    },
-    {
-        "nome": "Euclydes Pettersen",
-        "partido": "PSC",
-        "uf": "MG",
-        "voto": "Não",
-        "ideologia": "Direita"
-    },
-    {
-        "nome": "Aluisio Mendes",
-        "partido": "PSC",
-        "uf": "MA",
-        "voto": "Sim",
-        "ideologia": "Direita"
-    },
-    {
-        "nome": "André Ferreira",
-        "partido": "PSC",
-        "uf": "PE",
-        "voto": "Sim",
-        "ideologia": "Direita"
-    },
-    {
-        "nome": "Glaustin da Fokus",
-        "partido": "PSC",
-        "uf": "GO",
-        "voto": "Sim",
-        "ideologia": "Direita"
-    },
-    {
-        "nome": "Lauriete",
-        "partido": "PSC",
-        "uf": "ES",
-        "voto": "Sim",
-        "ideologia": "Direita"
-    },
-    {
-        "nome": "Leonardo Gadelha",
-        "partido": "PSC",
-        "uf": "PB",
-        "voto": "Sim",
-        "ideologia": "Direita"
-    },
-    {
-        "nome": "Osires Damaso",
-        "partido": "PSC",
-        "uf": "TO",
-        "voto": "Sim",
-        "ideologia": "Direita"
-    },
-    {
-        "nome": "Otoni de Paula",
-        "partido": "PSC",
-        "uf": "RJ",
-        "voto": "Sim",
-        "ideologia": "Direita"
-    },
-    {
-        "nome": "Paulo Eduardo Martins",
-        "partido": "PSC",
-        "uf": "PR",
-        "voto": "Sim",
-        "ideologia": "Direita"
-    },
-    {
-        "nome": "Pedro Dalua",
-        "partido": "PSC",
-        "uf": "AP",
-        "voto": "Sim",
-        "ideologia": "Direita"
-    },
-    {
-        "nome": "Ricardo da Karol",
-        "partido": "PSC",
-        "uf": "RJ",
-        "voto": "Sim",
-        "ideologia": "Direita"
-    },
-    {
-        "nome": "Delegado Antônio Furtado",
-        "partido": "PSL",
-        "uf": "RJ",
-        "voto": "Abstenção",
-        "ideologia": "Direita"
-    },
-    {
-        "nome": "Professor Joziel",
-        "partido": "PSL",
-        "uf": "RJ",
-        "voto": "Não",
-        "ideologia": "Direita"
-    },
-    {
-        "nome": "Abou Anni",
-        "partido": "PSL",
-        "uf": "SP",
-        "voto": "Sim",
-        "ideologia": "Direita"
-    },
-    {
-        "nome": "Aline Sleutjes",
-        "partido": "PSL",
-        "uf": "PR",
-        "voto": "Sim",
-        "ideologia": "Direita"
-    },
-    {
-        "nome": "Alê Silva",
-        "partido": "PSL",
-        "uf": "MG",
-        "voto": "Sim",
-        "ideologia": "Direita"
-    },
-    {
-        "nome": "Bia Kicis",
-        "partido": "PSL",
-        "uf": "DF",
-        "voto": "Sim",
-        "ideologia": "Direita"
-    },
-    {
-        "nome": "Bibo Nunes",
-        "partido": "PSL",
-        "uf": "RS",
-        "voto": "Sim",
-        "ideologia": "Direita"
-    },
-    {
-        "nome": "Bozzella",
-        "partido": "PSL",
-        "uf": "SP",
-        "voto": "Sim",
-        "ideologia": "Direita"
-    },
-    {
-        "nome": "Carla Zambelli",
-        "partido": "PSL",
-        "uf": "SP",
-        "voto": "Sim",
-        "ideologia": "Direita"
-    },
-    {
-        "nome": "Carlos Jordy",
-        "partido": "PSL",
-        "uf": "RJ",
-        "voto": "Sim",
-        "ideologia": "Direita"
-    },
-    {
-        "nome": "Caroline de Toni",
-        "partido": "PSL",
-        "uf": "SC",
-        "voto": "Sim",
-        "ideologia": "Direita"
-    },
-    {
-        "nome": "Celso Sabino",
-        "partido": "PSL",
-        "uf": "PA",
-        "voto": "Sim",
-        "ideologia": "Direita"
-    },
-    {
-        "nome": "Chris Tonietto",
-        "partido": "PSL",
-        "uf": "RJ",
-        "voto": "Sim",
-        "ideologia": "Direita"
-    },
-    {
-        "nome": "Coronel Armando",
-        "partido": "PSL",
-        "uf": "SC",
-        "voto": "Sim",
-        "ideologia": "Direita"
-    },
-    {
-        "nome": "Coronel Chrisóstomo",
-        "partido": "PSL",
-        "uf": "RO",
-        "voto": "Sim",
-        "ideologia": "Direita"
-    },
-    {
-        "nome": "Coronel Tadeu",
-        "partido": "PSL",
-        "uf": "SP",
-        "voto": "Sim",
-        "ideologia": "Direita"
-    },
-    {
-        "nome": "Daniel Freitas",
-        "partido": "PSL",
-        "uf": "SC",
-        "voto": "Sim",
-        "ideologia": "Direita"
-    },
-    {
-        "nome": "Daniel Silveira",
-        "partido": "PSL",
-        "uf": "RJ",
-        "voto": "Sim",
-        "ideologia": "Direita"
-    },
-    {
-        "nome": "Delegado Marcelo Freitas",
-        "partido": "PSL",
-        "uf": "MG",
-        "voto": "Sim",
-        "ideologia": "Direita"
-    },
-    {
-        "nome": "Delegado Pablo",
-        "partido": "PSL",
-        "uf": "AM",
-        "voto": "Sim",
-        "ideologia": "Direita"
-    },
-    {
-        "nome": "Delegado Waldir",
-        "partido": "PSL",
-        "uf": "GO",
-        "voto": "Sim",
-        "ideologia": "Direita"
-    },
-    {
-        "nome": "Dr. Luiz Ovando",
-        "partido": "PSL",
-        "uf": "MS",
-        "voto": "Sim",
-        "ideologia": "Direita"
-    },
-    {
-        "nome": "Dra. Soraya Manato",
-        "partido": "PSL",
-        "uf": "ES",
-        "voto": "Sim",
-        "ideologia": "Direita"
-    },
-    {
-        "nome": "Eduardo Bolsonaro",
-        "partido": "PSL",
-        "uf": "SP",
-        "voto": "Sim",
-        "ideologia": "Direita"
-    },
-    {
-        "nome": "Fabio Schiochet",
-        "partido": "PSL",
-        "uf": "SC",
-        "voto": "Sim",
-        "ideologia": "Direita"
-    },
-    {
-        "nome": "Felipe Francischini",
-        "partido": "PSL",
-        "uf": "PR",
-        "voto": "Sim",
-        "ideologia": "Direita"
-    },
-    {
-        "nome": "Felipe Rigoni",
-        "partido": "PSL",
-        "uf": "ES",
-        "voto": "Sim",
-        "ideologia": "Direita"
-    },
-    {
-        "nome": "Felício Laterça",
-        "partido": "PSL",
-        "uf": "RJ",
-        "voto": "Sim",
-        "ideologia": "Direita"
-    },
-    {
-        "nome": "Filipe Barros",
-        "partido": "PSL",
-        "uf": "PR",
-        "voto": "Sim",
-        "ideologia": "Direita"
-    },
-    {
-        "nome": "General Girão",
-        "partido": "PSL",
-        "uf": "RN",
-        "voto": "Sim",
-        "ideologia": "Direita"
-    },
-    {
-        "nome": "General Peternelli",
-        "partido": "PSL",
-        "uf": "SP",
-        "voto": "Sim",
-        "ideologia": "Direita"
-    },
-    {
-        "nome": "Gurgel",
-        "partido": "PSL",
-        "uf": "RJ",
-        "voto": "Sim",
-        "ideologia": "Direita"
-    },
-    {
-        "nome": "Heitor Freire",
-        "partido": "PSL",
-        "uf": "CE",
-        "voto": "Sim",
-        "ideologia": "Direita"
-    },
-    {
-        "nome": "Helio Lopes",
-        "partido": "PSL",
-        "uf": "RJ",
-        "voto": "Sim",
-        "ideologia": "Direita"
-    },
-    {
-        "nome": "Joice Hasselmann",
-        "partido": "PSL",
-        "uf": "SP",
-        "voto": "Sim",
-        "ideologia": "Direita"
-    },
-    {
-        "nome": "Julian Lemos",
-        "partido": "PSL",
-        "uf": "PB",
-        "voto": "Sim",
-        "ideologia": "Direita"
-    },
-    {
-        "nome": "Junio Amaral",
-        "partido": "PSL",
-        "uf": "MG",
-        "voto": "Sim",
-        "ideologia": "Direita"
-    },
-    {
-        "nome": "Loester Trutis",
-        "partido": "PSL",
-        "uf": "MS",
-        "voto": "Sim",
-        "ideologia": "Direita"
-    },
-    {
-        "nome": "Lourival Gomes",
-        "partido": "PSL",
-        "uf": "RJ",
-        "voto": "Sim",
-        "ideologia": "Direita"
-    },
-    {
-        "nome": "Luciano Bivar",
-        "partido": "PSL",
-        "uf": "PE",
-        "voto": "Sim",
-        "ideologia": "Direita"
-    },
-    {
-        "nome": "Luiz Lima",
-        "partido": "PSL",
-        "uf": "RJ",
-        "voto": "Sim",
-        "ideologia": "Direita"
-    },
-    {
-        "nome": "Luiz Philippe de Orleans e Bragança",
-        "partido": "PSL",
-        "uf": "SP",
-        "voto": "Sim",
-        "ideologia": "Direita"
-    },
-    {
-        "nome": "Major Fabiana",
-        "partido": "PSL",
-        "uf": "RJ",
-        "voto": "Sim",
-        "ideologia": "Direita"
-    },
-    {
-        "nome": "Major Vitor Hugo",
-        "partido": "PSL",
-        "uf": "GO",
-        "voto": "Sim",
-        "ideologia": "Direita"
-    },
-    {
-        "nome": "Marcelo Brum",
-        "partido": "PSL",
-        "uf": "RS",
-        "voto": "Sim",
-        "ideologia": "Direita"
-    },
-    {
-        "nome": "Márcio Labre",
-        "partido": "PSL",
-        "uf": "RJ",
-        "voto": "Sim",
-        "ideologia": "Direita"
-    },
-    {
-        "nome": "Nelson Barbudo",
-        "partido": "PSL",
-        "uf": "MT",
-        "voto": "Sim",
-        "ideologia": "Direita"
-    },
-    {
-        "nome": "Nereu Crispim",
-        "partido": "PSL",
-        "uf": "RS",
-        "voto": "Sim",
-        "ideologia": "Direita"
-    },
-    {
-        "nome": "Nicoletti",
-        "partido": "PSL",
-        "uf": "RR",
-        "voto": "Sim",
-        "ideologia": "Direita"
-    },
-    {
-        "nome": "Professora Dayane Pimentel",
-        "partido": "PSL",
-        "uf": "BA",
-        "voto": "Sim",
-        "ideologia": "Direita"
-    },
-    {
-        "nome": "Sanderson",
-        "partido": "PSL",
-        "uf": "RS",
-        "voto": "Sim",
-        "ideologia": "Direita"
-    },
-    {
-        "nome": "Emanuel Pinheiro Neto",
-        "partido": "PTB",
-        "uf": "MT",
-        "voto": "Não",
-        "ideologia": "Direita"
-    },
-    {
-        "nome": "Luisa Canziani",
-        "partido": "PTB",
-        "uf": "PR",
-        "voto": "Sim",
-        "ideologia": "Direita"
-    },
-    {
-        "nome": "Marcelo Moraes",
-        "partido": "PTB",
-        "uf": "RS",
-        "voto": "Sim",
-        "ideologia": "Direita"
-    },
-    {
-        "nome": "Maurício Dziedricki",
-        "partido": "PTB",
-        "uf": "RS",
-        "voto": "Sim",
-        "ideologia": "Direita"
-    },
-    {
-        "nome": "Nivaldo Albuquerque",
-        "partido": "PTB",
-        "uf": "AL",
-        "voto": "Sim",
-        "ideologia": "Direita"
-    },
-    {
-        "nome": "Paulo Bengtson",
-        "partido": "PTB",
-        "uf": "PA",
-        "voto": "Sim",
-        "ideologia": "Direita"
-    },
-    {
-        "nome": "Pedro Augusto Bezerra",
-        "partido": "PTB",
-        "uf": "CE",
-        "voto": "Sim",
-        "ideologia": "Direita"
-    },
-    {
-        "nome": "Pedro Lucas Fernandes",
-        "partido": "PTB",
-        "uf": "MA",
-        "voto": "Sim",
-        "ideologia": "Direita"
-    },
-    {
-        "nome": "Wilson Santiago",
-        "partido": "PTB",
-        "uf": "PB",
-        "voto": "Sim",
-        "ideologia": "Direita"
-    },
-    {
-        "nome": "Amaro Neto",
-        "partido": "REPUBLICANOS",
-        "uf": "ES",
-        "voto": "Sim",
-        "ideologia": "Direita"
-    },
-    {
-        "nome": "Aroldo Martins",
-        "partido": "REPUBLICANOS",
-        "uf": "PR",
-        "voto": "Sim",
-        "ideologia": "Direita"
-    },
-    {
-        "nome": "Benes Leocádio",
-        "partido": "REPUBLICANOS",
-        "uf": "RN",
-        "voto": "Sim",
-        "ideologia": "Direita"
-    },
-    {
-        "nome": "Carlos Gomes",
-        "partido": "REPUBLICANOS",
-        "uf": "RS",
-        "voto": "Sim",
-        "ideologia": "Direita"
-    },
-    {
-        "nome": "Celso Russomanno",
-        "partido": "REPUBLICANOS",
-        "uf": "SP",
-        "voto": "Sim",
-        "ideologia": "Direita"
-    },
-    {
-        "nome": "Cleber Verde",
-        "partido": "REPUBLICANOS",
-        "uf": "MA",
-        "voto": "Sim",
-        "ideologia": "Direita"
-    },
-    {
-        "nome": "Ely Santos",
-        "partido": "REPUBLICANOS",
-        "uf": "SP",
-        "voto": "Sim",
-        "ideologia": "Direita"
-    },
-    {
-        "nome": "Hugo Motta",
-        "partido": "REPUBLICANOS",
-        "uf": "PB",
-        "voto": "Sim",
-        "ideologia": "Direita"
-    },
-    {
-        "nome": "Hélio Costa",
-        "partido": "REPUBLICANOS",
-        "uf": "SC",
-        "voto": "Sim",
-        "ideologia": "Direita"
-    },
-    {
-        "nome": "Jhonatan de Jesus",
-        "partido": "REPUBLICANOS",
-        "uf": "RR",
-        "voto": "Sim",
-        "ideologia": "Direita"
-    },
-    {
-        "nome": "Jorge Braz",
-        "partido": "REPUBLICANOS",
-        "uf": "RJ",
-        "voto": "Sim",
-        "ideologia": "Direita"
-    },
-    {
-        "nome": "João Campos",
-        "partido": "REPUBLICANOS",
-        "uf": "GO",
-        "voto": "Sim",
-        "ideologia": "Direita"
-    },
-    {
-        "nome": "Julio Cesar Ribeiro",
-        "partido": "REPUBLICANOS",
-        "uf": "DF",
-        "voto": "Sim",
-        "ideologia": "Direita"
-    },
-    {
-        "nome": "Lafayette de Andrada",
-        "partido": "REPUBLICANOS",
-        "uf": "MG",
-        "voto": "Sim",
-        "ideologia": "Direita"
-    },
-    {
-        "nome": "Luizão Goulart",
-        "partido": "REPUBLICANOS",
-        "uf": "PR",
-        "voto": "Sim",
-        "ideologia": "Direita"
-    },
-    {
-        "nome": "Marcos Pereira",
-        "partido": "REPUBLICANOS",
-        "uf": "SP",
-        "voto": "Sim",
-        "ideologia": "Direita"
-    },
-    {
-        "nome": "Milton Vieira",
-        "partido": "REPUBLICANOS",
-        "uf": "SP",
-        "voto": "Sim",
-        "ideologia": "Direita"
-    },
-    {
-        "nome": "Ossesio Silva",
-        "partido": "REPUBLICANOS",
-        "uf": "PE",
-        "voto": "Sim",
-        "ideologia": "Direita"
-    },
-    {
-        "nome": "Rosangela Gomes",
-        "partido": "REPUBLICANOS",
-        "uf": "RJ",
-        "voto": "Sim",
-        "ideologia": "Direita"
-    },
-    {
-        "nome": "Severino Pessoa",
-        "partido": "REPUBLICANOS",
-        "uf": "AL",
-        "voto": "Sim",
-        "ideologia": "Direita"
-    },
-    {
-        "nome": "Silas Câmara",
-        "partido": "REPUBLICANOS",
-        "uf": "AM",
-        "voto": "Sim",
-        "ideologia": "Direita"
-    },
-    {
-        "nome": "Silvio Costa Filho",
-        "partido": "REPUBLICANOS",
-        "uf": "PE",
-        "voto": "Sim",
-        "ideologia": "Direita"
-    },
-    {
-        "nome": "Vinicius Carvalho",
-        "partido": "REPUBLICANOS",
-        "uf": "SP",
-        "voto": "Sim",
-        "ideologia": "Direita"
-    },
-    {
-        "nome": "Alice Portugal",
-        "partido": "PCdoB",
-        "uf": "BA",
-        "voto": "Não",
-        "ideologia": "Esquerda"
-    },
-    {
-        "nome": "Daniel Almeida",
-        "partido": "PCdoB",
-        "uf": "BA",
-        "voto": "Não",
-        "ideologia": "Esquerda"
-    },
-    {
-        "nome": "Jandira Feghali",
-        "partido": "PCdoB",
-        "uf": "RJ",
-        "voto": "Não",
-        "ideologia": "Esquerda"
-    },
-    {
-        "nome": "Orlando Silva",
-        "partido": "PCdoB",
-        "uf": "SP",
-        "voto": "Não",
-        "ideologia": "Esquerda"
-    },
-    {
-        "nome": "Perpétua Almeida",
-        "partido": "PCdoB",
-        "uf": "AC",
-        "voto": "Não",
-        "ideologia": "Esquerda"
-    },
-    {
-        "nome": "Professora Marcivania",
-        "partido": "PCdoB",
-        "uf": "AP",
-        "voto": "Não",
-        "ideologia": "Esquerda"
-    },
-    {
-        "nome": "Renildo Calheiros",
-        "partido": "PCdoB",
-        "uf": "PE",
-        "voto": "Não",
-        "ideologia": "Esquerda"
-    },
-    {
-        "nome": "Rubens Pereira Júnior",
-        "partido": "PCdoB",
-        "uf": "MA",
-        "voto": "Não",
-        "ideologia": "Esquerda"
-    },
-    {
-        "nome": "Afonso Motta",
-        "partido": "PDT",
-        "uf": "RS",
-        "voto": "Não",
-        "ideologia": "Esquerda"
-    },
-    {
-        "nome": "André Figueiredo",
-        "partido": "PDT",
-        "uf": "CE",
-        "voto": "Não",
-        "ideologia": "Esquerda"
-    },
-    {
-        "nome": "Chico D`Angelo",
-        "partido": "PDT",
-        "uf": "RJ",
-        "voto": "Não",
-        "ideologia": "Esquerda"
-    },
-    {
-        "nome": "Dagoberto Nogueira",
-        "partido": "PDT",
-        "uf": "MS",
-        "voto": "Não",
-        "ideologia": "Esquerda"
-    },
-    {
-        "nome": "Eduardo Bismarck",
-        "partido": "PDT",
-        "uf": "CE",
-        "voto": "Não",
-        "ideologia": "Esquerda"
-    },
-    {
-        "nome": "Fábio Henrique",
-        "partido": "PDT",
-        "uf": "SE",
-        "voto": "Não",
-        "ideologia": "Esquerda"
-    },
-    {
-        "nome": "Félix Mendonça Júnior",
-        "partido": "PDT",
-        "uf": "BA",
-        "voto": "Não",
-        "ideologia": "Esquerda"
-    },
-    {
-        "nome": "Gustavo Fruet",
-        "partido": "PDT",
-        "uf": "PR",
-        "voto": "Não",
-        "ideologia": "Esquerda"
-    },
-    {
-        "nome": "Idilvan Alencar",
-        "partido": "PDT",
-        "uf": "CE",
-        "voto": "Não",
-        "ideologia": "Esquerda"
-    },
-    {
-        "nome": "Jesus Sérgio",
-        "partido": "PDT",
-        "uf": "AC",
-        "voto": "Não",
-        "ideologia": "Esquerda"
-    },
-    {
-        "nome": "Leônidas Cristino",
-        "partido": "PDT",
-        "uf": "CE",
-        "voto": "Não",
-        "ideologia": "Esquerda"
-    },
-    {
-        "nome": "Mauro Benevides Filho",
-        "partido": "PDT",
-        "uf": "CE",
-        "voto": "Não",
-        "ideologia": "Esquerda"
-    },
-    {
-        "nome": "Mário Heringer",
-        "partido": "PDT",
-        "uf": "MG",
-        "voto": "Não",
-        "ideologia": "Esquerda"
-    },
-    {
-        "nome": "Paulo Ramos",
-        "partido": "PDT",
-        "uf": "RJ",
-        "voto": "Não",
-        "ideologia": "Esquerda"
-    },
-    {
-        "nome": "Pompeo de Mattos",
-        "partido": "PDT",
-        "uf": "RS",
-        "voto": "Não",
-        "ideologia": "Esquerda"
-    },
-    {
-        "nome": "Robério Monteiro",
-        "partido": "PDT",
-        "uf": "CE",
-        "voto": "Não",
-        "ideologia": "Esquerda"
-    },
-    {
-        "nome": "Silvia Cristina",
-        "partido": "PDT",
-        "uf": "RO",
-        "voto": "Não",
-        "ideologia": "Esquerda"
-    },
-    {
-        "nome": "Subtenente Gonzaga",
-        "partido": "PDT",
-        "uf": "MG",
-        "voto": "Não",
-        "ideologia": "Esquerda"
-    },
-    {
-        "nome": "Túlio Gadêlha",
-        "partido": "PDT",
-        "uf": "PE",
-        "voto": "Não",
-        "ideologia": "Esquerda"
-    },
-    {
-        "nome": "Flávio Nogueira",
-        "partido": "PDT",
-        "uf": "PI",
-        "voto": "Sim",
-        "ideologia": "Esquerda"
-    },
-    {
-        "nome": "Marlon Santos",
-        "partido": "PDT",
-        "uf": "RS",
-        "voto": "Sim",
-        "ideologia": "Esquerda"
-    },
-    {
-        "nome": "Alessandro Molon",
-        "partido": "PSB",
-        "uf": "RJ",
-        "voto": "Não",
-        "ideologia": "Esquerda"
-    },
-    {
-        "nome": "Aliel Machado",
-        "partido": "PSB",
-        "uf": "PR",
-        "voto": "Não",
-        "ideologia": "Esquerda"
-    },
-    {
-        "nome": "Bira do Pindaré",
-        "partido": "PSB",
-        "uf": "MA",
-        "voto": "Não",
-        "ideologia": "Esquerda"
-    },
-    {
-        "nome": "Camilo Capiberibe",
-        "partido": "PSB",
-        "uf": "AP",
-        "voto": "Não",
-        "ideologia": "Esquerda"
-    },
-    {
-        "nome": "Cássio Andrade",
-        "partido": "PSB",
-        "uf": "PA",
-        "voto": "Não",
-        "ideologia": "Esquerda"
-    },
-    {
-        "nome": "Danilo Cabral",
-        "partido": "PSB",
-        "uf": "PE",
-        "voto": "Não",
-        "ideologia": "Esquerda"
-    },
-    {
-        "nome": "Denis Bezerra",
-        "partido": "PSB",
-        "uf": "CE",
-        "voto": "Não",
-        "ideologia": "Esquerda"
-    },
-    {
-        "nome": "Elias Vaz",
-        "partido": "PSB",
-        "uf": "GO",
-        "voto": "Não",
-        "ideologia": "Esquerda"
-    },
-    {
-        "nome": "Felipe Carreras",
-        "partido": "PSB",
-        "uf": "PE",
-        "voto": "Não",
-        "ideologia": "Esquerda"
-    },
-    {
-        "nome": "Gervásio Maia",
-        "partido": "PSB",
-        "uf": "PB",
-        "voto": "Não",
-        "ideologia": "Esquerda"
-    },
-    {
-        "nome": "Gonzaga Patriota",
-        "partido": "PSB",
-        "uf": "PE",
-        "voto": "Não",
-        "ideologia": "Esquerda"
-    },
-    {
-        "nome": "Heitor Schuch",
-        "partido": "PSB",
-        "uf": "RS",
-        "voto": "Não",
-        "ideologia": "Esquerda"
-    },
-    {
-        "nome": "Jefferson Campos",
-        "partido": "PSB",
-        "uf": "SP",
-        "voto": "Não",
-        "ideologia": "Esquerda"
-    },
-    {
-        "nome": "Júlio Delgado",
-        "partido": "PSB",
-        "uf": "MG",
-        "voto": "Não",
-        "ideologia": "Esquerda"
-    },
-    {
-        "nome": "Lídice da Mata",
-        "partido": "PSB",
-        "uf": "BA",
-        "voto": "Não",
-        "ideologia": "Esquerda"
-    },
-    {
-        "nome": "Marcelo Freixo",
-        "partido": "PSB",
-        "uf": "RJ",
-        "voto": "Não",
-        "ideologia": "Esquerda"
-    },
-    {
-        "nome": "Marcelo Nilo",
-        "partido": "PSB",
-        "uf": "BA",
-        "voto": "Não",
-        "ideologia": "Esquerda"
-    },
-    {
-        "nome": "Mauro Nazif",
-        "partido": "PSB",
-        "uf": "RO",
-        "voto": "Não",
-        "ideologia": "Esquerda"
-    },
-    {
-        "nome": "Milton Coelho",
-        "partido": "PSB",
-        "uf": "PE",
-        "voto": "Não",
-        "ideologia": "Esquerda"
-    },
-    {
-        "nome": "Rafael Motta",
-        "partido": "PSB",
-        "uf": "RN",
-        "voto": "Não",
-        "ideologia": "Esquerda"
-    },
-    {
-        "nome": "Ricardo Silva",
-        "partido": "PSB",
-        "uf": "SP",
-        "voto": "Não",
-        "ideologia": "Esquerda"
-    },
-    {
-        "nome": "Rodrigo Agostinho",
-        "partido": "PSB",
-        "uf": "SP",
-        "voto": "Não",
-        "ideologia": "Esquerda"
-    },
-    {
-        "nome": "Rosana Valle",
-        "partido": "PSB",
-        "uf": "SP",
-        "voto": "Não",
-        "ideologia": "Esquerda"
-    },
-    {
-        "nome": "Tabata Amaral",
-        "partido": "PSB",
-        "uf": "SP",
-        "voto": "Não",
-        "ideologia": "Esquerda"
-    },
-    {
-        "nome": "Tadeu Alencar",
-        "partido": "PSB",
-        "uf": "PE",
-        "voto": "Não",
-        "ideologia": "Esquerda"
-    },
-    {
-        "nome": "Ted Conti",
-        "partido": "PSB",
-        "uf": "ES",
-        "voto": "Não",
-        "ideologia": "Esquerda"
-    },
-    {
-        "nome": "Vilson da Fetaemg",
-        "partido": "PSB",
-        "uf": "MG",
-        "voto": "Não",
-        "ideologia": "Esquerda"
-    },
-    {
-        "nome": "Emidinho Madeira",
-        "partido": "PSB",
-        "uf": "MG",
-        "voto": "Sim",
-        "ideologia": "Esquerda"
-    },
-    {
-        "nome": "Liziane Bayer",
-        "partido": "PSB",
-        "uf": "RS",
-        "voto": "Sim",
-        "ideologia": "Esquerda"
-    },
-    {
-        "nome": "David Miranda",
-        "partido": "PSOL",
-        "uf": "RJ",
-        "voto": "Não",
-        "ideologia": "Esquerda"
-    },
-    {
-        "nome": "Fernanda Melchionna",
-        "partido": "PSOL",
-        "uf": "RS",
-        "voto": "Não",
-        "ideologia": "Esquerda"
-    },
-    {
-        "nome": "Glauber Braga",
-        "partido": "PSOL",
-        "uf": "RJ",
-        "voto": "Não",
-        "ideologia": "Esquerda"
-    },
-    {
-        "nome": "Ivan Valente",
-        "partido": "PSOL",
-        "uf": "SP",
-        "voto": "Não",
-        "ideologia": "Esquerda"
-    },
-    {
-        "nome": "Luiza Erundina",
-        "partido": "PSOL",
-        "uf": "SP",
-        "voto": "Não",
-        "ideologia": "Esquerda"
-    },
-    {
-        "nome": "Sâmia Bomfim",
-        "partido": "PSOL",
-        "uf": "SP",
-        "voto": "Não",
-        "ideologia": "Esquerda"
-    },
-    {
-        "nome": "Vivi Reis",
-        "partido": "PSOL",
-        "uf": "PA",
-        "voto": "Não",
-        "ideologia": "Esquerda"
-    },
-    {
-        "nome": "Áurea Carolina",
-        "partido": "PSOL",
-        "uf": "MG",
-        "voto": "Não",
-        "ideologia": "Esquerda"
-    },
-    {
-        "nome": "Afonso Florence",
-        "partido": "PT",
-        "uf": "BA",
-        "voto": "Não",
-        "ideologia": "Esquerda"
-    },
-    {
-        "nome": "Airton Faleiro",
-        "partido": "PT",
-        "uf": "PA",
-        "voto": "Não",
-        "ideologia": "Esquerda"
-    },
-    {
-        "nome": "Alencar Santana",
-        "partido": "PT",
-        "uf": "SP",
-        "voto": "Não",
-        "ideologia": "Esquerda"
-    },
-    {
-        "nome": "Alexandre Padilha",
-        "partido": "PT",
-        "uf": "SP",
-        "voto": "Não",
-        "ideologia": "Esquerda"
-    },
-    {
-        "nome": "Arlindo Chinaglia",
-        "partido": "PT",
-        "uf": "SP",
-        "voto": "Não",
-        "ideologia": "Esquerda"
-    },
-    {
-        "nome": "Beto Faro",
-        "partido": "PT",
-        "uf": "PA",
-        "voto": "Não",
-        "ideologia": "Esquerda"
-    },
-    {
-        "nome": "Bohn Gass",
-        "partido": "PT",
-        "uf": "RS",
-        "voto": "Não",
-        "ideologia": "Esquerda"
-    },
-    {
-        "nome": "Carlos Veras",
-        "partido": "PT",
-        "uf": "PE",
-        "voto": "Não",
-        "ideologia": "Esquerda"
-    },
-    {
-        "nome": "Carlos Zarattini",
-        "partido": "PT",
-        "uf": "SP",
-        "voto": "Não",
-        "ideologia": "Esquerda"
-    },
-    {
-        "nome": "Célio Moura",
-        "partido": "PT",
-        "uf": "TO",
-        "voto": "Não",
-        "ideologia": "Esquerda"
-    },
-    {
-        "nome": "Enio Verri",
-        "partido": "PT",
-        "uf": "PR",
-        "voto": "Não",
-        "ideologia": "Esquerda"
-    },
-    {
-        "nome": "Erika Kokay",
-        "partido": "PT",
-        "uf": "DF",
-        "voto": "Não",
-        "ideologia": "Esquerda"
-    },
-    {
-        "nome": "Frei Anastacio Ribeiro",
-        "partido": "PT",
-        "uf": "PB",
-        "voto": "Não",
-        "ideologia": "Esquerda"
-    },
-    {
-        "nome": "Helder Salomão",
-        "partido": "PT",
-        "uf": "ES",
-        "voto": "Não",
-        "ideologia": "Esquerda"
-    },
-    {
-        "nome": "Henrique Fontana",
-        "partido": "PT",
-        "uf": "RS",
-        "voto": "Não",
-        "ideologia": "Esquerda"
-    },
-    {
-        "nome": "Jorge Solla",
-        "partido": "PT",
-        "uf": "BA",
-        "voto": "Não",
-        "ideologia": "Esquerda"
-    },
-    {
-        "nome": "Joseildo Ramos",
-        "partido": "PT",
-        "uf": "BA",
-        "voto": "Não",
-        "ideologia": "Esquerda"
-    },
-    {
-        "nome": "José Airton Félix Cirilo",
-        "partido": "PT",
-        "uf": "CE",
-        "voto": "Não",
-        "ideologia": "Esquerda"
-    },
-    {
-        "nome": "José Guimarães",
-        "partido": "PT",
-        "uf": "CE",
-        "voto": "Não",
-        "ideologia": "Esquerda"
-    },
-    {
-        "nome": "José Ricardo",
-        "partido": "PT",
-        "uf": "AM",
-        "voto": "Não",
-        "ideologia": "Esquerda"
-    },
-    {
-        "nome": "João Daniel",
-        "partido": "PT",
-        "uf": "SE",
-        "voto": "Não",
-        "ideologia": "Esquerda"
-    },
-    {
-        "nome": "Leo de Brito",
-        "partido": "PT",
-        "uf": "AC",
-        "voto": "Não",
-        "ideologia": "Esquerda"
-    },
-    {
-        "nome": "Leonardo Monteiro",
-        "partido": "PT",
-        "uf": "MG",
-        "voto": "Não",
-        "ideologia": "Esquerda"
-    },
-    {
-        "nome": "Luizianne Lins",
-        "partido": "PT",
-        "uf": "CE",
-        "voto": "Não",
-        "ideologia": "Esquerda"
-    },
-    {
-        "nome": "Marcon",
-        "partido": "PT",
-        "uf": "RS",
-        "voto": "Não",
-        "ideologia": "Esquerda"
-    },
-    {
-        "nome": "Maria do Rosário",
-        "partido": "PT",
-        "uf": "RS",
-        "voto": "Não",
-        "ideologia": "Esquerda"
-    },
-    {
-        "nome": "Marília Arraes",
-        "partido": "PT",
-        "uf": "PE",
-        "voto": "Não",
-        "ideologia": "Esquerda"
-    },
-    {
-        "nome": "Merlong Solano",
-        "partido": "PT",
-        "uf": "PI",
-        "voto": "Não",
-        "ideologia": "Esquerda"
-    },
-    {
-        "nome": "Natália Bonavides",
-        "partido": "PT",
-        "uf": "RN",
-        "voto": "Não",
-        "ideologia": "Esquerda"
-    },
-    {
-        "nome": "Nilto Tatto",
-        "partido": "PT",
-        "uf": "SP",
-        "voto": "Não",
-        "ideologia": "Esquerda"
-    },
-    {
-        "nome": "Odair Cunha",
-        "partido": "PT",
-        "uf": "MG",
-        "voto": "Não",
-        "ideologia": "Esquerda"
-    },
-    {
-        "nome": "Padre João",
-        "partido": "PT",
-        "uf": "MG",
-        "voto": "Não",
-        "ideologia": "Esquerda"
-    },
-    {
-        "nome": "Patrus Ananias",
-        "partido": "PT",
-        "uf": "MG",
-        "voto": "Não",
-        "ideologia": "Esquerda"
-    },
-    {
-        "nome": "Paulo Guedes",
-        "partido": "PT",
-        "uf": "MG",
-        "voto": "Não",
-        "ideologia": "Esquerda"
-    },
-    {
-        "nome": "Paulo Pimenta",
-        "partido": "PT",
-        "uf": "RS",
-        "voto": "Não",
-        "ideologia": "Esquerda"
-    },
-    {
-        "nome": "Paulo Teixeira",
-        "partido": "PT",
-        "uf": "SP",
-        "voto": "Não",
-        "ideologia": "Esquerda"
-    },
-    {
-        "nome": "Paulão",
-        "partido": "PT",
-        "uf": "AL",
-        "voto": "Não",
-        "ideologia": "Esquerda"
-    },
-    {
-        "nome": "Pedro Uczai",
-        "partido": "PT",
-        "uf": "SC",
-        "voto": "Não",
-        "ideologia": "Esquerda"
-    },
-    {
-        "nome": "Professora Rosa Neide",
-        "partido": "PT",
-        "uf": "MT",
-        "voto": "Não",
-        "ideologia": "Esquerda"
-    },
-    {
-        "nome": "Reginaldo Lopes",
-        "partido": "PT",
-        "uf": "MG",
-        "voto": "Não",
-        "ideologia": "Esquerda"
-    },
-    {
-        "nome": "Rejane Dias",
-        "partido": "PT",
-        "uf": "PI",
-        "voto": "Não",
-        "ideologia": "Esquerda"
-    },
-    {
-        "nome": "Rogério Correia",
-        "partido": "PT",
-        "uf": "MG",
-        "voto": "Não",
-        "ideologia": "Esquerda"
-    },
-    {
-        "nome": "Rubens Otoni",
-        "partido": "PT",
-        "uf": "GO",
-        "voto": "Não",
-        "ideologia": "Esquerda"
-    },
-    {
-        "nome": "Rui Falcão",
-        "partido": "PT",
-        "uf": "SP",
-        "voto": "Não",
-        "ideologia": "Esquerda"
-    },
-    {
-        "nome": "Valmir Assunção",
-        "partido": "PT",
-        "uf": "BA",
-        "voto": "Não",
-        "ideologia": "Esquerda"
-    },
-    {
-        "nome": "Vander Loubet",
-        "partido": "PT",
-        "uf": "MS",
-        "voto": "Não",
-        "ideologia": "Esquerda"
-    },
-    {
-        "nome": "Vicentinho",
-        "partido": "PT",
-        "uf": "SP",
-        "voto": "Não",
-        "ideologia": "Esquerda"
-    },
-    {
-        "nome": "Waldenor Pereira",
-        "partido": "PT",
-        "uf": "BA",
-        "voto": "Não",
-        "ideologia": "Esquerda"
-    },
-    {
-        "nome": "Zeca Dirceu",
-        "partido": "PT",
-        "uf": "PR",
-        "voto": "Não",
-        "ideologia": "Esquerda"
-    },
-    {
-        "nome": "Zé Carlos",
-        "partido": "PT",
-        "uf": "MA",
-        "voto": "Não",
-        "ideologia": "Esquerda"
-    },
-    {
-        "nome": "Zé Neto",
-        "partido": "PT",
-        "uf": "BA",
-        "voto": "Não",
-        "ideologia": "Esquerda"
-    },
-    {
-        "nome": "Célio Studart",
-        "partido": "PV",
-        "uf": "CE",
-        "voto": "Não",
-        "ideologia": "Esquerda"
-    },
-    {
-        "nome": "Enrico Misasi",
-        "partido": "PV",
-        "uf": "SP",
-        "voto": "Não",
-        "ideologia": "Esquerda"
-    },
-    {
-        "nome": "Professor Israel Batista",
-        "partido": "PV",
-        "uf": "DF",
-        "voto": "Não",
-        "ideologia": "Esquerda"
-    },
-    {
-        "nome": "Joenia Wapichana",
-        "partido": "REDE",
-        "uf": "RR",
-        "voto": "Não",
-        "ideologia": "Esquerda"
-    }
-]
+{
+  "id":"root",
+  "category":"root",
+  "name":"Plenário",
+  "children":[
+     {
+        "id":"left",
+        "category":"wing",
+        "name":{
+           "en":"Left",
+           "br":"Esquerda"
+        },
+        "children":[
+           {
+              "id":"pcdob",
+              "category":"party",
+              "name":"PCdoB",
+              "children":[
+                 {
+                    "category":"deputy",
+                    "name":"Alice Portugal",
+                    "uf":"BA",
+                    "vote":"not"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Daniel Almeida",
+                    "uf":"BA",
+                    "vote":"not"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Jandira Feghali",
+                    "uf":"RJ",
+                    "vote":"not"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Orlando Silva",
+                    "uf":"SP",
+                    "vote":"not"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Perpétua Almeida",
+                    "uf":"AC",
+                    "vote":"not"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Professora Marcivania",
+                    "uf":"AP",
+                    "vote":"not"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Renildo Calheiros",
+                    "uf":"PE",
+                    "vote":"not"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Rubens Pereira Júnior",
+                    "uf":"MA",
+                    "vote":"not"
+                 }
+              ]
+           },
+           {
+              "id":"pdt",
+              "category":"party",
+              "name":"PDT",
+              "children":[
+                 {
+                    "category":"deputy",
+                    "name":"Afonso Motta",
+                    "uf":"RS",
+                    "vote":"not"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"André Figueiredo",
+                    "uf":"CE",
+                    "vote":"not"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Chico D`Angelo",
+                    "uf":"RJ",
+                    "vote":"not"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Dagoberto Nogueira",
+                    "uf":"MS",
+                    "vote":"not"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Eduardo Bismarck",
+                    "uf":"CE",
+                    "vote":"not"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Fábio Henrique",
+                    "uf":"SE",
+                    "vote":"not"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Félix Mendonça Júnior",
+                    "uf":"BA",
+                    "vote":"not"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Gustavo Fruet",
+                    "uf":"PR",
+                    "vote":"not"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Idilvan Alencar",
+                    "uf":"CE",
+                    "vote":"not"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Jesus Sérgio",
+                    "uf":"AC",
+                    "vote":"not"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Leônidas Cristino",
+                    "uf":"CE",
+                    "vote":"not"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Mauro Benevides Filho",
+                    "uf":"CE",
+                    "vote":"not"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Mário Heringer",
+                    "uf":"MG",
+                    "vote":"not"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Paulo Ramos",
+                    "uf":"RJ",
+                    "vote":"not"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Pompeo de Mattos",
+                    "uf":"RS",
+                    "vote":"not"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Robério Monteiro",
+                    "uf":"CE",
+                    "vote":"not"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Silvia Cristina",
+                    "uf":"RO",
+                    "vote":"not"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Subtenente Gonzaga",
+                    "uf":"MG",
+                    "vote":"not"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Túlio Gadêlha",
+                    "uf":"PE",
+                    "vote":"not"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Flávio Nogueira",
+                    "uf":"PI",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Marlon Santos",
+                    "uf":"RS",
+                    "vote":"yes"
+                 }
+              ]
+           },
+           {
+              "id":"psb",
+              "category":"party",
+              "name":"PSB",
+              "children":[
+                 {
+                    "category":"deputy",
+                    "name":"Alessandro Molon",
+                    "uf":"RJ",
+                    "vote":"not"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Aliel Machado",
+                    "uf":"PR",
+                    "vote":"not"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Bira do Pindaré",
+                    "uf":"MA",
+                    "vote":"not"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Camilo Capiberibe",
+                    "uf":"AP",
+                    "vote":"not"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Cássio Andrade",
+                    "uf":"PA",
+                    "vote":"not"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Danilo Cabral",
+                    "uf":"PE",
+                    "vote":"not"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Denis Bezerra",
+                    "uf":"CE",
+                    "vote":"not"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Elias Vaz",
+                    "uf":"GO",
+                    "vote":"not"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Felipe Carreras",
+                    "uf":"PE",
+                    "vote":"not"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Gervásio Maia",
+                    "uf":"PB",
+                    "vote":"not"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Gonzaga Patriota",
+                    "uf":"PE",
+                    "vote":"not"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Heitor Schuch",
+                    "uf":"RS",
+                    "vote":"not"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Jefferson Campos",
+                    "uf":"SP",
+                    "vote":"not"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Júlio Delgado",
+                    "uf":"MG",
+                    "vote":"not"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Lídice da Mata",
+                    "uf":"BA",
+                    "vote":"not"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Marcelo Freixo",
+                    "uf":"RJ",
+                    "vote":"not"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Marcelo Nilo",
+                    "uf":"BA",
+                    "vote":"not"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Mauro Nazif",
+                    "uf":"RO",
+                    "vote":"not"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Milton Coelho",
+                    "uf":"PE",
+                    "vote":"not"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Rafael Motta",
+                    "uf":"RN",
+                    "vote":"not"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Ricardo Silva",
+                    "uf":"SP",
+                    "vote":"not"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Rodrigo Agostinho",
+                    "uf":"SP",
+                    "vote":"not"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Rosana Valle",
+                    "uf":"SP",
+                    "vote":"not"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Tabata Amaral",
+                    "uf":"SP",
+                    "vote":"not"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Tadeu Alencar",
+                    "uf":"PE",
+                    "vote":"not"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Ted Conti",
+                    "uf":"ES",
+                    "vote":"not"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Vilson da Fetaemg",
+                    "uf":"MG",
+                    "vote":"not"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Emidinho Madeira",
+                    "uf":"MG",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Liziane Bayer",
+                    "uf":"RS",
+                    "vote":"yes"
+                 }
+              ]
+           },
+           {
+              "id":"psol",
+              "category":"party",
+              "name":"PSOL",
+              "children":[
+                 {
+                    "category":"deputy",
+                    "name":"David Miranda",
+                    "uf":"RJ",
+                    "vote":"not"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Fernanda Melchionna",
+                    "uf":"RS",
+                    "vote":"not"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Glauber Braga",
+                    "uf":"RJ",
+                    "vote":"not"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Ivan Valente",
+                    "uf":"SP",
+                    "vote":"not"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Luiza Erundina",
+                    "uf":"SP",
+                    "vote":"not"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Sâmia Bomfim",
+                    "uf":"SP",
+                    "vote":"not"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Vivi Reis",
+                    "uf":"PA",
+                    "vote":"not"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Áurea Carolina",
+                    "uf":"MG",
+                    "vote":"not"
+                 }
+              ]
+           },
+           {
+              "id":"pt",
+              "category":"party",
+              "name":"PT",
+              "children":[
+                 {
+                    "category":"deputy",
+                    "name":"Afonso Florence",
+                    "uf":"BA",
+                    "vote":"not"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Airton Faleiro",
+                    "uf":"PA",
+                    "vote":"not"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Alencar Santana",
+                    "uf":"SP",
+                    "vote":"not"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Alexandre Padilha",
+                    "uf":"SP",
+                    "vote":"not"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Arlindo Chinaglia",
+                    "uf":"SP",
+                    "vote":"not"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Beto Faro",
+                    "uf":"PA",
+                    "vote":"not"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Bohn Gass",
+                    "uf":"RS",
+                    "vote":"not"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Carlos Veras",
+                    "uf":"PE",
+                    "vote":"not"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Carlos Zarattini",
+                    "uf":"SP",
+                    "vote":"not"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Célio Moura",
+                    "uf":"TO",
+                    "vote":"not"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Enio Verri",
+                    "uf":"PR",
+                    "vote":"not"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Erika Kokay",
+                    "uf":"DF",
+                    "vote":"not"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Frei Anastacio Ribeiro",
+                    "uf":"PB",
+                    "vote":"not"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Helder Salomão",
+                    "uf":"ES",
+                    "vote":"not"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Henrique Fontana",
+                    "uf":"RS",
+                    "vote":"not"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Jorge Solla",
+                    "uf":"BA",
+                    "vote":"not"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Joseildo Ramos",
+                    "uf":"BA",
+                    "vote":"not"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"José Airton Félix Cirilo",
+                    "uf":"CE",
+                    "vote":"not"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"José Guimarães",
+                    "uf":"CE",
+                    "vote":"not"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"José Ricardo",
+                    "uf":"AM",
+                    "vote":"not"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"João Daniel",
+                    "uf":"SE",
+                    "vote":"not"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Leo de Brito",
+                    "uf":"AC",
+                    "vote":"not"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Leonardo Monteiro",
+                    "uf":"MG",
+                    "vote":"not"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Luizianne Lins",
+                    "uf":"CE",
+                    "vote":"not"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Marcon",
+                    "uf":"RS",
+                    "vote":"not"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Maria do Rosário",
+                    "uf":"RS",
+                    "vote":"not"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Marília Arraes",
+                    "uf":"PE",
+                    "vote":"not"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Merlong Solano",
+                    "uf":"PI",
+                    "vote":"not"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Natália Bonavides",
+                    "uf":"RN",
+                    "vote":"not"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Nilto Tatto",
+                    "uf":"SP",
+                    "vote":"not"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Odair Cunha",
+                    "uf":"MG",
+                    "vote":"not"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Padre João",
+                    "uf":"MG",
+                    "vote":"not"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Patrus Ananias",
+                    "uf":"MG",
+                    "vote":"not"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Paulo Guedes",
+                    "uf":"MG",
+                    "vote":"not"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Paulo Pimenta",
+                    "uf":"RS",
+                    "vote":"not"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Paulo Teixeira",
+                    "uf":"SP",
+                    "vote":"not"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Paulão",
+                    "uf":"AL",
+                    "vote":"not"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Pedro Uczai",
+                    "uf":"SC",
+                    "vote":"not"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Professora Rosa Neide",
+                    "uf":"MT",
+                    "vote":"not"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Reginaldo Lopes",
+                    "uf":"MG",
+                    "vote":"not"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Rejane Dias",
+                    "uf":"PI",
+                    "vote":"not"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Rogério Correia",
+                    "uf":"MG",
+                    "vote":"not"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Rubens Otoni",
+                    "uf":"GO",
+                    "vote":"not"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Rui Falcão",
+                    "uf":"SP",
+                    "vote":"not"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Valmir Assunção",
+                    "uf":"BA",
+                    "vote":"not"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Vander Loubet",
+                    "uf":"MS",
+                    "vote":"not"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Vicentinho",
+                    "uf":"SP",
+                    "vote":"not"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Waldenor Pereira",
+                    "uf":"BA",
+                    "vote":"not"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Zeca Dirceu",
+                    "uf":"PR",
+                    "vote":"not"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Zé Carlos",
+                    "uf":"MA",
+                    "vote":"not"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Zé Neto",
+                    "uf":"BA",
+                    "vote":"not"
+                 }
+              ]
+           },
+           {
+              "id":"pv",
+              "category":"party",
+              "name":"PV",
+              "children":[
+                 {
+                    "category":"deputy",
+                    "name":"Célio Studart",
+                    "uf":"CE",
+                    "vote":"not"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Enrico Misasi",
+                    "uf":"SP",
+                    "vote":"not"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Professor Israel Batista",
+                    "uf":"DF",
+                    "vote":"not"
+                 }
+              ]
+           },
+           {
+              "id":"rede",
+              "category":"party",
+              "name":"REDE",
+              "children":[
+                 {
+                    "category":"deputy",
+                    "name":"Joenia Wapichana",
+                    "uf":"RR",
+                    "vote":"not"
+                 }
+              ]
+           }
+        ]
+     },
+     {
+        "id":"center",
+        "category":"wing",
+        "name":{
+           "en":"Center",
+           "br":"Centro"
+        },
+        "children":[
+           {
+              "id":"avante",
+              "category":"party",
+              "name":"AVANTE",
+              "children":[
+                 {
+                    "category":"deputy",
+                    "name":"Pastor Sargento Isidório",
+                    "uf":"BA",
+                    "vote":"not"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Chiquinho Brazão",
+                    "uf":"RJ",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Greyce Elias",
+                    "uf":"MG",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Leda Sadala",
+                    "uf":"AP",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Sebastião Oliveira",
+                    "uf":"PE",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Tito",
+                    "uf":"BA",
+                    "vote":"yes"
+                 }
+              ]
+           },
+           {
+              "id":"cidadania",
+              "category":"party",
+              "name":"CIDADANIA",
+              "children":[
+                 {
+                    "category":"deputy",
+                    "name":"Carmen Zanotto",
+                    "uf":"SC",
+                    "vote":"out"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Alex Manente",
+                    "uf":"SP",
+                    "vote":"not"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Daniel Coelho",
+                    "uf":"PE",
+                    "vote":"not"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Rubens Bueno",
+                    "uf":"PR",
+                    "vote":"not"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Arnaldo Jardim",
+                    "uf":"SP",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Da Vitória",
+                    "uf":"ES",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Paula Belmonte",
+                    "uf":"DF",
+                    "vote":"yes"
+                 }
+              ]
+           },
+           {
+              "id":"mdb",
+              "category":"party",
+              "name":"MDB",
+              "children":[
+                 {
+                    "category":"deputy",
+                    "name":"Carlos Bezerra",
+                    "uf":"MT",
+                    "vote":"not"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Elcione Barbalho",
+                    "uf":"PA",
+                    "vote":"not"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Fábio Ramalho",
+                    "uf":"MG",
+                    "vote":"not"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Jéssica Sales",
+                    "uf":"AC",
+                    "vote":"not"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Raul Henry",
+                    "uf":"PE",
+                    "vote":"not"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Alceu Moreira",
+                    "uf":"RS",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Baleia Rossi",
+                    "uf":"SP",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Carlos Chiodini",
+                    "uf":"SC",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Celso Maldaner",
+                    "uf":"SC",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Daniela do Waguinho",
+                    "uf":"RJ",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Dulce Miranda",
+                    "uf":"TO",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Fabio Reis",
+                    "uf":"SE",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Flaviano Melo",
+                    "uf":"AC",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Giovani Feltes",
+                    "uf":"RS",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Gutemberg Reis",
+                    "uf":"RJ",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Herculano Passos",
+                    "uf":"SP",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Hercílio Coelho Diniz",
+                    "uf":"MG",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Hermes Parcianello",
+                    "uf":"PR",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Hildo Rocha",
+                    "uf":"MA",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Isnaldo Bulhões Jr.",
+                    "uf":"AL",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"João Marcelo Souza",
+                    "uf":"MA",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Juarez Costa",
+                    "uf":"MT",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Leonardo Picciani",
+                    "uf":"RJ",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Mauro Lopes",
+                    "uf":"MG",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Márcio Biolchi",
+                    "uf":"RS",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Newton Cardoso Jr",
+                    "uf":"MG",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Osmar Terra",
+                    "uf":"RS",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Rogério Peninha Mendonça",
+                    "uf":"SC",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Sergio Souza",
+                    "uf":"PR",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Walter Alves",
+                    "uf":"RN",
+                    "vote":"yes"
+                 }
+              ]
+           },
+           {
+              "id":"pode",
+              "category":"party",
+              "name":"PODE",
+              "children":[
+                 {
+                    "category":"deputy",
+                    "name":"Renata Abreu",
+                    "uf":"SP",
+                    "vote":"not"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Roberto de Lucena",
+                    "uf":"SP",
+                    "vote":"not"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Diego Garcia",
+                    "uf":"PR",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Igor Timo",
+                    "uf":"MG",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Josivaldo JP",
+                    "uf":"MA",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"José Medeiros",
+                    "uf":"MT",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"José Nelto",
+                    "uf":"GO",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Léo Moraes",
+                    "uf":"RO",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Ricardo Teobaldo",
+                    "uf":"PE",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Rodrigo Coelho",
+                    "uf":"SC",
+                    "vote":"yes"
+                 }
+              ]
+           },
+           {
+              "id":"pros",
+              "category":"party",
+              "name":"PROS",
+              "children":[
+                 {
+                    "category":"deputy",
+                    "name":"Capitão Wagner",
+                    "uf":"CE",
+                    "vote":"not"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Clarissa Garotinho",
+                    "uf":"RJ",
+                    "vote":"not"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Weliton Prado",
+                    "uf":"MG",
+                    "vote":"not"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Acácio Favacho",
+                    "uf":"AP",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Carla Dickson",
+                    "uf":"RN",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Eros Biondini",
+                    "uf":"MG",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Gastão Vieira",
+                    "uf":"MA",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Toninho Wandscheer",
+                    "uf":"PR",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Uldurico Junior",
+                    "uf":"BA",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Vaidon Oliveira",
+                    "uf":"CE",
+                    "vote":"yes"
+                 }
+              ]
+           },
+           {
+              "id":"psd",
+              "category":"party",
+              "name":"PSD",
+              "children":[
+                 {
+                    "category":"deputy",
+                    "name":"Fábio Trad",
+                    "uf":"MS",
+                    "vote":"not"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Otto Alencar Filho",
+                    "uf":"BA",
+                    "vote":"not"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Antonio Brito",
+                    "uf":"BA",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Cezinha de Madureira",
+                    "uf":"SP",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Charles Fernandes",
+                    "uf":"BA",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Darci de Matos",
+                    "uf":"SC",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Delegado Éder Mauro",
+                    "uf":"PA",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Diego Andrade",
+                    "uf":"MG",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Domingos Neto",
+                    "uf":"CE",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Edilázio Júnior",
+                    "uf":"MA",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Expedito Netto",
+                    "uf":"RO",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Francisco Jr.",
+                    "uf":"GO",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Fábio Mitidieri",
+                    "uf":"SE",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Haroldo Cathedral",
+                    "uf":"RR",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Hugo Leal",
+                    "uf":"RJ",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Joaquim Passarinho",
+                    "uf":"PA",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Jones Moura",
+                    "uf":"RJ",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"José Nunes",
+                    "uf":"BA",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Júnior Ferrari",
+                    "uf":"PA",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Marx Beltrão",
+                    "uf":"AL",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Neucimar Fraga",
+                    "uf":"ES",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Paulo Magalhães",
+                    "uf":"BA",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Reinhold Stephanes Junior",
+                    "uf":"PR",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Ricardo Guidi",
+                    "uf":"SC",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Sargento Fahur",
+                    "uf":"PR",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Sidney Leite",
+                    "uf":"AM",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Stefano Aguiar",
+                    "uf":"MG",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Sérgio Brito",
+                    "uf":"BA",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Vermelho",
+                    "uf":"PR",
+                    "vote":"yes"
+                 }
+              ]
+           },
+           {
+              "id":"psdb",
+              "category":"party",
+              "name":"PSDB",
+              "children":[
+                 {
+                    "category":"deputy",
+                    "name":"Alexandre Frota",
+                    "uf":"SP",
+                    "vote":"not"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Aécio Neves",
+                    "uf":"MG",
+                    "vote":"not"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Bruna Furlan",
+                    "uf":"SP",
+                    "vote":"not"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Eduardo Cury",
+                    "uf":"SP",
+                    "vote":"not"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Miguel Haddad",
+                    "uf":"SP",
+                    "vote":"not"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Pedro Cunha Lima",
+                    "uf":"PB",
+                    "vote":"not"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Rose Modesto",
+                    "uf":"MS",
+                    "vote":"not"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Ruy Carneiro",
+                    "uf":"PB",
+                    "vote":"not"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Shéridan",
+                    "uf":"RR",
+                    "vote":"not"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Tereza Nelma",
+                    "uf":"AL",
+                    "vote":"not"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Adolfo Viana",
+                    "uf":"BA",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Bia Cavassa",
+                    "uf":"MS",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Carlos Sampaio",
+                    "uf":"SP",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Célio Silveira",
+                    "uf":"GO",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Danilo Forte",
+                    "uf":"CE",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Eduardo Barbosa",
+                    "uf":"MG",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Geovania de Sá",
+                    "uf":"SC",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Lucas Redecker",
+                    "uf":"RS",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Mara Rocha",
+                    "uf":"AC",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Mariana Carvalho",
+                    "uf":"RO",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Nilson Pinto",
+                    "uf":"PA",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Otavio Leite",
+                    "uf":"RJ",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Paulo Abi-Ackel",
+                    "uf":"MG",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Pedro Vilela",
+                    "uf":"AL",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Rodrigo de Castro",
+                    "uf":"MG",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Samuel Moreira",
+                    "uf":"SP",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Vanderlei Macris",
+                    "uf":"SP",
+                    "vote":"yes"
+                 }
+              ]
+           },
+           {
+              "id":"solidariedade",
+              "category":"party",
+              "name":"SOLIDARIEDADE",
+              "children":[
+                 {
+                    "category":"deputy",
+                    "name":"Augusto Coutinho",
+                    "uf":"PE",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Aureo Ribeiro",
+                    "uf":"RJ",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Bosco Saraiva",
+                    "uf":"AM",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Dr. Leonardo",
+                    "uf":"MT",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Dra. Vanda Milani",
+                    "uf":"AC",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Eli Borges",
+                    "uf":"TO",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Genecias Noronha",
+                    "uf":"CE",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Gustinho Ribeiro",
+                    "uf":"SE",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Ottaci Nascimento",
+                    "uf":"RR",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Paulinho da Força",
+                    "uf":"SP",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Tiago Dimas",
+                    "uf":"TO",
+                    "vote":"yes"
+                 }
+              ]
+           }
+        ]
+     },
+     {
+        "id":"right",
+        "category":"wing",
+        "name":{
+           "en":"Right",
+           "br":"Direita"
+        },
+        "children":[
+           {
+              "id":"dem",
+              "category":"party",
+              "name":"DEM",
+              "children":[
+                 {
+                    "category":"deputy",
+                    "name":"Leur Lomanto Júnior",
+                    "uf":"BA",
+                    "vote":"not"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Alan Rick",
+                    "uf":"AC",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Alexandre Leite",
+                    "uf":"SP",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Arthur Oliveira Maia",
+                    "uf":"BA",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Carlos Henrique Gaguim",
+                    "uf":"TO",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Dr. Zacharias Calil",
+                    "uf":"GO",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Efraim Filho",
+                    "uf":"PB",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Eli Corrêa Filho",
+                    "uf":"SP",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Elmar Nascimento",
+                    "uf":"BA",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Geninho Zuliani",
+                    "uf":"SP",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Hélio Leite",
+                    "uf":"PA",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Igor Kannário",
+                    "uf":"BA",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Jose Mario Schreiner",
+                    "uf":"GO",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Juninho do Pneu",
+                    "uf":"RJ",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Juscelino Filho",
+                    "uf":"MA",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Kim Kataguiri",
+                    "uf":"SP",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Luis Miranda",
+                    "uf":"DF",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Norma Ayub",
+                    "uf":"ES",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Olival Marques",
+                    "uf":"PA",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Pedro Lupion",
+                    "uf":"PR",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Professora Dorinha Seabra Rezende",
+                    "uf":"TO",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Sóstenes Cavalcante",
+                    "uf":"RJ",
+                    "vote":"yes"
+                 }
+              ]
+           },
+           {
+              "id":"novo",
+              "category":"party",
+              "name":"NOVO",
+              "children":[
+                 {
+                    "category":"deputy",
+                    "name":"Adriana Ventura",
+                    "uf":"SP",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Alexis Fonteyne",
+                    "uf":"SP",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Gilson Marques",
+                    "uf":"SC",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Lucas Gonzalez",
+                    "uf":"MG",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Marcel van Hattem",
+                    "uf":"RS",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Paulo Ganime",
+                    "uf":"RJ",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Tiago Mitraud",
+                    "uf":"MG",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Vinicius Poit",
+                    "uf":"SP",
+                    "vote":"yes"
+                 }
+              ]
+           },
+           {
+              "id":"patriota",
+              "category":"party",
+              "name":"PATRIOTA",
+              "children":[
+                 {
+                    "category":"deputy",
+                    "name":"Alcides Rodrigues",
+                    "uf":"GO",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Dr. Frederico",
+                    "uf":"MG",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Marreca Filho",
+                    "uf":"MA",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Pastor Eurico",
+                    "uf":"PE",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Roman",
+                    "uf":"PR",
+                    "vote":"yes"
+                 }
+              ]
+           },
+           {
+              "id":"pl",
+              "category":"party",
+              "name":"PL",
+              "children":[
+                 {
+                    "category":"deputy",
+                    "name":"Valdevan Noventa",
+                    "uf":"SE",
+                    "vote":"not"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Abílio Santana",
+                    "uf":"BA",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Aelton Freitas",
+                    "uf":"MG",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Altineu Côrtes",
+                    "uf":"RJ",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Bosco Costa",
+                    "uf":"SE",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Capitão Augusto",
+                    "uf":"SP",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Capitão Fábio Abreu",
+                    "uf":"PI",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Christiane de Souza Yared",
+                    "uf":"PR",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Cristiano Vale",
+                    "uf":"PA",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Dr. Jaziel",
+                    "uf":"CE",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Edio Lopes",
+                    "uf":"RR",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Fernando Rodolfo",
+                    "uf":"PE",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Gelson Azevedo",
+                    "uf":"RJ",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Giacobo",
+                    "uf":"PR",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Giovani Cherini",
+                    "uf":"RS",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Jorielson",
+                    "uf":"AP",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Josimar Maranhãozinho",
+                    "uf":"MA",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"José Rocha",
+                    "uf":"BA",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"João Carlos Bacelar",
+                    "uf":"BA",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"João Maia",
+                    "uf":"RN",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Junior Lourenço",
+                    "uf":"MA",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Júnior Mano",
+                    "uf":"CE",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Laerte Bessa",
+                    "uf":"DF",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Lincoln Portela",
+                    "uf":"MG",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Luiz Antônio Corrêa",
+                    "uf":"RJ",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Luiz Carlos Motta",
+                    "uf":"SP",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Luiz Nishimori",
+                    "uf":"PR",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Magda Mofatto",
+                    "uf":"GO",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Marcio Alvino",
+                    "uf":"SP",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Miguel Lombardi",
+                    "uf":"SP",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Pastor Gil",
+                    "uf":"MA",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Paulo Freire Costa",
+                    "uf":"SP",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Policial Katia Sastre",
+                    "uf":"SP",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Pr. Marco Feliciano",
+                    "uf":"SP",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Tiririca",
+                    "uf":"SP",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Vicentinho Júnior",
+                    "uf":"TO",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Zé Vitor",
+                    "uf":"MG",
+                    "vote":"yes"
+                 }
+              ]
+           },
+           {
+              "id":"pp",
+              "category":"party",
+              "name":"PP",
+              "children":[
+                
+                 {
+                    "category":"deputy",
+                    "name":"Aguinaldo Ribeiro",
+                    "uf":"PB",
+                    "vote":"not"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Mário Negromonte Jr.",
+                    "uf":"BA",
+                    "vote":"not"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"AJ Albuquerque",
+                    "uf":"CE",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Adriano do Baldy",
+                    "uf":"GO",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Afonso Hamm",
+                    "uf":"RS",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"André Abdon",
+                    "uf":"AP",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"André Fufuca",
+                    "uf":"MA",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Angela Amin",
+                    "uf":"SC",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Beto Rosado",
+                    "uf":"RN",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Cacá Leão",
+                    "uf":"BA",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Capitão Derrite",
+                    "uf":"SP",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Celina Leão",
+                    "uf":"DF",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Christino Aureo",
+                    "uf":"RJ",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Claudio Cajado",
+                    "uf":"BA",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Covatti Filho",
+                    "uf":"RS",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Dimas Fabiano",
+                    "uf":"MG",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Eduardo da Fonte",
+                    "uf":"PE",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Evair Vieira de Melo",
+                    "uf":"ES",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Fausto Pinato",
+                    "uf":"SP",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Fernando Monteiro",
+                    "uf":"PE",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Franco Cartafina",
+                    "uf":"MG",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Hiran Gonçalves",
+                    "uf":"RR",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Iracema Portella",
+                    "uf":"PI",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Jaqueline Cassol",
+                    "uf":"RO",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Jerônimo Goergen",
+                    "uf":"RS",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Julio Lopes",
+                    "uf":"RJ",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Laercio Oliveira",
+                    "uf":"SE",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Marcelo Aro",
+                    "uf":"MG",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Margarete Coelho",
+                    "uf":"PI",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Neri Geller",
+                    "uf":"MT",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Osmar Serraglio",
+                    "uf":"PR",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Pinheirinho",
+                    "uf":"MG",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Professor Alcides",
+                    "uf":"GO",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Ricardo Barros",
+                    "uf":"PR",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Ronaldo Carletto",
+                    "uf":"BA",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Átila Lins",
+                    "uf":"AM",
+                    "vote":"yes"
+                 }
+              ]
+           },
+           {
+              "id":"psc",
+              "category":"party",
+              "name":"PSC",
+              "children":[
+                 {
+                    "category":"deputy",
+                    "name":"Euclydes Pettersen",
+                    "uf":"MG",
+                    "vote":"not"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Aluisio Mendes",
+                    "uf":"MA",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"André Ferreira",
+                    "uf":"PE",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Glaustin da Fokus",
+                    "uf":"GO",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Lauriete",
+                    "uf":"ES",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Leonardo Gadelha",
+                    "uf":"PB",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Osires Damaso",
+                    "uf":"TO",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Otoni de Paula",
+                    "uf":"RJ",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Paulo Eduardo Martins",
+                    "uf":"PR",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Pedro Dalua",
+                    "uf":"AP",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Ricardo da Karol",
+                    "uf":"RJ",
+                    "vote":"yes"
+                 }
+              ]
+           },
+           {
+              "id":"psl",
+              "category":"party",
+              "name":"PSL",
+              "children":[
+                 {
+                    "category":"deputy",
+                    "name":"Delegado Antônio Furtado",
+                    "uf":"RJ",
+                    "vote":"out"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Professor Joziel",
+                    "uf":"RJ",
+                    "vote":"not"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Abou Anni",
+                    "uf":"SP",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Aline Sleutjes",
+                    "uf":"PR",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Alê Silva",
+                    "uf":"MG",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Bia Kicis",
+                    "uf":"DF",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Bibo Nunes",
+                    "uf":"RS",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Bozzella",
+                    "uf":"SP",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Carla Zambelli",
+                    "uf":"SP",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Carlos Jordy",
+                    "uf":"RJ",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Caroline de Toni",
+                    "uf":"SC",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Celso Sabino",
+                    "uf":"PA",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Chris Tonietto",
+                    "uf":"RJ",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Coronel Armando",
+                    "uf":"SC",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Coronel Chrisóstomo",
+                    "uf":"RO",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Coronel Tadeu",
+                    "uf":"SP",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Daniel Freitas",
+                    "uf":"SC",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Daniel Silveira",
+                    "uf":"RJ",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Delegado Marcelo Freitas",
+                    "uf":"MG",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Delegado Pablo",
+                    "uf":"AM",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Delegado Waldir",
+                    "uf":"GO",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Dr. Luiz Ovando",
+                    "uf":"MS",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Dra. Soraya Manato",
+                    "uf":"ES",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Eduardo Bolsonaro",
+                    "uf":"SP",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Fabio Schiochet",
+                    "uf":"SC",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Felipe Francischini",
+                    "uf":"PR",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Felipe Rigoni",
+                    "uf":"ES",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Felício Laterça",
+                    "uf":"RJ",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Filipe Barros",
+                    "uf":"PR",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"General Girão",
+                    "uf":"RN",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"General Peternelli",
+                    "uf":"SP",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Gurgel",
+                    "uf":"RJ",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Heitor Freire",
+                    "uf":"CE",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Helio Lopes",
+                    "uf":"RJ",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Joice Hasselmann",
+                    "uf":"SP",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Julian Lemos",
+                    "uf":"PB",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Junio Amaral",
+                    "uf":"MG",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Loester Trutis",
+                    "uf":"MS",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Lourival Gomes",
+                    "uf":"RJ",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Luciano Bivar",
+                    "uf":"PE",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Luiz Lima",
+                    "uf":"RJ",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Luiz Philippe de Orleans e Bragança",
+                    "uf":"SP",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Major Fabiana",
+                    "uf":"RJ",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Major Vitor Hugo",
+                    "uf":"GO",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Marcelo Brum",
+                    "uf":"RS",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Márcio Labre",
+                    "uf":"RJ",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Nelson Barbudo",
+                    "uf":"MT",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Nereu Crispim",
+                    "uf":"RS",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Nicoletti",
+                    "uf":"RR",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Professora Dayane Pimentel",
+                    "uf":"BA",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Sanderson",
+                    "uf":"RS",
+                    "vote":"yes"
+                 }
+              ]
+           },
+           {
+              "id":"ptb",
+              "category":"party",
+              "name":"PTB",
+              "children":[
+                 {
+                    "category":"deputy",
+                    "name":"Emanuel Pinheiro Neto",
+                    "uf":"MT",
+                    "vote":"not"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Luisa Canziani",
+                    "uf":"PR",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Marcelo Moraes",
+                    "uf":"RS",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Maurício Dziedricki",
+                    "uf":"RS",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Nivaldo Albuquerque",
+                    "uf":"AL",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Paulo Bengtson",
+                    "uf":"PA",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Pedro Augusto Bezerra",
+                    "uf":"CE",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Pedro Lucas Fernandes",
+                    "uf":"MA",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Wilson Santiago",
+                    "uf":"PB",
+                    "vote":"yes"
+                 }
+              ]
+           },
+           {
+              "id":"republicanos",
+              "category":"party",
+              "name":"REPUBLICANOS",
+              "children":[
+                 {
+                    "category":"deputy",
+                    "name":"Amaro Neto",
+                    "uf":"ES",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Aroldo Martins",
+                    "uf":"PR",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Benes Leocádio",
+                    "uf":"RN",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Carlos Gomes",
+                    "uf":"RS",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Celso Russomanno",
+                    "uf":"SP",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Cleber Verde",
+                    "uf":"MA",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Ely Santos",
+                    "uf":"SP",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Hugo Motta",
+                    "uf":"PB",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Hélio Costa",
+                    "uf":"SC",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Jhonatan de Jesus",
+                    "uf":"RR",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Jorge Braz",
+                    "uf":"RJ",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"João Campos",
+                    "uf":"GO",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Julio Cesar Ribeiro",
+                    "uf":"DF",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Lafayette de Andrada",
+                    "uf":"MG",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Luizão Goulart",
+                    "uf":"PR",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Marcos Pereira",
+                    "uf":"SP",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Milton Vieira",
+                    "uf":"SP",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Ossesio Silva",
+                    "uf":"PE",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Rosangela Gomes",
+                    "uf":"RJ",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Severino Pessoa",
+                    "uf":"AL",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Silas Câmara",
+                    "uf":"AM",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Silvio Costa Filho",
+                    "uf":"PE",
+                    "vote":"yes"
+                 },
+                 {
+                    "category":"deputy",
+                    "name":"Vinicius Carvalho",
+                    "uf":"SP",
+                    "vote":"yes"
+                 }
+              ]
+           }
+        ]
+     }
+  ]
+}

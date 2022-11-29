@@ -105,7 +105,7 @@ function TextData({ pesticides }) {
       </div>
 
       <p className="footnote">¹ A lista dos 10 ingredientes ativos mais vendidos no Brasil em toneladas por ano é fornecida pelo IBAMA. O último ano com dados disponíveis era 2020 no acesso de Junho de 2022. Nesta análise, utilizou-se 'toneladas vendidas' como variável proxy, isto é, variável representante, de 'toneladas utilizadas'. <a className="link" href="http://www.ibama.gov.br/agrotoxicos/relatorios-de-comercializacao-de-agrotoxicos" target="_blank">Acesse aqui.</a></p>
-      <p className="footnote">² O <div className="inline-legend sulfur"><span /><span>enxofre, oitavo ingrediente ativo mais utilizado no Brasil em 2020</span></div>, não foi analisado neste projeto. Sua presença em diversos outros ingredientes ativos mais complexos dificultava comparações.</p>
+      <p className="footnote">² O <span className="inline-legend sulfur" /><span>enxofre, oitavo ingrediente ativo mais utilizado no Brasil em 2020</span>, não foi analisado neste projeto. Sua presença em diversos outros ingredientes ativos mais complexos dificultava comparações.</p>
 
 
     </section>

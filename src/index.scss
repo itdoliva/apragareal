@@ -5,7 +5,8 @@
   './static/css/Drops.scss', 
   './static/css/Nav.scss', 
   './static/css/PlateTooltip.scss', 
-  './static/css/Rank.scss';
+  './static/css/Rank.scss',
+  './static/css/Deputy.scss' ;
 
 
 :root {
@@ -59,6 +60,10 @@ body {
   -moz-osx-font-smoothing: grayscale;
 
   overflow-x: hidden;
+}
+
+.lang-btn {
+  display: none;
 }
 
 section {

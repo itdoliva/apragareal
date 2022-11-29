@@ -76,7 +76,7 @@ function App() {
       <TextKeyTerms />
       <TextIntro />
       <TextData {...textDataProps} /> 
-      {/* <PoisonPack /> */}
+      <PoisonPack />
 
     </main>
   );

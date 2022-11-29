@@ -215,7 +215,7 @@ function Plates ({ cultives, pesticides, colorBlocks, cultiveGroups }) {
 
         <div className="tooltip-header">
           <span className="tooltip-header-title" />
-          <span>{language.lmr.short} - {language.lmr.long}</span>
+          <span className="tooltip-header-subtitle">{language.lmr.short} - {language.lmr.long}</span>
         </div>
 
         <div className="tooltip-body">{pesticides.map(pesticide => (
