@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/apragareal/static/css/main.d3fc25b5.css",
-    "main.js": "/apragareal/static/js/main.093b3f2d.js",
+    "main.css": "/apragareal/static/css/main.215fe8b6.css",
+    "main.js": "/apragareal/static/js/main.c2a5c667.js",
     "static/media/pinenut-clean.png": "/apragareal/static/media/pinenut-clean.858f52d2bd8db5317496.png",
     "static/media/pears-clean.png": "/apragareal/static/media/pears-clean.a71731d4060c396092bf.png",
     "static/media/carrot-clean.png": "/apragareal/static/media/carrot-clean.da2d94be139b58a4c662.png",
@@ -20,7 +20,6 @@
     "static/media/kiwi-clean.png": "/apragareal/static/media/kiwi-clean.8bf5abfde93b1a3e7a61.png",
     "static/media/pineapple-clean.png": "/apragareal/static/media/pineapple-clean.70d5254b63b2b4c7785e.png",
     "static/media/papayas-clean.png": "/apragareal/static/media/papayas-clean.9efbdd82b2a6eac7e2eb.png",
-    "static/media/profile.png": "/apragareal/static/media/profile.e393e81860ebc6eee78c.png",
     "static/media/cucumber-clean.png": "/apragareal/static/media/cucumber-clean.54fe91f1772cf518004a.png",
     "static/media/citrus-clean.png": "/apragareal/static/media/citrus-clean.bc18623275afa452a4ff.png",
     "static/media/pomegranate-clean.png": "/apragareal/static/media/pomegranate-clean.af025eccfba00849e6bc.png",
@@ -67,14 +66,15 @@
     "static/media/onion-clean.png": "/apragareal/static/media/onion-clean.f1e360b1d313d7820731.png",
     "static/media/cabbage-clean.png": "/apragareal/static/media/cabbage-clean.cca1c3585d9fe78d29d3.png",
     "static/media/keepout.svg": "/apragareal/static/media/keepout.e90ca228e34ee86eac7d6dabd3919837.svg",
+    "static/media/keepout.png": "/apragareal/static/media/keepout.0160b2156c77bc22adf3.png",
     "static/media/apragareal.svg": "/apragareal/static/media/apragareal.57bc57feb294331bff9ef48625ec35ce.svg",
     "static/media/skull.svg": "/apragareal/static/media/skull.1abf791afb198ba75994c6a26bd18368.svg",
     "index.html": "/apragareal/index.html",
-    "main.d3fc25b5.css.map": "/apragareal/static/css/main.d3fc25b5.css.map",
-    "main.093b3f2d.js.map": "/apragareal/static/js/main.093b3f2d.js.map"
+    "main.215fe8b6.css.map": "/apragareal/static/css/main.215fe8b6.css.map",
+    "main.c2a5c667.js.map": "/apragareal/static/js/main.c2a5c667.js.map"
   },
   "entrypoints": [
-    "static/css/main.d3fc25b5.css",
-    "static/js/main.093b3f2d.js"
+    "static/css/main.215fe8b6.css",
+    "static/js/main.c2a5c667.js"
   ]
 }
