@@ -223,6 +223,10 @@ $plate-size: 240px;
             top .3s ease-in-out,
             opacity .3s ease-in-out,
             letter-spacing .3s ease-in-out;   
+
+      span {
+        font-size: .7rem;
+      }
     }
 
     &:hover .pest-filter-label {
