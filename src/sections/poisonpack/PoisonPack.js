@@ -87,7 +87,7 @@ export default function PoisonPack() {
         Votação do Pacote do Veneno
       </h2>
 
-      <p>Como se o alto grau de permissividade já não fosse insuportável, no dia 09 de Fevereiro de 2022, a maioria dos parlamentares brasileiros votou a favor da flexibilização dos critérios de controle e de autorização dessas substâncias por meio do <span class="strong">Projeto de Lei 6299/2002</span>, conhecido como Pacote do Veneno. Seguindo este caminho, o Brasil destrói as possibilidades para retirá-lo da lamentável e cruel posição ocupada desde 2008: o maior consumidor de agrotóxicos no mundo.</p>
+      <p>Como se o alto grau de permissividade já não fosse insuportável, no dia 09 de Fevereiro de 2022, a maioria dos parlamentares brasileiros votou a favor da flexibilização dos critérios de controle e de autorização dessas substâncias por meio do <span class="strong">Projeto de Lei 6299/2002</span>, conhecido como Pacote do Veneno. Seguindo esta rota, o Brasil destrói as possibilidades para retirá-lo da lamentável e cruel posição ocupada desde 2008: o maior consumidor de agrotóxicos no mundo.</p>
 
       <div className="deputy center-panel">
 

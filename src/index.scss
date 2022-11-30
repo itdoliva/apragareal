@@ -75,10 +75,6 @@ section {
     margin: 1em auto;
   }
 
-  &.cover {
-    min-height: 100vh;
-  }
-
   &:last-child {
     margin-bottom: 2em;
   }
@@ -166,6 +162,10 @@ p {
   section {
     padding: 0;
     padding-top: 34px;
+
+    &.cover {
+      height: 90vh;
+    }
   }
 
   p, span, .footnote, .caption {
@@ -180,6 +180,12 @@ p {
 
 // ------------- DESKTOP -------------
 @media (min-width: 768px) {
+  section {
+    &.cover {
+      min-height: 100vh;
+    }
+  }
+
   p, span, .footnote, .caption {
     font-size: .85rem;
   }
