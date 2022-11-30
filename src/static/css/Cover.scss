@@ -11,6 +11,39 @@
     background-attachment: fixed;
 }
 
+@keyframes slideupAnimation {
+    0%   { opacity:0; }
+    50%  { opacity:1; }
+    100% { opacity:0; }
+  }
+  @-o-keyframes slideupAnimation{
+    0%   { opacity:0; }
+    50%  { opacity:1; }
+    100% { opacity:0; }
+  }
+  @-moz-keyframes slideupAnimation{
+    0%   { opacity:0; }
+    50%  { opacity:1; }
+    100% { opacity:0; }
+  }
+  @-webkit-keyframes slideupAnimation{
+    0%   { opacity:0; }
+    50%  { opacity:1; }
+    100% { opacity:0; }
+ 
+  }
+
+.slideup {
+    position: absolute;
+    bottom: 12px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    -webkit-animation: slideupAnimation 7.5s infinite;
+    -moz-animation: slideupAnimation 7.5s infinite;
+    -o-animation: slideupAnimation 7.5s infinite;
+     animation: slideupAnimation 7.5s infinite;
+}
+
 .logo-container {
     position: absolute;
     top: 50%;
@@ -69,6 +102,10 @@
   line-height: 23px;
 
   text-shadow: 0px 2px 2px rgba(0, 0, 0, .25);
+
+  span {
+    font-size: 1rem;
+  }
 
   .quote {
       text-align: center;

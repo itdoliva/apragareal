@@ -1,3 +1,5 @@
+import slideup from '../../static/imgs/slideup.png';
+
 import { ReactComponent as Logo } from '../../static/imgs/apragareal.svg';
 import { useSelector } from 'react-redux'
 
@@ -18,6 +20,8 @@ function Cover({ colorBlocks }) {
         <span className="quote">&quot;{language.quote}&quot;</span>
         <span className="author">&mdash; Jean Rostand</span>
       </div>
+
+      <img className="slideup" src={slideup} />
 
     </section>
   )
