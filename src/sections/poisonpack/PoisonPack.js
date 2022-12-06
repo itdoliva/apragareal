@@ -79,15 +79,15 @@ export default function PoisonPack() {
   return (
     <section className="text deputy">
 
-      <h4 className="text-align-center">
+      <h4 className={!isMobile ? "text-align-center" : ''}>
         Câmara dos Deputados, Fevereiro 2022
       </h4>
 
-      <h2 className="text-align-center">
+      <h2 className={!isMobile ? "text-align-center" : ''}>
         Votação do Pacote do Veneno
       </h2>
 
-      <p>Como se o alto grau de permissividade já não fosse insuportável, no dia 09 de Fevereiro de 2022, a maioria dos parlamentares brasileiros votou a favor da flexibilização dos critérios de controle e de autorização dessas substâncias por meio do <span class="strong">Projeto de Lei 6299/2002</span>, conhecido como Pacote do Veneno. Seguindo esta rota, o Brasil destrói as possibilidades para retirá-lo da lamentável e cruel posição ocupada desde 2008: o maior consumidor de agrotóxicos no mundo.</p>
+      <p>Como se o alto grau de permissividade já não fosse insuportável, no dia 09 de Fevereiro de 2022, a maioria dos parlamentares brasileiros votou a favor da flexibilização dos critérios de controle e de autorização dessas substâncias por meio do <span class="strong">Projeto de Lei 6299/2002</span>, conhecido como PL do Veneno. Seguindo esta rota, o Brasil destrói as possibilidades para retirá-lo da lamentável e cruel posição ocupada desde 2008: o maior consumidor de agrotóxicos no mundo. <a target="_blank" className="link" href="https://www.dw.com/pt-br/o-que-est%C3%A1-em-jogo-no-pl-do-veneno/a-60738016">Saiba o que está em jogo na PL do Veneno</a>.</p>
 
       <div className="deputy center-panel">
 
