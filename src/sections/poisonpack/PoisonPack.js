@@ -87,13 +87,13 @@ export default function PoisonPack() {
         Votação do Pacote do Veneno
       </h2>
 
-      <p>Como se o alto grau de permissividade já não fosse insuportável, no dia 09 de Fevereiro de 2022, a maioria dos parlamentares brasileiros votou a favor da flexibilização dos critérios de controle e de autorização dessas substâncias por meio do <span class="strong">Projeto de Lei 6299/2002</span>, conhecido como PL do Veneno. Seguindo esta rota, o Brasil destrói as possibilidades para retirá-lo da lamentável e cruel posição ocupada desde 2008: o maior consumidor de agrotóxicos no mundo. <a target="_blank" className="link" href="https://www.dw.com/pt-br/o-que-est%C3%A1-em-jogo-no-pl-do-veneno/a-60738016">Saiba o que está em jogo na PL do Veneno</a>.</p>
+      <p>Como se o alto grau de permissividade já não fosse insuportável, no dia 09 de Fevereiro de 2022, a maioria dos parlamentares brasileiros votou a favor da flexibilização dos critérios de controle e de autorização dessas substâncias por meio do <span className="strong">Projeto de Lei 6299/2002</span>, conhecido como PL do Veneno. Seguindo esta rota, o Brasil destrói as possibilidades para retirá-lo da lamentável e cruel posição ocupada desde 2008: o maior consumidor de agrotóxicos no mundo. <a target="_blank" className="link" href="https://www.dw.com/pt-br/o-que-est%C3%A1-em-jogo-no-pl-do-veneno/a-60738016">Saiba o que está em jogo na PL do Veneno</a>.</p>
 
       <div className="deputy center-panel">
 
         <div className="legend-panel">
-          {votesArr.map(d => (
-            <div className="legend">
+          {votesArr.map((d, i) => (
+            <div key={i} className="legend">
               <div className={"legend--square " + d.vote} />
               <span className="legend--label">{d.desc}</span>
             </div>
@@ -108,7 +108,7 @@ export default function PoisonPack() {
           </h2>
 
           <div className="bars">
-            {votesArr.map(d => {
+            {votesArr.map((d, i) => {
               const votePct = votes[d.vote] / votes.total
               const width = Math.round(100 * votePct * 10)/10 + '%'
               const label = Math.round(100 * votePct) + '%'
@@ -120,7 +120,7 @@ export default function PoisonPack() {
               }
 
               return (
-                <div className={`bar ${d.vote} ${xtraClass}`} 
+                <div key={i} className={`bar ${d.vote} ${xtraClass}`} 
                 style={{ width }}>
                   <span className="bar--label">{label}</span>
                 </div>
@@ -129,8 +129,8 @@ export default function PoisonPack() {
           </div>
 
           <div className="big-numbers">
-            {votesArr.map(d => (
-              <div className="big-number">
+            {votesArr.map((d, i) => (
+              <div key={i} className="big-number">
                 <div className={`big-number--square ${d.vote}`} />
                 <span className="big-number--label">{votes[d.vote]}</span>
               </div>
@@ -143,19 +143,20 @@ export default function PoisonPack() {
           <div className="wing-grid">
 
             {deputies.children.map((wing, i) => (
-              <h5 className="text-align-center" style={{gridColumn: i+1}}>
+              <h5 key={i} className="text-align-center" style={{gridColumn: i+1}}>
                 {wing.data.name.br}
               </h5>
             ))}
 
-            {deputies.children.map(wing => (
-              <div className="parties">
-                {wing.children.map(d => {
+            {deputies.children.map((wing, i) => (
+              <div key={i} className="parties">
+                {wing.children.map((d, j) => {
                   const { id, name } = d.data
                   const isHovered = getParentIfDeputy(selected).data.id === id
                   
                   return (
                     <span 
+                      key={j}
                       onMouseOver={getSetSelected(id)} 
                       onMouseOut={onMouseOut} 
                       className={"party--label" + (isHovered ? ' hovered' : '')}>
@@ -166,10 +167,10 @@ export default function PoisonPack() {
               </div>
             ))}
 
-            {deputies.children.map(wing => (
+            {deputies.children.map((wing, i) => (
 
-              <div className="deputy-grid">
-                {wing.leaves().map(deputy => {
+              <div key={i} className="deputy-grid">
+                {wing.leaves().map((deputy, j) => {
                   const partyId = deputy.parent.data.id
                   const { id, vote } = deputy.data
                   
@@ -180,6 +181,7 @@ export default function PoisonPack() {
                   
                   return (
                     <div 
+                      key={j}
                       className={"cell" + (isFaden ? ' faden' : '')}
                       onMouseOver={(e) => {
                         setSelected(getNode(id))

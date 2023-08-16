@@ -1,4 +1,4 @@
-import lmrData from "../static/data/data_lmr.json";
+import lmrData from "../../static/data/data_lmr.json";
 import * as d3 from 'd3';
 
 function getCultivesData(cultives, pesticides, isMobile) {

@@ -1,37 +1,7 @@
 [
-    {
-        "id": 0,
-        "label": {
-            "br": "Todos",
-            "en": "All"
-        }
-    },
-    {
-        "id": 1,
-        "label": {
-            "br": "Verduras e Legumes",
-            "en": "Vegetables"
-        }
-    },
-    {
-        "id": 2,
-        "label": {
-            "br": "Frutas",
-            "en": "Fruits"
-        }
-    },
-    {
-        "id": 3,
-        "label": {
-            "br": "Grãos e Cereais",
-            "en": "Grains and Cereals"
-        }
-    },
-    {
-        "id": 4,
-        "label": {
-            "br": "Oleagenosas",
-            "en": "Nuts"
-        }
-    }
+    { "id": 0 },
+    { "id": 1 },
+    { "id": 2 },
+    { "id": 3 },
+    { "id": 4 }
 ]

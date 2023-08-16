@@ -1,6 +1,6 @@
 import { useRef, useEffect } from "react";
 
-import useContainerDimensions from './hooks/useContainerDimensions';
+import useContainerDimensions from './lib/hooks/useContainerDimensions';
 
 import Cover from './sections/cover/Cover';
 import Plates from './sections/plates/Plates';
@@ -14,18 +14,13 @@ import cultives from './static/data/data_cultives';
 import cultiveGroups from './static/data/data_cultive_groups.json';
 import { useSelector, useDispatch } from 'react-redux'
 
-import { 
-  setIsMobile, 
-  selectIsMobile, 
-  selectLanguage,
-  toggleLanguage
-} from './features/mainSlice'
+import { setIsMobile, selectIsMobile } from './features/mainSlice'
+import { useTranslation } from "react-i18next";
 
 
 function App() {
-
+  const { t, i18n } = useTranslation()
   const dispatch = useDispatch()
-  const language = useSelector(selectLanguage)
   const isMobile = useSelector(selectIsMobile)
 
   const colorBlocks = pesticides.filter(d => d.show).map(d => (
@@ -35,7 +30,6 @@ function App() {
   const appRef = useRef(null)
   const { width } = useContainerDimensions(appRef)
 
-  
   useEffect(() => {
     dispatch(setIsMobile(width))
   }, [width])
@@ -51,6 +45,7 @@ function App() {
     colorBlocks
   }
 
+
   const textDataProps = {
     pesticides
   }
@@ -64,19 +59,19 @@ function App() {
           <div className="app-logo" alt="Logo de APRAGAREAL" />
         </div>
 
-        <div className="nav-element">
+        {/* <div className="nav-element">
             <button className="lang-btn" onClick={() => dispatch(toggleLanguage())}>
               {!isMobile ? language.name : language.shortName}
             </button>
-        </div>
+        </div> */}
       </nav>
 
-      <Cover {...coverProps} />
+      {/* <Cover {...coverProps} /> */}
       <Plates {...platesProps} />
-      <TextKeyTerms />
-      <TextIntro />
-      <TextData {...textDataProps} /> 
-      <PoisonPack />
+      {/* <TextKeyTerms /> */}
+      {/* <TextIntro /> */}
+      {/* <TextData {...textDataProps} />  */}
+      {/* <PoisonPack /> */}
 
     </main>
   );

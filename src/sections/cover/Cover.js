@@ -1,12 +1,9 @@
 import slideup from '../../static/imgs/slideup.png';
-
 import { ReactComponent as Logo } from '../../static/imgs/apragareal.svg';
-import { useSelector } from 'react-redux'
-
-import { selectLanguage } from '../../features/mainSlice'
+import { useTranslation } from 'react-i18next';
 
 function Cover({ colorBlocks }) {
-  const language = useSelector(selectLanguage)
+  const { t, i18n } = useTranslation();
   
   return (
     <section className="cover">
@@ -17,7 +14,7 @@ function Cover({ colorBlocks }) {
       </div>
 
       <div className="quotation">
-        <span className="quote">&quot;{language.quote}&quot;</span>
+        <span className="quote">&quot;{t('hero')}&quot;</span>
         <span className="author">&mdash; Jean Rostand</span>
       </div>
 

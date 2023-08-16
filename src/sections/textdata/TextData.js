@@ -1,21 +1,23 @@
 import { useSelector } from 'react-redux'
 
-import { selectLanguage, selectIsMobile } from '../../features/mainSlice'
 
-import range from '../../functions/range'
-import getPestType from '../../functions/getPestType'
-import tonBlockerizer from '../../functions/tonBlockerizer'
+import range from '../../lib/functions/range'
+import getPestType from '../../lib/functions/getPestType'
+import tonBlockerizer from '../../lib/functions/tonBlockerizer'
+
+import { selectIsMobile } from '../../features/mainSlice'
+import { useTranslation } from 'react-i18next'
 
 
 function TextData({ pesticides }) {
-  const language = useSelector(selectLanguage)
+  const { t, i18n } = useTranslation()
   const isMobile = useSelector(selectIsMobile)
 
   return !isMobile 
     ? (
       <section className="text rank">
-        <h4 className="text-align-center">{language.countryLabel.br.long}, 2020</h4>
-        <h2 className="text-align-center">{language.rankLabel}</h2>
+        <h4 className="text-align-center">{t("country.br.name")}, 2020</h4>
+        <h2 className="text-align-center">{t("rank")}</h2>
 
         <div>
 
@@ -26,7 +28,7 @@ function TextData({ pesticides }) {
               <p>Nesta mesma lista, os <span className="inline-legend approved"><span /><span>3 ingredientes ativos permitidos em ambas as legislações - e analisados neste projeto²</span></span> - possuem limites de concentração muito mais frouxos no Brasil para a maioria dos alimentos dos nossos pratos, incluindo o arroz e o feijão, base da alimentação brasileira. </p>
               
               <p className="footnote">¹ A lista dos 10 ingredientes ativos mais vendidos no Brasil em toneladas por ano é fornecida pelo IBAMA. O último ano com dados disponíveis era 2020 no acesso de Junho de 2022. Nesta análise, utilizou-se 'toneladas vendidas' como variável proxy, isto é, variável representante, de 'toneladas utilizadas'. <a className="link" href="http://www.ibama.gov.br/agrotoxicos/relatorios-de-comercializacao-de-agrotoxicos" target="_blank">Acesse aqui.</a></p>
-              <p className="footnote">² O <div className="inline-legend sulfur"><span /><span>enxofre, oitavo ingrediente ativo mais utilizado no Brasil em 2020</span></div>, não foi analisado neste projeto. Sua presença em diversos outros ingredientes ativos mais complexos dificultava comparações.</p>
+              <p className="footnote">² O <span className="inline-legend sulfur"><span /><span>enxofre, oitavo ingrediente ativo mais utilizado no Brasil em 2020</span></span>, não foi analisado neste projeto. Sua presença em diversos outros ingredientes ativos mais complexos dificultava comparações.</p>
             </div>
           </div>
 
@@ -34,7 +36,7 @@ function TextData({ pesticides }) {
 
             <div className="ton-legend">
               <span className="ton-circle" />
-              <span className="ton-legend--label">1000 {language.ton.long}s</span>
+              <span className="ton-legend--label">1000 {t("ton.name").toLowerCase()}s</span>
             </div>
 
             {pesticides.map((d, i) => {
@@ -42,21 +44,21 @@ function TextData({ pesticides }) {
               const blocks = tonBlockerizer(d.salesTon)
 
               return (
-                <div className={`rank-card ${pestType}`}>
+                <div key={d.id} className={`rank-card ${pestType}`}>
 
                   <div className="ton-rank">
                     <span>{d.rank}</span>
                   </div>
 
                   <div className="ton-pest">
-                    <span>{d.label[language.id]}</span>
+                    {/* <span>{d.label[language.id]}</span> */}
                   </div>
 
                   {blocks.map((block, j) => {
                     const alignSelf = (blocks.length > 1 && j === blocks.length -1 ) ? 'start' : 'center'
                     return (
-                      <div className="ton-matrix--column" style={{ alignSelf }}>
-                        {range(block).map(() => (<span className="ton-circle" />))}
+                      <div key={j} className="ton-matrix--column" style={{ alignSelf }}>
+                        {range(block).map((d, jj) => (<span key={jj} className="ton-circle" />))}
                       </div>
                     )
                   })}
@@ -73,30 +75,30 @@ function TextData({ pesticides }) {
     ) 
     : (
     <section className="text rank">
-      <h4>{language.countryLabel.br.long}, 2020</h4>
-      <h2>{language.rankLabel}</h2>
+      <h4>{t("country.br.name")}, 2020</h4>
+      <h2>{t("rank")}</h2>
       <p>Embora os efeitos nocivos causados pelos agrotóxicos sejam os mesmos em todo o globo, dos 10 ingredientes ativos mais utilizados¹ no Brasil, <span className="inline-legend banned"><span /><span>6 foram banidos na União Europeia</span></span> - alguns há décadas.</p>
       <p>Nesta mesma lista, os <span className="inline-legend approved"><span /><span>3 ingredientes ativos permitidos em ambas as legislações - e analisados neste projeto²</span></span> - possuem limites de concentração muito mais frouxos no Brasil para a maioria dos alimentos dos nossos pratos, incluindo o arroz e o feijão, base da alimentação brasileira. </p>
       
       <div className="rank-panel">
-      {pesticides.map((d, i) => (
-        <div className={`rank-card ${getPestType(d)}`}>
+        {pesticides.map((d, i) => (
+          <div key={d.id} className={`rank-card ${getPestType(d)}`}>
 
-          <div className="ton-rank">
-            <span>{d.rank}</span>
+            <div className="ton-rank">
+              <span>{d.rank}</span>
+            </div>
+
+            <div className="ton-pest">
+              {/* <span>{d.label[language.id]}</span> */}
+            </div>
+
+            <div className="ton-qty">
+              <span>{parseInt(Math.round(d.salesTon / 1000))}</span>
+              <span>kton</span>
+            </div>
+
           </div>
-
-          <div className="ton-pest">
-            <span>{d.label[language.id]}</span>
-          </div>
-
-          <div className="ton-qty">
-            <span>{parseInt(Math.round(d.salesTon / 1000))}</span>
-            <span>kton</span>
-          </div>
-
-        </div>
-      ))}
+        ))}
 
       </div>
 

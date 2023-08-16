@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from 'react';
 import * as d3 from 'd3';
 
-import getDrop from '../../functions/getDrop';
+import getDrop from '../../lib/functions/getDropPathData';
 
 export default function SizeLegend() {
 

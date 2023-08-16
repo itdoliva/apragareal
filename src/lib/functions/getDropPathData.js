@@ -37,11 +37,9 @@ const drops = [
 
 ]
 
-function getDrop(index) {
+export default function getDropPathData(index) {
     if (!index) {
         index = Math.floor(Math.random() * drops.length)
     }
     return drops[index]
 }
-
-export default getDrop
