@@ -1,17 +1,16 @@
 import { useState, useEffect } from "react"
-import rawVotes from "../../static/data/data_votos_pl6299"
+import rawVotes from "../../static/data/data_votos_pl6299.json"
 import * as d3 from 'd3'
 import { useSelector } from 'react-redux'
 
 import { selectIsMobile } from '../../features/mainSlice'
+import { useTranslation } from "react-i18next"
 
-const votesArr = [
-  { vote: "yes", desc: "A favor dos Agrotóxicos" },
-  { vote: "not", desc: "Contra os Agrotóxicos" },
-  { vote: "out", desc: "Abstenção" },
-]
+const votesArr = ["yes", "not", "out"]
 
 export default function PoisonPack() {
+
+  const { i18n, t } = useTranslation()
 
   const isMobile = useSelector(selectIsMobile)
 
@@ -55,9 +54,9 @@ export default function PoisonPack() {
     const total = deputies.length
 
     const votes = { total }
-    votesArr.forEach(d => {
-      const voteCount = deputies.filter(dep => dep.data.vote === d.vote).length
-      votes[d.vote] = voteCount
+    votesArr.forEach(vote => {
+      const voteCount = deputies.filter(dep => dep.data.vote === vote).length
+      votes[vote] = voteCount
     })
 
     return votes
@@ -80,22 +79,38 @@ export default function PoisonPack() {
     <section className="text deputy">
 
       <h4 className={!isMobile ? "text-align-center" : ''}>
-        Câmara dos Deputados, Fevereiro 2022
+        {i18n.resolvedLanguage === "pt"
+        ? "Câmara dos Deputados, Fevereiro 2022"
+        : "Chamber of Deputies, February 2022"
+        }
       </h4>
 
       <h2 className={!isMobile ? "text-align-center" : ''}>
-        Votação do Pacote do Veneno
+      {i18n.resolvedLanguage === "pt"
+        ? "Votação do Pacote do Veneno"
+        : "Voting on the Poison Package"
+        }
+        
       </h2>
 
-      <p>Como se o alto grau de permissividade já não fosse insuportável, no dia 09 de Fevereiro de 2022, a maioria dos parlamentares brasileiros votou a favor da flexibilização dos critérios de controle e de autorização dessas substâncias por meio do <span className="strong">Projeto de Lei 6299/2002</span>, conhecido como PL do Veneno. Seguindo esta rota, o Brasil destrói as possibilidades para retirá-lo da lamentável e cruel posição ocupada desde 2008: o maior consumidor de agrotóxicos no mundo. <a target="_blank" className="link" href="https://www.dw.com/pt-br/o-que-est%C3%A1-em-jogo-no-pl-do-veneno/a-60738016">Saiba o que está em jogo na PL do Veneno</a>.</p>
+      {i18n.resolvedLanguage === "pt"
+      ? (
+        <p>Como se o alto grau de permissividade já não fosse insuportável, no dia 09 de Fevereiro de 2022, a maioria dos parlamentares brasileiros votou a favor da flexibilização dos critérios de controle e de autorização dessas substâncias por meio do <span className="strong">Projeto de Lei 6299/2002</span>, conhecido como PL do Veneno. Seguindo esta rota, o Brasil destrói as possibilidades para retirá-lo da lamentável e cruel posição ocupada desde 2008: o maior consumidor de agrotóxicos no mundo. <a target="_blank" className="link" href="https://www.dw.com/pt-br/o-que-est%C3%A1-em-jogo-no-pl-do-veneno/a-60738016">Saiba o que está em jogo na PL do Veneno</a>.</p>
+      )
+      : (
+        <p>As if the high degree of permissiveness were not already unbearable, most Brazilian lawmakers voted in favor of relaxing the criteria for control and authorization of these substances through <span className="strong">Bill 6299/2002</span>. In this conjuncture, Brazil destroys the possibilities of removing itself from the lamentable and cruel position occupied since 2008: the world's largest consumer of pesticides.</p>
+      )
+      }
+
+      
 
       <div className="deputy center-panel">
 
         <div className="legend-panel">
-          {votesArr.map((d, i) => (
+          {votesArr.map((vote, i) => (
             <div key={i} className="legend">
-              <div className={"legend--square " + d.vote} />
-              <span className="legend--label">{d.desc}</span>
+              <div className={"legend--square " + vote} />
+              <span className="legend--label">{t(`votes.${vote}`)}</span>
             </div>
           ))}
         </div>
@@ -104,12 +119,12 @@ export default function PoisonPack() {
         <div className="main-panel">
 
           <h2 className="text-align-center">
-            {getParentIfDeputy(selected).data.name}
+            {getParentIfDeputy(selected).data.id === "root" ? t("plenary") : getParentIfDeputy(selected).data.name}
           </h2>
 
           <div className="bars">
-            {votesArr.map((d, i) => {
-              const votePct = votes[d.vote] / votes.total
+            {votesArr.map((vote, i) => {
+              const votePct = votes[vote] / votes.total
               const width = Math.round(100 * votePct * 10)/10 + '%'
               const label = Math.round(100 * votePct) + '%'
               let xtraClass = ''
@@ -120,7 +135,7 @@ export default function PoisonPack() {
               }
 
               return (
-                <div key={i} className={`bar ${d.vote} ${xtraClass}`} 
+                <div key={i} className={`bar ${vote} ${xtraClass}`} 
                 style={{ width }}>
                   <span className="bar--label">{label}</span>
                 </div>
@@ -129,10 +144,10 @@ export default function PoisonPack() {
           </div>
 
           <div className="big-numbers">
-            {votesArr.map((d, i) => (
+            {votesArr.map((vote, i) => (
               <div key={i} className="big-number">
-                <div className={`big-number--square ${d.vote}`} />
-                <span className="big-number--label">{votes[d.vote]}</span>
+                <div className={`big-number--square ${vote}`} />
+                <span className="big-number--label">{votes[vote]}</span>
               </div>
             ))}
           </div>
@@ -144,7 +159,7 @@ export default function PoisonPack() {
 
             {deputies.children.map((wing, i) => (
               <h5 key={i} className="text-align-center" style={{gridColumn: i+1}}>
-                {wing.data.name.br}
+                {t(`wing.${wing.data.id}`)}
               </h5>
             ))}
 

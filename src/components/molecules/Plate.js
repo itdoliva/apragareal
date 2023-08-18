@@ -20,7 +20,6 @@ import { selectIsMobile } from '../../features/mainSlice'
 //   ]
 // }
 
-
 export default function Plate(props) {
   const isMobile = useSelector(selectIsMobile)
   const { t, i18n } = useTranslation()
@@ -61,10 +60,11 @@ export default function Plate(props) {
             <stop offset="97.5%" stopColor="#FEFEFE"></stop>
             <stop offset="100%" stopColor="#FEFEFE"></stop>
           </radialGradient>
+
         </defs>
 
         <g className="plateG">
-          <circle className="plate-circle" fill="url(#plate-gradient)"></circle>
+          <circle className="plate-circle" fill="url(#plate-gradient)" ></circle>
           <line className="diagonal-line"></line>
           <circle className="plate-circle-inner"></circle>
         </g>
@@ -227,8 +227,16 @@ class PlateD3 {
     // 
     d3.select(this.ref.current)
       .select('.tooltip-trigger')
-      .on('mouseenter', (e) => this.setPicked({ id: this.id, data: this.nodes, maxMRL: this.extent[1], e }))
-      .on('mouseleave', () => this.setPicked(undefined))
+      .on('mouseenter', (e) => {
+        this.setPicked({ id: this.id, data: this.nodes, maxMRL: this.extent[1], e })
+        
+        d3.select(this.ref.current).select('svg').classed('hovered', true)
+            
+      })
+      .on('mouseleave', () => {
+        this.setPicked(undefined)
+        d3.select(this.ref.current).select('svg').classed('hovered', false)
+      })
   }
 
 
@@ -377,15 +385,12 @@ class PlateParams {
     this.setLanguage(languageId)
     this.setData(data, extent)
     this.adjustWidthSensitive(width)
-
   }
-
 
   setLanguage(languageId) {
     this.name = this.names[languageId]
     this.languageId = languageId
   }
-
 
   setData(data, extent) {
     this.data = data
@@ -394,9 +399,6 @@ class PlateParams {
     
     this.nodes = this.getNodes()
   }
-
-
-  
 
 
   getNodes() {

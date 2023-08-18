@@ -416,15 +416,16 @@ $plate-size: 240px;
 
     .plate-circle {
       filter: drop-shadow(2px 2px 8px rgba(0, 0, 0, 0.2));
+      -webkit-filter: drop-shadow(2px 2px 8px rgba(0, 0, 0, 0.2));
+      transition: filter .3s ease-in-out, -webkit-filter .3s ease-in-out;
+      
     }
 
     .plate-circle-inner {
       fill: var(--white);
     }
 
-    .plate-circle.stronger {
-      filter: drop-shadow(2px 2px 8px rgba(0, 0, 0, 0.4));
-    }
+    
 
     .diagonal-line {
       stroke: #524F4F;
@@ -440,6 +441,13 @@ $plate-size: 240px;
       letter-spacing: .1em;
   
       fill: #AEAEAE;
+    }
+
+    &.hovered {
+      .plate-circle {
+        filter: drop-shadow(2px 2px 8px rgba(0, 0, 0, 0.4));
+        -webkit-filter: drop-shadow(2px 2px 8px rgba(0, 0, 0, 0.4));
+      }
     }
   }
 

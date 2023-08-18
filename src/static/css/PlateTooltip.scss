@@ -1,11 +1,7 @@
 .tooltip {
     
     &-wrapper {
-
       
-      &.transparent {
-        opacity: 1 !important;
-      }
       
       position: fixed;
       background: #FFFFFF;
@@ -35,6 +31,14 @@
       .en .bar {
         opacity: .75;
       }
+
+      &.transparent {
+        opacity: 0;
+        transform: translateY(12px);
+      }
+
+      transition: opacity .15s ease-in-out, transform .5s ease-in-out;
+      transform: translateY(0);
     }
   
     &-pointer {

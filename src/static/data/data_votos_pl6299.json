@@ -6,10 +6,6 @@
      {
         "id":"left",
         "category":"wing",
-        "name":{
-           "en":"Left",
-           "br":"Esquerda"
-        },
         "children":[
            {
               "id":"pcdob",
@@ -791,10 +787,6 @@
      {
         "id":"center",
         "category":"wing",
-        "name":{
-           "en":"Center",
-           "br":"Centro"
-        },
         "children":[
            {
               "id":"avante",
@@ -1637,10 +1629,6 @@
      {
         "id":"right",
         "category":"wing",
-        "name":{
-           "en":"Right",
-           "br":"Direita"
-        },
         "children":[
            {
               "id":"dem",

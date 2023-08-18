@@ -1,13 +1,14 @@
 {
   "lang": {
-    "name": "Português",
-    "initials": "PT"
+    "name": "English",
+    "initials": "EN"
   },
   "hero": "The obligation to endure gives us the right to know",
   "mrl": {
     "name": "Maximum Residue Levels",
     "initials": "MRL"
   },
+  "activeSubs": "Active Substance",
   "filter": "Most used Active Substances in Brazil, 2020",
   "rank": "Most used Active Substances in Brazil",
   "country": {
@@ -17,15 +18,22 @@
   "ban": "Banned",
   "ton": { "name": "Ton", "unit": "ton" },
   "kton": { "name": "Kiloton", "unit": "kton" },
-  "wings": {
-    "left": "Left",
-    "center": "Center",
-    "right": "Right"
+  "plenary": "Plenary", 
+  "wing": {
+    "left": "Left-wing parties",
+    "right": "Right-wing parties",
+    "center": "Center parties"
+  },
+  "votes": {
+    "not": "Against pesticides",
+    "yes": "In favor of pesticides",
+    "out": "Abstention"
   },
   "legend": {
     "size": { "name": "Size", "value": "MRL" },
     "color": { "name": "Color", "value": "Active Substance" }
   },
+
   "cultiveGroups": {
     "0": "All",
     "1": "Vegetables",

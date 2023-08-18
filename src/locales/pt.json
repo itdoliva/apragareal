@@ -8,6 +8,7 @@
     "name": "Limite Máximo de Resíduos",
     "initials": "LMR"
   },
+  "activeSubs": "Ingrediente Ativo",
   "filter": "Ingredientes Ativos mais utilizados no Brasil em 2020",
   "rank": "Ingredientes Ativos mais utilizados no Brasil",
   "country": {
@@ -17,10 +18,16 @@
   "ban": "Banido",
   "ton": { "name": "Tonelada", "unit": "t" },
   "kton": { "name": "Kilotonelada", "unit": "kt" },
-  "wings": {
+  "plenary": "Plenário", 
+  "wing": {
     "left": "Esquerda",
-    "center": "Centro",
-    "right": "Direita"
+    "right": "Direita",
+    "center": "Centro"
+  },
+  "votes": {
+    "not": "Contra os agrotóxicos",
+    "yes": "A favor dos agrotóxicos",
+    "out": "Abstenção"
   },
   "legend": {
     "size": { "name": "Tamanho", "value": "LMR" },

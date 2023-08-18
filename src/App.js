@@ -20,6 +20,13 @@ import { useTranslation } from "react-i18next";
 
 function App() {
   const { t, i18n } = useTranslation()
+
+  const changeLanguageHandler = () => {
+    i18n.resolvedLanguage === "pt" 
+      ? i18n.changeLanguage("en")
+      : i18n.changeLanguage("pt")
+  }
+
   const dispatch = useDispatch()
   const isMobile = useSelector(selectIsMobile)
 
@@ -59,19 +66,19 @@ function App() {
           <div className="app-logo" alt="Logo de APRAGAREAL" />
         </div>
 
-        {/* <div className="nav-element">
-            <button className="lang-btn" onClick={() => dispatch(toggleLanguage())}>
-              {!isMobile ? language.name : language.shortName}
+        <div className="nav-element">
+            <button className="lang-btn" onClick={changeLanguageHandler}>
+              {!isMobile ? t("lang.name") : t("lang.initials")}
             </button>
-        </div> */}
+        </div>
       </nav>
 
-      {/* <Cover {...coverProps} /> */}
+      <Cover {...coverProps} />
       <Plates {...platesProps} />
-      {/* <TextKeyTerms /> */}
-      {/* <TextIntro /> */}
-      {/* <TextData {...textDataProps} />  */}
-      {/* <PoisonPack /> */}
+      <TextKeyTerms />
+      <TextIntro />
+      <TextData {...textDataProps} /> 
+      <PoisonPack />
 
     </main>
   );
