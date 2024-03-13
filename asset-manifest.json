@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/apragareal/static/css/main.f4dcbbd6.css",
-    "main.js": "/apragareal/static/js/main.c10c9b56.js",
+    "main.js": "/apragareal/static/js/main.b276f29c.js",
     "static/media/pinenut-clean.png": "/apragareal/static/media/pinenut-clean.858f52d2bd8db5317496.png",
     "static/media/pears-clean.png": "/apragareal/static/media/pears-clean.a71731d4060c396092bf.png",
     "static/media/carrot-clean.png": "/apragareal/static/media/carrot-clean.da2d94be139b58a4c662.png",
@@ -70,10 +70,10 @@
     "static/media/skull.svg": "/apragareal/static/media/skull.1abf791afb198ba75994c6a26bd18368.svg",
     "index.html": "/apragareal/index.html",
     "main.f4dcbbd6.css.map": "/apragareal/static/css/main.f4dcbbd6.css.map",
-    "main.c10c9b56.js.map": "/apragareal/static/js/main.c10c9b56.js.map"
+    "main.b276f29c.js.map": "/apragareal/static/js/main.b276f29c.js.map"
   },
   "entrypoints": [
     "static/css/main.f4dcbbd6.css",
-    "static/js/main.c10c9b56.js"
+    "static/js/main.b276f29c.js"
   ]
 }
