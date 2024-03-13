@@ -39,7 +39,6 @@ export default function Plate(props) {
   
   useEffect(() => {
     plate.create()
-      // return PlateD3.destroy(ref)
   }, [])
     
 
@@ -167,11 +166,13 @@ class PlateD3 {
   
     countryEnter
       .append('text')
-        .attr('dy', d => d.y)
+        .attr('dy', d => d.dy)
       .append('textPath')
         .attr('startOffset', d => d.x)
         .attr('xlink:href', d => `#country-arc-${d.country}`)
         .style('text-anchor', d => d.textAnchor)
+
+    this.translate()
   
   
     // -------- Drops G -------- //
@@ -295,6 +296,10 @@ class PlateD3 {
         .attr('y1', svgHeight * (1 - this.plateProps.lineRatio))
         .attr('x2', svgWidth * (1 - this.plateProps.lineRatio))
         .attr('y2', svgHeight * this.plateProps.lineRatio)
+
+    svg
+      .select('.countryG')
+        .attr('transform', `translate(${center}, ${center})`)
   }
 
 
@@ -302,7 +307,7 @@ class PlateD3 {
     const wrapper = d3.select(this.ref.current)
     const svg = wrapper.select('svg')
   
-    svg.select('g.countryG > g > text > textPath')
+    svg.selectAll('g.countryG > g > text > textPath')
       .text(d => this.t(`country.${d.country}.name`))
   }
 
